@@ -1,5 +1,6 @@
 from __future__ import annotations
-import json, re
+import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -25,19 +26,23 @@ INPUT_FILES = {
 }
 
 
-def ensure_dirs():
+def ensure_dirs() -> None:
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     FRONTEND_DIR.mkdir(parents=True, exist_ok=True)
 
 
+def require_raw_inputs() -> None:
+    missing = [RAW_DIR / filename for filename in INPUT_FILES.values() if not (RAW_DIR / filename).exists()]
+    if missing:
+        names = '\n'.join(f'- {p}' for p in missing)
+        raise FileNotFoundError(f'Missing required Raw Data files:\n{names}')
+
+
 def load_json(name: str) -> Any:
     path = RAW_DIR / INPUT_FILES[name]
-    if not path.exists():
-        print(f'[WARN] Missing input file: {path}')
-        return None
     with path.open() as f:
         return json.load(f)
 
 
 def slug(s: str) -> str:
-    return re.sub(r'[^a-z0-9]+', '_', s.lower()).strip('_')
+    return re.sub(r'[^a-z0-9]+', '_', (s or '').lower()).strip('_')
