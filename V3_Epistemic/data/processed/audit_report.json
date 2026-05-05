@@ -1,0 +1,104 @@
+{
+  "files": {
+    "stats": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "trends": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "industries": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "top_firms": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "top_clients": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "top_lobbyists": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "revolving_door": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "network_analysis": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "firm_concentration": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "gov_entities": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "filing_activity": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "lobbying_vs_contracts": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    },
+    "text_analysis": {
+      "records": 0,
+      "fields": [],
+      "null_rates": {},
+      "year_coverage": []
+    }
+  },
+  "missing_fields": [
+    {
+      "file": "top_firms",
+      "field": "name"
+    },
+    {
+      "file": "top_firms",
+      "field": "totalIncome"
+    },
+    {
+      "file": "top_clients",
+      "field": "name"
+    },
+    {
+      "file": "top_clients",
+      "field": "totalSpending"
+    },
+    {
+      "file": "gov_entities",
+      "field": "name"
+    }
+  ]
+}
