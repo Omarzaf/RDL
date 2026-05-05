@@ -1,0 +1,2913 @@
+{
+  "summary": {
+    "firmsWithRevolvingDoor": 3656,
+    "firmsWithout": 4090,
+    "avgRevenueWith": 8254700,
+    "avgRevenueWithout": 1759701,
+    "revenuePremium": 369,
+    "avgClientsWithRD": 11.8,
+    "avgClientsWithout": 2.4
+  },
+  "topRevolvingDoorFirms": [
+    {
+      "firm": "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+      "revolvingDoorLobbyists": 36227,
+      "totalIncome": 276794500,
+      "clientCount": 601,
+      "incomePerLobbyist": 7641,
+      "samplePositions": [
+        {
+          "name": "TONY ESSALIH",
+          "position": "COS, LD, LA House Member Office (Culberson), LA House Member Office (Archer), SA House Member Office (Hastings), Intern House Member Office (Bliley)"
+        },
+        {
+          "name": "LAURA BOZELL",
+          "position": "LA House Member Office (McCrery), Prof Staff Ways & Means Cmte (Camp)"
+        },
+        {
+          "name": "TONY ESSALIH",
+          "position": "COS, LD, LA House Member Office (Culberson), LA House Member Office (Archer), SA House Member Office (Hastings), Intern House Member Office (Bliley)"
+        },
+        {
+          "name": "LAURA BOZELL",
+          "position": "LA House Member Office (McCrery), Prof Staff Ways & Means Cmte (Camp)"
+        },
+        {
+          "name": "TONY ESSALIH",
+          "position": "COS, LD, LA House Member Office (Culberson), LA House Member Office (Archer), SA House Member Office (Hastings), Intern House Member Office (Bliley)"
+        }
+      ]
+    },
+    {
+      "firm": "BGR GOVERNMENT AFFAIRS",
+      "revolvingDoorLobbyists": 20908,
+      "totalIncome": 294754000,
+      "clientCount": 522,
+      "incomePerLobbyist": 14098,
+      "samplePositions": [
+        {
+          "name": "ANDREW LEWIN",
+          "position": "Legislative Assistant/Director, Rep. Dennis Moore / Legislative Assistant/Director, Rep. Max Sandlin"
+        },
+        {
+          "name": "PETE LANDRUM",
+          "position": "Senior Defense Policy Advisor Sen. Sessions"
+        },
+        {
+          "name": "MARK TAVLARIDES",
+          "position": "Dir. for Leg. Affairs, Nat'l Security Council // Sr. Spec. Asst., Office of Sec'y of Defense"
+        },
+        {
+          "name": "DAVID BOYER",
+          "position": "Sp Ast Pres LA, Ast Com Leg, FDA;Sp Ast Sec HHS, Con Asst, Off of WH Liaison DoD; Con Asst, Off of Sec Lab"
+        },
+        {
+          "name": "BRENT DEL MONTE",
+          "position": "Leg. Dir. Rep. Bliley; Sen. Counsel House Energy & Commerce Committee"
+        }
+      ]
+    },
+    {
+      "firm": "THE FERGUSON GROUP",
+      "revolvingDoorLobbyists": 15125,
+      "totalIncome": 49380850,
+      "clientCount": 172,
+      "incomePerLobbyist": 3265,
+      "samplePositions": [
+        {
+          "name": "CHRISTOPHER KEARNEY",
+          "position": "Professional Staff, Senate Energy and Natural Resources. 2014-2017; Deputy Assistant Secretary for Policy, 2001-2008; Professional Staff, House Resources Committee, 1991-1997; Served House Budget Committee from 1997-2001"
+        },
+        {
+          "name": "JENNIFER IMO",
+          "position": "no Certified Official Position"
+        },
+        {
+          "name": "STEPHANIE MISSERT",
+          "position": "Intern for Senator Kirsten Gillibrands Buffalo Regional office, 2/2011-5/2012."
+        },
+        {
+          "name": "ZACHARY ISRAEL",
+          "position": "Intern for U.S. Senator Robert Menendez, 05/2009-07/2009; 01/2010 Intern for former U.S. Rep. Scott Murphy, 09/2009-04/2010 Intern for former U.S. Rep. Rush Holt, 06/2010-08/2010"
+        },
+        {
+          "name": "STEPHANIE MISSERT",
+          "position": "Intern for Senator Kirsten Gillibrands Buffalo Regional office, 2/2011-5/2012"
+        }
+      ]
+    },
+    {
+      "firm": "WILLIAMS AND JENSEN, PLLC",
+      "revolvingDoorLobbyists": 14159,
+      "totalIncome": 109935000,
+      "clientCount": 257,
+      "incomePerLobbyist": 7764,
+      "samplePositions": [
+        {
+          "name": "SUSAN HIRSCHMANN",
+          "position": "COS, Rep Van Hilleary and Majority Whip"
+        },
+        {
+          "name": "ERIC STEWART",
+          "position": "COS and Deputy Asst. Sec. Dept of Commerce"
+        },
+        {
+          "name": "SUSAN HIRSCHMANN",
+          "position": "COS, Rep Van Hilleary and Majority Whip"
+        },
+        {
+          "name": "ERIC STEWART",
+          "position": "COS and Deputy Asst. Sec. Dept of Commerce"
+        },
+        {
+          "name": "JOEL OSWALD",
+          "position": "LA, Sen. Enzi;\nProf. Staff, Senate Subcommittee on International Trade and Finance, Committee on Banking, Housing, and Urban Affairs;\nProf. Staff, Senate Subcommittee on Securities and Investment, Committee on Banking, Housing, and Urban Affairs"
+        }
+      ]
+    },
+    {
+      "firm": "S-3 GROUP",
+      "revolvingDoorLobbyists": 13422,
+      "totalIncome": 94034000,
+      "clientCount": 195,
+      "incomePerLobbyist": 7006,
+      "samplePositions": [
+        {
+          "name": "ARJUN MODY",
+          "position": "Policy Dir, US Sen Republican Committee; Counsel, US Sen Kay Bailey Hutchison; Counsel, US Sen Elizabeth Dole"
+        },
+        {
+          "name": "MATT BRAVO",
+          "position": "Director of Floor Operations for Maj. Whip Steve Scalise; Prof Staff, E&C; Floor Asst for Maj. Leader Eric Cantor"
+        },
+        {
+          "name": "JOHN SCOFIELD",
+          "position": "Dep Press Sec, US Sen Mark Hatfield; Press Sec, Rep. Frank LoBiondo; Comms Dir, House Approps"
+        },
+        {
+          "name": "MARTIN DELGADO",
+          "position": "Staff Director, House Ag Approps; Prof Staff, MilCon/VA Approps, Budget Analyst, APHIS"
+        },
+        {
+          "name": "ROBERT COLLINS",
+          "position": "Chief of Staff, Maj Leader Eric Cantor"
+        }
+      ]
+    },
+    {
+      "firm": "ELEVATE GOVERNMENT AFFAIRS, LLC",
+      "revolvingDoorLobbyists": 12690,
+      "totalIncome": 40925000,
+      "clientCount": 97,
+      "incomePerLobbyist": 3225,
+      "samplePositions": [
+        {
+          "name": "SAMUEL WHITEHORN",
+          "position": "Deputy SD/GC, US Senate Commerce Committee; Acting SD, US Senate Commerce Committee; Sr. Counsel, US Senate Commerce Committee"
+        },
+        {
+          "name": "JULIE HRDLICKA",
+          "position": "Associate Director, Office of the Assistant Secretary for Governmental Affairs, US Dept. of Transportation; Dem. Staff Asst., Senate Committee on Commerce Science and Transportation; Staff Assistant, Office of US Senate Mark Dayton"
+        },
+        {
+          "name": "MAX ROSEN",
+          "position": "Research Assistant, Subcommittee on Aviation, Committee on Transportation and Infrastructure"
+        },
+        {
+          "name": "ROBERT CHAMBERLIN",
+          "position": "Chief Counsel, US Senate Commerce Committee; Senior Counsel, US Senate Commerce Committee; Asst. Counsel, House Transportation and Infrastructure Committee"
+        },
+        {
+          "name": "SAMUEL WHITEHORN",
+          "position": "Deputy SD/GC, US Senate Commerce Committee; Acting SD, US Senate Commerce Committee; Sr. Counsel, US Senate Commerce Committee"
+        }
+      ]
+    },
+    {
+      "firm": "ALPINE GROUP PARTNERS, LLC.",
+      "revolvingDoorLobbyists": 12513,
+      "totalIncome": 122615000,
+      "clientCount": 226,
+      "incomePerLobbyist": 9799,
+      "samplePositions": [
+        {
+          "name": "MICHAEL HAYWOOD",
+          "position": "LA, Senator Jim Bunning. LA, Rep. Dave Camp."
+        },
+        {
+          "name": "MICHAEL HAYWOOD",
+          "position": "LA, Senator Jim Bunning. LA, Rep. Dave Camp."
+        },
+        {
+          "name": "MICHAEL HAYWOOD",
+          "position": "LA, Senator Jim Bunning. LA, Rep. Dave Camp."
+        },
+        {
+          "name": "BARRY BROWN",
+          "position": "Chief of Staff, Rep. Michael Burgess & Rep. Kay Granger; Legislative Director, Rep. Kevin Brady"
+        },
+        {
+          "name": "CORNELL TEAGUE",
+          "position": "Professional Staff, House Appropriations Cmte - Defense; Professional Staff, House Appropriations Cmte - Homeland"
+        }
+      ]
+    },
+    {
+      "firm": "HARBINGER STRATEGIES, LLC",
+      "revolvingDoorLobbyists": 12371,
+      "totalIncome": 86610000,
+      "clientCount": 104,
+      "incomePerLobbyist": 7001,
+      "samplePositions": [
+        {
+          "name": "STEVE STOMBRES",
+          "position": "Chief of Staff, Office of the Majority Leader 10-14; Chief of Staff, Office of the Minority Whip 08-09; Chief of Staff, Office of the Chief DeputyMajorityWhip04-07; Chief of Staff, Congressman Eric Cantor 01-03"
+        },
+        {
+          "name": "KYLE NEVINS",
+          "position": "Deputy Chief of Staff, House Majority Leader 11-13; Floor Director, Rep. Eric Cantor 09-10; Floor Director, Rep. Roy Blunt 07-08; Floor Assistant, Rep. Roy Blunt 03-06"
+        },
+        {
+          "name": "MANNY ROSSMAN",
+          "position": "Chief of Staff, Office of the Senate Republican Whip 07-09; Senior Policy Advisor, Office of Sen. Trent Lott 05-06; Legislative Director, Rep. Phil Crane 03-04; Legislative Assistant, Rep. Phil Crane 01-02"
+        },
+        {
+          "name": "JOHN O'NEILL",
+          "position": "Policy Director/Counsel, Senate Minority Whip 04-06; Tax Counsel, Senate Finance Committee 07"
+        },
+        {
+          "name": "STEVE STOMBRES",
+          "position": "Chief of Staff, Office of the Majority Leader 10-14; Chief of Staff, Office of the Minority Whip 08-09; Chief of Staff, Office of the Chief DeputyMajorityWhip04-07; Chief of Staff, Congressman Eric Cantor 01-03"
+        }
+      ]
+    },
+    {
+      "firm": "TARPLIN, DOWNS & YOUNG, LLC",
+      "revolvingDoorLobbyists": 11053,
+      "totalIncome": 109360000,
+      "clientCount": 102,
+      "incomePerLobbyist": 9894,
+      "samplePositions": [
+        {
+          "name": "RAISSA DOWNS",
+          "position": "Prin. Dep. Asst. Sec. for Leg. - HHS; Dep. Asst. Sec. for Leg. - HHS; Staff Dir., Sub. Cmte. on Employment, Sen. HELP Cmte."
+        },
+        {
+          "name": "JENNIFER YOUNG",
+          "position": "Asst. Sec. for Leg. - HHS; Dep. Asst. Sec. for Leg. - HHS; Cmte. Staff, House Cmte. on Ways and Means; Cmte. Staff, Sen. Cmte. on Finance"
+        },
+        {
+          "name": "MICHELLE EASTON",
+          "position": "Chief Health Counsel, Sen. Cmte. on Finance; Staff Dir., Senate Aging Cmte.; Leg. Asst., Congressman Billy Tauzin"
+        },
+        {
+          "name": "ELIZABETH MURRAY",
+          "position": "Senior Policy Advisor, Democratic Whip Steny Hoyer; Legislative Asst. for Rep. Mike Thompson, Rep. Bob Matsui, and Senator Bob Graham"
+        },
+        {
+          "name": "CHARLOTTE IVANCIC",
+          "position": "Leg. Counsel, Sen. Jim DeMint; Health Counsel, Maj. Leader Bill Frist; Counsel and Budget Analyst, House Budget Cmte.; Asst. to the Speaker for Policy, Speaker John Boehner"
+        }
+      ]
+    },
+    {
+      "firm": "TOWNSEND PUBLIC AFFAIRS, INC",
+      "revolvingDoorLobbyists": 10981,
+      "totalIncome": 37760714.120000005,
+      "clientCount": 163,
+      "incomePerLobbyist": 3439,
+      "samplePositions": [
+        {
+          "name": "LAURA KROEGER",
+          "position": "Associate"
+        },
+        {
+          "name": "CORINNE TAKKINEN",
+          "position": "Director"
+        },
+        {
+          "name": "CORINNE TAKKINEN",
+          "position": "Director"
+        },
+        {
+          "name": "LAURA KROEGER",
+          "position": "Associate"
+        },
+        {
+          "name": "CORINNE TAKKINEN",
+          "position": "Director"
+        }
+      ]
+    },
+    {
+      "firm": "SQUIRE PATTON BOGGS",
+      "revolvingDoorLobbyists": 10197,
+      "totalIncome": 162212000,
+      "clientCount": 427,
+      "incomePerLobbyist": 15908,
+      "samplePositions": [
+        {
+          "name": "DAVID SCHNITTGER",
+          "position": "Dep. Chief of Staff, Speaker Boehner, 2006-2015; Press Secr.,  Rep. John Boehner 1994-2001; Communications Director, House Committee on Education and the Workforce 2001-2005"
+        },
+        {
+          "name": "JOHN KINGSTON",
+          "position": "1993-2015, Congressman-U.S. House of Representatives"
+        },
+        {
+          "name": "NATASHA HAMMOND",
+          "position": "Oct. 2015-Nov 2015: Assist. for Policy to the Speaker Rep. Paul Ryan; Sep. 2006-Oct. 2015: Asst. for Policy, Speaker John Boehner; Legis. Dir., Legis. Asst, Legis. Correspondent; SA, Intern, Rep. John Boehner."
+        },
+        {
+          "name": "DAVID SCHNITTGER",
+          "position": "Dep. Chief of Staff, Speaker Boehner, 2006-2015; Press Secr.,  Rep. John Boehner 1994-2001; Communications Director, House Committee on Education and the Workforce 2001-2005"
+        },
+        {
+          "name": "JOHN KINGSTON",
+          "position": "1993-2015, Congressman-U.S. House of Representatives"
+        }
+      ]
+    },
+    {
+      "firm": "MINDSET ADVOCACY, LLC",
+      "revolvingDoorLobbyists": 9964,
+      "totalIncome": 75206000,
+      "clientCount": 155,
+      "incomePerLobbyist": 7548,
+      "samplePositions": [
+        {
+          "name": "WILLIAM MUELLER",
+          "position": "Deputy Assistant Secretary, Banking and Finance"
+        },
+        {
+          "name": "BRANT IMPERATORE",
+          "position": "Senior Counsel, House Financial Services Committee"
+        },
+        {
+          "name": "LANGSTON EMERSON",
+          "position": "Senior Legislative Assistant, Rep. Michael Capuano; Legislative Assistant, Rep. Carolyn Kilpatrick"
+        },
+        {
+          "name": "BRANT IMPERATORE",
+          "position": "Senior Counsel, House Financial Services Committee"
+        },
+        {
+          "name": "WILLIAM MUELLER",
+          "position": "Deputy Assistant Secretary, Banking and Finance"
+        }
+      ]
+    },
+    {
+      "firm": "FARRAGUT PARTNERS LLP",
+      "revolvingDoorLobbyists": 9668,
+      "totalIncome": 48617500,
+      "clientCount": 97,
+      "incomePerLobbyist": 5029,
+      "samplePositions": [
+        {
+          "name": "JEFF MACKINNON",
+          "position": "LD & LA Rep. Joe Barton (RTexas)"
+        },
+        {
+          "name": "JOSEPH VASAPOLI",
+          "position": "Min. Counsel, Energy&Comm, Special Asst. DOE"
+        },
+        {
+          "name": "JEFFERY MORTIER",
+          "position": "Prof Staff on E&C Cmte, LA Rep Whitfield and Intern Devin Nunes"
+        },
+        {
+          "name": "SARAH WALTER",
+          "position": "Former Legislative Director/Chief Counsel, Sen. John Breaux"
+        },
+        {
+          "name": "JEFF MACKINNON",
+          "position": "LD & LA Rep. Joe Barton (RTexas)"
+        }
+      ]
+    },
+    {
+      "firm": "RICH FEUER ANDERSON",
+      "revolvingDoorLobbyists": 8593,
+      "totalIncome": 49855000,
+      "clientCount": 81,
+      "incomePerLobbyist": 5802,
+      "samplePositions": [
+        {
+          "name": "MITCHELL FEUER",
+          "position": "Counsel, Senate Banking Committee."
+        },
+        {
+          "name": "PETER RICH",
+          "position": "Counsel, House Energy and Commerce Committee."
+        },
+        {
+          "name": "JOHN ANDERSON",
+          "position": "Senior Policy Advisor, Senator Crapo; Legislative Assistant, Rep. Metcalf."
+        },
+        {
+          "name": "THOMAS KOONCE",
+          "position": "Legislative Director, Rep. Brad Miller; Legislative Assistant, Rep. Stephen Neal."
+        },
+        {
+          "name": "MITCHELL FEUER",
+          "position": "Counsel, Senate Banking Committee"
+        }
+      ]
+    },
+    {
+      "firm": "WINNING STRATEGIES WASHINGTON",
+      "revolvingDoorLobbyists": 8393,
+      "totalIncome": 34495000,
+      "clientCount": 167,
+      "incomePerLobbyist": 4110,
+      "samplePositions": [
+        {
+          "name": "ROBERT ZUCKER",
+          "position": "LD, Rep. Rothman; LA,Rep. Evans (IL); Sen. Lautenberg"
+        },
+        {
+          "name": "CHELSEY PENROD HICKMAN",
+          "position": "CoS, Rep. Kay Granger; LA Sen. Larry Craig"
+        },
+        {
+          "name": "MOLLY MCDONNELL",
+          "position": "LC/LA/Senior Health Policy Advisor; Congressman Leonard Lance"
+        },
+        {
+          "name": "CHARLA PENN",
+          "position": "LA, Rep. Pascrell; SA/LC/LA, Rep. Boyd"
+        },
+        {
+          "name": "ROBERT ZUCKER",
+          "position": "LD, Rep. Rothman; LA,Rep. Evans (IL); Sen. Lautenberg"
+        }
+      ]
+    },
+    {
+      "firm": "MEHLMAN CONSULTING, INC.",
+      "revolvingDoorLobbyists": 7692,
+      "totalIncome": 161326000,
+      "clientCount": 239,
+      "incomePerLobbyist": 20973,
+      "samplePositions": [
+        {
+          "name": "DEAN ROSEN",
+          "position": "Health Policy Director, Senate Majority Leader Frist; \nStaff Director, Senate Subcommittee on Public Health; \nMajority Health Policy Counsel, House Committee on Ways & Means, Subcommittee on Health; Health Policy Coordinator and Counsel, Senate Committee on Labor and Human Resources; \nCounsel and Professional Staff, Senate Committee on Labor & Human Resources, Subcommittee on Disability Policy;\nCase Worker, Rep. R. Boschwitz"
+        },
+        {
+          "name": "DAVID THOMAS",
+          "position": "Chief of Staff, Rep. Zoe Lofgren; \nDirector of Congressional Relations, FTC; \nDeputy Director for Legislative Affairs, VP Gore; \nStaff Assistant, Senator Metzenbaum"
+        },
+        {
+          "name": "ELISE FINLEY PICKERING",
+          "position": "Executive Director, House Republican Policy Committee; \nChief of Staff, Rep. John Shadegg; \nLegislative Assistant, Rep. Dannemeyer; \nLegislative Director, Rep. Bartlett"
+        },
+        {
+          "name": "DAVID CASTAGNETTI",
+          "position": "Chief of Staff, Senator Max Baucus; \nChief of Staff, Rep. Norm Mineta; \nEA, Rep. Ed Markey"
+        },
+        {
+          "name": "BRUCE MEHLMAN",
+          "position": "Assistant Secretary of Commerce for Tech Policy; \nGeneral Counsel and Policy Director, House Republican Conference"
+        }
+      ]
+    },
+    {
+      "firm": "BALLARD PARTNERS",
+      "revolvingDoorLobbyists": 6527,
+      "totalIncome": 203920000,
+      "clientCount": 590,
+      "incomePerLobbyist": 31243,
+      "samplePositions": [
+        {
+          "name": "DANIEL MCFAUL",
+          "position": "LD to Cong. Scarborough. CoS Cong. Miller/Gaetz"
+        },
+        {
+          "name": "JUSTIN SAYFIE",
+          "position": "Commissioner, Commission on WH Fellows"
+        },
+        {
+          "name": "JUSTIN SAYFIE",
+          "position": "Commissioner, Commission on WH Fellows"
+        },
+        {
+          "name": "JUSTIN SAYFIE",
+          "position": "Commissioner, Commission on WH Fellows"
+        },
+        {
+          "name": "ROBERT WEXLER",
+          "position": "US Representative (13 years)"
+        }
+      ]
+    },
+    {
+      "firm": "ALIGNMENT GOVERNMENT STRATEGIES",
+      "revolvingDoorLobbyists": 6098,
+      "totalIncome": 21884000,
+      "clientCount": 59,
+      "incomePerLobbyist": 3589,
+      "samplePositions": [
+        {
+          "name": "REBECCA ANDERSON",
+          "position": "White House Office of Legislative Affairs"
+        },
+        {
+          "name": "MICHAEL BEER",
+          "position": "LA, Rep. Dave Hobson"
+        },
+        {
+          "name": "JENNY DIJAMES",
+          "position": "LA and LD, Rep. Bud Cramer"
+        },
+        {
+          "name": "PATRICK PETTEY",
+          "position": "Chief of Staff, Sen. Bob Smith"
+        },
+        {
+          "name": "DAVID RUDD",
+          "position": "Chief of Staff, Sen. Fritz Hollings"
+        }
+      ]
+    },
+    {
+      "firm": "HB STRATEGIES",
+      "revolvingDoorLobbyists": 5409,
+      "totalIncome": 43054000,
+      "clientCount": 135,
+      "incomePerLobbyist": 7960,
+      "samplePositions": [
+        {
+          "name": "GREGG HARTLEY",
+          "position": "Chief of Staff Rep. Roy Blunt"
+        },
+        {
+          "name": "WILLIAM FOX",
+          "position": "Legislative Assistant House Transportation Committee"
+        },
+        {
+          "name": "JOHN ARIALE",
+          "position": "Chief of Staff Rep. McCollum and Crenshaw"
+        },
+        {
+          "name": "GREGG HARTLEY",
+          "position": "Chief of Staff Rep. Roy Blunt"
+        },
+        {
+          "name": "WILLIAM FOX",
+          "position": "Legislative Assistant House Transportation Committee"
+        }
+      ]
+    },
+    {
+      "firm": "THORN RUN PARTNERS",
+      "revolvingDoorLobbyists": 5375,
+      "totalIncome": 158780000,
+      "clientCount": 373,
+      "incomePerLobbyist": 29540,
+      "samplePositions": [
+        {
+          "name": "CATHERINE FINLEY",
+          "position": "StaffDir,SenAging;SrHlthPolAdv:Smith,Snowe;LegCorr,DeWine"
+        },
+        {
+          "name": "JESSIE BRAIRTON",
+          "position": "SrLA/LA:CongL.Smith;LC,Asst:SenAgingComm"
+        },
+        {
+          "name": "CATHERINE FINLEY",
+          "position": "StaffDir,SenAging;SrHlthPolAdv:Smith,Snowe;LegCorr,DeWine"
+        },
+        {
+          "name": "JESSIE BRAIRTON",
+          "position": "SrLA/LA:CongL.Smith;LC,Asst:SenAgingComm"
+        },
+        {
+          "name": "CHARLES THOMAS",
+          "position": "Senior Legislative Asst, Legislative Asst, Legislative Aide, Staff Asst; Rep. Robert Pittenger"
+        }
+      ]
+    },
+    {
+      "firm": "KLEIN/JOHNSON GROUP",
+      "revolvingDoorLobbyists": 4992,
+      "totalIncome": 29105000,
+      "clientCount": 69,
+      "incomePerLobbyist": 5830,
+      "samplePositions": [
+        {
+          "name": "ISRAEL KLEIN",
+          "position": "Deputy Staff Director, Joint Economic Committee, Chairman Chuck Schumer; Senior Communications Advisor, Representative Ed Markey; Communications Director, Senator Chuck Schumer; Press Secretary and Legislative Assistant, Representative Ed Markey"
+        },
+        {
+          "name": "MATTHEW JOHNSON",
+          "position": "Chief Counsel, Sen. John Cornyn; Senate Judiciary Committee"
+        },
+        {
+          "name": "ISRAEL KLEIN",
+          "position": "Deputy Staff Director, Joint Economic Committee, Chairman Chuck Schumer; Senior Communications Advisor, Representative Ed Markey; Communications Director, Senator Chuck Schumer; Press Secretary and Legislative Assistant, Representative Ed Markey"
+        },
+        {
+          "name": "MATTHEW JOHNSON",
+          "position": "Chief Counsel, Sen. John Cornyn; Senate Judiciary Committee"
+        },
+        {
+          "name": "ISRAEL KLEIN",
+          "position": "Deputy Staff Director, Joint Economic Committee, Chairman Chuck Schumer; Senior Communications Advisor, Representative Ed Markey; Communications Director, Senator Chuck Schumer; Press Secretary and Legislative Assistant, Representative Ed Markey"
+        }
+      ]
+    },
+    {
+      "firm": "JEFFREY J. KIMBELL & ASSOCIATES, INC.",
+      "revolvingDoorLobbyists": 4893,
+      "totalIncome": 30733250,
+      "clientCount": 120,
+      "incomePerLobbyist": 6281,
+      "samplePositions": [
+        {
+          "name": "KEITH STUDDARD",
+          "position": "Legislative Director, Rep. Marsha Blackburn"
+        },
+        {
+          "name": "KEITH STUDDARD",
+          "position": "Legislative Director, Rep. Marsha Blackburn"
+        },
+        {
+          "name": "JOHN HERZOG",
+          "position": "Health Aide, Sen. Lamar Alexander; Special Assistant to the Assistant to the President for Legislative Affairs"
+        },
+        {
+          "name": "KEITH STUDDARD",
+          "position": "Legislative Director, Rep. Marsha Blackburn"
+        },
+        {
+          "name": "JOHN HERZOG",
+          "position": "Health Aide, Sen. Lamar Alexander; Special Assistant to the Assistant to the President for Legislative Affairs"
+        }
+      ]
+    },
+    {
+      "firm": "CAPITOL HILL CONSULTING GROUP",
+      "revolvingDoorLobbyists": 4884,
+      "totalIncome": 45625000,
+      "clientCount": 135,
+      "incomePerLobbyist": 9342,
+      "samplePositions": [
+        {
+          "name": "BRIAN SUTTER",
+          "position": "Staff Dir. W&M Health subcommittee, Chairman Dave Camp April'13-Dec'14. Professional Staff, W&M Health subcommittee, Chairman Dave Camp, Jan'11-April'13.  Leg Dir. Rep Dave Camp, May'08-Jan'11. Leg Asst Rep Dave Camp, Feb'03-May'08. Staff Ast July'02"
+        },
+        {
+          "name": "THOMAS WHARTON",
+          "position": "Health Legislative Assistant - Senator Joe Lieberman.  May 2011 - June 2012\nSenior Legislative Assistant - Congressman Dan Boren.  July 2008 - June 2011"
+        },
+        {
+          "name": "BRIAN SUTTER",
+          "position": "Staff Dir. W&M Health subcommittee, Chairman Dave Camp April'13-Dec'14. Professional Staff, W&M Health subcommittee, Chairman Dave Camp, Jan'11-April'13.  Leg Dir. Rep Dave Camp, May'08-Jan'11. Leg Asst Rep Dave Camp, Feb'03-May'08. Staff Ast July'02"
+        },
+        {
+          "name": "THOMAS WHARTON",
+          "position": "Health Legislative Assistant - Senator Joe Lieberman.  May 2011 - June 2012\nSenior Legislative Assistant - Congressman Dan Boren.  July 2008 - June 2011"
+        },
+        {
+          "name": "WILLIAM SOUTHERLAND",
+          "position": "William Steve Southerland, II served as the U.S. Representative for Florida's 2nd congressional district from 2011 to 2015."
+        }
+      ]
+    },
+    {
+      "firm": "TODD STRATEGY GROUP",
+      "revolvingDoorLobbyists": 4878,
+      "totalIncome": 60570000,
+      "clientCount": 108,
+      "incomePerLobbyist": 12417,
+      "samplePositions": [
+        {
+          "name": "DANIEL TODD",
+          "position": "Senior Health Counsel, Senate Finance Committee"
+        },
+        {
+          "name": "DANIEL TODD",
+          "position": "Senior Health Counsel, Senate Finance Committee; Special Assistant, Office of Amin Ctr. Medicare & Medicaid"
+        },
+        {
+          "name": "DANIEL TODD",
+          "position": "Senior Health Counsel, Senate Finance Committee; Special Assistant, Office of Admin. Ct. - Medicare & Medicaid"
+        },
+        {
+          "name": "DANIEL TODD",
+          "position": "Senior Health Counsel, Senate Finance Committee; Special Assistant, Office of Admin. Ct. - Medicare & Medicaid"
+        },
+        {
+          "name": "DANIEL TODD",
+          "position": "Senior Health Counsel, Senate Finance Committee; Special Assistant, Office of Admin. Ct. - Medicare & Medicaid"
+        }
+      ]
+    },
+    {
+      "firm": "HEALTH AND MEDICINE COUNSEL, LLC",
+      "revolvingDoorLobbyists": 4617,
+      "totalIncome": 7338500,
+      "clientCount": 53,
+      "incomePerLobbyist": 1589,
+      "samplePositions": [
+        {
+          "name": "DALE DIRKS",
+          "position": "Legislative Consultant"
+        },
+        {
+          "name": "DANE CHRISTIANSEN",
+          "position": "Legislative Consultant"
+        },
+        {
+          "name": "PHILIP GOGLAS",
+          "position": "Legislative Consultant"
+        },
+        {
+          "name": "PHILIP GOGLAS",
+          "position": "Legislative Consultant"
+        },
+        {
+          "name": "DALE DIRKS",
+          "position": "Legislative Consultant"
+        }
+      ]
+    },
+    {
+      "firm": "FULCRUM PUBLIC AFFAIRS LLC",
+      "revolvingDoorLobbyists": 4495,
+      "totalIncome": 28434500,
+      "clientCount": 74,
+      "incomePerLobbyist": 6326,
+      "samplePositions": [
+        {
+          "name": "OSCAR RAMIREZ",
+          "position": "Special Asst. to the Secretary, Dept. of Labor // Chief of Staff, Rep. Hilda\nSolis // Leg. Director/Deputy CoS, Rep. Al Green // Leg. Asst./Asst.\nLD/LD, Rep. Joe Baca"
+        },
+        {
+          "name": "DANA THOMPSON",
+          "position": "LD/Chf. Counsel, Rep. Maxine Waters // L. Cnsl/C. Cnsl/Dpty COS/COS,\nRep. Sheila Jackson Lee"
+        },
+        {
+          "name": "OSCAR RAMIREZ",
+          "position": "Special Asst. to the Secretary, Dept. of Labor // Chief of Staff, Rep. Hilda\nSolis // Leg. Director/Deputy CoS, Rep. Al Green // Leg. Asst./Asst.\nLD/LD, Rep. Joe Baca"
+        },
+        {
+          "name": "DANA THOMPSON",
+          "position": "LD/Chf. Counsel, Rep. Maxine Waters // L. Cnsl/C. Cnsl/Dpty COS/COS,\nRep. Sheila Jackson Lee"
+        },
+        {
+          "name": "OSCAR RAMIREZ",
+          "position": "Special Asst. to the Secretary, Dept. of Labor // Chief of Staff, Rep. Hilda\nSolis // Leg. Director/Deputy CoS, Rep. Al Green // Leg. Asst./Asst.\nLD/LD, Rep. Joe Baca"
+        }
+      ]
+    },
+    {
+      "firm": "TWINLOGIC STRATEGIES, LLP",
+      "revolvingDoorLobbyists": 4428,
+      "totalIncome": 19723000,
+      "clientCount": 40,
+      "incomePerLobbyist": 4454,
+      "samplePositions": [
+        {
+          "name": "ELIZABETH FRAZEE",
+          "position": "Legislative Director and Counsel to Rep. Bob Goodlatte, Press Secretary House Energy and Commerce Committee, Press Secretary Rep. Tom Bliley"
+        },
+        {
+          "name": "SARAH DUMONT-MERCHAK",
+          "position": "Senate Banking Committee professional staff member, former Rep. Bill McCollum, senior banking associate, former REp. Bill Barr, deputy legislative director, House Banking and Financial Services Committee staff member"
+        },
+        {
+          "name": "DEBRA DIXON",
+          "position": "Chief of staff to Rep. Xavier Becerra, legislative director to Rep. Becerra, legislative counsel to Rep. Becerra, Chief of Staff, Office of POlicy and Planning, U.S. Department of Education, Immigration Counsel, U.S. Department of Justice"
+        },
+        {
+          "name": "ELIZABETH FRAZEE",
+          "position": "Legislative Director and counsel to Rep. Bob Goodlatte, Press Secretary to former Rep. Tom Bliley, Press Secretary to the House Energy and Commerce Committee"
+        },
+        {
+          "name": "SARAH DUMONT-MERCHAK",
+          "position": "Senate Banking Committee professional staff member, former Rep. Bill McCollum, senior banking associate, former REp. Bill Barr, deputy legislative director, House Banking and Financial Services Committee staff member"
+        }
+      ]
+    },
+    {
+      "firm": "FOLEY & LARDNER LLP",
+      "revolvingDoorLobbyists": 4134,
+      "totalIncome": 39055672,
+      "clientCount": 161,
+      "incomePerLobbyist": 9447,
+      "samplePositions": [
+        {
+          "name": "JENNIFER WALSH",
+          "position": "Administrative Assistant, Deputy COS, COS: Rep. Dennis Cardoza; Field Representative: Rep. Vic Fazio; Staff Assistant, Program Director, Executive Assistant: House Democratic Caucus"
+        },
+        {
+          "name": "DENNIS CARDOZA",
+          "position": "Member of Congress 2003-2012"
+        },
+        {
+          "name": "THEODORE BORNSTEIN",
+          "position": "COS Rep. Aspin; COS Sen. Kohl; OSD-DOD"
+        },
+        {
+          "name": "DENNIS CARDOZA",
+          "position": "Member of Congress 2003-2012"
+        },
+        {
+          "name": "SCOTT KLUG",
+          "position": "Member of Congress 1991-1999"
+        }
+      ]
+    },
+    {
+      "firm": "KADESH & ASSOCIATES, LLC",
+      "revolvingDoorLobbyists": 4101,
+      "totalIncome": 21914800,
+      "clientCount": 48,
+      "incomePerLobbyist": 5344,
+      "samplePositions": [
+        {
+          "name": "CHRISTIAN KIERIG",
+          "position": "Sen. Feinstein (1995-2001)"
+        },
+        {
+          "name": "MARK KADESH",
+          "position": "Rep. Harman (1995-1997); Sen. Feinstein (1998-2007)"
+        },
+        {
+          "name": "DAVE RAMEY",
+          "position": "Rep. Ken Calvert (1993 - October 2016)"
+        },
+        {
+          "name": "CHRISTIAN KIERIG",
+          "position": "Sen. Feinstein (1995-2001)"
+        },
+        {
+          "name": "MARK KADESH",
+          "position": "Rep. Harman (1995-1997); Sen. Feinstein (1998-2007)"
+        }
+      ]
+    },
+    {
+      "firm": "SIDLEY AUSTIN LLP",
+      "revolvingDoorLobbyists": 3952,
+      "totalIncome": 31490000,
+      "clientCount": 69,
+      "incomePerLobbyist": 7968,
+      "samplePositions": [
+        {
+          "name": "MICHAEL BORDEN",
+          "position": "Senior Counsel, House Financial Services Committee; Counsel, House Financial Services Committee; Legislative Assistant, Office of Rep. Jim Leach"
+        },
+        {
+          "name": "LAURA COHEN",
+          "position": "Intern, Energy and Commerce Committee, Subcommittee Health"
+        },
+        {
+          "name": "MICHAEL BORDEN",
+          "position": "Senior Counsel, House Financial Services Committee; Counsel, House Financial Services Committee; Legislative Assistant, Office of Rep. Jim Leach"
+        },
+        {
+          "name": "LAURA COHEN",
+          "position": "Intern, Energy and Commerce Committee, Subcommittee Health"
+        },
+        {
+          "name": "MICHAEL BORDEN",
+          "position": "Senior Counsel, House Financial Services Committee; Counsel, House Financial Services Committee; Legislative Assistant, Office of Rep. Jim Leach"
+        }
+      ]
+    },
+    {
+      "firm": "AVOQ, LLC",
+      "revolvingDoorLobbyists": 3880,
+      "totalIncome": 123095000,
+      "clientCount": 181,
+      "incomePerLobbyist": 31726,
+      "samplePositions": [
+        {
+          "name": "JAMES RYAN",
+          "position": "LaFollette Law Fellow, S. Jud Cmte, S/C on Juv Jus; Legal Extern, H. Jud Cmte, Subcmte Crime/Crim Jus; Legal Counsel, Sen. Reid; Leg Dir. & General Counsel, Sen. Reid; Chief Counsel, Flr Pol. Dir., Asst. Dem Ldr/Whip"
+        },
+        {
+          "name": "JAMES RYAN",
+          "position": "LaFollette Law Fellow, S. Jud Cmte, S/C on Juv Jus; Legal Extern, H. Jud Cmte, Subcmte Crime/Crim Jus; Legal Counsel, Sen. Reid; Leg Dir. & General Counsel, Sen. Reid; Chief Counsel, Flr Pol. Dir., Asst. Dem Ldr/Whip"
+        },
+        {
+          "name": "JAMES RYAN",
+          "position": "LaFollette Law Fellow, S. Jud Cmte, S/C on Juv Jus; Legal Extern, H. Jud Cmte, Subcmte Crime/Crim Jus; Legal Counsel, Sen. Reid; Leg Dir. & General Counsel, Sen. Reid; Chief Counsel, Flr Pol. Dir., Asst. Dem Ldr/Whip"
+        },
+        {
+          "name": "SHANTI STANTON",
+          "position": "Staff Assistant, Special Assistant, Floor Assistant, Democratic Leaders Office"
+        },
+        {
+          "name": "KRISTINA KENNEDY",
+          "position": "Leg Counsel, Counsel, and Legislative Director, Sen. Sarbanes"
+        }
+      ]
+    },
+    {
+      "firm": "BROWNSTEIN HYATT FARBER SCHRECK, LLP",
+      "revolvingDoorLobbyists": 3873,
+      "totalIncome": 420416940,
+      "clientCount": 784,
+      "incomePerLobbyist": 108551,
+      "samplePositions": [
+        {
+          "name": "ALFRED MOTTUR",
+          "position": "Sr Communications Counsel Senate Commerce Comm; Communications Counsel Senate Commerce Comm; Law Clerk Federal District Court Bangor, ME; Communications Counsel-Sen. Commerce Com; Law Clerk-Federal District Court-Bangor, ME"
+        },
+        {
+          "name": "WILLIAM MOSCHELLA",
+          "position": "PrincAssocDepAG DOJ,AsstAG DOJ,ChfLegCouns/Parliam Hs Judic Comm,ChfInvestigativeCouns Hs Judic Comm,GC Hs Rules Comm,Couns Hs Judic Comm,Couns/Parliam Hs Gov Rel Comm,SrLegAsst Rep Frank Wolf,LegAsst Rep Frank Wolf,ComputerSysManager Rep Frank Wolf"
+        },
+        {
+          "name": "MILAN DALAL",
+          "position": "Staff Dir., Senate Banking Subcom on Securities, Insurance, and Investments; Staff Dir., Senate Banking Subcom on National Security, International Trade, and Finance; Senior Economic Advisor, Sen. Mark Warner; Legislative Dir, Rep. Gregory Meeks"
+        },
+        {
+          "name": "TRAVIS NORTON",
+          "position": "Counsel, Sen. Tim Scott; Staff Dir, Senate Banking Subcomm. on Housing, Transportation, and Community Develop; General Counsel & Parliamentarian, House Financial Services Comm; General Counsel & Parliamentarian, House Judiciary Comm"
+        },
+        {
+          "name": "MARC LAMPKIN",
+          "position": "Policy Dir Senate Republican Conf Sectys office, General Counsel House Republican Conference, Staff/Counsel House Education and Labor Comm"
+        }
+      ]
+    },
+    {
+      "firm": "ACG ADVOCACY",
+      "revolvingDoorLobbyists": 3822,
+      "totalIncome": 85850000,
+      "clientCount": 214,
+      "incomePerLobbyist": 22462,
+      "samplePositions": [
+        {
+          "name": "MICHAEL BARBERA",
+          "position": "Chief of Staff, Rep. Curt Weldon"
+        },
+        {
+          "name": "JULIE PHILP",
+          "position": "LD, Rep. John Campbell; LA/Senior LA, Rep. Gil Gutknecht; LA and Scheduler, Rep. Michael Burgess; LA, Scheduler, Rep. Connie Morella; LA, Ileana Ros-Lehtinen"
+        },
+        {
+          "name": "ERIADE WILLIAMS",
+          "position": "Deputy Chief of Staff/Legislative Director/Senior Policy Advisory/Legislative Counsel - Rep. Robert A Brady; Legislative Assistant/Press Secretrary - Rep. Albert Wynn"
+        },
+        {
+          "name": "MICHAEL BARBERA",
+          "position": "Chief of Staff, Rep. Curt Weldon"
+        },
+        {
+          "name": "DAVID URBAN",
+          "position": "Chief of Staff, Senator Arlen Specter"
+        }
+      ]
+    },
+    {
+      "firm": "THE RABEN GROUP",
+      "revolvingDoorLobbyists": 3542,
+      "totalIncome": 13668000,
+      "clientCount": 94,
+      "incomePerLobbyist": 3859,
+      "samplePositions": [
+        {
+          "name": "PATRICIA FIRST",
+          "position": "Deputy Assistant Attorney General in DOJs Office of Legislative Affairs Counsel to Senator Edward M. Kennedy"
+        },
+        {
+          "name": "EDUARDO SOTO",
+          "position": "Legislative Aide, Maxine Waters' office"
+        },
+        {
+          "name": "MARK LINTON",
+          "position": "Executive Director of the White House Council on Strong Cities, Strong Communities Acting Chief of Staff, HUD Legislative Aide, Office of then Senator Barack Obama"
+        },
+        {
+          "name": "ESTUARDO RODRIGUEZ",
+          "position": "Attorney, HUD"
+        },
+        {
+          "name": "ERIKA WEST",
+          "position": "Legislative Assistant, U.S. Representative John Conyers Jr. of Michigan"
+        }
+      ]
+    },
+    {
+      "firm": "THE VOGEL GROUP",
+      "revolvingDoorLobbyists": 3519,
+      "totalIncome": 57427559,
+      "clientCount": 282,
+      "incomePerLobbyist": 16319,
+      "samplePositions": [
+        {
+          "name": "ALEXANDER VOGEL",
+          "position": "Chief Counsel, Senate Majority Leader Bill Frist"
+        },
+        {
+          "name": "ALEXANDER VOGEL",
+          "position": "Chief Counsel, Senate Majority Leader Bill Frist"
+        },
+        {
+          "name": "ALEXANDER VOGEL",
+          "position": "Chief Counsel, Senate Majority Leader Bill Frist"
+        },
+        {
+          "name": "ALEXANDER VOGEL",
+          "position": "Chief Counsel, Senate Majority Leader Bill Frist"
+        },
+        {
+          "name": "ALEXANDER VOGEL",
+          "position": "Chief Counsel, Senate Majority Leader Bill Frist"
+        }
+      ]
+    },
+    {
+      "firm": "CFM STRATEGIC COMMUNICATIONS (CONKLING FISKUM & MCCORMICK)",
+      "revolvingDoorLobbyists": 3494,
+      "totalIncome": 15615000,
+      "clientCount": 59,
+      "incomePerLobbyist": 4469,
+      "samplePositions": [
+        {
+          "name": "DAVID HODGES",
+          "position": "Sen. Murray SW District Director"
+        },
+        {
+          "name": "DAVID HODGES",
+          "position": "Sen. Murray SW Washington Director"
+        },
+        {
+          "name": "DAVID HODGES",
+          "position": "Sen. Murray SW Washington Director"
+        },
+        {
+          "name": "DAVID HODGES",
+          "position": "Sen. Murray SW Washington Director"
+        },
+        {
+          "name": "DAVID HODGES",
+          "position": "Sen. Murray SW Washington Director"
+        }
+      ]
+    },
+    {
+      "firm": "BRACEWELL LLP",
+      "revolvingDoorLobbyists": 3473,
+      "totalIncome": 71162675,
+      "clientCount": 135,
+      "incomePerLobbyist": 20490,
+      "samplePositions": [
+        {
+          "name": "EDWARD KRENIK",
+          "position": "Assoc. Admin. Cong. Affairs, EPA (2001-03); Leg. Director, Rep. Frelinghuysen (1994-2001); Leg. Asst./Assoc. Staff Rep. Dean Gallo (1989-94); Leg. Asst. Sen. Durenberger (1987-89)"
+        },
+        {
+          "name": "ANNA KARAKITSOS",
+          "position": "Staff Assistant, Sen. Environment and Public Works Committee (2008-2009), Research Assistant/Office Manager, Sen. EPW Committee (2011-2012) Professional Staff Member, Sen. EPW Committee (2012-2016)"
+        },
+        {
+          "name": "EDWARD KRENIK",
+          "position": "Assoc. Admin. Cong. Affairs, EPA (2001-03); Leg. Director, Rep. Frelinghuysen (1994-2001); Leg. Asst./Assoc. Staff Rep. Dean Gallo (1989-94); Leg. Asst. Sen. Durenberger (1987-89)"
+        },
+        {
+          "name": "EDWARD KRENIK",
+          "position": "Assoc. Admin. Cong. Affairs, EPA (2001-03); Leg. Director, Rep. Frelinghuysen (1994-2001); Leg. Asst./Assoc. Staff Rep. Dean Gallo (1989-94); Leg. Asst. Sen. Durenberger (1987-89)"
+        },
+        {
+          "name": "EDWARD KRENIK",
+          "position": "Assoc. Admin. Cong. Affairs, EPA (2001-03); Leg. Director, Rep. Frelinghuysen (1994-2001); Leg. Asst./Assoc. Staff Rep. Dean Gallo (1989-94); Leg. Asst. Sen. Durenberger (1987-89)"
+        }
+      ]
+    },
+    {
+      "firm": "LIBERTY PARTNERS GROUP, LLC",
+      "revolvingDoorLobbyists": 3423,
+      "totalIncome": 20332000,
+      "clientCount": 116,
+      "incomePerLobbyist": 5940,
+      "samplePositions": [
+        {
+          "name": "JASON MCKITRICK",
+          "position": "Analyst, House Budget; LA Rep. John Kasich"
+        },
+        {
+          "name": "ERIC BERGER",
+          "position": "Professional Staffer, House Energy and Commerce CMTE"
+        },
+        {
+          "name": "JASON MCKITRICK",
+          "position": "Analyst, House Budget; LA Rep. John Kasich"
+        },
+        {
+          "name": "ERIC BERGER",
+          "position": "Professional Staffer, House Energy and Commerce CMTE"
+        },
+        {
+          "name": "JASON MCKITRICK",
+          "position": "Analyst, House Budget; LA Rep. John Kasich"
+        }
+      ]
+    },
+    {
+      "firm": "AKIN GUMP STRAUSS HAUER & FELD",
+      "revolvingDoorLobbyists": 3372,
+      "totalIncome": 389220000,
+      "clientCount": 655,
+      "incomePerLobbyist": 115427,
+      "samplePositions": [
+        {
+          "name": "CHASE HIENEMAN",
+          "position": "Int, Sen. McConnell, May-June 2010."
+        },
+        {
+          "name": "GORDON BATES",
+          "position": "CoS, Sen. McConnell, 2000-02; Legal Cnsl, Sen. McConnell, 1999-00;\nChief Cnsl, Senate Rules Committee, 1997-99."
+        },
+        {
+          "name": "ROGER MURRY",
+          "position": "Leg assist, Rep Tauscher; leg asst, Rep Napolitano"
+        },
+        {
+          "name": "BRIAN POMPER",
+          "position": "Ch Intl Trade Cnsl, Intl Trade Cnsl, Senate Fin"
+        },
+        {
+          "name": "GEOFF VERHOFF",
+          "position": "Press aide, ofc of Sen Roth, Nov 00-Jan 01; press aide, S Fin Comm, Aug\n99-Nov 00"
+        }
+      ]
+    },
+    {
+      "firm": "CASSIDY & ASSOCIATES, INC.",
+      "revolvingDoorLobbyists": 3251,
+      "totalIncome": 158535000,
+      "clientCount": 338,
+      "incomePerLobbyist": 48765,
+      "samplePositions": [
+        {
+          "name": "CHARLES BRITTINGHAM",
+          "position": "Professional Staff Member-Senate Environment & Public Works Committee"
+        },
+        {
+          "name": "CHARLES BRITTINGHAM",
+          "position": "Professional Staff Member-Senate Environment & Public Works Committee"
+        },
+        {
+          "name": "CHARLES BRITTINGHAM",
+          "position": "Professional Staff Member-Senate Environment & Public Works Committee"
+        },
+        {
+          "name": "CHARLES BRITTINGHAM",
+          "position": "Professional Staff Member-Senate Environment & Public Works Committee"
+        },
+        {
+          "name": "CHARLES BRITTINGHAM",
+          "position": "Professional Staff Member-Senate Environment & Public Works Committee"
+        }
+      ]
+    },
+    {
+      "firm": "LOCKRIDGE, GRINDAL, NAUEN, PLLP",
+      "revolvingDoorLobbyists": 3215,
+      "totalIncome": 1990000,
+      "clientCount": 52,
+      "incomePerLobbyist": 619,
+      "samplePositions": [
+        {
+          "name": "DENNIS MCGRANN",
+          "position": "Committee Staff Director, House Chief of Staff, Special Assistant at the Department of Energy"
+        },
+        {
+          "name": "EMILY TRANTER",
+          "position": "Senate Research Assistant"
+        },
+        {
+          "name": "ANDREW BURMEISTER",
+          "position": "Senate Legislative Assistant"
+        },
+        {
+          "name": "LIANNE ENDO",
+          "position": "Senate Deputy Director of Scheduling"
+        },
+        {
+          "name": "DENNIS MCGRANN",
+          "position": "Committee Staff Director, House Chief of Staff, Special Assistant at the Department of Energy"
+        }
+      ]
+    },
+    {
+      "firm": "FEDERAL HALL POLICY ADVISORS, LLC",
+      "revolvingDoorLobbyists": 3171,
+      "totalIncome": 35622700,
+      "clientCount": 76,
+      "incomePerLobbyist": 11234,
+      "samplePositions": [
+        {
+          "name": "DOUGLAS NAPPI",
+          "position": "General Counsel - Senate Committee on Banking"
+        },
+        {
+          "name": "CHRISTOPHER MATTHIESEN",
+          "position": "Chief of Staff - Rep. Suzanne Kosmas\nLegislative Director - Rep. Nick Lampson"
+        },
+        {
+          "name": "CLIFFORD ROBERTI",
+          "position": "Deputy Staff Director - Rep. Randy Neugebauer\nSubcommittee Policy Director - House Committee on Financial Services"
+        },
+        {
+          "name": "CLIFFORD ROBERTI",
+          "position": "Dep. Chief of Staff, Rep. Randy Neugebauer, Senior Policy Advisory, House Committee on Financial Services, Professional Staff Member, House Committee on Financial Services."
+        },
+        {
+          "name": "CHRISTOPHER MATTHIESEN",
+          "position": "Chief of Staff, Rep. Kosmas; LD, Rep. Lampson; Staff Assistant, Minority Leader Pelosi"
+        }
+      ]
+    },
+    {
+      "firm": "LOT SIXTEEN LLC",
+      "revolvingDoorLobbyists": 3144,
+      "totalIncome": 30664500,
+      "clientCount": 74,
+      "incomePerLobbyist": 9753,
+      "samplePositions": [
+        {
+          "name": "COLIN HAYES",
+          "position": "Staff Director, U.S. Senate Energy & Natural Resources Committee"
+        },
+        {
+          "name": "COLIN HAYES",
+          "position": "Staff Director, U.S. Senate Energy & Natural Resources Committee"
+        },
+        {
+          "name": "COLIN HAYES",
+          "position": "Staff Director, U.S. Senate Energy & Natural Resources Committee"
+        },
+        {
+          "name": "COLIN HAYES",
+          "position": "Staff Director, U.S. Senate Energy & Natural Resources Committee"
+        },
+        {
+          "name": "COLIN HAYES",
+          "position": "Staff Director, U.S. Senate Committee on Energy & Natural Resources"
+        }
+      ]
+    },
+    {
+      "firm": "PILLSBURY WINTHROP SHAW PITTMAN LLP",
+      "revolvingDoorLobbyists": 3112,
+      "totalIncome": 20430000,
+      "clientCount": 104,
+      "incomePerLobbyist": 6565,
+      "samplePositions": [
+        {
+          "name": "GREG LAUGHLIN",
+          "position": "Former U.S. Congressman (TX)"
+        },
+        {
+          "name": "JEFFREY MERRIFIELD",
+          "position": "Commissioner of the U.S. Nuclear Regulatory Commission, Counsel and Staff Director of the U.S. Senate Environment and Public Works Subcommittee on Superfund, Waste Control and Risk Assessment."
+        },
+        {
+          "name": "GREG LAUGHLIN",
+          "position": "Former U.S Congressman (TX)"
+        },
+        {
+          "name": "GREG LAUGHLIN",
+          "position": "Former U.S Congressman (TX)"
+        },
+        {
+          "name": "GREG LAUGHLIN",
+          "position": "Former U.S. Congressman (TX)"
+        }
+      ]
+    },
+    {
+      "firm": "HOGAN LOVELLS US LLP",
+      "revolvingDoorLobbyists": 3107,
+      "totalIncome": 83335000,
+      "clientCount": 270,
+      "incomePerLobbyist": 26822,
+      "samplePositions": [
+        {
+          "name": "EDUARDO ZAPIEN",
+          "position": "Chief of Staff to US Senator Robert Menendez, (con't.)"
+        },
+        {
+          "name": "EDUARDO ZAPIEN",
+          "position": "Chief of Staff to US Senator Robert Menendez, (con't.)"
+        },
+        {
+          "name": "NORM COLEMAN",
+          "position": "U.S Senator"
+        },
+        {
+          "name": "AARON CUTLER",
+          "position": "Senior Policy Advisor, House Com. Nat. Resources; Senior. Advisor for Policy and Outreach, Off. of House Maj. Leader Eric Cantor; Dep. Pol. Director, Hse. Comtee on Energy and Commerce"
+        },
+        {
+          "name": "JARED WESSEL",
+          "position": "Assoc. General Counsel, Office. of the U.S. Trade Representative"
+        }
+      ]
+    },
+    {
+      "firm": "TROUTMAN STATEGIES",
+      "revolvingDoorLobbyists": 3078,
+      "totalIncome": 19545000,
+      "clientCount": 64,
+      "incomePerLobbyist": 6350,
+      "samplePositions": [
+        {
+          "name": "TOM TILTON",
+          "position": "Legislative Assistant, Rep. Betty Sutton"
+        },
+        {
+          "name": "HELEN TOLAR",
+          "position": "Chief of Staff, Senator John Boozman"
+        },
+        {
+          "name": "CHRISTOPHER BAXTER",
+          "position": "Research Assistant, Senator Bob Menendez"
+        },
+        {
+          "name": "LINDSAY AUSTIN",
+          "position": "Legislative Assistant, Rep. Lynn Westmoreland"
+        },
+        {
+          "name": "TOM TILTON",
+          "position": "Legislative Assistant, Rep. Betty Sutton"
+        }
+      ]
+    },
+    {
+      "firm": "SIGNAL GROUP CONSULTING, LLC",
+      "revolvingDoorLobbyists": 3076,
+      "totalIncome": 21185000,
+      "clientCount": 101,
+      "incomePerLobbyist": 6887,
+      "samplePositions": [
+        {
+          "name": "SAMUEL WHITEHORN",
+          "position": "Deputy SD/GC, US Senate Commerce Committee; Acting SD, US Senate Commerce Committee; Sr. Counsel, US Senate Commerce Committee"
+        },
+        {
+          "name": "ROBERT CHAMBERLIN",
+          "position": "Chief Counsel, US Senate Commerce Committee; Senior Counsel, US Senate Commerce Committee; Asst. Counsel, House Transportation and Infrastructure Committee"
+        },
+        {
+          "name": "JULIE HRDLICKA",
+          "position": "Associate Director, Office of Asst. Secretary for Govt. Affairs, US DOT; Dem. Staff Asst., Senate Commerce Committee, Staff Asst., Senator Mark Dayton"
+        },
+        {
+          "name": "CHARLES COOPER",
+          "position": "CoS, Rep. Adam Putnam; Policy Director, House Rep. Conference; Staff Director, Rep. Policy Committee; LD, Rep. Mario Diaz-Balart; LA, Rep. Felix Grucci; LC, Senator Jon Kyl; Staff Asst., Senator Connie Mack"
+        },
+        {
+          "name": "NADEAM ELSHAMI",
+          "position": "CoS, Dem. Ldr. Pelosi; Comms Dir/Sr. Adv., Dem. Ldr. Pelosi; Dep. Comms Dir/Sr. Adv., Speaker Pelosi; Sr. Comms. Adv/Dep. Comms Dir/Spokesman, Senator Dick Durbin; Dep. CoS/Comms Dir, Congresswoman Schakowsky; Dep. Press Secretary, Senator Boxer"
+        }
+      ]
+    },
+    {
+      "firm": "BECKER & POLIAKOFF, P.A.",
+      "revolvingDoorLobbyists": 2944,
+      "totalIncome": 31433000,
+      "clientCount": 207,
+      "incomePerLobbyist": 10677,
+      "samplePositions": [
+        {
+          "name": "AMANDA WOOD",
+          "position": "Sen. Bob Graham"
+        },
+        {
+          "name": "AMANDA WOOD",
+          "position": "Sen. Bob Graham"
+        },
+        {
+          "name": "AMANDA WOOD",
+          "position": "Sen. Bob Graham"
+        },
+        {
+          "name": "AMANDA WOOD",
+          "position": "Sen. Bob Graham"
+        },
+        {
+          "name": "AMANDA WOOD",
+          "position": "Sen. Bob Graham"
+        }
+      ]
+    },
+    {
+      "firm": "FORBES-TATE",
+      "revolvingDoorLobbyists": 2856,
+      "totalIncome": 159490000,
+      "clientCount": 309,
+      "incomePerLobbyist": 55844,
+      "samplePositions": [
+        {
+          "name": "ELIZABETH GREER",
+          "position": "Chief of Staff, Rep. Allen Boyd"
+        },
+        {
+          "name": "ELIZABETH GREER",
+          "position": "Chief of Staff, Rep. Allen Boyd"
+        },
+        {
+          "name": "ELIZABETH GREER",
+          "position": "Chief of Staff, Rep. Allen Boyd"
+        },
+        {
+          "name": "WESLEY WELCH",
+          "position": "Legislative Director, Senator Richard Shelby\nLegislative Assistant, Senator Richard Shelby\nLegislative Correspondent, Senator Richard Shelby"
+        },
+        {
+          "name": "JEFFREY STRUNK",
+          "position": "Communications Director, Senator Rob Portman \nCommunications Director, Senator Kay Bailey Hutchison\nDeputy Press Secretary, Senator Mike DeWine"
+        }
+      ]
+    },
+    {
+      "firm": "INVARIANT LLC",
+      "revolvingDoorLobbyists": 2830,
+      "totalIncome": 233250000,
+      "clientCount": 350,
+      "incomePerLobbyist": 82420,
+      "samplePositions": [
+        {
+          "name": "HEATHER PODESTA",
+          "position": "Counsel, Representative Robert Matsui; Counsel, Representative Earl Pomeroy;\nLegislative Fellow, Senator Bill Bradley; Research Assistant, Congressional Budget Office"
+        },
+        {
+          "name": "BENJAMIN KLEIN",
+          "position": "Legislative Director, Senator Byron Dorgan; Legislative Assistant, Senator Byron Dorgan"
+        },
+        {
+          "name": "JONATHAN BECKER",
+          "position": "Chief of Staff, Senator Amy Klobuchar; Chief Counsel, Senator Amy Klobuchar"
+        },
+        {
+          "name": "SEAN JOYCE",
+          "position": "Rep Bill Shuster: Communications Director, Legislative Director, Shared employee w/ Transportation & Infrastructure Committee; Chief of Staff, Rep. Patrick McHenry"
+        },
+        {
+          "name": "LARISSA MARTINEZ",
+          "position": "Executive Director and Senior Policy Advisor, Senator Deb Fischer; Legislative Assistant, Senator Chuck Hagel; Legislative Correspondent, Representative Nathan Deal; Assistant Scheduler, Senator Johnny Isakson"
+        }
+      ]
+    },
+    {
+      "firm": "RESOLUTION PUBLIC AFFAIRS, LLC",
+      "revolvingDoorLobbyists": 2753,
+      "totalIncome": 23251000,
+      "clientCount": 42,
+      "incomePerLobbyist": 8446,
+      "samplePositions": [
+        {
+          "name": "HEATHER MCHUGH",
+          "position": "LD to Senator Charles Schumer, LD to Congressman Steve Israel, LA to Congresswoman Nydia Velazquez"
+        },
+        {
+          "name": "HEATHER MCHUGH",
+          "position": "Legislative Director, Senator Schumer.  Legislative Director, Congressman Israel.  Legislative Assistant Congresswoman Velazquez."
+        },
+        {
+          "name": "HEATHER MCHUGH",
+          "position": "Legislative Director, Senator Schumer. Legislative Director, Congressman Israel. Legislative Assistant, Congresswoman Velazquez."
+        },
+        {
+          "name": "HEATHER MCHUGH",
+          "position": "Legislative Director, Senator Schumer. Legislative Director, Congressman Israel. Legislative Assistant, Congresswoman Velazquez."
+        },
+        {
+          "name": "HEATHER MCHUGH",
+          "position": "Legislative Director, Senator Schumer. Legislative Director, Congressman Israel, Legislative Director, Congresswoman Velazquez."
+        }
+      ]
+    },
+    {
+      "firm": "JIM MASSIE & PARTNERS, LLC",
+      "revolvingDoorLobbyists": 2741,
+      "totalIncome": 22660000,
+      "clientCount": 38,
+      "incomePerLobbyist": 8267,
+      "samplePositions": [
+        {
+          "name": "ALLISON TREXLER",
+          "position": "Policy Director, House Energy and Commerce and Chairman Ed Whitfield"
+        },
+        {
+          "name": "TARA BILLINGSLEY",
+          "position": "Special Assistant to the President and Senate Legislative Affairs Liaison"
+        },
+        {
+          "name": "ALLISON TREXLER",
+          "position": "Policy Director, House Energy and Commerce and Chairman Ed Whitfield"
+        },
+        {
+          "name": "TARA BILLINGSLEY",
+          "position": "Special Assistant to the President and Senate Legislative Affairs Liaison"
+        },
+        {
+          "name": "ALLISON TREXLER",
+          "position": "Policy Director, House Energy and Commerce and Chairman Ed Whitfield"
+        }
+      ]
+    },
+    {
+      "firm": "ICE MILLER STRATEGIES LLC",
+      "revolvingDoorLobbyists": 2659,
+      "totalIncome": 10657500,
+      "clientCount": 59,
+      "incomePerLobbyist": 4008,
+      "samplePositions": [
+        {
+          "name": "THOMAS LYNCH",
+          "position": "Subcommittee Staff Director, Senate EPW"
+        },
+        {
+          "name": "THOMAS LYNCH",
+          "position": "Subcommittee Staff Director, Senate EPW"
+        },
+        {
+          "name": "THOMAS LYNCH",
+          "position": "Subcommittee Staff Director, Senate EPW"
+        },
+        {
+          "name": "CLAYTON HEIL",
+          "position": "Dep. Staff Dir. & General Counsel, Senate Appropriations"
+        },
+        {
+          "name": "CLAYTON HEIL",
+          "position": "Dep. Staff Director & Gen. Counsel, Senate Appropriations"
+        }
+      ]
+    },
+    {
+      "firm": "PUBLIC STRATEGIES WASHINGTON, INC.",
+      "revolvingDoorLobbyists": 2646,
+      "totalIncome": 30530000,
+      "clientCount": 47,
+      "incomePerLobbyist": 11538,
+      "samplePositions": [
+        {
+          "name": "THOMAS NAGLE",
+          "position": "Chief of Staff, U.S. Senator Tom Udall;\nChief of Staff, U.S. Representative Tom Udall;\nAssociate Staff, U.S. House Committee on Appropriations"
+        },
+        {
+          "name": "THOMAS NAGLE",
+          "position": "Chief of Staff, U.S. Senator Tom Udall;\nChief of Staff, U.S. Representative Tom Udall;\nAssociate Staff, U.S. House Committee on Appropriations"
+        },
+        {
+          "name": "THOMAS NAGLE",
+          "position": "Chief of Staff, U.S. Senator Tom Udall;\nChief of Staff, U.S. Representative Tom Udall;\nAssociate Staff, U.S. House Committee on Appropriations"
+        },
+        {
+          "name": "MICHELLE KINZER",
+          "position": "Senate page, Dem Cloakroom; Staff Assistant Senator Tim Kaine; Database & Correspondence Manager, Senator Tim Kaine"
+        },
+        {
+          "name": "THOMAS NAGLE",
+          "position": "Chief of Staff, U.S. Senator Tom Udall; Chief of Staff, U.S. Representative Tom Udall; Associate Staff, U.S. House Committee on Appropriations"
+        }
+      ]
+    },
+    {
+      "firm": "FEDERAL STREET STRATEGIES, LLC",
+      "revolvingDoorLobbyists": 2603,
+      "totalIncome": 24910000,
+      "clientCount": 29,
+      "incomePerLobbyist": 9570,
+      "samplePositions": [
+        {
+          "name": "PAUL BRATHWAITE",
+          "position": "Executive Director, Congressional Black Caucus; Deputy Assistant Secretary, Department of Labor"
+        },
+        {
+          "name": "PAUL BRATHWAITE",
+          "position": "Executive Director, Congressional Black Caucus; Deputy Assistant Secretary, Department of Labor"
+        },
+        {
+          "name": "PAUL BRATHWAITE",
+          "position": "Executive Director, Congressional Black Caucus; Deputy Assistant Secretary, Department of Labor"
+        },
+        {
+          "name": "PAUL BRATHWAITE",
+          "position": "Executive Director, Congressional Black Caucus; Deputy Assistant Secretary, Department of Labor"
+        },
+        {
+          "name": "PAUL BRATHWAITE",
+          "position": "Executive Director, Congressional Black Caucus; Deputy Assistant Secretary, Department of Labor"
+        }
+      ]
+    },
+    {
+      "firm": "MCALLISTER & QUINN, LLC",
+      "revolvingDoorLobbyists": 2569,
+      "totalIncome": 31903393,
+      "clientCount": 160,
+      "incomePerLobbyist": 12419,
+      "samplePositions": [
+        {
+          "name": "SCOTT TOMINOVICH",
+          "position": "SA - Rep. Hoyer"
+        },
+        {
+          "name": "ANDREW QUINN",
+          "position": "SA, LA - Rep. Hoyer"
+        },
+        {
+          "name": "ANDREW QUINN",
+          "position": "SA, LA - Rep. Hoyer"
+        },
+        {
+          "name": "ANDREW QUINN",
+          "position": "SA, LA - Rep. Hoyer"
+        },
+        {
+          "name": "SCOTT TOMINOVICH",
+          "position": "SA - Rep. Steny Hoyer"
+        }
+      ]
+    },
+    {
+      "firm": "THE WASHINGTON TAX & PUBLIC POLICY GROUP",
+      "revolvingDoorLobbyists": 2550,
+      "totalIncome": 44615000,
+      "clientCount": 51,
+      "incomePerLobbyist": 17496,
+      "samplePositions": [
+        {
+          "name": "GREGORY NICKERSON",
+          "position": "Staff Dir., Ways&Means Subcom. on Select Reven."
+        },
+        {
+          "name": "JAN FOWLER",
+          "position": "Intern; Representative McCrery"
+        },
+        {
+          "name": "BRIAN DIFFELL",
+          "position": "Special Assistant to the Chief Deputy Whip"
+        },
+        {
+          "name": "BRIAN DIFFELL",
+          "position": "Special Assistant to the Chief Deputy Whip"
+        },
+        {
+          "name": "BRIAN DIFFELL",
+          "position": "Pol. Adv Rep Conference; Leg. Dir Sen Blunt; Leg Dir Rep Blunt; Sr. Pol Adv House Rep Whip; Sr. Pol Adv House Maj Whip; Research Analyst, House Maj Whip; Spec. Asst. to Chief Dep Whip"
+        }
+      ]
+    },
+    {
+      "firm": "CROSSROADS STRATEGIES, LLC",
+      "revolvingDoorLobbyists": 2420,
+      "totalIncome": 149910000,
+      "clientCount": 322,
+      "incomePerLobbyist": 61946,
+      "samplePositions": [
+        {
+          "name": "MARC NUMEDAHL",
+          "position": "LD Rep. Loebsack (D-IA), MLA Rep. Larsen (D-WA)"
+        },
+        {
+          "name": "SHAY HANCOCK",
+          "position": "MLA Sen. Murray (D-WA), LA Rep Smith (D-WA)"
+        },
+        {
+          "name": "MARC NUMEDAHL",
+          "position": "LD Rep. Loebsack (D-IA), MLA Rep. Larsen (D-WA)"
+        },
+        {
+          "name": "SHAY HANCOCK",
+          "position": "MLA Sen. Murray (D-WA), LA Rep Smith (D-WA)"
+        },
+        {
+          "name": "MARC NUMEDAHL",
+          "position": "LD Rep. Loebsack (D-IA), MLA Rep. Larsen (D-WA)"
+        }
+      ]
+    },
+    {
+      "firm": "PENN AVENUE PARTNERS",
+      "revolvingDoorLobbyists": 2408,
+      "totalIncome": 46240000,
+      "clientCount": 90,
+      "incomePerLobbyist": 19203,
+      "samplePositions": [
+        {
+          "name": "TIMOTHY HANNEGAN",
+          "position": "U.S. General Accounting Office"
+        },
+        {
+          "name": "JERR ROSENBAUM",
+          "position": "Legislative Director, Sen. John Cornyn; Chief of Staff, Rep. Robert Hurt; Chief of Staff, Rep. Jack Kingston; Chief of Staff, Rep. Virgil Goode"
+        },
+        {
+          "name": "CHRISTINA MCGARRY DAVID",
+          "position": "Legislative Assistant/Scheduler, Rep. Mario Diaz-Balart"
+        },
+        {
+          "name": "TIMOTHY HANNEGAN",
+          "position": "U.S. General Accounting Office"
+        },
+        {
+          "name": "JERR ROSENBAUM",
+          "position": "Legislative Director, Sen. John Cornyn; Chief of Staff, Rep. Robert Hurt; Chief of Staff, Rep. Jack Kingston; Chief of Staff, Rep. Virgil Goode"
+        }
+      ]
+    },
+    {
+      "firm": "VAN SCOYOC ASSOCIATES",
+      "revolvingDoorLobbyists": 2318,
+      "totalIncome": 131795000,
+      "clientCount": 340,
+      "incomePerLobbyist": 56857,
+      "samplePositions": [
+        {
+          "name": "DAVID HAINES",
+          "position": "Legislative Assistant/Legislative Correspondent, Senator Kay Bailey Hutchison; and Legislative Correspondent/Staff Assistant, Congressman Kenny Marchant"
+        },
+        {
+          "name": "STEVEN PALMER",
+          "position": "Assistant Secretary for Governmental Affairs, U.S. Department of Transportation"
+        },
+        {
+          "name": "CHANNON HANNA",
+          "position": "Legislative Assistant, Senate Committee on Commerce, Science and Transportation"
+        },
+        {
+          "name": "KEITH MORRISON",
+          "position": "Special Assistant, Congressional Affairs, Arms Control and Disarmament Agency; and Congressional Affairs, U.S. Department of State"
+        },
+        {
+          "name": "KEITH MORRISON",
+          "position": "Special Assistant, Congressional Affairs, Arms Control and Disarmament Agency; and Congressional Affairs, U.S. Department of State"
+        }
+      ]
+    },
+    {
+      "firm": "COZEN O'CONNOR PUBLIC STRATEGIES",
+      "revolvingDoorLobbyists": 2316,
+      "totalIncome": 47415000,
+      "clientCount": 182,
+      "incomePerLobbyist": 20473,
+      "samplePositions": [
+        {
+          "name": "ROBERT FREEMAN",
+          "position": "Deputy Chief of Staff, Senate Commerce"
+        },
+        {
+          "name": "ROBERT FREEMAN",
+          "position": "Deputy Chief of Staff, Senate Commerce"
+        },
+        {
+          "name": "HOWARD SCHWEITZER",
+          "position": "General Counsel, Export-Import Bank"
+        },
+        {
+          "name": "ROBERT FREEMAN",
+          "position": "Deputy Chief of Staff, Senate Commerce"
+        },
+        {
+          "name": "ROBERT FREEMAN",
+          "position": "Deputy Chief of Staff, Senate Commerce"
+        }
+      ]
+    },
+    {
+      "firm": "THE RUSSELL GROUP, INC.",
+      "revolvingDoorLobbyists": 2306,
+      "totalIncome": 53820000,
+      "clientCount": 90,
+      "incomePerLobbyist": 23339,
+      "samplePositions": [
+        {
+          "name": "TYSON REDPATH",
+          "position": "Legislative Assistant for Rep. John Boehner"
+        },
+        {
+          "name": "ANDREW HARKER",
+          "position": "House Agriculture Committee Intern"
+        },
+        {
+          "name": "KARLA THIEMAN",
+          "position": "Chief of Staff, USDA; Senior Professional Staff, Senate Committee on Agriculture, Nutrition, and Forestry"
+        },
+        {
+          "name": "TYSON REDPATH",
+          "position": "Legislative Assistant for Rep. John Boehner"
+        },
+        {
+          "name": "ANDREW HARKER",
+          "position": "House Agriculture Committee Intern"
+        }
+      ]
+    },
+    {
+      "firm": "PACE, LLP",
+      "revolvingDoorLobbyists": 2224,
+      "totalIncome": 26777000,
+      "clientCount": 52,
+      "incomePerLobbyist": 12040,
+      "samplePositions": [
+        {
+          "name": "DEVIN RHINERSON",
+          "position": "Legislative Assistant"
+        },
+        {
+          "name": "KEVIN EASTMAN",
+          "position": "Legislative Director"
+        },
+        {
+          "name": "DEVIN RHINERSON",
+          "position": "Legislative Assistant"
+        },
+        {
+          "name": "KEVIN EASTMAN",
+          "position": "Legislative Director"
+        },
+        {
+          "name": "DEVIN RHINERSON",
+          "position": "Legislative Assistant"
+        }
+      ]
+    },
+    {
+      "firm": "COMMONWEALTH STRATEGIC PARTNERS, LLC",
+      "revolvingDoorLobbyists": 2186,
+      "totalIncome": 6930000,
+      "clientCount": 29,
+      "incomePerLobbyist": 3170,
+      "samplePositions": [
+        {
+          "name": "KEITH PEMRICK",
+          "position": "Legislative Director, Rep Tim Holden"
+        },
+        {
+          "name": "GEORGE MCELWEE",
+          "position": "Chief of Staff, Rep Charlie Dent"
+        },
+        {
+          "name": "KEITH PEMRICK",
+          "position": "Legislative Director, Rep Tim Holden"
+        },
+        {
+          "name": "GEORGE MCELWEE",
+          "position": "Chief of Staff, Rep Charlie Dent"
+        },
+        {
+          "name": "KEITH PEMRICK",
+          "position": "Legislative Director, Rep Tim Holden"
+        }
+      ]
+    },
+    {
+      "firm": "BANNER PUBLIC AFFAIRS, LLC",
+      "revolvingDoorLobbyists": 2184,
+      "totalIncome": 16975000,
+      "clientCount": 67,
+      "incomePerLobbyist": 7772,
+      "samplePositions": [
+        {
+          "name": "MATTHEW BORMET",
+          "position": "Leg. Ass't, Sen. Ron Wyden; Leg. Ass't, US Rep Rick Larsen."
+        },
+        {
+          "name": "JESSE APPLETON",
+          "position": "Leg. Assn't, Sen. J. Talent; Sr. Advisor, U.S. Treasury."
+        },
+        {
+          "name": "BRETT THOMPSON",
+          "position": "Leg. Dir., Sen. J. Talent"
+        },
+        {
+          "name": "BRETT THOMPSON",
+          "position": "Leg. Dir., Sen. J. Talent"
+        },
+        {
+          "name": "JESSE APPLETON",
+          "position": "Leg. Asst, Sen. J. Talent; Sr. Advisor, US Treasury"
+        }
+      ]
+    },
+    {
+      "firm": "PORTER GROUP, LLC",
+      "revolvingDoorLobbyists": 2162,
+      "totalIncome": 16255500,
+      "clientCount": 79,
+      "incomePerLobbyist": 7519,
+      "samplePositions": [
+        {
+          "name": "DANIEL MAUER",
+          "position": "Senate Staff"
+        },
+        {
+          "name": "JON PORTER",
+          "position": "Member of Congress"
+        },
+        {
+          "name": "ROBERT HERBERT",
+          "position": "Senior Senate Staff"
+        },
+        {
+          "name": "DANIEL MAUER",
+          "position": "Senate Staff"
+        },
+        {
+          "name": "JON PORTER",
+          "position": "Member of Congress"
+        }
+      ]
+    },
+    {
+      "firm": "LEWIS-BURKE ASSOCIATES, LLC",
+      "revolvingDoorLobbyists": 2145,
+      "totalIncome": 49320000,
+      "clientCount": 81,
+      "incomePerLobbyist": 22993,
+      "samplePositions": [
+        {
+          "name": "LELAND COGLIANI",
+          "position": "Professional Staff of the Senate Energy and Water Appropriations Subcommittee; Senior Analyst at the Government Accountability Office"
+        },
+        {
+          "name": "JULIE JOLLY ROSE",
+          "position": "Leg. Asst., Office of Sen. Christopher Bond; Leg. Asst., Aging Subcom, Senate HELP Com; Leg. Corr. Office of Sen. Christopher Bond; Staff Asst., Office of Sen. Christopher Bond"
+        },
+        {
+          "name": "LELAND COGLIANI",
+          "position": "Professional Staff of the Senate Energy and Water Appropriations Subcommittee; Senior Analyst at the Government Accountability Office"
+        },
+        {
+          "name": "JULIE JOLLY ROSE",
+          "position": "Leg. Asst., Office of Sen. Christopher Bond; Leg. Asst., Aging Subcom, Senate HELP Com; Leg. Corr. Office of Sen. Christopher Bond; Staff Asst., Office of Sen. Christopher Bond"
+        },
+        {
+          "name": "JULIE JOLLY ROSE",
+          "position": "Leg. Asst., Office of Sen. Christopher Bond; Leg. Asst., Aging Subcom, Senate HELP Com; Leg. Corr. Office of Sen. Christopher Bond; Staff Asst., Office of Sen. Christopher Bond"
+        }
+      ]
+    },
+    {
+      "firm": "STRATEGIC MARKETING INNOVATIONS",
+      "revolvingDoorLobbyists": 2111,
+      "totalIncome": 79814400,
+      "clientCount": 312,
+      "incomePerLobbyist": 37809,
+      "samplePositions": [
+        {
+          "name": "C. MATTHEW SAGELY",
+          "position": "CoS, Sen Boozman; LA, Rep. Chambliss; LegOps, House Clerk"
+        },
+        {
+          "name": "C. MATTHEW SAGELY",
+          "position": "CoS, Sen Boozman; LA, Rep. Chambliss; LegOps, House Clerk"
+        },
+        {
+          "name": "C. MATTHEW SAGELY",
+          "position": "CoS, Sen Boozman; LA, Rep. Chambliss; LegOps, House Clerk"
+        },
+        {
+          "name": "C. MATTHEW SAGELY",
+          "position": "CoS, Sen Boozman; LA, Rep. Chambliss; LegOps, House Clerk"
+        },
+        {
+          "name": "C. MATTHEW SAGELY",
+          "position": "CoS, Sen Boozman; LA, Rep. Chambliss; LegOps, House Clerk"
+        }
+      ]
+    },
+    {
+      "firm": "MCDERMOTT+ LLC",
+      "revolvingDoorLobbyists": 2005,
+      "totalIncome": 25655000,
+      "clientCount": 81,
+      "incomePerLobbyist": 12796,
+      "samplePositions": [
+        {
+          "name": "PIPER NIETERS SU",
+          "position": "2007-2009: Legislative Counsel, Senator Ken Salazar"
+        },
+        {
+          "name": "ERICA STOCKER",
+          "position": "2000-2009: Staff Assistant, Legislative Correspondent, Legislative Assistant, Deputy CoS, Rep. Jim Saxton"
+        },
+        {
+          "name": "PIPER NIETERS SU",
+          "position": "2007-2009: Legislative Counsel, Sen. Ken Salazar"
+        },
+        {
+          "name": "ERICA STOCKER",
+          "position": "2000-2009: Staff Assistant, Legislative Correspondent, Legislative Assistant, Deputy CoS, Rep. Jim Saxton"
+        },
+        {
+          "name": "PIPER NIETERS SU",
+          "position": "2007-2009: Legislative Counsel, Sen. Ken Salazar"
+        }
+      ]
+    },
+    {
+      "firm": "BARNES & THORNBURG, LLP",
+      "revolvingDoorLobbyists": 1982,
+      "totalIncome": 30080000,
+      "clientCount": 143,
+      "incomePerLobbyist": 15177,
+      "samplePositions": [
+        {
+          "name": "EDWARD AYOOB",
+          "position": "Counsel, Senator Harry Reid; Counsel Asst. Majority Leader"
+        },
+        {
+          "name": "ROBERT GANIM",
+          "position": "Research Assistant Sen Kelly Ayotte; Legislative Asst Sen Mark Kirk"
+        },
+        {
+          "name": "BRANDT HERSHMAN",
+          "position": "District Director, Rep. Steve Buyer"
+        },
+        {
+          "name": "EDWARD AYOOB",
+          "position": "Counsel, Senator Harry Reid; Counsel Asst. Majority Leader"
+        },
+        {
+          "name": "EDWARD AYOOB",
+          "position": "Counsel, Senator Harry Reid; Counsel Asst. Majority Leader"
+        }
+      ]
+    },
+    {
+      "firm": "K&L GATES, LLP",
+      "revolvingDoorLobbyists": 1970,
+      "totalIncome": 142535000,
+      "clientCount": 465,
+      "incomePerLobbyist": 72353,
+      "samplePositions": [
+        {
+          "name": "BART GORDON",
+          "position": "U.S. Congressman"
+        },
+        {
+          "name": "DANIEL CROWLEY",
+          "position": "General Counsel, Office of the Speaker; General Counsel, Committee on House Oversight; Minority Counsel, Committee on House Administration"
+        },
+        {
+          "name": "STACY ETTINGER",
+          "position": "Staff Atty/Chief, AD/CVD Regulation/Assoc Ch Cnsl, DoC, Office of Genl Cnsl; Trade Cnsl detailee from DoC to JEC; Dep Staff Dir, JEC; Sr Cnsl, Sen Schumer; Sr Cnsl/Acting Dep Staff Dir/Ch Cnsl/Dem Ch Cnsl, Sen Comm Rules & Admin"
+        },
+        {
+          "name": "BART GORDON",
+          "position": "U.S. Congressman"
+        },
+        {
+          "name": "DANIEL CROWLEY",
+          "position": "General Counsel, Office of the Speaker; General Counsel, Committee on House Oversight; Minority Counsel, Committee on House Administration"
+        }
+      ]
+    },
+    {
+      "firm": "G2G CONSULTING",
+      "revolvingDoorLobbyists": 1924,
+      "totalIncome": 6440000,
+      "clientCount": 87,
+      "incomePerLobbyist": 3347,
+      "samplePositions": [
+        {
+          "name": "ELIZABETH POWELL",
+          "position": "Legislative Director for Rep. Jim Langevin (2001-2002) and Rep. Juanita Millender-McDonald (1997-2001)"
+        },
+        {
+          "name": "PAIGE THOMAN",
+          "position": "Legislative Assistant to Congresswoman Ann Wagner (2014-2017)"
+        },
+        {
+          "name": "ELIZABETH POWELL",
+          "position": "Legislative Director for Rep. Jim Langevin (2001-2002) and Rep. Juanita Millender-McDonald (1997-2001)"
+        },
+        {
+          "name": "PAIGE THOMAN",
+          "position": "Legislative Assistant to Congresswoman Ann Wagner (2014-2017)"
+        },
+        {
+          "name": "ELIZABETH POWELL",
+          "position": "Legislative Director for Rep. Jim Langevin (2001-2002) and Rep. Juanita Millender-McDonald (1997-2001)"
+        }
+      ]
+    },
+    {
+      "firm": "ALCALDE & FAY",
+      "revolvingDoorLobbyists": 1924,
+      "totalIncome": 29120000,
+      "clientCount": 95,
+      "incomePerLobbyist": 15135,
+      "samplePositions": [
+        {
+          "name": "JAMES DAVENPORT",
+          "position": "LC,LA/Congressman Gerald Solomon"
+        },
+        {
+          "name": "JAMES DAVENPORT",
+          "position": "LC,LA/Congressman Gerald Solomon"
+        },
+        {
+          "name": "JAMES DAVENPORT",
+          "position": "LC,LA/Congressman Gerald Solomon"
+        },
+        {
+          "name": "JAMES DAVENPORT",
+          "position": "LA/LC, Representative Gerald Solomon"
+        },
+        {
+          "name": "JOHN STIRRUP",
+          "position": "Chief of Staff - Congressman Tom Coburn"
+        }
+      ]
+    },
+    {
+      "firm": "J.A. GREEN AND COMPANY",
+      "revolvingDoorLobbyists": 1855,
+      "totalIncome": 48760000,
+      "clientCount": 127,
+      "incomePerLobbyist": 26286,
+      "samplePositions": [
+        {
+          "name": "JEFFERY GREEN",
+          "position": "Counsel, House Armed Services Committee"
+        },
+        {
+          "name": "JEFFERY GREEN",
+          "position": "Counsel, House Armed Services Committee"
+        },
+        {
+          "name": "JEFFERY GREEN",
+          "position": "Counsel, House Armed Services Committee"
+        },
+        {
+          "name": "JEFFERY GREEN",
+          "position": "Counsel, House Armed Services Committee"
+        },
+        {
+          "name": "JEFFERY GREEN",
+          "position": "Counsel, House Armed Services Committee"
+        }
+      ]
+    },
+    {
+      "firm": "ATLAS CROSSING LLC",
+      "revolvingDoorLobbyists": 1772,
+      "totalIncome": 19370000,
+      "clientCount": 62,
+      "incomePerLobbyist": 10931,
+      "samplePositions": [
+        {
+          "name": "SEAN JOYCE",
+          "position": "Chief of Staff for Congressman McHenry\nLegislative Director for Congressman Shuster\nCommunications Director for Congressman Shuster\nMilitary Legislative Advisor for Congressman Shuster\nSenior Legislative Assistant for Congressman Shuster"
+        },
+        {
+          "name": "SEAN JOYCE",
+          "position": "Chief of Staff for Congressman McHenry\nLegislative Director for Congressman Shuster\nCommunications Director for Congressman Shuster\nMilitary Legislative Advisor for Congressman Shuster\nSenior Legislative Assistant for Congressman Shuster"
+        },
+        {
+          "name": "SEAN JOYCE",
+          "position": "Chief of Staff for Congressman Patrick McHenry, Legislative Director for Congressman Shuster, Communications Director for Congressman Shuster, Military Legislative Advisor for Congressman Shuster, Senior Legislative Assistant for Congressman Shuster"
+        },
+        {
+          "name": "SEAN JOYCE",
+          "position": "Congressman Patrick McHenry (Chief of Staff); Congressman Bill Shuster (Legislative Director), Congressman Bill Shuster (Communications Director); Congressman Bill Shuster (National Security Advisor) Transportation & Infrastructure Committee"
+        },
+        {
+          "name": "SEAN JOYCE",
+          "position": "Chief of Staff for Congressman Patrick McHenry, Legislative Director for Congressman Shuster, Communications Director for Congressman Shuster, Military Legislative Advisor for Congressman Shuster, Senior Legislative Assistant for Congressman Shuster"
+        }
+      ]
+    },
+    {
+      "firm": "FEDERAL SCIENCE PARTNERS LLC",
+      "revolvingDoorLobbyists": 1768,
+      "totalIncome": 11354000,
+      "clientCount": 19,
+      "incomePerLobbyist": 6422,
+      "samplePositions": [
+        {
+          "name": "JOEL WIDDER",
+          "position": "former detailee to Senate Appropriations Committee"
+        },
+        {
+          "name": "MEG THOMPSON",
+          "position": "former staff member House and Senate Appropriations Committees"
+        },
+        {
+          "name": "MEG THOMPSON",
+          "position": "former staff member House and Senate Appropriations Committees"
+        },
+        {
+          "name": "JOEL WIDDER",
+          "position": "former detailee to Senate Appropriations Committee"
+        },
+        {
+          "name": "MEG THOMPSON",
+          "position": "Professional Staff Member, House Appropriations Committee"
+        }
+      ]
+    },
+    {
+      "firm": "CLARK HILL, PLC",
+      "revolvingDoorLobbyists": 1742,
+      "totalIncome": 26397000,
+      "clientCount": 108,
+      "incomePerLobbyist": 15153,
+      "samplePositions": [
+        {
+          "name": "JASPER THOMSON",
+          "position": "Legislative Assistant, Congressman Dave Camp"
+        },
+        {
+          "name": "KEVIN KELLY",
+          "position": "Chief Counsel/Floor Asst, Sec of the Democratic Conference; Chief Clerk/Maj Staff Dir, Senate VA/HUD Approps Subcomm"
+        },
+        {
+          "name": "JASPER THOMSON",
+          "position": "Legislative Assistant, Congressman Dave Camp"
+        },
+        {
+          "name": "KEVIN KELLY",
+          "position": "Chief Counsel/Floor Asst, Sec of the Democratic Conference; Chief Clerk/Maj Staff Dir, Senate VA/HUD Approps Subcomm"
+        },
+        {
+          "name": "KEVIN KELLY",
+          "position": "Chief Counsel/Floor Asst, Sec of the Democratic Conference; Chief Clerk/Maj Staff Dir, Senate VA/HUD Approps Subcomm"
+        }
+      ]
+    },
+    {
+      "firm": "VAN HEUVELEN STRATEGIES, LLC",
+      "revolvingDoorLobbyists": 1731,
+      "totalIncome": 6940500,
+      "clientCount": 34,
+      "incomePerLobbyist": 4010,
+      "samplePositions": [
+        {
+          "name": "ROBERT VAN HEUVELEN",
+          "position": "Chief of Staff to Senator Kent Conrad"
+        },
+        {
+          "name": "STEPHEN WARD",
+          "position": "Chief of Staff to Senator Jeff Bingaman"
+        },
+        {
+          "name": "VALERIE WEST",
+          "position": "Deputy Director of Cong. Affairs, Bureau of Reclamation"
+        },
+        {
+          "name": "ROBERT VAN HEUVELEN",
+          "position": "Chief of Staff to Senator Kent Conrad"
+        },
+        {
+          "name": "STEPHEN WARD",
+          "position": "Chief of Staff to Senator Jeff Bingaman"
+        }
+      ]
+    },
+    {
+      "firm": "FAEGRE DRINKER BIDDLE & REATH LLP",
+      "revolvingDoorLobbyists": 1728,
+      "totalIncome": 29422300,
+      "clientCount": 151,
+      "incomePerLobbyist": 17027,
+      "samplePositions": [
+        {
+          "name": "SARAH MILLS",
+          "position": "Legislative Aide to US Senate Committee on Judiciary, office of the Ranking Member; Special Legislative Aide to US Senate Committee on Judiciary"
+        },
+        {
+          "name": "SARAH MILLS",
+          "position": "Legislative Aide to US Senate Committee on Judiciary, office of the Ranking Member; Special Legislative Aide to US Senate Committee on Judiciary"
+        },
+        {
+          "name": "SARAH MILLS",
+          "position": "US Senate Committee on the Judiciary, Office of the Ranking Member- Legislative Aide; US Senate Committee on the Judiciary, Senator Flake- Special Legislative Aide."
+        },
+        {
+          "name": "SARAH MILLS",
+          "position": "US Senate Committee on the Judiciary,Office of the Ranking Member- Legislative Aide; US Senate Committee on the Judiciary, Senator Flake- Special Legislative Aide"
+        },
+        {
+          "name": "SARAH MILLS",
+          "position": "US Senate Committee on the Judiciary of the Ranking Member- Legislative Aide; US Senate Committee on the Judiciary, Senator Flake- Special Legislative Aide"
+        }
+      ]
+    },
+    {
+      "firm": "HALL, RENDER, KILLIAN, HEATH & LYMAN, P.C.",
+      "revolvingDoorLobbyists": 1718,
+      "totalIncome": 8666375,
+      "clientCount": 58,
+      "incomePerLobbyist": 5044,
+      "samplePositions": [
+        {
+          "name": "JOHN WILLIAMS",
+          "position": "Press Secretary, House Committee on Government Reform and Oversight; Press Secretary, Rep. Dan Burton."
+        },
+        {
+          "name": "ANDREW COATS",
+          "position": "Legislative Assistant, Rep. Mark Souder"
+        },
+        {
+          "name": "JOHN WILLIAMS",
+          "position": "Press Secretary, House Committee on Government Reform and Oversight; Press Secretary, Rep. Dan Burton."
+        },
+        {
+          "name": "ANDREW COATS",
+          "position": "Legislative Assistant, Rep. Mark Souder"
+        },
+        {
+          "name": "JOHN WILLIAMS",
+          "position": "Press Secretary, House Committee on Government Reform and Oversight; Press Secretary, Rep. Dan Burton."
+        }
+      ]
+    },
+    {
+      "firm": "POWERS PYLES SUTTER & VERVILLE, P.C.",
+      "revolvingDoorLobbyists": 1716,
+      "totalIncome": 30929643.54,
+      "clientCount": 90,
+      "incomePerLobbyist": 18024,
+      "samplePositions": [
+        {
+          "name": "PAUL MOOREHEAD",
+          "position": "Chief Counsel, Senate Committee on Indian Affairs"
+        },
+        {
+          "name": "PAUL MOOREHEAD",
+          "position": "Chief Counsel, Senate Committee on Indian Affairs"
+        },
+        {
+          "name": "PAUL MOOREHEAD",
+          "position": "Chief Counsel, Senate Committee on Indian Affairs"
+        },
+        {
+          "name": "PETER THOMAS",
+          "position": "Principal"
+        },
+        {
+          "name": "LEIF BRIERLEY",
+          "position": "Manager of Government Relations"
+        }
+      ]
+    },
+    {
+      "firm": "MEGUIRE WHITNEY",
+      "revolvingDoorLobbyists": 1703,
+      "totalIncome": 8382000,
+      "clientCount": 15,
+      "incomePerLobbyist": 4922,
+      "samplePositions": [
+        {
+          "name": "ELIZABETH WHITNEY",
+          "position": "Senior Legislative Assistant, Rep. Bart Gordon (TN-6) Oct. 2009-Jan. 2011; Legislative Assistant/Legislative Correspondent, Rep. Zack Space (OH-18) Sept. 2007-Oct. 2009"
+        },
+        {
+          "name": "EMILY PETERSON",
+          "position": "Legislative Assistant, Sen. Thad Cochran (MS-4) 2007-2013; Professional Staff Member, Energy and Water Appropriations Subcommittee 2004-2007; Legislative Aide, Sen. Thad Cochran (MS-4) 2001-2004"
+        },
+        {
+          "name": "JACKSON DRONEY",
+          "position": "Legislative Assistant, Sen. Barbara Boxer (CA-6) Jun. 2015-Jan. 2017;Legislative Aide, Sen. Barbara Boxer Jul. 2014-Jun. 2015;Legislative Research Assistant, Sen. Barbara Boxer Jul. 2011-Jul. 2014;Staff Assistant, Sen. Barbara Boxer Mar.2010-Jul.2011"
+        },
+        {
+          "name": "ELIZABETH WHITNEY",
+          "position": "Senior Legislative Assistant, Rep. Bart Gordon (TN-6) Oct. 2009-Jan. 2011; Legislative Assistant/Legislative Correspondent, Rep. Zack Space (OH-18) Sept. 2007-Oct. 2009"
+        },
+        {
+          "name": "EMILY PETERSON",
+          "position": "Legislative Assistant, Sen. Thad Cochran (MS-4) 2007-2013; Professional Staff Member, Energy and Water Appropriations Subcommittee 2004-2007; Legislative Aide, Sen. Thad Cochran (MS-4) 2001-2004"
+        }
+      ]
+    },
+    {
+      "firm": "HANCE SCARBOROUGH",
+      "revolvingDoorLobbyists": 1699,
+      "totalIncome": 17870000,
+      "clientCount": 62,
+      "incomePerLobbyist": 10518,
+      "samplePositions": [
+        {
+          "name": "MICHAEL TOMBERLIN",
+          "position": "Chief of Staff, Rep. Chip Cravaack, Chief of Staff, Rep. Louie Gohmert"
+        },
+        {
+          "name": "ROBERT PORE",
+          "position": "Legislative Director, Rep. Jim Turner"
+        },
+        {
+          "name": "MICHAEL TOMBERLIN",
+          "position": "Chief of Staff, Rep. Chip Cravaack, Chief of Staff, Rep. Louie Gohmert"
+        },
+        {
+          "name": "MICHAEL TOMBERLIN",
+          "position": "Chief of Staff, Rep. Chip Cravaack, Chief of Staff, Rep. Louie Gohmert"
+        },
+        {
+          "name": "MICHAEL TOMBERLIN",
+          "position": "Chief of Staff, Rep. Chip Cravaack, Chief of Staff, Rep. Louie Gohmert"
+        }
+      ]
+    },
+    {
+      "firm": "FS VECTOR",
+      "revolvingDoorLobbyists": 1699,
+      "totalIncome": 18773000,
+      "clientCount": 66,
+      "incomePerLobbyist": 11049,
+      "samplePositions": [
+        {
+          "name": "PETER FREEMAN",
+          "position": "Leg. Corr., Leg. Asst., Rep. D. Pryce; Policy Advisor, House Republican Conference; Leg. Dir., Rep. D. Pryce; Dep. COS, Rep. D. Pryce; Prof. Staff, House Fin. Svcs. Cmte.; Dep. COS, Rep. Ed Royce; Prof. Staff, House Foreign Affairs Cmte."
+        },
+        {
+          "name": "ANDREW BARBOUR",
+          "position": "Dep. Asst. USTR for Congressional Affairs, USTR Legislative Assistant, U.S. Rep. Bart Stupak Legislative Assistant, U.S. Rep. Bill Ford"
+        },
+        {
+          "name": "PETER FREEMAN",
+          "position": "Leg. Corr., Leg. Asst., Rep. D. Pryce; Policy Advisor, House Republican Conference; Leg. Dir., Rep. D. Pryce; Dep. COS, Rep. D. Pryce; Prof. Staff, House Fin. Svcs. Cmte.; Dep. COS, Rep. Ed Royce; Prof. Staff, House Foreign Affairs Cmte."
+        },
+        {
+          "name": "ANDREW BARBOUR",
+          "position": "Dep. Asst. USTR for Congressional Affairs, USTR Legislative Assistant, U.S. Rep. Bart Stupak Legislative Assistant, U.S. Rep. Bill Ford"
+        },
+        {
+          "name": "PETER FREEMAN",
+          "position": "Leg. Corr., Leg. Asst., Rep. D. Pryce; Policy Advisor, House Republican Conference; Leg. Dir., Rep. D. Pryce; Dep. COS, Rep. D. Pryce; Prof. Staff, House Fin. Svcs. Cmte.; Dep. COS, Rep. Ed Royce; Prof. Staff, House Foreign Affairs Cmte."
+        }
+      ]
+    },
+    {
+      "firm": "MICHAEL BEST STRATEGIES LLC",
+      "revolvingDoorLobbyists": 1697,
+      "totalIncome": 43757000,
+      "clientCount": 190,
+      "incomePerLobbyist": 25785,
+      "samplePositions": [
+        {
+          "name": "THOMAS SCHREIBEL",
+          "position": "COS, House of Representatives"
+        },
+        {
+          "name": "THOMAS SCHREIBEL",
+          "position": "Chief of Staff, House of Representatives"
+        },
+        {
+          "name": "THOMAS SCHREIBEL",
+          "position": "Chief of Staff, House of Representatives"
+        },
+        {
+          "name": "THOMAS SCHREIBEL",
+          "position": "Chief of Staff, House of Representatives"
+        },
+        {
+          "name": "THOMAS SCHREIBEL",
+          "position": "Chief of Staff, House of Representatives"
+        }
+      ]
+    },
+    {
+      "firm": "H&M STRATEGIES LLP",
+      "revolvingDoorLobbyists": 1695,
+      "totalIncome": 11075000,
+      "clientCount": 19,
+      "incomePerLobbyist": 6534,
+      "samplePositions": [
+        {
+          "name": "RALPH HELLMANN",
+          "position": "Leg Assist US House, Leg Director US House, Policy Analyst RSC, Policy Director Whip Office, Policy Director Speaker, Business Liaison Small Business Administration"
+        },
+        {
+          "name": "KRISTEN O'NEILL",
+          "position": "Health Policy Advisor, LA, Staff Assist for Rep. Gene Greene and Staff Assist for Rep. GK Butterfield"
+        },
+        {
+          "name": "SARAH WALTER",
+          "position": "LD/Chief Counsel, Sen. Breaux"
+        },
+        {
+          "name": "NICOLE MORTIER",
+          "position": "Policy Analyst House Republican Policy Committee, Leg Assist US House Energy & Commerce Member (Rep Stearns), Leg Director US House Energy & Commerce Member (Rep Olson)"
+        },
+        {
+          "name": "RALPH HELLMANN",
+          "position": "Leg Assist US House, Leg Director US House, Policy Analyst RSC, Policy Director Whip Office, Policy Director Speaker, Business Liaison Small Business Administration"
+        }
+      ]
+    },
+    {
+      "firm": "HOLLAND & KNIGHT LLP",
+      "revolvingDoorLobbyists": 1603,
+      "totalIncome": 274090000,
+      "clientCount": 707,
+      "incomePerLobbyist": 170986,
+      "samplePositions": [
+        {
+          "name": "PAUL BOCK",
+          "position": "Chief of Staff, Sen. Herb Kohl; Counsel, Senate Judiciary Committee"
+        },
+        {
+          "name": "LAUREN MADDOX",
+          "position": "Assistant Secretary, Communications & Outreach, Dept. of Education; Communications Director, H. Republican Conference; Deputy Press Secretary, Rep. Newt Gingrich"
+        },
+        {
+          "name": "PAUL BOCK",
+          "position": "Chief of Staff, Sen. Herb Kohl; Counsel, Senate Judiciary Committee"
+        },
+        {
+          "name": "LAUREN MADDOX",
+          "position": "Assistant Secretary, Communications & Outreach, Dept. of Education;  Communications Director, H. Republican Conference; Deputy Press Secretary, Rep. Newt Gingrich"
+        },
+        {
+          "name": "ROBERT BRADNER",
+          "position": "Counsel, Office of Rep. John E. Porter"
+        }
+      ]
+    },
+    {
+      "firm": "AMERICAN DEFENSE INTERNATIONAL, INC.",
+      "revolvingDoorLobbyists": 1588,
+      "totalIncome": 38826000,
+      "clientCount": 191,
+      "incomePerLobbyist": 24450,
+      "samplePositions": [
+        {
+          "name": "MATT WEINSTEIN",
+          "position": "Legislative Director to Rep Byrne, Sr LA to Rep Bonner, LA to Rep Rogers"
+        },
+        {
+          "name": "MATT WEINSTEIN",
+          "position": "Legislative Director to Rep Byrne, Sr LA to Rep Bonner, LA to Rep Rogers"
+        },
+        {
+          "name": "MICHAEL HERSON",
+          "position": "Spec Asst to the Ass Sec of Def for Force Mgmt & Personnel"
+        },
+        {
+          "name": "TODD HARMER",
+          "position": "LA to Sen Chambliss"
+        },
+        {
+          "name": "MICHAEL HERSON",
+          "position": "Spec Asst to the Asst Sec of Def for Force Mgmt & Personnel"
+        }
+      ]
+    },
+    {
+      "firm": "SOUTHERN COMPANY",
+      "revolvingDoorLobbyists": 1583,
+      "totalIncome": 88820000,
+      "clientCount": 1,
+      "incomePerLobbyist": 56109,
+      "samplePositions": [
+        {
+          "name": "MICHAEL RIITH",
+          "position": "Dep. Chief of Staff, U.S. Rep. Steven LaTourette"
+        },
+        {
+          "name": "JEANNE WOLAK",
+          "position": "Legislative Director, U.S. Rep. Jim Chapman (TX)"
+        },
+        {
+          "name": "LEROY NIX",
+          "position": "Legislative Aide, U.S. Sen. Jeff Sessions (AL)"
+        },
+        {
+          "name": "DANIEL MURRAY",
+          "position": "Senior Policy Adviser, U.S. Sen. James E Risch (ID)"
+        },
+        {
+          "name": "HAROLD LAWRENCE",
+          "position": "Counsel, U.S. Sen. John Breaux (LA)"
+        }
+      ]
+    },
+    {
+      "firm": "THE NORMANDY GROUP, LLC",
+      "revolvingDoorLobbyists": 1539,
+      "totalIncome": 19482000,
+      "clientCount": 64,
+      "incomePerLobbyist": 12659,
+      "samplePositions": [
+        {
+          "name": "HENRY BONILLA",
+          "position": "Member of Congress (1993-2007)"
+        },
+        {
+          "name": "RONALD ERITANO",
+          "position": "LegCorr.SenLautenberg/LegAsst.RepDoggett"
+        },
+        {
+          "name": "HENRY BONILLA",
+          "position": "Member of Congress (1993-2007)"
+        },
+        {
+          "name": "RONALD ERITANO",
+          "position": "LegCorr.SenLautenberg/LegAsst.RepDoggett"
+        },
+        {
+          "name": "RONALD ERITANO",
+          "position": "LegCorr.SenLautenberg/LegAsst. Rep Doggett"
+        }
+      ]
+    },
+    {
+      "firm": "MONUMENT ADVOCACY",
+      "revolvingDoorLobbyists": 1517,
+      "totalIncome": 85910000,
+      "clientCount": 184,
+      "incomePerLobbyist": 56632,
+      "samplePositions": [
+        {
+          "name": "THOMAS HAWKS",
+          "position": "Minority Staff Director, Senate Committee on Agriculture, Nutrition, and Forestry; Chief of Staff, Legislative Director, Legislative Assistant, Deputy Legislative Director, Legislative Aide, U.S. Senator Thad Cochran"
+        },
+        {
+          "name": "KATHRYN MILLS",
+          "position": "Assistant Director for Congressional Relations, Deputy Assistant Director for Congressional Relations, U.S. Immigration and Customs Enforcement; Senior Legislative Counsel, Rep. Zoe Lofgren"
+        },
+        {
+          "name": "E. ASHLEY HOY",
+          "position": "Director of Coalitions, Senate Republican Conference Office of the Vice Chairman; Director of Coalitions, Office of the Minority Whip; Legislative Director, Legislative Assistant, Legislative Correspondent, Admin. Assistant, Rep. Sue Myrick"
+        },
+        {
+          "name": "CHAN PARK",
+          "position": "General Counsel (Democratic), Senate Judiciary Committee; Senior Counsel, Senate Judiciary Committee; Assistant United States Attorney, U.S. Attorney's Office for the District of Maryland"
+        },
+        {
+          "name": "CHARLES VERDERY",
+          "position": "Assistant Secretary and Consultant, Department of Homeland Security; General Counsel, Assistant Senate Majority Leader Don Nickles; Counsel, Senate Judiciary Committee; Counsel, Senator John Warner; Lead Staffer, Sen. Republicans High Tech Task Force"
+        }
+      ]
+    },
+    {
+      "firm": "SBL STRATEGIES, LLC",
+      "revolvingDoorLobbyists": 1495,
+      "totalIncome": 20292050,
+      "clientCount": 38,
+      "incomePerLobbyist": 13573,
+      "samplePositions": [
+        {
+          "name": "JEFFREY LOVENG",
+          "position": "Chief of Staff, US House of Representatives"
+        },
+        {
+          "name": "JEFFREY LOVENG",
+          "position": "Chief of Staff, House of Representatives"
+        },
+        {
+          "name": "HENRY BRADLEY",
+          "position": "D. Chief of Staff, US Senate"
+        },
+        {
+          "name": "JEFFREY LOVENG",
+          "position": "Chief of Staff, US House of Representatives"
+        },
+        {
+          "name": "JEFFREY LOVENG",
+          "position": "Chief of Staff, US House of Representatives"
+        }
+      ]
+    },
+    {
+      "firm": "CAPITOL COUNSEL LLC",
+      "revolvingDoorLobbyists": 1474,
+      "totalIncome": 166250000,
+      "clientCount": 367,
+      "incomePerLobbyist": 112788,
+      "samplePositions": [
+        {
+          "name": "JEFFERY WALTER",
+          "position": "Special Projects Director for Senator Alfonso D'Amato;   â€‹Special Projects Director for Senator Connie Mack;   â€‹Deputy Staff Director of the Joint Economic Committee."
+        },
+        {
+          "name": "DAVID OLANDER",
+          "position": "Legislative Assistant, Rep. Wally Herger; Tax & Policy Counsel, Rep. Thomas Reynolds; Tax Counsel & Chief Tax Counsel, House Committee on Ways and Means."
+        },
+        {
+          "name": "MARTIN GOLD",
+          "position": "Floor Adviser & Counsel, Senate Majority Leader Bill Frist."
+        },
+        {
+          "name": "DREW GOESL",
+          "position": "Chief of Staff, Rep. Mike Ross;  Communications Director, Sen. Blanche Lincoln."
+        },
+        {
+          "name": "LUKE HATZIS",
+          "position": "LD & LA, Cong. Peter Roskam; Republican Clerk, House Rules Committee; Legislative Aide, House Republican Conference; Floor Assistant, Speaker J. Dennis Hastert."
+        }
+      ]
+    },
+    {
+      "firm": "VAN NESS FELDMAN, LLP",
+      "revolvingDoorLobbyists": 1474,
+      "totalIncome": 22837000,
+      "clientCount": 85,
+      "incomePerLobbyist": 15493,
+      "samplePositions": [
+        {
+          "name": "BEN MCMAKIN",
+          "position": "Legislative Director, Office of U.S. Senator Patty Murray (1996-2005)"
+        },
+        {
+          "name": "NORMAN DICKS",
+          "position": "Member of U.S. House of Representatives (1997-2012)"
+        },
+        {
+          "name": "JANET ANDERSON",
+          "position": "Director, Industry Policy, WHCCTF, 1998-2001"
+        },
+        {
+          "name": "JANET ANDERSON",
+          "position": "Director, Industry Policy, WHCCTF, 1998-2001"
+        },
+        {
+          "name": "DOUGLAS SMITH",
+          "position": "General Counsel, Federal Energy Regulatory Commission (FERC)"
+        }
+      ]
+    },
+    {
+      "firm": "NATURAL RESOURCE RESULTS LLC",
+      "revolvingDoorLobbyists": 1469,
+      "totalIncome": 21972500,
+      "clientCount": 62,
+      "incomePerLobbyist": 14957,
+      "samplePositions": [
+        {
+          "name": "DAVID ANDERSON",
+          "position": "CEQ AD; Commerce Sr Adv; OMB PAD"
+        },
+        {
+          "name": "DAVID ANDERSON",
+          "position": "CEQ AD; Commerce Sr Adv; OMB PAD"
+        },
+        {
+          "name": "SARA TUCKER",
+          "position": "Senate ENR Committee"
+        },
+        {
+          "name": "DAVID ANDERSON",
+          "position": "CEQ AD; Commerce Sr Adv; OMB PAD"
+        },
+        {
+          "name": "MITCH BUTLER",
+          "position": "CEQ AD; DOI Dep. A/S FWP"
+        }
+      ]
+    },
+    {
+      "firm": "TAI GINSBERG & ASSOCIATES, LLC",
+      "revolvingDoorLobbyists": 1428,
+      "totalIncome": 12660000,
+      "clientCount": 54,
+      "incomePerLobbyist": 8866,
+      "samplePositions": [
+        {
+          "name": "JASON TAI",
+          "position": "Associate Professional Staff Member, House Transportation & Infrastructure Committee"
+        },
+        {
+          "name": "ANDREW DAVIS",
+          "position": "Senior Policy Advisor, Office of Rep. Dan Lipinski"
+        },
+        {
+          "name": "JASON TAI",
+          "position": "Associate Professional Staff Member, House Transportation & Infrastructure Committee"
+        },
+        {
+          "name": "ANDREW DAVIS",
+          "position": "Senior Policy Advisor, Office of Rep. Dan Lipinski"
+        },
+        {
+          "name": "JASON TAI",
+          "position": "Associate Professional Staff Member, House Transportation & Infrastructure Committee"
+        }
+      ]
+    },
+    {
+      "firm": "ACTUM I, LLC",
+      "revolvingDoorLobbyists": 1406,
+      "totalIncome": 17183150,
+      "clientCount": 80,
+      "incomePerLobbyist": 12221,
+      "samplePositions": [
+        {
+          "name": "EMMA DOYLE",
+          "position": "Chief of Staff, OMB; Principal Deputy White House Chief of Staff; Deputy Chief of Staff for Policy to the First Lady; Legislative Assistant to Rep. Mick Mulvaney; Legislative Correspondent, Sen. Pat Toomey; Acting Chief of Staff, CFPB"
+        },
+        {
+          "name": "JENNIFER KAUFMANN",
+          "position": "Counsel/Rules Associate for Hon. Alcee Hastings (D-FL); Legal Intern, House Judiciary Committee; Deputy Scheduler, Sen. Ben Cardin (D-MD)."
+        },
+        {
+          "name": "EMMA DOYLE",
+          "position": "Chief of Staff, OMB; Principal Deputy White House Chief of Staff; Deputy Chief of Staff for Policy to the First Lady; Legislative Assistant to Rep. Mick Mulvaney; Legislative Correspondent, Sen. Pat Toomey; Acting Chief of Staff, CFPB"
+        },
+        {
+          "name": "WILLIAM OGBORN",
+          "position": "IT Director and Web Media Coordinator for Hon. Dick Armey and Hon. Dennis Hastert"
+        },
+        {
+          "name": "JENNIFER KAUFMANN",
+          "position": "Counsel/Rules Associate for Hon. Alcee Hastings (D-FL); Legal Intern, House Judiciary Comm.; Deputy Scheduler, Sen. Ben Cardin (D-MD)."
+        }
+      ]
+    },
+    {
+      "firm": "MERCURY PUBLIC AFFAIRS, LLC",
+      "revolvingDoorLobbyists": 1402,
+      "totalIncome": 84631700,
+      "clientCount": 307,
+      "incomePerLobbyist": 60365,
+      "samplePositions": [
+        {
+          "name": "DAVID VITTER",
+          "position": "US Senator, Louisiana 2005-2007"
+        },
+        {
+          "name": "DAVID VITTER",
+          "position": "US Senator, 2005-2017 US Representative, 1999-2005 Member, Louisiana House of Representatives (not federal), 1992-1999"
+        },
+        {
+          "name": "DAVID VITTER",
+          "position": "US Senator, 2005-2017 US Representative, 1999-2005 Member, Louisiana House of Representatives (not federal), 1992-1999"
+        },
+        {
+          "name": "DENNY REHBERG",
+          "position": "US Representative, 2001-2013"
+        },
+        {
+          "name": "DENNY REHBERG",
+          "position": "US Representative, 2001-2013"
+        }
+      ]
+    },
+    {
+      "firm": "MILITARY OFFICERS ASSOCIATION OF AMERICA",
+      "revolvingDoorLobbyists": 1375,
+      "totalIncome": 25396371,
+      "clientCount": 1,
+      "incomePerLobbyist": 18470,
+      "samplePositions": [
+        {
+          "name": "KATHRYN BEASLEY",
+          "position": "Dir., Government Relations"
+        },
+        {
+          "name": "RENE CAMPOS",
+          "position": "Dir., Government Relations"
+        },
+        {
+          "name": "MICHAEL BARRON",
+          "position": "Dir., Government Relations"
+        },
+        {
+          "name": "JAMES NAUGHTON",
+          "position": "Associate Dir., Government Relations"
+        },
+        {
+          "name": "DANA ATKINS",
+          "position": "President"
+        }
+      ]
+    },
+    {
+      "firm": "TWENTY-FIRST CENTURY GROUP, INC.",
+      "revolvingDoorLobbyists": 1356,
+      "totalIncome": 7215500,
+      "clientCount": 25,
+      "incomePerLobbyist": 5321,
+      "samplePositions": [
+        {
+          "name": "JOCELYN LOWE",
+          "position": "Former aide, Senator Glenn and Cong. Eckert"
+        },
+        {
+          "name": "JACK FIELDS",
+          "position": "Former Member of Congress"
+        },
+        {
+          "name": "LISA RULLI",
+          "position": "Former staffer, Committee on Merchant Marine & Fisheries; Natural Resources"
+        },
+        {
+          "name": "JOCELYN LOWE",
+          "position": "Former aide, Senator Glenn and Cong. Eckert"
+        },
+        {
+          "name": "JACK FIELDS",
+          "position": "Former Member of Congress"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1904 @@
+{
+  "multiFirmLobbyists": [
+    {
+      "id": "64122",
+      "name": "CHRIS JONES",
+      "firmCount": 6,
+      "firms": [
+        "BAKER & HOSTETLER LLP",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "BGR GOVERNMENT AFFAIRS",
+        "STRATEGIES 360",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 63
+    },
+    {
+      "id": "64123",
+      "name": "ADAM HIGGINS",
+      "firmCount": 6,
+      "firms": [
+        "BAKER & HOSTETLER LLP",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "BGR GOVERNMENT AFFAIRS",
+        "STRATEGIES 360",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 46
+    },
+    {
+      "id": "65358",
+      "name": "GREG ORLANDO",
+      "firmCount": 6,
+      "firms": [
+        "BAKER & HOSTETLER LLP",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "BGR GOVERNMENT AFFAIRS",
+        "STRATEGIES 360",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 15
+    },
+    {
+      "id": "70859",
+      "name": "KEVIN EDGAR",
+      "firmCount": 6,
+      "firms": [
+        "BAKER & HOSTETLER LLP",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "BGR GOVERNMENT AFFAIRS",
+        "STRATEGIES 360",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 27
+    },
+    {
+      "id": "65208",
+      "name": "LESTER MUNSON",
+      "firmCount": 5,
+      "firms": [
+        "BGR GOVERNMENT AFFAIRS",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "STRATEGIES 360",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 49
+    },
+    {
+      "id": "65487",
+      "name": "MAYA SEIDEN",
+      "firmCount": 5,
+      "firms": [
+        "BGR GOVERNMENT AFFAIRS",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "STRATEGIES 360",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 71
+    },
+    {
+      "id": "69023",
+      "name": "MARK TAVLARIDES",
+      "firmCount": 5,
+      "firms": [
+        "BGR GOVERNMENT AFFAIRS",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "STRATEGIES 360",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 30
+    },
+    {
+      "id": "102589",
+      "name": "FRED TURNER",
+      "firmCount": 5,
+      "firms": [
+        "BGR GOVERNMENT AFFAIRS",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "STRATEGIES 360",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 50
+    },
+    {
+      "id": "725",
+      "name": "LENDELL PORTERFIELD",
+      "firmCount": 4,
+      "firms": [
+        "PORTERFIELD, FETTIG & SEARS, LLC",
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 57
+    },
+    {
+      "id": "49112",
+      "name": "DWIGHT FETTIG",
+      "firmCount": 4,
+      "firms": [
+        "PORTERFIELD, FETTIG & SEARS, LLC",
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 64
+    },
+    {
+      "id": "61020",
+      "name": "DAWN SEARS",
+      "firmCount": 4,
+      "firms": [
+        "PORTERFIELD, FETTIG & SEARS, LLC",
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 58
+    },
+    {
+      "id": "61187",
+      "name": "JEREMY RABINOVITZ",
+      "firmCount": 4,
+      "firms": [
+        "PORTERFIELD, FETTIG & SEARS, LLC",
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 33
+    },
+    {
+      "id": "61496",
+      "name": "MATT GALL",
+      "firmCount": 4,
+      "firms": [
+        "STRATEGIES 360",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 34
+    },
+    {
+      "id": "64550",
+      "name": "BRYAN BLOM",
+      "firmCount": 4,
+      "firms": [
+        "PORTERFIELD, FETTIG & SEARS, LLC",
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 61
+    },
+    {
+      "id": "67125",
+      "name": "CRYSTAL ELLERBE",
+      "firmCount": 4,
+      "firms": [
+        "STRATEGIES 360",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 42
+    },
+    {
+      "id": "69611",
+      "name": "KELLY MCGRATH",
+      "firmCount": 4,
+      "firms": [
+        "PORTERFIELD, FETTIG & SEARS, LLC",
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 46
+    },
+    {
+      "id": "70883",
+      "name": "ANDREW WINER",
+      "firmCount": 4,
+      "firms": [
+        "STRATEGIES 360",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 51
+    },
+    {
+      "id": "101293",
+      "name": "JENNIFER READ",
+      "firmCount": 4,
+      "firms": [
+        "PORTERFIELD, FETTIG & SEARS, LLC",
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 45
+    },
+    {
+      "id": "145728",
+      "name": "BENJAMIN TURNER",
+      "firmCount": 4,
+      "firms": [
+        "PORTERFIELD, FETTIG & SEARS, LLC",
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 47
+    },
+    {
+      "id": "1101",
+      "name": "DAVE LARSON",
+      "firmCount": 3,
+      "firms": [
+        "AMERICAN CAPITOL GROUP",
+        "PILLSBURY WINTHROP SHAW PITTMAN LLP",
+        "INTRA-CELLULAR THERAPIES, INC."
+      ],
+      "clientCount": 30
+    },
+    {
+      "id": "21465",
+      "name": "THOMAS SHIPMAN",
+      "firmCount": 3,
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 69
+    },
+    {
+      "id": "38858",
+      "name": "MARK LIMBAUGH",
+      "firmCount": 3,
+      "firms": [
+        "THE FERGUSON GROUP",
+        "BALLARD PARTNERS",
+        "KING & SPALDING LLP"
+      ],
+      "clientCount": 70
+    },
+    {
+      "id": "43717",
+      "name": "FREDERICK DOMBO",
+      "firmCount": 3,
+      "firms": [
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 28
+    },
+    {
+      "id": "60441",
+      "name": "STEPHEN NORTHRUP",
+      "firmCount": 3,
+      "firms": [
+        "RAMPY NORTHRUP LLC",
+        "CAPITOL TAX PARTNERS, LLP",
+        "WINDWARD STRATEGIES"
+      ],
+      "clientCount": 15
+    },
+    {
+      "id": "60443",
+      "name": "STACEY RAMPY",
+      "firmCount": 3,
+      "firms": [
+        "RAMPY NORTHRUP LLC",
+        "CAPITOL TAX PARTNERS, LLP",
+        "WINDWARD STRATEGIES"
+      ],
+      "clientCount": 16
+    },
+    {
+      "id": "64378",
+      "name": "JOSEPH BISCHOFF",
+      "firmCount": 3,
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 37
+    },
+    {
+      "id": "69235",
+      "name": "EMILY BACQUE DA SILVA",
+      "firmCount": 3,
+      "firms": [
+        "THE PICARD GROUP, LLC",
+        "NEALE CREEK, LLC",
+        "FEDERAL STREET STRATEGIES, LLC"
+      ],
+      "clientCount": 34
+    },
+    {
+      "id": "69806",
+      "name": "ASHLEY WALKER",
+      "firmCount": 3,
+      "firms": [
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 7
+    },
+    {
+      "id": "71611",
+      "name": "D STROUD",
+      "firmCount": 3,
+      "firms": [
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 19
+    },
+    {
+      "id": "102027",
+      "name": "LANE DICKSON",
+      "firmCount": 3,
+      "firms": [
+        "BALLARD PARTNERS",
+        "THE FERGUSON GROUP",
+        "KING & SPALDING LLP"
+      ],
+      "clientCount": 37
+    },
+    {
+      "id": "122481",
+      "name": "CHRISTOPHER CHRISTOPHER (NAME ERROR - NOT A REAL PERSON)",
+      "firmCount": 3,
+      "firms": [
+        "NOSSAMAN LLP",
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 4
+    },
+    {
+      "id": "139989",
+      "name": "KATELYN BUNNING",
+      "firmCount": 3,
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "TOWNSEND PUBLIC AFFAIRS, INC",
+        "CLYBURN CONSULTING, LLC"
+      ],
+      "clientCount": 26
+    },
+    {
+      "id": "706",
+      "name": "LINDA MAYNOR",
+      "firmCount": 2,
+      "firms": [
+        "MAYNARD NEXSEN PC",
+        "PORTERFIELD, FETTIG & SEARS, LLC"
+      ],
+      "clientCount": 12
+    },
+    {
+      "id": "4106",
+      "name": "LAWRENCE WILLCOX",
+      "firmCount": 2,
+      "firms": [
+        "CAPITOL TAX PARTNERS, LLP",
+        "WINDWARD STRATEGIES"
+      ],
+      "clientCount": 34
+    },
+    {
+      "id": "5474",
+      "name": "JEFFERY GREEN",
+      "firmCount": 2,
+      "firms": [
+        "J.A. GREEN AND COMPANY",
+        "J.A. GREEN AND COMPANY (FORMERLY LLC)"
+      ],
+      "clientCount": 111
+    },
+    {
+      "id": "16223",
+      "name": "MICHAEL SMITH",
+      "firmCount": 2,
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 132
+    },
+    {
+      "id": "18071",
+      "name": "WILLIAM CLYBURN",
+      "firmCount": 2,
+      "firms": [
+        "CLYBURN CONSULTING, LLC",
+        "TOWNSEND PUBLIC AFFAIRS, INC"
+      ],
+      "clientCount": 18
+    },
+    {
+      "id": "25252",
+      "name": "JACK FIELDS",
+      "firmCount": 2,
+      "firms": [
+        "TWENTY-FIRST CENTURY GROUP, INC.",
+        "SUMMIT STRATEGIES GOVERNMENT AFFAIRS LLC"
+      ],
+      "clientCount": 26
+    },
+    {
+      "id": "45714",
+      "name": "CRAIG SAPERSTEIN",
+      "firmCount": 2,
+      "firms": [
+        "PILLSBURY WINTHROP SHAW PITTMAN LLP",
+        "INTRA-CELLULAR THERAPIES, INC."
+      ],
+      "clientCount": 62
+    },
+    {
+      "id": "46253",
+      "name": "KATHERINE VANLANDINGHAM",
+      "firmCount": 2,
+      "firms": [
+        "VAN SCOYOC ASSOCIATES",
+        "WILLIAMS AND JENSEN, PLLC"
+      ],
+      "clientCount": 24
+    },
+    {
+      "id": "53077",
+      "name": "CHARLES COOPER",
+      "firmCount": 2,
+      "firms": [
+        "SIGNAL GROUP CONSULTING, LLC",
+        "REVERE FEDERAL STRATEGIES"
+      ],
+      "clientCount": 41
+    },
+    {
+      "id": "53590",
+      "name": "SUSAN SWEAT",
+      "firmCount": 2,
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 120
+    },
+    {
+      "id": "54439",
+      "name": "JON HROBSKY",
+      "firmCount": 2,
+      "firms": [
+        "BROWNSTEIN HYATT FARBER SCHRECK, LLP",
+        "BGR GOVERNMENT AFFAIRS"
+      ],
+      "clientCount": 32
+    },
+    {
+      "id": "54690",
+      "name": "EDWARD LONG",
+      "firmCount": 2,
+      "firms": [
+        "VAN SCOYOC ASSOCIATES",
+        "WILLIAMS AND JENSEN, PLLC"
+      ],
+      "clientCount": 22
+    },
+    {
+      "id": "56105",
+      "name": "CHRISTOPHER HODGSON",
+      "firmCount": 2,
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 85
+    },
+    {
+      "id": "58021",
+      "name": "PATRICK HECK",
+      "firmCount": 2,
+      "firms": [
+        "CAPITOL TAX PARTNERS, LLP",
+        "WINDWARD STRATEGIES"
+      ],
+      "clientCount": 21
+    },
+    {
+      "id": "58333",
+      "name": "ANNABELLE CANNING",
+      "firmCount": 2,
+      "firms": [
+        "CAPITOL TAX PARTNERS, LLP",
+        "WINDWARD STRATEGIES"
+      ],
+      "clientCount": 9
+    },
+    {
+      "id": "58419",
+      "name": "LUKE JOHNSON",
+      "firmCount": 2,
+      "firms": [
+        "BROWNSTEIN HYATT FARBER SCHRECK, LLP",
+        "BGR GOVERNMENT AFFAIRS"
+      ],
+      "clientCount": 40
+    },
+    {
+      "id": "62941",
+      "name": "MICHAEL FRIEDBERG",
+      "firmCount": 2,
+      "firms": [
+        "HOLLAND & KNIGHT LLP",
+        "DLA PIPER LLP (US)"
+      ],
+      "clientCount": 71
+    },
+    {
+      "id": "63029",
+      "name": "LISA RULLI",
+      "firmCount": 2,
+      "firms": [
+        "TWENTY-FIRST CENTURY GROUP, INC.",
+        "SUMMIT STRATEGIES GOVERNMENT AFFAIRS LLC"
+      ],
+      "clientCount": 26
+    },
+    {
+      "id": "63092",
+      "name": "LINDSAY FLYNN",
+      "firmCount": 2,
+      "firms": [
+        "TWENTY-FIRST CENTURY GROUP, INC.",
+        "SUMMIT STRATEGIES GOVERNMENT AFFAIRS LLC"
+      ],
+      "clientCount": 12
+    },
+    {
+      "id": "63519",
+      "name": "JACOB TRIOLO",
+      "firmCount": 2,
+      "firms": [
+        "CAPITOL TAX PARTNERS, LLP",
+        "WINDWARD STRATEGIES"
+      ],
+      "clientCount": 37
+    },
+    {
+      "id": "63600",
+      "name": "GEORGE CALDWELL",
+      "firmCount": 2,
+      "firms": [
+        "J.A. GREEN AND COMPANY",
+        "J.A. GREEN AND COMPANY (FORMERLY LLC)"
+      ],
+      "clientCount": 43
+    },
+    {
+      "id": "66010",
+      "name": "ANDREW KING",
+      "firmCount": 2,
+      "firms": [
+        "NEALE CREEK, LLC",
+        "FEDERAL STREET STRATEGIES, LLC"
+      ],
+      "clientCount": 23
+    },
+    {
+      "id": "66235",
+      "name": "CHRISTOPHER SARLEY",
+      "firmCount": 2,
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 78
+    },
+    {
+      "id": "67360",
+      "name": "WILLIAM STIERS",
+      "firmCount": 2,
+      "firms": [
+        "MAYNARD NEXSEN PC",
+        "PORTERFIELD, FETTIG & SEARS, LLC"
+      ],
+      "clientCount": 14
+    },
+    {
+      "id": "69369",
+      "name": "NADEAM ELSHAMI",
+      "firmCount": 2,
+      "firms": [
+        "BROWNSTEIN HYATT FARBER SCHRECK, LLP",
+        "BGR GOVERNMENT AFFAIRS"
+      ],
+      "clientCount": 202
+    },
+    {
+      "id": "70028",
+      "name": "TODD WOMACK",
+      "firmCount": 2,
+      "firms": [
+        "BRIDGE PUBLIC AFFAIRS, LLC",
+        "HARBINGER STRATEGIES, LLC"
+      ],
+      "clientCount": 40
+    },
+    {
+      "id": "70972",
+      "name": "JUSTIN BROWER",
+      "firmCount": 2,
+      "firms": [
+        "J.A. GREEN AND COMPANY",
+        "J.A. GREEN AND COMPANY (FORMERLY LLC)"
+      ],
+      "clientCount": 34
+    },
+    {
+      "id": "71540",
+      "name": "CHRISTOPHER MINAKOWSKI",
+      "firmCount": 2,
+      "firms": [
+        "J.A. GREEN AND COMPANY",
+        "J.A. GREEN AND COMPANY (FORMERLY LLC)"
+      ],
+      "clientCount": 38
+    },
+    {
+      "id": "71628",
+      "name": "JERRY STRICKLAND",
+      "firmCount": 2,
+      "firms": [
+        "BGR GOVERNMENT AFFAIRS",
+        "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+      ],
+      "clientCount": 13
+    },
+    {
+      "id": "72608",
+      "name": "BRIAN WALSH",
+      "firmCount": 2,
+      "firms": [
+        "BRIAN WALSH",
+        "MR. BRIAN WALSH"
+      ],
+      "clientCount": 3
+    },
+    {
+      "id": "72793",
+      "name": "CHARLES CARITHERS",
+      "firmCount": 2,
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "KING & SPALDING LLP"
+      ],
+      "clientCount": 51
+    },
+    {
+      "id": "83928",
+      "name": "JEFFREY WEISS",
+      "firmCount": 2,
+      "firms": [
+        "STEPTOE LLP",
+        "FOLEY & LARDNER LLP"
+      ],
+      "clientCount": 13
+    },
+    {
+      "id": "99719",
+      "name": "JOHN HARDIN",
+      "firmCount": 2,
+      "firms": [
+        "MANNING FULTON & SKINNER, P.A.",
+        "WHO DAT STRATEGIES LLC"
+      ],
+      "clientCount": 3
+    },
+    {
+      "id": "99720",
+      "name": "WILLIAM MORGAN",
+      "firmCount": 2,
+      "firms": [
+        "MANNING FULTON & SKINNER, P.A.",
+        "WHO DAT STRATEGIES LLC"
+      ],
+      "clientCount": 3
+    },
+    {
+      "id": "100455",
+      "name": "KATE GONZALES",
+      "firmCount": 2,
+      "firms": [
+        "BROWNSTEIN HYATT FARBER SCHRECK, LLP",
+        "BGR GOVERNMENT AFFAIRS"
+      ],
+      "clientCount": 63
+    },
+    {
+      "id": "101434",
+      "name": "CAROLINE HARRIS",
+      "firmCount": 2,
+      "firms": [
+        "CAPITOL TAX PARTNERS, LLP",
+        "WINDWARD STRATEGIES"
+      ],
+      "clientCount": 24
+    },
+    {
+      "id": "105638",
+      "name": "YASMIN NELSON",
+      "firmCount": 2,
+      "firms": [
+        "BRACEWELL LLP",
+        "FRANKLIN SQUARE GROUP, LLC"
+      ],
+      "clientCount": 28
+    },
+    {
+      "id": "106943",
+      "name": "SARAH SHIVE",
+      "firmCount": 2,
+      "firms": [
+        "CAPITOL TAX PARTNERS, LLP",
+        "WINDWARD STRATEGIES"
+      ],
+      "clientCount": 31
+    },
+    {
+      "id": "134466",
+      "name": "CARLOS JACKSON",
+      "firmCount": 2,
+      "firms": [
+        "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+        "CASSIDY & ASSOCIATES, INC."
+      ],
+      "clientCount": 39
+    },
+    {
+      "id": "139177",
+      "name": "JESSICA KRAMER",
+      "firmCount": 2,
+      "firms": [
+        "BROWNSTEIN HYATT FARBER SCHRECK, LLP",
+        "BGR GOVERNMENT AFFAIRS"
+      ],
+      "clientCount": 16
+    },
+    {
+      "id": "139756",
+      "name": "JOSHUA ODINTZ",
+      "firmCount": 2,
+      "firms": [
+        "HOLLAND & KNIGHT LLP",
+        "LOBBYIT.COM"
+      ],
+      "clientCount": 31
+    },
+    {
+      "id": "139909",
+      "name": "KATIE PEAKE",
+      "firmCount": 2,
+      "firms": [
+        "J.A. GREEN AND COMPANY",
+        "J.A. GREEN AND COMPANY (FORMERLY LLC)"
+      ],
+      "clientCount": 13
+    },
+    {
+      "id": "141763",
+      "name": "MARK LEWIS",
+      "firmCount": 2,
+      "firms": [
+        "J.A. GREEN AND COMPANY",
+        "J.A. GREEN AND COMPANY (FORMERLY LLC)"
+      ],
+      "clientCount": 22
+    },
+    {
+      "id": "142602",
+      "name": "PATRICK ALBAN",
+      "firmCount": 2,
+      "firms": [
+        "J.A. GREEN AND COMPANY",
+        "J.A. GREEN AND COMPANY (FORMERLY LLC)"
+      ],
+      "clientCount": 5
+    },
+    {
+      "id": "144932",
+      "name": "DAVID FURNESS",
+      "firmCount": 2,
+      "firms": [
+        "J.A. GREEN AND COMPANY (FORMERLY LLC)",
+        "J.A. GREEN AND COMPANY"
+      ],
+      "clientCount": 13
+    }
+  ],
+  "firmPairOverlap": [
+    {
+      "firmA": "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+      "firmB": "CASSIDY & ASSOCIATES, INC.",
+      "sharedLobbyists": 17,
+      "sharedNames": [
+        "MICHAEL SMITH",
+        "SUSAN SWEAT",
+        "CHRISTOPHER SARLEY",
+        "CHRISTOPHER HODGSON",
+        "CARLOS JACKSON"
+      ]
+    },
+    {
+      "firmA": "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+      "firmB": "TOWNSEND PUBLIC AFFAIRS, INC",
+      "sharedLobbyists": 14,
+      "sharedNames": [
+        "THOMAS SHIPMAN",
+        "JOSEPH BISCHOFF",
+        "KATELYN BUNNING",
+        "LESTER MUNSON",
+        "CHRIS JONES"
+      ]
+    },
+    {
+      "firmA": "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+      "firmB": "BGR GOVERNMENT AFFAIRS",
+      "sharedLobbyists": 8,
+      "sharedNames": [
+        "LESTER MUNSON",
+        "CHRIS JONES",
+        "FRED TURNER",
+        "MAYA SEIDEN",
+        "MARK TAVLARIDES"
+      ]
+    },
+    {
+      "firmA": "BGR GOVERNMENT AFFAIRS",
+      "firmB": "TOWNSEND PUBLIC AFFAIRS, INC",
+      "sharedLobbyists": 8,
+      "sharedNames": [
+        "MARK TAVLARIDES",
+        "LESTER MUNSON",
+        "MAYA SEIDEN",
+        "FRED TURNER",
+        "ADAM HIGGINS"
+      ]
+    },
+    {
+      "firmA": "BROWNSTEIN HYATT FARBER SCHRECK, LLP",
+      "firmB": "BGR GOVERNMENT AFFAIRS",
+      "sharedLobbyists": 6,
+      "sharedNames": [
+        "JON HROBSKY",
+        "LUKE JOHNSON",
+        "NADEAM ELSHAMI",
+        "KATE GONZALES",
+        "JESSICA KRAMER"
+      ]
+    }
+  ],
+  "topFirmsByNetwork": [
+    {
+      "firm": "CHAMBER OF COMMERCE OF THE U.S.A.",
+      "clientCount": 1,
+      "lobbyistCount": 177
+    },
+    {
+      "firm": "CORNERSTONE GOVERNMENT AFFAIRS, INC.",
+      "clientCount": 601,
+      "lobbyistCount": 154
+    },
+    {
+      "firm": "AKIN GUMP STRAUSS HAUER & FELD",
+      "clientCount": 655,
+      "lobbyistCount": 143
+    },
+    {
+      "firm": "BROWNSTEIN HYATT FARBER SCHRECK, LLP",
+      "clientCount": 784,
+      "lobbyistCount": 142
+    },
+    {
+      "firm": "HOLLAND & KNIGHT LLP",
+      "clientCount": 707,
+      "lobbyistCount": 126
+    },
+    {
+      "firm": "SQUIRE PATTON BOGGS",
+      "clientCount": 427,
+      "lobbyistCount": 117
+    },
+    {
+      "firm": "COVINGTON & BURLING LLP",
+      "clientCount": 183,
+      "lobbyistCount": 110
+    },
+    {
+      "firm": "INVARIANT LLC",
+      "clientCount": 350,
+      "lobbyistCount": 100
+    },
+    {
+      "firm": "K&L GATES, LLP",
+      "clientCount": 465,
+      "lobbyistCount": 96
+    },
+    {
+      "firm": "FRIENDS COMMITTEE ON NATIONAL LEGISLATION",
+      "clientCount": 1,
+      "lobbyistCount": 88
+    },
+    {
+      "firm": "VENABLE LLP",
+      "clientCount": 254,
+      "lobbyistCount": 87
+    },
+    {
+      "firm": "VENN STRATEGIES",
+      "clientCount": 107,
+      "lobbyistCount": 86
+    },
+    {
+      "firm": "ARNOLD & PORTER KAYE SCHOLER LLP",
+      "clientCount": 172,
+      "lobbyistCount": 85
+    },
+    {
+      "firm": "STEPTOE LLP",
+      "clientCount": 179,
+      "lobbyistCount": 72
+    },
+    {
+      "firm": "LEWIS-BURKE ASSOCIATES, LLC",
+      "clientCount": 81,
+      "lobbyistCount": 71
+    },
+    {
+      "firm": "VAN SCOYOC ASSOCIATES",
+      "clientCount": 340,
+      "lobbyistCount": 69
+    },
+    {
+      "firm": "AMAZON.COM SERVICES LLC",
+      "clientCount": 1,
+      "lobbyistCount": 69
+    },
+    {
+      "firm": "HOGAN LOVELLS US LLP",
+      "clientCount": 270,
+      "lobbyistCount": 66
+    },
+    {
+      "firm": "CASSIDY & ASSOCIATES, INC.",
+      "clientCount": 338,
+      "lobbyistCount": 66
+    },
+    {
+      "firm": "BGR GOVERNMENT AFFAIRS",
+      "clientCount": 522,
+      "lobbyistCount": 66
+    },
+    {
+      "firm": "THE RABEN GROUP",
+      "clientCount": 94,
+      "lobbyistCount": 65
+    },
+    {
+      "firm": "NATIONAL ASSOCIATION OF MANUFACTURERS",
+      "clientCount": 1,
+      "lobbyistCount": 65
+    },
+    {
+      "firm": "CAPITOL COUNSEL LLC",
+      "clientCount": 367,
+      "lobbyistCount": 60
+    },
+    {
+      "firm": "MERCURY PUBLIC AFFAIRS, LLC",
+      "clientCount": 307,
+      "lobbyistCount": 59
+    },
+    {
+      "firm": "DLA PIPER LLP (US)",
+      "clientCount": 182,
+      "lobbyistCount": 59
+    },
+    {
+      "firm": "PHARMACEUTICAL RESEARCH AND MANUFACTURERS OF AMERICA",
+      "clientCount": 1,
+      "lobbyistCount": 59
+    },
+    {
+      "firm": "MCGUIREWOODS CONSULTING (A SUBSIDIARY OF MCGUIREWOODS LLP)",
+      "clientCount": 210,
+      "lobbyistCount": 58
+    },
+    {
+      "firm": "BOEING COMPANY",
+      "clientCount": 1,
+      "lobbyistCount": 58
+    },
+    {
+      "firm": "FGS GLOBAL (US) LLC (FKA FGH HOLDINGS LLC)",
+      "clientCount": 182,
+      "lobbyistCount": 57
+    },
+    {
+      "firm": "FAEGRE DRINKER BIDDLE & REATH LLP",
+      "clientCount": 151,
+      "lobbyistCount": 57
+    },
+    {
+      "firm": "THE NATURE CONSERVANCY",
+      "clientCount": 1,
+      "lobbyistCount": 57
+    },
+    {
+      "firm": "EQUINOR US OPERATIONS LLC",
+      "clientCount": 1,
+      "lobbyistCount": 55
+    },
+    {
+      "firm": "AMERICAN FED OF GOVERNMENT EMPLOYEES, AFL-CIO",
+      "clientCount": 1,
+      "lobbyistCount": 55
+    },
+    {
+      "firm": "GREENBERG TRAURIG, LLP",
+      "clientCount": 160,
+      "lobbyistCount": 54
+    },
+    {
+      "firm": "DENTONS US LLP",
+      "clientCount": 198,
+      "lobbyistCount": 53
+    },
+    {
+      "firm": "ERNST & YOUNG LLP (WASHINGTON COUNCIL ERNST & YOUNG)",
+      "clientCount": 103,
+      "lobbyistCount": 52
+    },
+    {
+      "firm": "AARP",
+      "clientCount": 1,
+      "lobbyistCount": 52
+    },
+    {
+      "firm": "BIOTECHNOLOGY INNOVATION ORGANIZATION",
+      "clientCount": 1,
+      "lobbyistCount": 52
+    },
+    {
+      "firm": "BALLARD PARTNERS",
+      "clientCount": 590,
+      "lobbyistCount": 51
+    },
+    {
+      "firm": "THE VOGEL GROUP",
+      "clientCount": 282,
+      "lobbyistCount": 51
+    },
+    {
+      "firm": "AMERICAN BANKERS ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 51
+    },
+    {
+      "firm": "WILLIAMS AND JENSEN, PLLC",
+      "clientCount": 257,
+      "lobbyistCount": 50
+    },
+    {
+      "firm": "VAN NESS FELDMAN, LLP",
+      "clientCount": 85,
+      "lobbyistCount": 50
+    },
+    {
+      "firm": "RTX CORPORATION AND AFFILIATES",
+      "clientCount": 1,
+      "lobbyistCount": 50
+    },
+    {
+      "firm": "AMERICAN HOSPITAL ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 50
+    },
+    {
+      "firm": "ARENTFOX SCHIFF LLP",
+      "clientCount": 156,
+      "lobbyistCount": 48
+    },
+    {
+      "firm": "ALSTON & BIRD LLP",
+      "clientCount": 182,
+      "lobbyistCount": 48
+    },
+    {
+      "firm": "THE AMERICAN LEGION",
+      "clientCount": 1,
+      "lobbyistCount": 48
+    },
+    {
+      "firm": "TOWNSEND PUBLIC AFFAIRS, INC",
+      "clientCount": 163,
+      "lobbyistCount": 47
+    },
+    {
+      "firm": "FTI GOVERNMENT AFFAIRS",
+      "clientCount": 125,
+      "lobbyistCount": 46
+    },
+    {
+      "firm": "BOUNDARY STONE PARTNERS",
+      "clientCount": 123,
+      "lobbyistCount": 46
+    },
+    {
+      "firm": "MONUMENT ADVOCACY",
+      "clientCount": 184,
+      "lobbyistCount": 45
+    },
+    {
+      "firm": "KING & SPALDING LLP",
+      "clientCount": 134,
+      "lobbyistCount": 45
+    },
+    {
+      "firm": "THORN RUN PARTNERS",
+      "clientCount": 373,
+      "lobbyistCount": 45
+    },
+    {
+      "firm": "FORBES-TATE",
+      "clientCount": 309,
+      "lobbyistCount": 44
+    },
+    {
+      "firm": "NATIONAL ASSOCIATION OF REALTORS",
+      "clientCount": 1,
+      "lobbyistCount": 44
+    },
+    {
+      "firm": "BHP GROUP LIMITED",
+      "clientCount": 1,
+      "lobbyistCount": 44
+    },
+    {
+      "firm": "MICHAEL BEST STRATEGIES LLC",
+      "clientCount": 190,
+      "lobbyistCount": 44
+    },
+    {
+      "firm": "PRIME POLICY GROUP",
+      "clientCount": 146,
+      "lobbyistCount": 43
+    },
+    {
+      "firm": "CREDIT UNION NATIONAL ASSOCIATION. INC. DBA AMERICA'S CREDIT UNIONS",
+      "clientCount": 1,
+      "lobbyistCount": 42
+    },
+    {
+      "firm": "AMERICAN PETROLEUM INSTITUTE",
+      "clientCount": 1,
+      "lobbyistCount": 42
+    },
+    {
+      "firm": "MCALLISTER & QUINN, LLC",
+      "clientCount": 160,
+      "lobbyistCount": 41
+    },
+    {
+      "firm": "CAVAROCCHI RUSCIO DENNIS ASSOCIATES, L.L.C.",
+      "clientCount": 89,
+      "lobbyistCount": 41
+    },
+    {
+      "firm": "KELLEY DRYE & WARREN LLP",
+      "clientCount": 121,
+      "lobbyistCount": 41
+    },
+    {
+      "firm": "SECURITIES INDUSTRY AND FINANCIAL MARKETS ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 41
+    },
+    {
+      "firm": "STRATEGIC MARKETING INNOVATIONS",
+      "clientCount": 312,
+      "lobbyistCount": 40
+    },
+    {
+      "firm": "LEADERSHIP CONFERENCE ON CIVIL AND HUMAN RIGHTS",
+      "clientCount": 1,
+      "lobbyistCount": 40
+    },
+    {
+      "firm": "AMERICA'S HEALTH INSURANCE PLANS, INC. (AHIP)",
+      "clientCount": 1,
+      "lobbyistCount": 39
+    },
+    {
+      "firm": "THE BUSINESS ROUNDTABLE, INC.",
+      "clientCount": 1,
+      "lobbyistCount": 39
+    },
+    {
+      "firm": "AMERICAN MEDICAL ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 39
+    },
+    {
+      "firm": "CROSSROADS STRATEGIES, LLC",
+      "clientCount": 322,
+      "lobbyistCount": 38
+    },
+    {
+      "firm": "ACG ADVOCACY",
+      "clientCount": 214,
+      "lobbyistCount": 38
+    },
+    {
+      "firm": "VNF SOLUTIONS, LLC",
+      "clientCount": 40,
+      "lobbyistCount": 36
+    },
+    {
+      "firm": "GENERAL ELECTRIC COMPANY (INCLUDING SUBSIDIARIES)",
+      "clientCount": 1,
+      "lobbyistCount": 36
+    },
+    {
+      "firm": "MEHLMAN CONSULTING, INC.",
+      "clientCount": 239,
+      "lobbyistCount": 35
+    },
+    {
+      "firm": "LOCKHEED MARTIN CORPORATION",
+      "clientCount": 1,
+      "lobbyistCount": 35
+    },
+    {
+      "firm": "AICPA ASSOCIATION OF INTERNATIONAL CERTIFIED PROFESSIONAL ACCOUNTANTS",
+      "clientCount": 1,
+      "lobbyistCount": 34
+    },
+    {
+      "firm": "MCDERMOTT+ LLC",
+      "clientCount": 81,
+      "lobbyistCount": 33
+    },
+    {
+      "firm": "AMERICAN FARM BUREAU FED",
+      "clientCount": 1,
+      "lobbyistCount": 33
+    },
+    {
+      "firm": "THE FERGUSON GROUP",
+      "clientCount": 172,
+      "lobbyistCount": 32
+    },
+    {
+      "firm": "PRICEWATERHOUSECOOPERS",
+      "clientCount": 26,
+      "lobbyistCount": 32
+    },
+    {
+      "firm": "SIDLEY AUSTIN LLP",
+      "clientCount": 69,
+      "lobbyistCount": 32
+    },
+    {
+      "firm": "MINDSET ADVOCACY, LLC",
+      "clientCount": 155,
+      "lobbyistCount": 32
+    },
+    {
+      "firm": "INDEPENDENT COMMUNITY BANKERS OF AMERICA",
+      "clientCount": 1,
+      "lobbyistCount": 32
+    },
+    {
+      "firm": "HONEYWELL INTERNATIONAL",
+      "clientCount": 1,
+      "lobbyistCount": 32
+    },
+    {
+      "firm": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ",
+      "clientCount": 177,
+      "lobbyistCount": 31
+    },
+    {
+      "firm": "HOBBS, STRAUS, DEAN & WALKER, LLP",
+      "clientCount": 44,
+      "lobbyistCount": 31
+    },
+    {
+      "firm": "AMERICANS FOR PROSPERITY",
+      "clientCount": 1,
+      "lobbyistCount": 31
+    },
+    {
+      "firm": "MICROSOFT CORPORATION",
+      "clientCount": 1,
+      "lobbyistCount": 31
+    },
+    {
+      "firm": "NATIONAL WOMEN'S LAW CENTER ACTION FUND",
+      "clientCount": 1,
+      "lobbyistCount": 31
+    },
+    {
+      "firm": "BARNES & THORNBURG, LLP",
+      "clientCount": 143,
+      "lobbyistCount": 30
+    },
+    {
+      "firm": "BOSE PUBLIC AFFAIRS GROUP",
+      "clientCount": 125,
+      "lobbyistCount": 30
+    },
+    {
+      "firm": "AMERICAN ASSOCIATION FOR JUSTICE",
+      "clientCount": 1,
+      "lobbyistCount": 30
+    },
+    {
+      "firm": "WILEY REIN LLP",
+      "clientCount": 56,
+      "lobbyistCount": 30
+    },
+    {
+      "firm": "BLUE CROSS AND BLUE SHIELD ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 30
+    },
+    {
+      "firm": "ALPINE GROUP PARTNERS, LLC.",
+      "clientCount": 226,
+      "lobbyistCount": 29
+    },
+    {
+      "firm": "POLSINELLI PC",
+      "clientCount": 124,
+      "lobbyistCount": 29
+    },
+    {
+      "firm": "ICE MILLER LLP",
+      "clientCount": 36,
+      "lobbyistCount": 29
+    },
+    {
+      "firm": "INNOVATIVE FEDERAL STRATEGIES, LLC",
+      "clientCount": 115,
+      "lobbyistCount": 29
+    },
+    {
+      "firm": "PENN HILL GROUP",
+      "clientCount": 63,
+      "lobbyistCount": 29
+    },
+    {
+      "firm": "BRACEWELL LLP",
+      "clientCount": 135,
+      "lobbyistCount": 29
+    },
+    {
+      "firm": "INTERNATIONAL BUSINESS MACHINES CORPORATION (IBM)",
+      "clientCount": 1,
+      "lobbyistCount": 29
+    },
+    {
+      "firm": "EXXON MOBIL CORP",
+      "clientCount": 1,
+      "lobbyistCount": 29
+    },
+    {
+      "firm": "HB STRATEGIES",
+      "clientCount": 135,
+      "lobbyistCount": 28
+    },
+    {
+      "firm": "CROWELL & MORING LLP",
+      "clientCount": 69,
+      "lobbyistCount": 28
+    },
+    {
+      "firm": "MCDERMOTT WILL & SCHULTE LLP",
+      "clientCount": 69,
+      "lobbyistCount": 28
+    },
+    {
+      "firm": "NATIONAL ASSOCIATION OF FEDERALLY-INSURED CREDIT UNIONS (FKA NAT'L ASSN OF FEDERAL CREDIT UNIONS)",
+      "clientCount": 1,
+      "lobbyistCount": 28
+    },
+    {
+      "firm": "CLARK HILL, PLC",
+      "clientCount": 108,
+      "lobbyistCount": 27
+    },
+    {
+      "firm": "ERVIN GRAVES STRATEGY GROUP, LLC",
+      "clientCount": 106,
+      "lobbyistCount": 27
+    },
+    {
+      "firm": "AMERICAN CIVIL LIBERTIES UNION",
+      "clientCount": 1,
+      "lobbyistCount": 27
+    },
+    {
+      "firm": "AMERICAN CHEMISTRY COUNCIL",
+      "clientCount": 1,
+      "lobbyistCount": 27
+    },
+    {
+      "firm": "FORWARD GLOBAL",
+      "clientCount": 37,
+      "lobbyistCount": 27
+    },
+    {
+      "firm": "LEAVITT PARTNERS, LLC",
+      "clientCount": 34,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "TIBER CREEK GROUP",
+      "clientCount": 239,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "PILLSBURY WINTHROP SHAW PITTMAN LLP",
+      "clientCount": 104,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "POWERS PYLES SUTTER & VERVILLE, P.C.",
+      "clientCount": 90,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "PUBLIC CITIZEN",
+      "clientCount": 1,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "UPS (UNITED PARCEL SERVICE)",
+      "clientCount": 1,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "CHEVRON U.S.A. INC.",
+      "clientCount": 1,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "FORD MOTOR COMPANY",
+      "clientCount": 1,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "ASSOCIATION FOR ACCESSIBLE MEDICINES",
+      "clientCount": 1,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "ACTUM I, LLC",
+      "clientCount": 80,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "DGA GROUP GOVERNMENT RELATIONS LLC",
+      "clientCount": 58,
+      "lobbyistCount": 26
+    },
+    {
+      "firm": "MILLER & CHEVALIER CHARTERED",
+      "clientCount": 73,
+      "lobbyistCount": 25
+    },
+    {
+      "firm": "NOSSAMAN LLP",
+      "clientCount": 57,
+      "lobbyistCount": 25
+    },
+    {
+      "firm": "ALCALDE & FAY",
+      "clientCount": 95,
+      "lobbyistCount": 25
+    },
+    {
+      "firm": "COZEN O'CONNOR PUBLIC STRATEGIES",
+      "clientCount": 182,
+      "lobbyistCount": 25
+    },
+    {
+      "firm": "AIR LINE PILOTS ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 25
+    },
+    {
+      "firm": "AMERICAN TRUCKING ASSOCIATIONS",
+      "clientCount": 1,
+      "lobbyistCount": 25
+    },
+    {
+      "firm": "INFORMATION TECHNOLOGY INDUSTRY COUNCIL",
+      "clientCount": 1,
+      "lobbyistCount": 25
+    },
+    {
+      "firm": "NATIONAL RURAL ELECTRIC COOPERATIVE ASSOCIATION (NRECA)",
+      "clientCount": 1,
+      "lobbyistCount": 25
+    },
+    {
+      "firm": "MILITARY OFFICERS ASSOCIATION OF AMERICA",
+      "clientCount": 1,
+      "lobbyistCount": 25
+    },
+    {
+      "firm": "MANATT, PHELPS, AND PHILLIPS",
+      "clientCount": 87,
+      "lobbyistCount": 24
+    },
+    {
+      "firm": "S-3 GROUP",
+      "clientCount": 195,
+      "lobbyistCount": 24
+    },
+    {
+      "firm": "NELSON MULLINS RILEY & SCARBOROUGH",
+      "clientCount": 121,
+      "lobbyistCount": 24
+    },
+    {
+      "firm": "APCO WORLDWIDE LLC",
+      "clientCount": 28,
+      "lobbyistCount": 24
+    },
+    {
+      "firm": "NATIONAL ASSOCIATION OF HOME BUILDERS",
+      "clientCount": 1,
+      "lobbyistCount": 24
+    },
+    {
+      "firm": "SOUTHERN COMPANY",
+      "clientCount": 1,
+      "lobbyistCount": 24
+    },
+    {
+      "firm": "NCTA - THE INTERNET & TELEVISION ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 24
+    },
+    {
+      "firm": "AT&T SERVICES, INC. AND ITS AFFILIATES",
+      "clientCount": 1,
+      "lobbyistCount": 24
+    },
+    {
+      "firm": "LOBBYIT.COM",
+      "clientCount": 141,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "STRATEGIES 360",
+      "clientCount": 100,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "FAEGRE BAKER DANIELS CONSULTING",
+      "clientCount": 53,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "CGCN GROUP, LLC",
+      "clientCount": 175,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "SIGNAL GROUP CONSULTING, LLC",
+      "clientCount": 101,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "BLANK ROME GOVERNMENT RELATIONS",
+      "clientCount": 108,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "EARTHJUSTICE",
+      "clientCount": 1,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "AMERICAN HOTEL & LODGING ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "ACCENTURE, LLP",
+      "clientCount": 1,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "NVG, LLC",
+      "clientCount": 80,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "AVOQ, LLC",
+      "clientCount": 181,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "INTEL CORPORATION",
+      "clientCount": 1,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "AMERICAN CANCER SOCIETY CANCER ACTION NETWORK, INC.",
+      "clientCount": 1,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "JOHNSON & JOHNSON SERVICES, INC.",
+      "clientCount": 1,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "LEAGUE OF CONSERVATION VOTERS",
+      "clientCount": 1,
+      "lobbyistCount": 23
+    },
+    {
+      "firm": "SMITHBUCKLIN CORPORATION",
+      "clientCount": 18,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "BOCKORNY GROUP, INC.",
+      "clientCount": 75,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "WAXMAN STRATEGIES",
+      "clientCount": 36,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "AMERICAN PSYCHOLOGICAL ASSOCIATION SERVICES INC.(FKA AMERICAN PSYCHOLOGICAL ASSN",
+      "clientCount": 1,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "OLSSON, FRANK, WEEDA, TERMAN & MATZ, PC",
+      "clientCount": 61,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "CONSTANTINOPLE & VALLONE CONSULTING LLC",
+      "clientCount": 28,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "NATIONAL EDUCATION ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "GENERAL MOTORS COMPANY",
+      "clientCount": 1,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "NATIONAL RIFLE ASSOCIATION OF AMERICA",
+      "clientCount": 1,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "CONSUMER BANKERS ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "ENVIRONMENTAL DEFENSE ACTION FUND",
+      "clientCount": 1,
+      "lobbyistCount": 22
+    },
+    {
+      "firm": "RICH FEUER ANDERSON",
+      "clientCount": 81,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "LOT SIXTEEN LLC",
+      "clientCount": 74,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+      "clientCount": 1,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "ENGIE NORTH AMERICA, INC.",
+      "clientCount": 1,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "GREATER NEW YORK HOSPITAL ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "BAYER CORPORATION (CONSOLIDATED REPORT)",
+      "clientCount": 1,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "BP AMERICA, INC",
+      "clientCount": 1,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "ALIBABA GROUP HOLDING LIMITED",
+      "clientCount": 1,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "VELOS (FORMERLY PINNACLE ENGINEERING AND MANAGEMENT SOLUTIONS)",
+      "clientCount": 19,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "META PLATFORMS, INC. AND VARIOUS SUBSIDIARIES",
+      "clientCount": 1,
+      "lobbyistCount": 21
+    },
+    {
+      "firm": "ML STRATEGIES, LLC",
+      "clientCount": 81,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "BUCHANAN INGERSOLL & ROONEY PC",
+      "clientCount": 116,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "MAYER BROWN LLP",
+      "clientCount": 103,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "AMERICAN COUNCIL OF LIFE INSURERS",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "AMERICAN PHYSICAL THERAPY ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "ELI LILLY AND COMPANY",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "BIOGEN",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "AMERICAN SPEECH-LANGUAGE-HEARING ASSOCIATION",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "NORTHROP GRUMMAN CORPORATION",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "CHAMBERS, CONLON & HARTWELL, LLC",
+      "clientCount": 23,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "AMERICAN FEDERATION OF STATE, COUNTY AND MUNICIPAL EMPLOYEES",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "CYSTIC FIBROSIS FOUNDATION",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "AMERICAN COLLEGE OF CARDIOLOGY",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "JPMORGAN CHASE HOLDINGS LLC",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "THE CIGNA GROUP AND SUBSIDIARIES (FORMERLY CIGNA CORPORATION AND SUBSIDIARIES)",
+      "clientCount": 1,
+      "lobbyistCount": 20
+    },
+    {
+      "firm": "CAPITOL HILL CONSULTING GROUP",
+      "clientCount": 135,
+      "lobbyistCount": 19
+    },
+    {
+      "firm": "G2G CONSULTING",
+      "clientCount": 87,
+      "lobbyistCount": 19
+    },
+    {
+      "firm": "CAPITOL TAX PARTNERS, LLP",
+      "clientCount": 141,
+      "lobbyistCount": 19
+    },
+    {
+      "firm": "TORREY ADVISORY GROUP (FORMERLY MICHAEL TORREY ASSOCIATES, LLC)",
+      "clientCount": 40,
+      "lobbyistCount": 19
+    },
+    {
+      "firm": "BREAUX LOTT LEADERSHIP GROUP",
+      "clientCount": 11,
+      "lobbyistCount": 19
+    },
+    {
+      "firm": "CONSUMER BRANDS ASSOCIATION (PKA: GROCERY MANUFACTURERS ASSOCIATION)",
+      "clientCount": 1,
+      "lobbyistCount": 19
+    },
+    {
+      "firm": "BRISTOL-MYERS SQUIBB COMPANY",
+      "clientCount": 1,
+      "lobbyistCount": 19
+    },
+    {
+      "firm": "HUMANE WORLD ACTION FUND AND AFFILIATES (FORMERLY KNOWN AS HUMANE SOCIETY LEGISLATIVE FUND)",
+      "clientCount": 1,
+      "lobbyistCount": 19
+    }
+  ],
+  "totalUniqueLobbyists": 29754,
+  "totalUniqueFirms": 7746,
+  "avgLobbyistsPerFirm": 3.9
+}

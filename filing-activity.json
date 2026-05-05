@@ -1,0 +1,569 @@
+{
+  "monthly": [
+    {
+      "month": "2018-01",
+      "count": 193
+    },
+    {
+      "month": "2018-02",
+      "count": 359
+    },
+    {
+      "month": "2018-03",
+      "count": 298
+    },
+    {
+      "month": "2018-04",
+      "count": 13050
+    },
+    {
+      "month": "2018-05",
+      "count": 1059
+    },
+    {
+      "month": "2018-06",
+      "count": 667
+    },
+    {
+      "month": "2018-07",
+      "count": 14149
+    },
+    {
+      "month": "2018-08",
+      "count": 1021
+    },
+    {
+      "month": "2018-09",
+      "count": 508
+    },
+    {
+      "month": "2018-10",
+      "count": 15508
+    },
+    {
+      "month": "2018-11",
+      "count": 1007
+    },
+    {
+      "month": "2018-12",
+      "count": 556
+    },
+    {
+      "month": "2019-01",
+      "count": 15609
+    },
+    {
+      "month": "2019-02",
+      "count": 1186
+    },
+    {
+      "month": "2019-03",
+      "count": 664
+    },
+    {
+      "month": "2019-04",
+      "count": 13625
+    },
+    {
+      "month": "2019-05",
+      "count": 1388
+    },
+    {
+      "month": "2019-06",
+      "count": 546
+    },
+    {
+      "month": "2019-07",
+      "count": 14321
+    },
+    {
+      "month": "2019-08",
+      "count": 790
+    },
+    {
+      "month": "2019-09",
+      "count": 841
+    },
+    {
+      "month": "2019-10",
+      "count": 16033
+    },
+    {
+      "month": "2019-11",
+      "count": 935
+    },
+    {
+      "month": "2019-12",
+      "count": 837
+    },
+    {
+      "month": "2020-01",
+      "count": 17000
+    },
+    {
+      "month": "2020-02",
+      "count": 1375
+    },
+    {
+      "month": "2020-03",
+      "count": 528
+    },
+    {
+      "month": "2020-04",
+      "count": 14444
+    },
+    {
+      "month": "2020-05",
+      "count": 1720
+    },
+    {
+      "month": "2020-06",
+      "count": 815
+    },
+    {
+      "month": "2020-07",
+      "count": 17602
+    },
+    {
+      "month": "2020-08",
+      "count": 1458
+    },
+    {
+      "month": "2020-09",
+      "count": 731
+    },
+    {
+      "month": "2020-10",
+      "count": 16612
+    },
+    {
+      "month": "2020-11",
+      "count": 1669
+    },
+    {
+      "month": "2020-12",
+      "count": 742
+    },
+    {
+      "month": "2021-01",
+      "count": 17800
+    },
+    {
+      "month": "2021-02",
+      "count": 1454
+    },
+    {
+      "month": "2021-03",
+      "count": 855
+    },
+    {
+      "month": "2021-04",
+      "count": 14705
+    },
+    {
+      "month": "2021-05",
+      "count": 1281
+    },
+    {
+      "month": "2021-06",
+      "count": 919
+    },
+    {
+      "month": "2021-07",
+      "count": 16811
+    },
+    {
+      "month": "2021-08",
+      "count": 1235
+    },
+    {
+      "month": "2021-09",
+      "count": 906
+    },
+    {
+      "month": "2021-10",
+      "count": 18152
+    },
+    {
+      "month": "2021-11",
+      "count": 1801
+    },
+    {
+      "month": "2021-12",
+      "count": 716
+    },
+    {
+      "month": "2022-01",
+      "count": 19341
+    },
+    {
+      "month": "2022-02",
+      "count": 1500
+    },
+    {
+      "month": "2022-03",
+      "count": 852
+    },
+    {
+      "month": "2022-04",
+      "count": 17904
+    },
+    {
+      "month": "2022-05",
+      "count": 1937
+    },
+    {
+      "month": "2022-06",
+      "count": 873
+    },
+    {
+      "month": "2022-07",
+      "count": 19057
+    },
+    {
+      "month": "2022-08",
+      "count": 1793
+    },
+    {
+      "month": "2022-09",
+      "count": 874
+    },
+    {
+      "month": "2022-10",
+      "count": 20063
+    },
+    {
+      "month": "2022-11",
+      "count": 1934
+    },
+    {
+      "month": "2022-12",
+      "count": 752
+    },
+    {
+      "month": "2023-01",
+      "count": 20568
+    },
+    {
+      "month": "2023-02",
+      "count": 1801
+    },
+    {
+      "month": "2023-03",
+      "count": 1028
+    },
+    {
+      "month": "2023-04",
+      "count": 20807
+    },
+    {
+      "month": "2023-05",
+      "count": 2145
+    },
+    {
+      "month": "2023-06",
+      "count": 810
+    },
+    {
+      "month": "2023-07",
+      "count": 21057
+    },
+    {
+      "month": "2023-08",
+      "count": 1771
+    },
+    {
+      "month": "2023-09",
+      "count": 916
+    },
+    {
+      "month": "2023-10",
+      "count": 21035
+    },
+    {
+      "month": "2023-11",
+      "count": 1832
+    },
+    {
+      "month": "2023-12",
+      "count": 862
+    },
+    {
+      "month": "2024-01",
+      "count": 21380
+    },
+    {
+      "month": "2024-02",
+      "count": 1857
+    },
+    {
+      "month": "2024-03",
+      "count": 622
+    },
+    {
+      "month": "2024-04",
+      "count": 16619
+    },
+    {
+      "month": "2024-05",
+      "count": 1699
+    },
+    {
+      "month": "2024-06",
+      "count": 599
+    },
+    {
+      "month": "2024-07",
+      "count": 17609
+    },
+    {
+      "month": "2024-08",
+      "count": 1749
+    },
+    {
+      "month": "2024-09",
+      "count": 665
+    },
+    {
+      "month": "2024-10",
+      "count": 18430
+    },
+    {
+      "month": "2024-11",
+      "count": 2009
+    },
+    {
+      "month": "2024-12",
+      "count": 687
+    },
+    {
+      "month": "2025-01",
+      "count": 20263
+    },
+    {
+      "month": "2025-02",
+      "count": 1837
+    },
+    {
+      "month": "2025-03",
+      "count": 1240
+    },
+    {
+      "month": "2025-04",
+      "count": 17703
+    },
+    {
+      "month": "2025-05",
+      "count": 2008
+    },
+    {
+      "month": "2025-06",
+      "count": 950
+    },
+    {
+      "month": "2025-07",
+      "count": 21203
+    },
+    {
+      "month": "2025-08",
+      "count": 1921
+    },
+    {
+      "month": "2025-09",
+      "count": 1280
+    },
+    {
+      "month": "2025-10",
+      "count": 22539
+    },
+    {
+      "month": "2025-11",
+      "count": 1948
+    },
+    {
+      "month": "2025-12",
+      "count": 774
+    },
+    {
+      "month": "2026-01",
+      "count": 23392
+    },
+    {
+      "month": "2026-02",
+      "count": 1357
+    }
+  ],
+  "byType": [
+    {
+      "type": "Q4",
+      "label": "Q4 Report",
+      "count": 131953
+    },
+    {
+      "type": "Q3",
+      "label": "Q3 Report",
+      "count": 129957
+    },
+    {
+      "type": "Q2",
+      "label": "Q2 Report",
+      "count": 123309
+    },
+    {
+      "type": "Q1",
+      "label": "Q1 Report",
+      "count": 111198
+    },
+    {
+      "type": "RR",
+      "label": "Registration",
+      "count": 30834
+    },
+    {
+      "type": "Q4Y",
+      "label": "Q4Y",
+      "count": 18346
+    },
+    {
+      "type": "Q3Y",
+      "label": "Q3Y",
+      "count": 17715
+    },
+    {
+      "type": "Q2Y",
+      "label": "Q2Y",
+      "count": 16078
+    },
+    {
+      "type": "Q1Y",
+      "label": "Q1Y",
+      "count": 15363
+    },
+    {
+      "type": "2A",
+      "label": "2A",
+      "count": 5595
+    },
+    {
+      "type": "1A",
+      "label": "1A",
+      "count": 5503
+    },
+    {
+      "type": "4T",
+      "label": "4T",
+      "count": 5469
+    },
+    {
+      "type": "3A",
+      "label": "3A",
+      "count": 4701
+    },
+    {
+      "type": "4A",
+      "label": "4A",
+      "count": 4687
+    },
+    {
+      "type": "RA",
+      "label": "Registration Amendment",
+      "count": 4334
+    },
+    {
+      "type": "4TY",
+      "label": "4TY",
+      "count": 3619
+    },
+    {
+      "type": "1TY",
+      "label": "1TY",
+      "count": 3534
+    },
+    {
+      "type": "3T",
+      "label": "3T",
+      "count": 3365
+    },
+    {
+      "type": "2T",
+      "label": "2T",
+      "count": 3347
+    },
+    {
+      "type": "1T",
+      "label": "1T",
+      "count": 3306
+    },
+    {
+      "type": "3TY",
+      "label": "3TY",
+      "count": 2705
+    },
+    {
+      "type": "2TY",
+      "label": "2TY",
+      "count": 2674
+    },
+    {
+      "type": "2AY",
+      "label": "2AY",
+      "count": 525
+    },
+    {
+      "type": "1AY",
+      "label": "1AY",
+      "count": 510
+    },
+    {
+      "type": "4AY",
+      "label": "4AY",
+      "count": 487
+    },
+    {
+      "type": "3AY",
+      "label": "3AY",
+      "count": 419
+    },
+    {
+      "type": "3@",
+      "label": "3@",
+      "count": 130
+    },
+    {
+      "type": "1@",
+      "label": "1@",
+      "count": 109
+    },
+    {
+      "type": "1@Y",
+      "label": "1@Y",
+      "count": 105
+    },
+    {
+      "type": "4@",
+      "label": "4@",
+      "count": 103
+    },
+    {
+      "type": "2@",
+      "label": "2@",
+      "count": 98
+    },
+    {
+      "type": "3@Y",
+      "label": "3@Y",
+      "count": 86
+    },
+    {
+      "type": "4@Y",
+      "label": "4@Y",
+      "count": 86
+    },
+    {
+      "type": "2@Y",
+      "label": "2@Y",
+      "count": 83
+    }
+  ],
+  "totalFilings": 650333
+}

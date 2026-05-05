@@ -1,0 +1,7308 @@
+{
+  "totalDescriptions": 1082535,
+  "topWords": [
+    {
+      "word": "health",
+      "count": 194024
+    },
+    {
+      "word": "tax",
+      "count": 163313
+    },
+    {
+      "word": "development",
+      "count": 127857
+    },
+    {
+      "word": "energy",
+      "count": 127087
+    },
+    {
+      "word": "infrastructure",
+      "count": 118969
+    },
+    {
+      "word": "defense",
+      "count": 112445
+    },
+    {
+      "word": "national",
+      "count": 110592
+    },
+    {
+      "word": "implementation",
+      "count": 103386
+    },
+    {
+      "word": "security",
+      "count": 103357
+    },
+    {
+      "word": "care",
+      "count": 97604
+    },
+    {
+      "word": "education",
+      "count": 97554
+    },
+    {
+      "word": "services",
+      "count": 94578
+    },
+    {
+      "word": "reform",
+      "count": 93446
+    },
+    {
+      "word": "medicare",
+      "count": 85821
+    },
+    {
+      "word": "access",
+      "count": 84366
+    },
+    {
+      "word": "water",
+      "count": 83328
+    },
+    {
+      "word": "research",
+      "count": 83214
+    },
+    {
+      "word": "relating",
+      "count": 78323
+    },
+    {
+      "word": "transportation",
+      "count": 75862
+    },
+    {
+      "word": "public",
+      "count": 70752
+    },
+    {
+      "word": "protection",
+      "count": 69485
+    },
+    {
+      "word": "agencies",
+      "count": 67955
+    },
+    {
+      "word": "drug",
+      "count": 67566
+    },
+    {
+      "word": "authorization",
+      "count": 63705
+    },
+    {
+      "word": "trade",
+      "count": 59893
+    },
+    {
+      "word": "relief",
+      "count": 57267
+    },
+    {
+      "word": "reauthorization",
+      "count": 56145
+    },
+    {
+      "word": "american",
+      "count": 55951
+    },
+    {
+      "word": "credit",
+      "count": 54892
+    },
+    {
+      "word": "safety",
+      "count": 54455
+    },
+    {
+      "word": "housing",
+      "count": 53135
+    },
+    {
+      "word": "data",
+      "count": 50132
+    },
+    {
+      "word": "financial",
+      "count": 49737
+    },
+    {
+      "word": "covid-19",
+      "count": 47855
+    },
+    {
+      "word": "fiscal",
+      "count": 47618
+    },
+    {
+      "word": "insurance",
+      "count": 47350
+    },
+    {
+      "word": "technology",
+      "count": 47210
+    },
+    {
+      "word": "year",
+      "count": 47185
+    },
+    {
+      "word": "law",
+      "count": 46557
+    },
+    {
+      "word": "investment",
+      "count": 45408
+    },
+    {
+      "word": "medical",
+      "count": 45179
+    },
+    {
+      "word": "labor",
+      "count": 44877
+    },
+    {
+      "word": "administration",
+      "count": 41573
+    },
+    {
+      "word": "community",
+      "count": 41440
+    },
+    {
+      "word": "economic",
+      "count": 41308
+    },
+    {
+      "word": "regulatory",
+      "count": 41178
+    },
+    {
+      "word": "medicaid",
+      "count": 41071
+    },
+    {
+      "word": "states",
+      "count": 40699
+    },
+    {
+      "word": "workforce",
+      "count": 40430
+    },
+    {
+      "word": "legislative",
+      "count": 39096
+    },
+    {
+      "word": "jobs",
+      "count": 38572
+    },
+    {
+      "word": "united",
+      "count": 37781
+    },
+    {
+      "word": "state",
+      "count": 37586
+    },
+    {
+      "word": "privacy",
+      "count": 37527
+    },
+    {
+      "word": "service",
+      "count": 37362
+    },
+    {
+      "word": "agriculture",
+      "count": 37098
+    },
+    {
+      "word": "rule",
+      "count": 36807
+    },
+    {
+      "word": "provide",
+      "count": 36614
+    },
+    {
+      "word": "use",
+      "count": 36607
+    },
+    {
+      "word": "innovation",
+      "count": 36607
+    },
+    {
+      "word": "industry",
+      "count": 35783
+    },
+    {
+      "word": "clean",
+      "count": 35548
+    },
+    {
+      "word": "pertaining",
+      "count": 35404
+    },
+    {
+      "word": "grant",
+      "count": 35323
+    },
+    {
+      "word": "assistance",
+      "count": 35294
+    },
+    {
+      "word": "food",
+      "count": 35158
+    },
+    {
+      "word": "business",
+      "count": 34998
+    },
+    {
+      "word": "purposes",
+      "count": 34803
+    },
+    {
+      "word": "bills",
+      "count": 34711
+    },
+    {
+      "word": "plan",
+      "count": 34210
+    },
+    {
+      "word": "response",
+      "count": 34183
+    },
+    {
+      "word": "science",
+      "count": 33750
+    },
+    {
+      "word": "rural",
+      "count": 33370
+    },
+    {
+      "word": "international",
+      "count": 32397
+    },
+    {
+      "word": "proposals",
+      "count": 32315
+    },
+    {
+      "word": "management",
+      "count": 32155
+    },
+    {
+      "word": "reduction",
+      "count": 31603
+    },
+    {
+      "word": "small",
+      "count": 31335
+    },
+    {
+      "word": "emergency",
+      "count": 30889
+    },
+    {
+      "word": "coverage",
+      "count": 29993
+    },
+    {
+      "word": "generally",
+      "count": 29981
+    },
+    {
+      "word": "supply",
+      "count": 29918
+    },
+    {
+      "word": "justice",
+      "count": 29891
+    },
+    {
+      "word": "payment",
+      "count": 29780
+    },
+    {
+      "word": "consolidated",
+      "count": 29438
+    },
+    {
+      "word": "consumer",
+      "count": 29405
+    },
+    {
+      "word": "congressional",
+      "count": 29338
+    },
+    {
+      "word": "human",
+      "count": 29269
+    },
+    {
+      "word": "veterans",
+      "count": 29191
+    },
+    {
+      "word": "america",
+      "count": 28881
+    },
+    {
+      "word": "amend",
+      "count": 28770
+    },
+    {
+      "word": "standards",
+      "count": 28591
+    },
+    {
+      "word": "monitoring",
+      "count": 28481
+    },
+    {
+      "word": "manufacturing",
+      "count": 28134
+    },
+    {
+      "word": "coronavirus",
+      "count": 28041
+    },
+    {
+      "word": "project",
+      "count": 27978
+    },
+    {
+      "word": "transparency",
+      "count": 27717
+    },
+    {
+      "word": "enforcement",
+      "count": 27659
+    },
+    {
+      "word": "modernization",
+      "count": 27644
+    },
+    {
+      "word": "foreign",
+      "count": 27613
+    },
+    {
+      "word": "treatment",
+      "count": 27546
+    },
+    {
+      "word": "specific",
+      "count": 26870
+    },
+    {
+      "word": "new",
+      "count": 26831
+    },
+    {
+      "word": "res",
+      "count": 26515
+    },
+    {
+      "word": "products",
+      "count": 26184
+    },
+    {
+      "word": "discussions",
+      "count": 26071
+    },
+    {
+      "word": "retirement",
+      "count": 26016
+    },
+    {
+      "word": "system",
+      "count": 25900
+    },
+    {
+      "word": "broadband",
+      "count": 25891
+    },
+    {
+      "word": "cybersecurity",
+      "count": 25476
+    },
+    {
+      "word": "local",
+      "count": 25218
+    },
+    {
+      "word": "military",
+      "count": 25194
+    },
+    {
+      "word": "commerce",
+      "count": 24980
+    },
+    {
+      "word": "rights",
+      "count": 24727
+    },
+    {
+      "word": "prevention",
+      "count": 24645
+    },
+    {
+      "word": "projects",
+      "count": 24425
+    },
+    {
+      "word": "grants",
+      "count": 24393
+    },
+    {
+      "word": "fund",
+      "count": 24152
+    },
+    {
+      "word": "lobbied",
+      "count": 24049
+    },
+    {
+      "word": "information",
+      "count": 24047
+    },
+    {
+      "word": "air",
+      "count": 23894
+    },
+    {
+      "word": "improvement",
+      "count": 23765
+    },
+    {
+      "word": "pricing",
+      "count": 23583
+    },
+    {
+      "word": "fuel",
+      "count": 23378
+    },
+    {
+      "word": "aviation",
+      "count": 23339
+    },
+    {
+      "word": "cares",
+      "count": 23282
+    },
+    {
+      "word": "affordable",
+      "count": 23238
+    },
+    {
+      "word": "part",
+      "count": 23083
+    },
+    {
+      "word": "efforts",
+      "count": 22992
+    },
+    {
+      "word": "reimbursement",
+      "count": 22844
+    },
+    {
+      "word": "requirements",
+      "count": 22722
+    },
+    {
+      "word": "certain",
+      "count": 22353
+    },
+    {
+      "word": "better",
+      "count": 22203
+    },
+    {
+      "word": "farm",
+      "count": 22195
+    },
+    {
+      "word": "environmental",
+      "count": 22086
+    },
+    {
+      "word": "build",
+      "count": 22039
+    },
+    {
+      "word": "healthcare",
+      "count": 21979
+    },
+    {
+      "word": "protecting",
+      "count": 21811
+    },
+    {
+      "word": "resources",
+      "count": 21512
+    },
+    {
+      "word": "systems",
+      "count": 21399
+    },
+    {
+      "word": "interior",
+      "count": 21362
+    },
+    {
+      "word": "safe",
+      "count": 21318
+    },
+    {
+      "word": "climate",
+      "count": 21243
+    },
+    {
+      "word": "gas",
+      "count": 20838
+    },
+    {
+      "word": "impact",
+      "count": 20695
+    },
+    {
+      "word": "higher",
+      "count": 20377
+    },
+    {
+      "word": "vehicle",
+      "count": 20360
+    },
+    {
+      "word": "affecting",
+      "count": 20232
+    },
+    {
+      "word": "social",
+      "count": 20080
+    },
+    {
+      "word": "chain",
+      "count": 20032
+    },
+    {
+      "word": "competition",
+      "count": 19960
+    },
+    {
+      "word": "code",
+      "count": 19939
+    },
+    {
+      "word": "prescription",
+      "count": 19868
+    },
+    {
+      "word": "benefits",
+      "count": 19638
+    },
+    {
+      "word": "urban",
+      "count": 19607
+    },
+    {
+      "word": "impacting",
+      "count": 19594
+    },
+    {
+      "word": "draft",
+      "count": 19571
+    },
+    {
+      "word": "pandemic",
+      "count": 19555
+    },
+    {
+      "word": "homeland",
+      "count": 19444
+    },
+    {
+      "word": "operations",
+      "count": 19411
+    },
+    {
+      "word": "training",
+      "count": 19409
+    },
+    {
+      "word": "electric",
+      "count": 19257
+    },
+    {
+      "word": "telehealth",
+      "count": 19116
+    },
+    {
+      "word": "tariffs",
+      "count": 19023
+    },
+    {
+      "word": "conservation",
+      "count": 18998
+    },
+    {
+      "word": "renewable",
+      "count": 18993
+    },
+    {
+      "word": "loan",
+      "count": 18987
+    },
+    {
+      "word": "home",
+      "count": 18927
+    },
+    {
+      "word": "back",
+      "count": 18821
+    },
+    {
+      "word": "environment",
+      "count": 18819
+    },
+    {
+      "word": "mental",
+      "count": 18799
+    },
+    {
+      "word": "digital",
+      "count": 18704
+    },
+    {
+      "word": "inflation",
+      "count": 18586
+    },
+    {
+      "word": "costs",
+      "count": 18471
+    },
+    {
+      "word": "process",
+      "count": 18448
+    },
+    {
+      "word": "quality",
+      "count": 18382
+    },
+    {
+      "word": "recovery",
+      "count": 18295
+    },
+    {
+      "word": "number",
+      "count": 18039
+    },
+    {
+      "word": "workers",
+      "count": 17935
+    },
+    {
+      "word": "expansion",
+      "count": 17879
+    },
+    {
+      "word": "intelligence",
+      "count": 17843
+    },
+    {
+      "word": "communications",
+      "count": 17842
+    },
+    {
+      "word": "issue",
+      "count": 17656
+    },
+    {
+      "word": "advanced",
+      "count": 17576
+    },
+    {
+      "word": "advocacy",
+      "count": 17560
+    },
+    {
+      "word": "office",
+      "count": 17384
+    },
+    {
+      "word": "domestic",
+      "count": 17374
+    },
+    {
+      "word": "action",
+      "count": 17330
+    },
+    {
+      "word": "construction",
+      "count": 17236
+    },
+    {
+      "word": "market",
+      "count": 17214
+    },
+    {
+      "word": "families",
+      "count": 17214
+    },
+    {
+      "word": "natural",
+      "count": 17168
+    },
+    {
+      "word": "opportunities",
+      "count": 17068
+    },
+    {
+      "word": "extension",
+      "count": 17064
+    },
+    {
+      "word": "student",
+      "count": 17050
+    },
+    {
+      "word": "work",
+      "count": 16985
+    },
+    {
+      "word": "corporate",
+      "count": 16742
+    },
+    {
+      "word": "reporting",
+      "count": 16686
+    },
+    {
+      "word": "plans",
+      "count": 16563
+    },
+    {
+      "word": "risk",
+      "count": 16560
+    }
+  ],
+  "yearlyTopWords": {
+    "2018": [
+      {
+        "word": "tax",
+        "count": 22934
+      },
+      {
+        "word": "health",
+        "count": 22926
+      },
+      {
+        "word": "reform",
+        "count": 20638
+      },
+      {
+        "word": "development",
+        "count": 15673
+      },
+      {
+        "word": "energy",
+        "count": 14680
+      },
+      {
+        "word": "education",
+        "count": 14357
+      },
+      {
+        "word": "care",
+        "count": 13142
+      },
+      {
+        "word": "national",
+        "count": 13024
+      },
+      {
+        "word": "security",
+        "count": 12667
+      },
+      {
+        "word": "water",
+        "count": 12531
+      },
+      {
+        "word": "defense",
+        "count": 12039
+      },
+      {
+        "word": "services",
+        "count": 12005
+      },
+      {
+        "word": "implementation",
+        "count": 11500
+      },
+      {
+        "word": "medicare",
+        "count": 11496
+      },
+      {
+        "word": "access",
+        "count": 10426
+      },
+      {
+        "word": "relating",
+        "count": 10230
+      },
+      {
+        "word": "protection",
+        "count": 10200
+      },
+      {
+        "word": "infrastructure",
+        "count": 9872
+      },
+      {
+        "word": "research",
+        "count": 9753
+      },
+      {
+        "word": "reauthorization",
+        "count": 9480
+      },
+      {
+        "word": "transportation",
+        "count": 9438
+      },
+      {
+        "word": "insurance",
+        "count": 8777
+      },
+      {
+        "word": "agencies",
+        "count": 8420
+      },
+      {
+        "word": "drug",
+        "count": 8389
+      },
+      {
+        "word": "trade",
+        "count": 8179
+      },
+      {
+        "word": "regulatory",
+        "count": 8069
+      },
+      {
+        "word": "public",
+        "count": 7605
+      },
+      {
+        "word": "financial",
+        "count": 7464
+      },
+      {
+        "word": "authorization",
+        "count": 6918
+      },
+      {
+        "word": "safety",
+        "count": 6860
+      },
+      {
+        "word": "agriculture",
+        "count": 6634
+      },
+      {
+        "word": "housing",
+        "count": 6287
+      },
+      {
+        "word": "veterans",
+        "count": 6179
+      },
+      {
+        "word": "administration",
+        "count": 6092
+      },
+      {
+        "word": "labor",
+        "count": 6040
+      },
+      {
+        "word": "medical",
+        "count": 5855
+      },
+      {
+        "word": "law",
+        "count": 5826
+      },
+      {
+        "word": "states",
+        "count": 5691
+      },
+      {
+        "word": "rule",
+        "count": 5458
+      },
+      {
+        "word": "use",
+        "count": 5361
+      },
+      {
+        "word": "state",
+        "count": 5355
+      },
+      {
+        "word": "purposes",
+        "count": 5320
+      },
+      {
+        "word": "year",
+        "count": 5318
+      },
+      {
+        "word": "service",
+        "count": 5273
+      },
+      {
+        "word": "technology",
+        "count": 5220
+      },
+      {
+        "word": "consumer",
+        "count": 5194
+      },
+      {
+        "word": "amend",
+        "count": 5189
+      },
+      {
+        "word": "credit",
+        "count": 5182
+      },
+      {
+        "word": "united",
+        "count": 5160
+      },
+      {
+        "word": "legislative",
+        "count": 5113
+      },
+      {
+        "word": "fiscal",
+        "count": 5040
+      },
+      {
+        "word": "data",
+        "count": 4984
+      },
+      {
+        "word": "improvement",
+        "count": 4896
+      },
+      {
+        "word": "medicaid",
+        "count": 4830
+      },
+      {
+        "word": "provide",
+        "count": 4693
+      },
+      {
+        "word": "management",
+        "count": 4595
+      },
+      {
+        "word": "business",
+        "count": 4486
+      },
+      {
+        "word": "relief",
+        "count": 4484
+      },
+      {
+        "word": "food",
+        "count": 4477
+      },
+      {
+        "word": "foreign",
+        "count": 4408
+      },
+      {
+        "word": "treatment",
+        "count": 4400
+      },
+      {
+        "word": "small",
+        "count": 4267
+      },
+      {
+        "word": "fy19",
+        "count": 4235
+      },
+      {
+        "word": "american",
+        "count": 4208
+      },
+      {
+        "word": "rural",
+        "count": 4205
+      },
+      {
+        "word": "human",
+        "count": 4196
+      },
+      {
+        "word": "international",
+        "count": 4186
+      },
+      {
+        "word": "modernization",
+        "count": 4171
+      },
+      {
+        "word": "standards",
+        "count": 4123
+      },
+      {
+        "word": "opioid",
+        "count": 4048
+      },
+      {
+        "word": "pertaining",
+        "count": 4017
+      },
+      {
+        "word": "science",
+        "count": 3981
+      },
+      {
+        "word": "fy2019",
+        "count": 3965
+      },
+      {
+        "word": "assistance",
+        "count": 3961
+      },
+      {
+        "word": "part",
+        "count": 3935
+      },
+      {
+        "word": "jobs",
+        "count": 3890
+      },
+      {
+        "word": "economic",
+        "count": 3841
+      },
+      {
+        "word": "innovation",
+        "count": 3827
+      },
+      {
+        "word": "bills",
+        "count": 3797
+      },
+      {
+        "word": "justice",
+        "count": 3787
+      },
+      {
+        "word": "congressional",
+        "count": 3782
+      },
+      {
+        "word": "affordable",
+        "count": 3745
+      },
+      {
+        "word": "system",
+        "count": 3716
+      },
+      {
+        "word": "grant",
+        "count": 3694
+      },
+      {
+        "word": "prevention",
+        "count": 3667
+      },
+      {
+        "word": "payment",
+        "count": 3619
+      },
+      {
+        "word": "industry",
+        "count": 3579
+      },
+      {
+        "word": "enforcement",
+        "count": 3517
+      },
+      {
+        "word": "lobbied",
+        "count": 3490
+      },
+      {
+        "word": "cuts",
+        "count": 3488
+      },
+      {
+        "word": "military",
+        "count": 3467
+      },
+      {
+        "word": "proposals",
+        "count": 3442
+      },
+      {
+        "word": "interior",
+        "count": 3435
+      },
+      {
+        "word": "coverage",
+        "count": 3432
+      },
+      {
+        "word": "investment",
+        "count": 3429
+      },
+      {
+        "word": "resources",
+        "count": 3428
+      },
+      {
+        "word": "workforce",
+        "count": 3406
+      },
+      {
+        "word": "new",
+        "count": 3401
+      },
+      {
+        "word": "community",
+        "count": 3359
+      },
+      {
+        "word": "res",
+        "count": 3324
+      }
+    ],
+    "2019": [
+      {
+        "word": "health",
+        "count": 23174
+      },
+      {
+        "word": "tax",
+        "count": 21366
+      },
+      {
+        "word": "development",
+        "count": 16381
+      },
+      {
+        "word": "energy",
+        "count": 16321
+      },
+      {
+        "word": "reform",
+        "count": 13354
+      },
+      {
+        "word": "education",
+        "count": 13209
+      },
+      {
+        "word": "defense",
+        "count": 12789
+      },
+      {
+        "word": "national",
+        "count": 12614
+      },
+      {
+        "word": "security",
+        "count": 12453
+      },
+      {
+        "word": "care",
+        "count": 11958
+      },
+      {
+        "word": "drug",
+        "count": 11827
+      },
+      {
+        "word": "implementation",
+        "count": 11422
+      },
+      {
+        "word": "water",
+        "count": 11321
+      },
+      {
+        "word": "services",
+        "count": 10767
+      },
+      {
+        "word": "research",
+        "count": 10713
+      },
+      {
+        "word": "medicare",
+        "count": 10456
+      },
+      {
+        "word": "transportation",
+        "count": 10149
+      },
+      {
+        "word": "infrastructure",
+        "count": 9782
+      },
+      {
+        "word": "relating",
+        "count": 9401
+      },
+      {
+        "word": "trade",
+        "count": 9206
+      },
+      {
+        "word": "access",
+        "count": 8697
+      },
+      {
+        "word": "protection",
+        "count": 8444
+      },
+      {
+        "word": "agencies",
+        "count": 7998
+      },
+      {
+        "word": "reauthorization",
+        "count": 7543
+      },
+      {
+        "word": "authorization",
+        "count": 7152
+      },
+      {
+        "word": "insurance",
+        "count": 7046
+      },
+      {
+        "word": "public",
+        "count": 6988
+      },
+      {
+        "word": "housing",
+        "count": 6895
+      },
+      {
+        "word": "medical",
+        "count": 6773
+      },
+      {
+        "word": "data",
+        "count": 6257
+      },
+      {
+        "word": "safety",
+        "count": 6173
+      },
+      {
+        "word": "financial",
+        "count": 5862
+      },
+      {
+        "word": "credit",
+        "count": 5844
+      },
+      {
+        "word": "technology",
+        "count": 5627
+      },
+      {
+        "word": "regulatory",
+        "count": 5507
+      },
+      {
+        "word": "fy2020",
+        "count": 5413
+      },
+      {
+        "word": "labor",
+        "count": 5394
+      },
+      {
+        "word": "state",
+        "count": 5234
+      },
+      {
+        "word": "administration",
+        "count": 5183
+      },
+      {
+        "word": "agriculture",
+        "count": 4907
+      },
+      {
+        "word": "law",
+        "count": 4906
+      },
+      {
+        "word": "fy20",
+        "count": 4864
+      },
+      {
+        "word": "privacy",
+        "count": 4845
+      },
+      {
+        "word": "united",
+        "count": 4823
+      },
+      {
+        "word": "states",
+        "count": 4772
+      },
+      {
+        "word": "service",
+        "count": 4747
+      },
+      {
+        "word": "year",
+        "count": 4663
+      },
+      {
+        "word": "medicaid",
+        "count": 4626
+      },
+      {
+        "word": "bills",
+        "count": 4565
+      },
+      {
+        "word": "legislative",
+        "count": 4552
+      },
+      {
+        "word": "use",
+        "count": 4507
+      },
+      {
+        "word": "rule",
+        "count": 4471
+      },
+      {
+        "word": "fiscal",
+        "count": 4422
+      },
+      {
+        "word": "food",
+        "count": 4312
+      },
+      {
+        "word": "pricing",
+        "count": 4296
+      },
+      {
+        "word": "foreign",
+        "count": 4244
+      },
+      {
+        "word": "community",
+        "count": 4186
+      },
+      {
+        "word": "rural",
+        "count": 4182
+      },
+      {
+        "word": "science",
+        "count": 4177
+      },
+      {
+        "word": "consumer",
+        "count": 4158
+      },
+      {
+        "word": "grant",
+        "count": 4138
+      },
+      {
+        "word": "human",
+        "count": 4131
+      },
+      {
+        "word": "international",
+        "count": 4066
+      },
+      {
+        "word": "purposes",
+        "count": 3971
+      },
+      {
+        "word": "prescription",
+        "count": 3951
+      },
+      {
+        "word": "provide",
+        "count": 3926
+      },
+      {
+        "word": "management",
+        "count": 3900
+      },
+      {
+        "word": "pertaining",
+        "count": 3897
+      },
+      {
+        "word": "part",
+        "count": 3868
+      },
+      {
+        "word": "industry",
+        "count": 3856
+      },
+      {
+        "word": "consolidated",
+        "count": 3854
+      },
+      {
+        "word": "standards",
+        "count": 3795
+      },
+      {
+        "word": "justice",
+        "count": 3783
+      },
+      {
+        "word": "transparency",
+        "count": 3748
+      },
+      {
+        "word": "retirement",
+        "count": 3726
+      },
+      {
+        "word": "specific",
+        "count": 3723
+      },
+      {
+        "word": "enforcement",
+        "count": 3712
+      },
+      {
+        "word": "new",
+        "count": 3686
+      },
+      {
+        "word": "costs",
+        "count": 3624
+      },
+      {
+        "word": "lobbied",
+        "count": 3619
+      },
+      {
+        "word": "payment",
+        "count": 3612
+      },
+      {
+        "word": "relief",
+        "count": 3602
+      },
+      {
+        "word": "workforce",
+        "count": 3550
+      },
+      {
+        "word": "business",
+        "count": 3508
+      },
+      {
+        "word": "products",
+        "count": 3485
+      },
+      {
+        "word": "amend",
+        "count": 3450
+      },
+      {
+        "word": "veterans",
+        "count": 3425
+      },
+      {
+        "word": "affordable",
+        "count": 3422
+      },
+      {
+        "word": "investment",
+        "count": 3403
+      },
+      {
+        "word": "interior",
+        "count": 3358
+      },
+      {
+        "word": "military",
+        "count": 3354
+      },
+      {
+        "word": "clean",
+        "count": 3295
+      },
+      {
+        "word": "monitoring",
+        "count": 3278
+      },
+      {
+        "word": "proposals",
+        "count": 3274
+      },
+      {
+        "word": "generally",
+        "count": 3244
+      },
+      {
+        "word": "information",
+        "count": 3236
+      },
+      {
+        "word": "system",
+        "count": 3222
+      },
+      {
+        "word": "operations",
+        "count": 3197
+      },
+      {
+        "word": "treatment",
+        "count": 3192
+      },
+      {
+        "word": "jobs",
+        "count": 3192
+      }
+    ],
+    "2020": [
+      {
+        "word": "health",
+        "count": 34693
+      },
+      {
+        "word": "covid-19",
+        "count": 23639
+      },
+      {
+        "word": "tax",
+        "count": 22599
+      },
+      {
+        "word": "relief",
+        "count": 22095
+      },
+      {
+        "word": "coronavirus",
+        "count": 20900
+      },
+      {
+        "word": "security",
+        "count": 20429
+      },
+      {
+        "word": "energy",
+        "count": 19189
+      },
+      {
+        "word": "development",
+        "count": 18198
+      },
+      {
+        "word": "response",
+        "count": 17419
+      },
+      {
+        "word": "cares",
+        "count": 17121
+      },
+      {
+        "word": "national",
+        "count": 16691
+      },
+      {
+        "word": "care",
+        "count": 16511
+      },
+      {
+        "word": "protection",
+        "count": 15817
+      },
+      {
+        "word": "defense",
+        "count": 15721
+      },
+      {
+        "word": "economic",
+        "count": 15598
+      },
+      {
+        "word": "education",
+        "count": 14403
+      },
+      {
+        "word": "implementation",
+        "count": 14223
+      },
+      {
+        "word": "infrastructure",
+        "count": 13981
+      },
+      {
+        "word": "public",
+        "count": 13973
+      },
+      {
+        "word": "services",
+        "count": 13536
+      },
+      {
+        "word": "reform",
+        "count": 12928
+      },
+      {
+        "word": "water",
+        "count": 12897
+      },
+      {
+        "word": "medicare",
+        "count": 12884
+      },
+      {
+        "word": "research",
+        "count": 12816
+      },
+      {
+        "word": "drug",
+        "count": 12163
+      },
+      {
+        "word": "relating",
+        "count": 11910
+      },
+      {
+        "word": "transportation",
+        "count": 11641
+      },
+      {
+        "word": "access",
+        "count": 11598
+      },
+      {
+        "word": "emergency",
+        "count": 11339
+      },
+      {
+        "word": "authorization",
+        "count": 9857
+      },
+      {
+        "word": "trade",
+        "count": 9360
+      },
+      {
+        "word": "heroes",
+        "count": 9098
+      },
+      {
+        "word": "law",
+        "count": 8649
+      },
+      {
+        "word": "credit",
+        "count": 8586
+      },
+      {
+        "word": "safety",
+        "count": 8472
+      },
+      {
+        "word": "agencies",
+        "count": 8429
+      },
+      {
+        "word": "medical",
+        "count": 8424
+      },
+      {
+        "word": "insurance",
+        "count": 8267
+      },
+      {
+        "word": "aid",
+        "count": 7898
+      },
+      {
+        "word": "data",
+        "count": 7845
+      },
+      {
+        "word": "assistance",
+        "count": 7839
+      },
+      {
+        "word": "housing",
+        "count": 7547
+      },
+      {
+        "word": "families",
+        "count": 7465
+      },
+      {
+        "word": "financial",
+        "count": 7263
+      },
+      {
+        "word": "business",
+        "count": 7234
+      },
+      {
+        "word": "fiscal",
+        "count": 7119
+      },
+      {
+        "word": "pandemic",
+        "count": 6970
+      },
+      {
+        "word": "year",
+        "count": 6929
+      },
+      {
+        "word": "reauthorization",
+        "count": 6919
+      },
+      {
+        "word": "technology",
+        "count": 6897
+      },
+      {
+        "word": "small",
+        "count": 6834
+      },
+      {
+        "word": "medicaid",
+        "count": 6671
+      },
+      {
+        "word": "state",
+        "count": 6420
+      },
+      {
+        "word": "regulatory",
+        "count": 6253
+      },
+      {
+        "word": "first",
+        "count": 6193
+      },
+      {
+        "word": "provide",
+        "count": 6192
+      },
+      {
+        "word": "fy2021",
+        "count": 6147
+      },
+      {
+        "word": "purposes",
+        "count": 6139
+      },
+      {
+        "word": "labor",
+        "count": 5935
+      },
+      {
+        "word": "states",
+        "count": 5908
+      },
+      {
+        "word": "legislative",
+        "count": 5834
+      },
+      {
+        "word": "supplemental",
+        "count": 5775
+      },
+      {
+        "word": "consolidated",
+        "count": 5766
+      },
+      {
+        "word": "recovery",
+        "count": 5713
+      },
+      {
+        "word": "use",
+        "count": 5711
+      },
+      {
+        "word": "industry",
+        "count": 5702
+      },
+      {
+        "word": "privacy",
+        "count": 5681
+      },
+      {
+        "word": "administration",
+        "count": 5562
+      },
+      {
+        "word": "american",
+        "count": 5554
+      },
+      {
+        "word": "united",
+        "count": 5554
+      },
+      {
+        "word": "bills",
+        "count": 5536
+      },
+      {
+        "word": "service",
+        "count": 5533
+      },
+      {
+        "word": "rule",
+        "count": 5506
+      },
+      {
+        "word": "fy21",
+        "count": 5505
+      },
+      {
+        "word": "covid",
+        "count": 5332
+      },
+      {
+        "word": "clean",
+        "count": 5249
+      },
+      {
+        "word": "116-136",
+        "count": 5141
+      },
+      {
+        "word": "consumer",
+        "count": 5054
+      },
+      {
+        "word": "local",
+        "count": 4969
+      },
+      {
+        "word": "costs",
+        "count": 4930
+      },
+      {
+        "word": "rural",
+        "count": 4922
+      },
+      {
+        "word": "community",
+        "count": 4866
+      },
+      {
+        "word": "pricing",
+        "count": 4840
+      },
+      {
+        "word": "workforce",
+        "count": 4816
+      },
+      {
+        "word": "justice",
+        "count": 4774
+      },
+      {
+        "word": "coverage",
+        "count": 4760
+      },
+      {
+        "word": "america",
+        "count": 4759
+      },
+      {
+        "word": "innovation",
+        "count": 4649
+      },
+      {
+        "word": "food",
+        "count": 4622
+      },
+      {
+        "word": "payment",
+        "count": 4568
+      },
+      {
+        "word": "agriculture",
+        "count": 4475
+      },
+      {
+        "word": "grant",
+        "count": 4462
+      },
+      {
+        "word": "proposals",
+        "count": 4456
+      },
+      {
+        "word": "paycheck",
+        "count": 4441
+      },
+      {
+        "word": "international",
+        "count": 4406
+      },
+      {
+        "word": "amend",
+        "count": 4396
+      },
+      {
+        "word": "preparedness",
+        "count": 4396
+      },
+      {
+        "word": "new",
+        "count": 4394
+      },
+      {
+        "word": "science",
+        "count": 4365
+      },
+      {
+        "word": "congressional",
+        "count": 4346
+      }
+    ],
+    "2021": [
+      {
+        "word": "infrastructure",
+        "count": 26876
+      },
+      {
+        "word": "health",
+        "count": 26434
+      },
+      {
+        "word": "tax",
+        "count": 22763
+      },
+      {
+        "word": "energy",
+        "count": 19717
+      },
+      {
+        "word": "development",
+        "count": 16976
+      },
+      {
+        "word": "american",
+        "count": 16588
+      },
+      {
+        "word": "national",
+        "count": 14483
+      },
+      {
+        "word": "defense",
+        "count": 14093
+      },
+      {
+        "word": "implementation",
+        "count": 14061
+      },
+      {
+        "word": "plan",
+        "count": 13812
+      },
+      {
+        "word": "transportation",
+        "count": 13547
+      },
+      {
+        "word": "covid-19",
+        "count": 13350
+      },
+      {
+        "word": "security",
+        "count": 12980
+      },
+      {
+        "word": "education",
+        "count": 12909
+      },
+      {
+        "word": "services",
+        "count": 12822
+      },
+      {
+        "word": "medicare",
+        "count": 12439
+      },
+      {
+        "word": "care",
+        "count": 11949
+      },
+      {
+        "word": "research",
+        "count": 11460
+      },
+      {
+        "word": "water",
+        "count": 11431
+      },
+      {
+        "word": "reform",
+        "count": 11353
+      },
+      {
+        "word": "relating",
+        "count": 11164
+      },
+      {
+        "word": "relief",
+        "count": 11144
+      },
+      {
+        "word": "access",
+        "count": 10896
+      },
+      {
+        "word": "public",
+        "count": 10224
+      },
+      {
+        "word": "rescue",
+        "count": 9914
+      },
+      {
+        "word": "investment",
+        "count": 9137
+      },
+      {
+        "word": "jobs",
+        "count": 8819
+      },
+      {
+        "word": "better",
+        "count": 8611
+      },
+      {
+        "word": "protection",
+        "count": 8590
+      },
+      {
+        "word": "drug",
+        "count": 8405
+      },
+      {
+        "word": "credit",
+        "count": 8403
+      },
+      {
+        "word": "build",
+        "count": 8300
+      },
+      {
+        "word": "agencies",
+        "count": 8264
+      },
+      {
+        "word": "authorization",
+        "count": 8204
+      },
+      {
+        "word": "clean",
+        "count": 8034
+      },
+      {
+        "word": "back",
+        "count": 8032
+      },
+      {
+        "word": "trade",
+        "count": 7301
+      },
+      {
+        "word": "housing",
+        "count": 7181
+      },
+      {
+        "word": "fy22",
+        "count": 6912
+      },
+      {
+        "word": "america",
+        "count": 6867
+      },
+      {
+        "word": "technology",
+        "count": 6850
+      },
+      {
+        "word": "fiscal",
+        "count": 6744
+      },
+      {
+        "word": "safety",
+        "count": 6509
+      },
+      {
+        "word": "labor",
+        "count": 6503
+      },
+      {
+        "word": "data",
+        "count": 6498
+      },
+      {
+        "word": "financial",
+        "count": 6397
+      },
+      {
+        "word": "year",
+        "count": 6365
+      },
+      {
+        "word": "states",
+        "count": 6340
+      },
+      {
+        "word": "reauthorization",
+        "count": 6246
+      },
+      {
+        "word": "fy2022",
+        "count": 6104
+      },
+      {
+        "word": "innovation",
+        "count": 6063
+      },
+      {
+        "word": "assistance",
+        "count": 6039
+      },
+      {
+        "word": "legislative",
+        "count": 6024
+      },
+      {
+        "word": "medical",
+        "count": 5972
+      },
+      {
+        "word": "response",
+        "count": 5958
+      },
+      {
+        "word": "law",
+        "count": 5935
+      },
+      {
+        "word": "community",
+        "count": 5863
+      },
+      {
+        "word": "insurance",
+        "count": 5664
+      },
+      {
+        "word": "provide",
+        "count": 5649
+      },
+      {
+        "word": "united",
+        "count": 5590
+      },
+      {
+        "word": "medicaid",
+        "count": 5574
+      },
+      {
+        "word": "proposals",
+        "count": 5408
+      },
+      {
+        "word": "economic",
+        "count": 5396
+      },
+      {
+        "word": "industry",
+        "count": 5333
+      },
+      {
+        "word": "state",
+        "count": 5279
+      },
+      {
+        "word": "emergency",
+        "count": 5217
+      },
+      {
+        "word": "workforce",
+        "count": 5198
+      },
+      {
+        "word": "bills",
+        "count": 5188
+      },
+      {
+        "word": "pertaining",
+        "count": 5111
+      },
+      {
+        "word": "administration",
+        "count": 5054
+      },
+      {
+        "word": "broadband",
+        "count": 5048
+      },
+      {
+        "word": "climate",
+        "count": 5037
+      },
+      {
+        "word": "regulatory",
+        "count": 4993
+      },
+      {
+        "word": "use",
+        "count": 4962
+      },
+      {
+        "word": "grant",
+        "count": 4954
+      },
+      {
+        "word": "covid",
+        "count": 4938
+      },
+      {
+        "word": "purposes",
+        "count": 4897
+      },
+      {
+        "word": "manufacturing",
+        "count": 4882
+      },
+      {
+        "word": "pandemic",
+        "count": 4866
+      },
+      {
+        "word": "monitoring",
+        "count": 4748
+      },
+      {
+        "word": "service",
+        "count": 4742
+      },
+      {
+        "word": "supply",
+        "count": 4679
+      },
+      {
+        "word": "agriculture",
+        "count": 4678
+      },
+      {
+        "word": "science",
+        "count": 4673
+      },
+      {
+        "word": "international",
+        "count": 4656
+      },
+      {
+        "word": "business",
+        "count": 4637
+      },
+      {
+        "word": "generally",
+        "count": 4622
+      },
+      {
+        "word": "rural",
+        "count": 4593
+      },
+      {
+        "word": "justice",
+        "count": 4568
+      },
+      {
+        "word": "coverage",
+        "count": 4526
+      },
+      {
+        "word": "local",
+        "count": 4453
+      },
+      {
+        "word": "coronavirus",
+        "count": 4348
+      },
+      {
+        "word": "reconciliation",
+        "count": 4344
+      },
+      {
+        "word": "privacy",
+        "count": 4327
+      },
+      {
+        "word": "project",
+        "count": 4324
+      },
+      {
+        "word": "future",
+        "count": 4126
+      },
+      {
+        "word": "competition",
+        "count": 4118
+      },
+      {
+        "word": "small",
+        "count": 4108
+      },
+      {
+        "word": "treatment",
+        "count": 4096
+      },
+      {
+        "word": "food",
+        "count": 4043
+      }
+    ],
+    "2022": [
+      {
+        "word": "health",
+        "count": 33121
+      },
+      {
+        "word": "infrastructure",
+        "count": 28260
+      },
+      {
+        "word": "tax",
+        "count": 25362
+      },
+      {
+        "word": "energy",
+        "count": 22000
+      },
+      {
+        "word": "development",
+        "count": 21442
+      },
+      {
+        "word": "implementation",
+        "count": 18454
+      },
+      {
+        "word": "defense",
+        "count": 18412
+      },
+      {
+        "word": "national",
+        "count": 17867
+      },
+      {
+        "word": "services",
+        "count": 15771
+      },
+      {
+        "word": "care",
+        "count": 15372
+      },
+      {
+        "word": "security",
+        "count": 15017
+      },
+      {
+        "word": "access",
+        "count": 14574
+      },
+      {
+        "word": "education",
+        "count": 14501
+      },
+      {
+        "word": "medicare",
+        "count": 14172
+      },
+      {
+        "word": "research",
+        "count": 13757
+      },
+      {
+        "word": "water",
+        "count": 13082
+      },
+      {
+        "word": "reform",
+        "count": 12959
+      },
+      {
+        "word": "american",
+        "count": 12558
+      },
+      {
+        "word": "public",
+        "count": 12524
+      },
+      {
+        "word": "relating",
+        "count": 12364
+      },
+      {
+        "word": "investment",
+        "count": 12032
+      },
+      {
+        "word": "transportation",
+        "count": 11966
+      },
+      {
+        "word": "agencies",
+        "count": 11490
+      },
+      {
+        "word": "authorization",
+        "count": 10847
+      },
+      {
+        "word": "drug",
+        "count": 10631
+      },
+      {
+        "word": "jobs",
+        "count": 10344
+      },
+      {
+        "word": "protection",
+        "count": 10196
+      },
+      {
+        "word": "credit",
+        "count": 9857
+      },
+      {
+        "word": "better",
+        "count": 9591
+      },
+      {
+        "word": "covid-19",
+        "count": 9493
+      },
+      {
+        "word": "data",
+        "count": 9225
+      },
+      {
+        "word": "build",
+        "count": 9131
+      },
+      {
+        "word": "innovation",
+        "count": 9109
+      },
+      {
+        "word": "back",
+        "count": 8848
+      },
+      {
+        "word": "fiscal",
+        "count": 8648
+      },
+      {
+        "word": "year",
+        "count": 8614
+      },
+      {
+        "word": "reduction",
+        "count": 8507
+      },
+      {
+        "word": "consolidated",
+        "count": 8487
+      },
+      {
+        "word": "housing",
+        "count": 8426
+      },
+      {
+        "word": "safety",
+        "count": 8304
+      },
+      {
+        "word": "financial",
+        "count": 8218
+      },
+      {
+        "word": "law",
+        "count": 8216
+      },
+      {
+        "word": "trade",
+        "count": 8117
+      },
+      {
+        "word": "plan",
+        "count": 8014
+      },
+      {
+        "word": "relief",
+        "count": 7921
+      },
+      {
+        "word": "america",
+        "count": 7843
+      },
+      {
+        "word": "labor",
+        "count": 7755
+      },
+      {
+        "word": "fy23",
+        "count": 7686
+      },
+      {
+        "word": "technology",
+        "count": 7589
+      },
+      {
+        "word": "community",
+        "count": 7481
+      },
+      {
+        "word": "clean",
+        "count": 7408
+      },
+      {
+        "word": "workforce",
+        "count": 7268
+      },
+      {
+        "word": "states",
+        "count": 7254
+      },
+      {
+        "word": "privacy",
+        "count": 7027
+      },
+      {
+        "word": "administration",
+        "count": 6732
+      },
+      {
+        "word": "medical",
+        "count": 6623
+      },
+      {
+        "word": "supply",
+        "count": 6622
+      },
+      {
+        "word": "fy2023",
+        "count": 6613
+      },
+      {
+        "word": "inflation",
+        "count": 6565
+      },
+      {
+        "word": "reauthorization",
+        "count": 6540
+      },
+      {
+        "word": "legislative",
+        "count": 6532
+      },
+      {
+        "word": "competition",
+        "count": 6519
+      },
+      {
+        "word": "united",
+        "count": 6385
+      },
+      {
+        "word": "medicaid",
+        "count": 6187
+      },
+      {
+        "word": "science",
+        "count": 6185
+      },
+      {
+        "word": "service",
+        "count": 6119
+      },
+      {
+        "word": "provide",
+        "count": 6103
+      },
+      {
+        "word": "food",
+        "count": 6101
+      },
+      {
+        "word": "insurance",
+        "count": 6083
+      },
+      {
+        "word": "pertaining",
+        "count": 6066
+      },
+      {
+        "word": "generally",
+        "count": 6022
+      },
+      {
+        "word": "grant",
+        "count": 5987
+      },
+      {
+        "word": "project",
+        "count": 5881
+      },
+      {
+        "word": "proposals",
+        "count": 5872
+      },
+      {
+        "word": "industry",
+        "count": 5806
+      },
+      {
+        "word": "purposes",
+        "count": 5779
+      },
+      {
+        "word": "use",
+        "count": 5767
+      },
+      {
+        "word": "retirement",
+        "count": 5759
+      },
+      {
+        "word": "assistance",
+        "count": 5751
+      },
+      {
+        "word": "state",
+        "count": 5552
+      },
+      {
+        "word": "manufacturing",
+        "count": 5551
+      },
+      {
+        "word": "broadband",
+        "count": 5503
+      },
+      {
+        "word": "regulatory",
+        "count": 5502
+      },
+      {
+        "word": "coverage",
+        "count": 5439
+      },
+      {
+        "word": "agriculture",
+        "count": 5394
+      },
+      {
+        "word": "climate",
+        "count": 5384
+      },
+      {
+        "word": "rural",
+        "count": 5341
+      },
+      {
+        "word": "business",
+        "count": 5291
+      },
+      {
+        "word": "modernization",
+        "count": 5260
+      },
+      {
+        "word": "international",
+        "count": 5240
+      },
+      {
+        "word": "telehealth",
+        "count": 5207
+      },
+      {
+        "word": "economic",
+        "count": 5204
+      },
+      {
+        "word": "emergency",
+        "count": 5178
+      },
+      {
+        "word": "mental",
+        "count": 5112
+      },
+      {
+        "word": "bills",
+        "count": 5097
+      },
+      {
+        "word": "justice",
+        "count": 4943
+      },
+      {
+        "word": "management",
+        "count": 4876
+      },
+      {
+        "word": "small",
+        "count": 4806
+      },
+      {
+        "word": "monitoring",
+        "count": 4783
+      },
+      {
+        "word": "chain",
+        "count": 4781
+      }
+    ],
+    "2024": [
+      {
+        "word": "health",
+        "count": 29415
+      },
+      {
+        "word": "tax",
+        "count": 22127
+      },
+      {
+        "word": "development",
+        "count": 20590
+      },
+      {
+        "word": "national",
+        "count": 19354
+      },
+      {
+        "word": "implementation",
+        "count": 18843
+      },
+      {
+        "word": "defense",
+        "count": 18694
+      },
+      {
+        "word": "energy",
+        "count": 17402
+      },
+      {
+        "word": "infrastructure",
+        "count": 16084
+      },
+      {
+        "word": "security",
+        "count": 15565
+      },
+      {
+        "word": "access",
+        "count": 15437
+      },
+      {
+        "word": "care",
+        "count": 15402
+      },
+      {
+        "word": "services",
+        "count": 15230
+      },
+      {
+        "word": "education",
+        "count": 14405
+      },
+      {
+        "word": "medicare",
+        "count": 12696
+      },
+      {
+        "word": "research",
+        "count": 12432
+      },
+      {
+        "word": "agencies",
+        "count": 12356
+      },
+      {
+        "word": "relating",
+        "count": 12221
+      },
+      {
+        "word": "water",
+        "count": 11323
+      },
+      {
+        "word": "reform",
+        "count": 10948
+      },
+      {
+        "word": "authorization",
+        "count": 10668
+      },
+      {
+        "word": "reauthorization",
+        "count": 10295
+      },
+      {
+        "word": "public",
+        "count": 9851
+      },
+      {
+        "word": "safety",
+        "count": 9750
+      },
+      {
+        "word": "reduction",
+        "count": 9355
+      },
+      {
+        "word": "transportation",
+        "count": 9096
+      },
+      {
+        "word": "american",
+        "count": 9052
+      },
+      {
+        "word": "workforce",
+        "count": 8922
+      },
+      {
+        "word": "protection",
+        "count": 8702
+      },
+      {
+        "word": "fy25",
+        "count": 8467
+      },
+      {
+        "word": "drug",
+        "count": 8453
+      },
+      {
+        "word": "housing",
+        "count": 8453
+      },
+      {
+        "word": "credit",
+        "count": 8369
+      },
+      {
+        "word": "fiscal",
+        "count": 8327
+      },
+      {
+        "word": "data",
+        "count": 8177
+      },
+      {
+        "word": "year",
+        "count": 8080
+      },
+      {
+        "word": "community",
+        "count": 7912
+      },
+      {
+        "word": "rule",
+        "count": 7734
+      },
+      {
+        "word": "financial",
+        "count": 7641
+      },
+      {
+        "word": "investment",
+        "count": 7521
+      },
+      {
+        "word": "technology",
+        "count": 7454
+      },
+      {
+        "word": "inflation",
+        "count": 7390
+      },
+      {
+        "word": "trade",
+        "count": 7178
+      },
+      {
+        "word": "labor",
+        "count": 7033
+      },
+      {
+        "word": "privacy",
+        "count": 6975
+      },
+      {
+        "word": "law",
+        "count": 6747
+      },
+      {
+        "word": "administration",
+        "count": 6607
+      },
+      {
+        "word": "grant",
+        "count": 6325
+      },
+      {
+        "word": "farm",
+        "count": 6276
+      },
+      {
+        "word": "food",
+        "count": 6262
+      },
+      {
+        "word": "insurance",
+        "count": 6216
+      },
+      {
+        "word": "transparency",
+        "count": 6171
+      },
+      {
+        "word": "supply",
+        "count": 6140
+      },
+      {
+        "word": "pertaining",
+        "count": 6010
+      },
+      {
+        "word": "medical",
+        "count": 5907
+      },
+      {
+        "word": "project",
+        "count": 5882
+      },
+      {
+        "word": "medicaid",
+        "count": 5788
+      },
+      {
+        "word": "science",
+        "count": 5663
+      },
+      {
+        "word": "service",
+        "count": 5615
+      },
+      {
+        "word": "management",
+        "count": 5591
+      },
+      {
+        "word": "rural",
+        "count": 5577
+      },
+      {
+        "word": "innovation",
+        "count": 5573
+      },
+      {
+        "word": "jobs",
+        "count": 5549
+      },
+      {
+        "word": "agriculture",
+        "count": 5545
+      },
+      {
+        "word": "bills",
+        "count": 5475
+      },
+      {
+        "word": "states",
+        "count": 5395
+      },
+      {
+        "word": "purposes",
+        "count": 5326
+      },
+      {
+        "word": "use",
+        "count": 5297
+      },
+      {
+        "word": "relief",
+        "count": 5252
+      },
+      {
+        "word": "industry",
+        "count": 5208
+      },
+      {
+        "word": "united",
+        "count": 5174
+      },
+      {
+        "word": "legislative",
+        "count": 5120
+      },
+      {
+        "word": "fy2025",
+        "count": 5109
+      },
+      {
+        "word": "regulatory",
+        "count": 5076
+      },
+      {
+        "word": "intelligence",
+        "count": 4985
+      },
+      {
+        "word": "provide",
+        "count": 4873
+      },
+      {
+        "word": "generally",
+        "count": 4849
+      },
+      {
+        "word": "discussions",
+        "count": 4843
+      },
+      {
+        "word": "payment",
+        "count": 4827
+      },
+      {
+        "word": "proposals",
+        "count": 4781
+      },
+      {
+        "word": "clean",
+        "count": 4704
+      },
+      {
+        "word": "manufacturing",
+        "count": 4686
+      },
+      {
+        "word": "congressional",
+        "count": 4679
+      },
+      {
+        "word": "standards",
+        "count": 4677
+      },
+      {
+        "word": "aviation",
+        "count": 4664
+      },
+      {
+        "word": "state",
+        "count": 4627
+      },
+      {
+        "word": "res",
+        "count": 4621
+      },
+      {
+        "word": "business",
+        "count": 4615
+      },
+      {
+        "word": "coverage",
+        "count": 4581
+      },
+      {
+        "word": "amend",
+        "count": 4492
+      },
+      {
+        "word": "assistance",
+        "count": 4482
+      },
+      {
+        "word": "rights",
+        "count": 4480
+      },
+      {
+        "word": "improvement",
+        "count": 4407
+      },
+      {
+        "word": "human",
+        "count": 4404
+      },
+      {
+        "word": "foreign",
+        "count": 4400
+      },
+      {
+        "word": "projects",
+        "count": 4399
+      },
+      {
+        "word": "international",
+        "count": 4373
+      },
+      {
+        "word": "justice",
+        "count": 4309
+      },
+      {
+        "word": "monitoring",
+        "count": 4291
+      },
+      {
+        "word": "chain",
+        "count": 4254
+      },
+      {
+        "word": "enforcement",
+        "count": 4161
+      }
+    ],
+    "2025": [
+      {
+        "word": "tax",
+        "count": 26162
+      },
+      {
+        "word": "health",
+        "count": 24261
+      },
+      {
+        "word": "defense",
+        "count": 20697
+      },
+      {
+        "word": "development",
+        "count": 18597
+      },
+      {
+        "word": "energy",
+        "count": 17778
+      },
+      {
+        "word": "national",
+        "count": 16559
+      },
+      {
+        "word": "implementation",
+        "count": 14883
+      },
+      {
+        "word": "services",
+        "count": 14447
+      },
+      {
+        "word": "security",
+        "count": 14246
+      },
+      {
+        "word": "infrastructure",
+        "count": 14114
+      },
+      {
+        "word": "education",
+        "count": 13770
+      },
+      {
+        "word": "care",
+        "count": 13270
+      },
+      {
+        "word": "access",
+        "count": 12738
+      },
+      {
+        "word": "research",
+        "count": 12283
+      },
+      {
+        "word": "medicare",
+        "count": 11678
+      },
+      {
+        "word": "reform",
+        "count": 11266
+      },
+      {
+        "word": "relating",
+        "count": 11033
+      },
+      {
+        "word": "agencies",
+        "count": 10998
+      },
+      {
+        "word": "water",
+        "count": 10743
+      },
+      {
+        "word": "trade",
+        "count": 10552
+      },
+      {
+        "word": "big",
+        "count": 10265
+      },
+      {
+        "word": "beautiful",
+        "count": 10116
+      },
+      {
+        "word": "fy26",
+        "count": 10065
+      },
+      {
+        "word": "authorization",
+        "count": 10059
+      },
+      {
+        "word": "transportation",
+        "count": 10025
+      },
+      {
+        "word": "one",
+        "count": 9972
+      },
+      {
+        "word": "public",
+        "count": 9587
+      },
+      {
+        "word": "reauthorization",
+        "count": 9122
+      },
+      {
+        "word": "credit",
+        "count": 8651
+      },
+      {
+        "word": "safety",
+        "count": 8387
+      },
+      {
+        "word": "housing",
+        "count": 8346
+      },
+      {
+        "word": "community",
+        "count": 7773
+      },
+      {
+        "word": "drug",
+        "count": 7698
+      },
+      {
+        "word": "technology",
+        "count": 7573
+      },
+      {
+        "word": "protection",
+        "count": 7536
+      },
+      {
+        "word": "medicaid",
+        "count": 7395
+      },
+      {
+        "word": "fiscal",
+        "count": 7318
+      },
+      {
+        "word": "workforce",
+        "count": 7270
+      },
+      {
+        "word": "year",
+        "count": 7216
+      },
+      {
+        "word": "data",
+        "count": 7146
+      },
+      {
+        "word": "financial",
+        "count": 6892
+      },
+      {
+        "word": "administration",
+        "count": 6343
+      },
+      {
+        "word": "industry",
+        "count": 6299
+      },
+      {
+        "word": "law",
+        "count": 6278
+      },
+      {
+        "word": "fy2026",
+        "count": 6243
+      },
+      {
+        "word": "labor",
+        "count": 6217
+      },
+      {
+        "word": "supply",
+        "count": 6146
+      },
+      {
+        "word": "investment",
+        "count": 6037
+      },
+      {
+        "word": "manufacturing",
+        "count": 6012
+      },
+      {
+        "word": "pertaining",
+        "count": 6001
+      },
+      {
+        "word": "legislative",
+        "count": 5921
+      },
+      {
+        "word": "project",
+        "count": 5912
+      },
+      {
+        "word": "regulatory",
+        "count": 5778
+      },
+      {
+        "word": "tariffs",
+        "count": 5774
+      },
+      {
+        "word": "grant",
+        "count": 5763
+      },
+      {
+        "word": "intelligence",
+        "count": 5731
+      },
+      {
+        "word": "medical",
+        "count": 5625
+      },
+      {
+        "word": "discussions",
+        "count": 5505
+      },
+      {
+        "word": "reduction",
+        "count": 5490
+      },
+      {
+        "word": "international",
+        "count": 5470
+      },
+      {
+        "word": "agriculture",
+        "count": 5465
+      },
+      {
+        "word": "privacy",
+        "count": 5441
+      },
+      {
+        "word": "rule",
+        "count": 5345
+      },
+      {
+        "word": "food",
+        "count": 5341
+      },
+      {
+        "word": "states",
+        "count": 5339
+      },
+      {
+        "word": "service",
+        "count": 5333
+      },
+      {
+        "word": "insurance",
+        "count": 5297
+      },
+      {
+        "word": "business",
+        "count": 5227
+      },
+      {
+        "word": "generally",
+        "count": 5222
+      },
+      {
+        "word": "congressional",
+        "count": 5208
+      },
+      {
+        "word": "provide",
+        "count": 5178
+      },
+      {
+        "word": "state",
+        "count": 5119
+      },
+      {
+        "word": "united",
+        "count": 5095
+      },
+      {
+        "word": "proposals",
+        "count": 5082
+      },
+      {
+        "word": "management",
+        "count": 5062
+      },
+      {
+        "word": "bills",
+        "count": 5053
+      },
+      {
+        "word": "use",
+        "count": 5002
+      },
+      {
+        "word": "american",
+        "count": 4987
+      },
+      {
+        "word": "payment",
+        "count": 4847
+      },
+      {
+        "word": "res",
+        "count": 4797
+      },
+      {
+        "word": "artificial",
+        "count": 4723
+      },
+      {
+        "word": "science",
+        "count": 4706
+      },
+      {
+        "word": "rural",
+        "count": 4550
+      },
+      {
+        "word": "specific",
+        "count": 4511
+      },
+      {
+        "word": "farm",
+        "count": 4457
+      },
+      {
+        "word": "digital",
+        "count": 4411
+      },
+      {
+        "word": "projects",
+        "count": 4402
+      },
+      {
+        "word": "continuing",
+        "count": 4344
+      },
+      {
+        "word": "foreign",
+        "count": 4307
+      },
+      {
+        "word": "coverage",
+        "count": 4293
+      },
+      {
+        "word": "innovation",
+        "count": 4248
+      },
+      {
+        "word": "inflation",
+        "count": 4202
+      },
+      {
+        "word": "economic",
+        "count": 4170
+      },
+      {
+        "word": "clean",
+        "count": 4141
+      },
+      {
+        "word": "chain",
+        "count": 4137
+      },
+      {
+        "word": "advocacy",
+        "count": 4135
+      },
+      {
+        "word": "healthcare",
+        "count": 4128
+      },
+      {
+        "word": "impacting",
+        "count": 4106
+      },
+      {
+        "word": "assistance",
+        "count": 4086
+      },
+      {
+        "word": "products",
+        "count": 4064
+      }
+    ]
+  },
+  "trendingWords": [
+    {
+      "word": "fy2026",
+      "latestCount": 6243,
+      "avgPrior": 16,
+      "growthPercent": 38516
+    },
+    {
+      "word": "fy26",
+      "latestCount": 10065,
+      "avgPrior": 27,
+      "growthPercent": 36949
+    },
+    {
+      "word": "beautiful",
+      "latestCount": 10116,
+      "avgPrior": 32,
+      "growthPercent": 31513
+    },
+    {
+      "word": "full-year",
+      "latestCount": 1799,
+      "avgPrior": 9,
+      "growthPercent": 20658
+    },
+    {
+      "word": "big",
+      "latestCount": 10265,
+      "avgPrior": 180,
+      "growthPercent": 5608
+    },
+    {
+      "word": "ieepa",
+      "latestCount": 331,
+      "avgPrior": 6,
+      "growthPercent": 5417
+    },
+    {
+      "word": "cash-paying",
+      "latestCount": 207,
+      "avgPrior": 5,
+      "growthPercent": 4040
+    },
+    {
+      "word": "one",
+      "latestCount": 9972,
+      "avgPrior": 385,
+      "growthPercent": 2489
+    },
+    {
+      "word": "48e",
+      "latestCount": 224,
+      "avgPrior": 12,
+      "growthPercent": 1741
+    },
+    {
+      "word": "fifa",
+      "latestCount": 186,
+      "avgPrior": 11,
+      "growthPercent": 1671
+    },
+    {
+      "word": "rescissions",
+      "latestCount": 261,
+      "avgPrior": 15,
+      "growthPercent": 1621
+    },
+    {
+      "word": "arrington",
+      "latestCount": 92,
+      "avgPrior": 6,
+      "growthPercent": 1477
+    },
+    {
+      "word": "cramer",
+      "latestCount": 84,
+      "avgPrior": 6,
+      "growthPercent": 1427
+    },
+    {
+      "word": "118th",
+      "latestCount": 1299,
+      "avgPrior": 91,
+      "growthPercent": 1330
+    },
+    {
+      "word": "defi",
+      "latestCount": 83,
+      "avgPrior": 6,
+      "growthPercent": 1283
+    },
+    {
+      "word": "2025\"",
+      "latestCount": 77,
+      "avgPrior": 6,
+      "growthPercent": 1259
+    },
+    {
+      "word": "guiding",
+      "latestCount": 147,
+      "avgPrior": 12,
+      "growthPercent": 1178
+    },
+    {
+      "word": "turkeys",
+      "latestCount": 103,
+      "avgPrior": 8,
+      "growthPercent": 1161
+    },
+    {
+      "word": "45z",
+      "latestCount": 469,
+      "avgPrior": 38,
+      "growthPercent": 1134
+    },
+    {
+      "word": "cup",
+      "latestCount": 312,
+      "avgPrior": 26,
+      "growthPercent": 1100
+    },
+    {
+      "word": "epic",
+      "latestCount": 231,
+      "avgPrior": 19,
+      "growthPercent": 1095
+    },
+    {
+      "word": "on-site",
+      "latestCount": 242,
+      "avgPrior": 21,
+      "growthPercent": 1071
+    },
+    {
+      "word": "tips",
+      "latestCount": 99,
+      "avgPrior": 9,
+      "growthPercent": 1065
+    },
+    {
+      "word": "subcontractor",
+      "latestCount": 60,
+      "avgPrior": 5,
+      "growthPercent": 1061
+    },
+    {
+      "word": "confirmations",
+      "latestCount": 143,
+      "avgPrior": 13,
+      "growthPercent": 1044
+    },
+    {
+      "word": "accept",
+      "latestCount": 432,
+      "avgPrior": 38,
+      "growthPercent": 1027
+    },
+    {
+      "word": "45y",
+      "latestCount": 93,
+      "avgPrior": 8,
+      "growthPercent": 1016
+    },
+    {
+      "word": "psychedelic",
+      "latestCount": 79,
+      "avgPrior": 7,
+      "growthPercent": 1002
+    },
+    {
+      "word": "45x",
+      "latestCount": 430,
+      "avgPrior": 39,
+      "growthPercent": 993
+    },
+    {
+      "word": "uzbekistan",
+      "latestCount": 58,
+      "avgPrior": 5,
+      "growthPercent": 988
+    },
+    {
+      "word": "dismantle",
+      "latestCount": 88,
+      "avgPrior": 8,
+      "growthPercent": 978
+    },
+    {
+      "word": "cancellations",
+      "latestCount": 77,
+      "avgPrior": 7,
+      "growthPercent": 974
+    },
+    {
+      "word": "equalize",
+      "latestCount": 77,
+      "avgPrior": 7,
+      "growthPercent": 974
+    },
+    {
+      "word": "ebit",
+      "latestCount": 55,
+      "avgPrior": 5,
+      "growthPercent": 965
+    },
+    {
+      "word": "rose",
+      "latestCount": 90,
+      "avgPrior": 9,
+      "growthPercent": 959
+    },
+    {
+      "word": "bead",
+      "latestCount": 387,
+      "avgPrior": 37,
+      "growthPercent": 946
+    },
+    {
+      "word": "brother",
+      "latestCount": 61,
+      "avgPrior": 6,
+      "growthPercent": 946
+    },
+    {
+      "word": "ghana",
+      "latestCount": 73,
+      "avgPrior": 7,
+      "growthPercent": 919
+    },
+    {
+      "word": "hpai",
+      "latestCount": 59,
+      "avgPrior": 6,
+      "growthPercent": 911
+    },
+    {
+      "word": "execution",
+      "latestCount": 629,
+      "avgPrior": 62,
+      "growthPercent": 909
+    },
+    {
+      "word": "org",
+      "latestCount": 102,
+      "avgPrior": 10,
+      "growthPercent": 903
+    },
+    {
+      "word": "endorsements",
+      "latestCount": 93,
+      "avgPrior": 9,
+      "growthPercent": 896
+    },
+    {
+      "word": "dominance",
+      "latestCount": 255,
+      "avgPrior": 26,
+      "growthPercent": 894
+    },
+    {
+      "word": "fhlbanks",
+      "latestCount": 56,
+      "avgPrior": 6,
+      "growthPercent": 888
+    },
+    {
+      "word": "pera",
+      "latestCount": 77,
+      "avgPrior": 8,
+      "growthPercent": 863
+    },
+    {
+      "word": "de-escalate",
+      "latestCount": 83,
+      "avgPrior": 9,
+      "growthPercent": 858
+    },
+    {
+      "word": "rev",
+      "latestCount": 70,
+      "avgPrior": 7,
+      "growthPercent": 855
+    },
+    {
+      "word": "etcs",
+      "latestCount": 70,
+      "avgPrior": 7,
+      "growthPercent": 855
+    },
+    {
+      "word": "ships",
+      "latestCount": 471,
+      "avgPrior": 50,
+      "growthPercent": 852
+    },
+    {
+      "word": "gras",
+      "latestCount": 95,
+      "avgPrior": 10,
+      "growthPercent": 850
+    }
+  ],
+  "topBills": [
+    {
+      "bill": "H.R. 5376",
+      "count": 10903,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "NATIONAL FRATERNAL ORDER OF POLICE",
+        "NATIONAL CENTER FOR MISSING AND EXPLOITED CHILDREN",
+        "META PLATFORMS, INC. AND VARIOUS SUBSIDIARIES",
+        "COMPTEL DBA INCOMPAS",
+        "THE INTERNET ASSOCIATION",
+        "DENBURY INC",
+        "BROWN BROTHERS HARRIMAN",
+        "NATIONAL ASSOCIATION OF CHAIN DRUG STORES",
+        "FRIEDKIN GROUP",
+        "BLINK CHARGING COMPANY",
+        "CENTER FOR BIOLOGICAL DIVERSITY",
+        "BLOOM ENERGY",
+        "ASSOCIATION OF METROPOLITAN WATER AGENCIES",
+        "NATIONAL ASSOCIATION OF SMALL TRUCKING COMPANIES",
+        "CONSERVATIVES FOR PROPERTY RIGHTS",
+        "RAI SERVICES COMPANY",
+        "ZERO EMISSION TRANSPORTATION ASSOCIATION",
+        "NATIONAL RURAL LETTER CARRIERS' ASSOCIATION",
+        "SELF-INSURANCE INSTITUTE OF AMERICA, INC.",
+        "SMART USA CO"
+      ],
+      "clientCount": 1736
+    },
+    {
+      "bill": "H.R. 1",
+      "count": 8924,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "THE WASHINGTON TAX & PUBLIC POLICY GROUP ON BEHALF OF INTEL CORPORATION",
+        "OWENS-ILLINOIS INC",
+        "YODLEE INC.",
+        "ACHIEVE",
+        "INDEXED ANNUITY LEADERSHIP COUNCIL",
+        "PACIFIC SEAFOOD PROCESSORS ASSOCIATION",
+        "NATIONAL VENTURE CAPITAL ASSOCIATION",
+        "CONSERVATIVES FOR PROPERTY RIGHTS",
+        "JOHNSON MATTHEY INC.",
+        "ALZHEIMER'S FOUNDATION OF AMERICA",
+        "PORTLAND GENERAL ELECTRIC",
+        "GENERAL CIGAR CO INC",
+        "NATIONAL THOROUGHBRED RACING ASSOCIATION",
+        "AMERICAN COUNCIL OF LIFE INSURERS",
+        "TENET HEALTHCARE CORPORATION",
+        "ENERGY NORTHWEST",
+        "SACRAMENTO MUNICIPAL UTILITY DISTRICT",
+        "TENNESSEE VALLEY PUBLIC POWER ASSOCIATION",
+        "MURPHY OIL CORPORATION",
+        "FEDERAL EXPRESS CORPORATION"
+      ],
+      "clientCount": 2039
+    },
+    {
+      "bill": "H.R. 748",
+      "count": 7361,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "PARTNERSHIP FOR EMPLOYER-SPONSORED COVERAGE",
+        "UNITED BROTHERHOOD OF CARPENTERS AND JOINERS OF AMERICA",
+        "SOCIETY FOR HUMAN RESOURCE MANAGEMENT",
+        "NATIONWIDE MUTUAL INSURANCE COMPANY",
+        "AMERICAN BENEFITS COUNCIL",
+        "ALLIANCE FOR RETIRED AMERICANS",
+        "NATIONAL ASSOCIATION OF PROFESSIONAL INSURANCE AGENTS",
+        "UNITED AUTOMOBILE AEROSPACE & AGRICULTURAL IMPLEMENT WORKERS",
+        "AFL-CIO",
+        "AMERICAN BANKERS ASSOCIATION",
+        "CIGNA CORPORATION",
+        "NATIONAL TELECOMMUNICATIONS COOPERATIVE ASSOCIATION",
+        "SCHOOL EMPLOYEES RETIREMENT SYSTEM OF OHIO",
+        "FREEDOMWORKS, INC.",
+        "CHAMBER OF COMMERCE OF THE U.S.A.",
+        "RAYTHEON COMPANY",
+        "AMERICAN BENEFITS COUNCIL OBO ALLIANCE TO FIGHT FOR HEALTH CARE",
+        "INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS",
+        "CHURCH ALLIANCE",
+        "ASSOCIATED BUILDERS AND CONTRACTORS INC"
+      ],
+      "clientCount": 1553
+    },
+    {
+      "bill": "H.R. 3684",
+      "count": 6146,
+      "years": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "AMERICAN SOCIETY OF LANDSCAPE ARCHITECTS",
+        "CLEARFLAME ENGINES, INC.",
+        "U.S. TIRE MANUFACTURERS ASSOCIATION",
+        "FIBER OPTIC SENSING ASSOCIATION",
+        "CITY OF WEST PALM BEACH",
+        "NATIONAL ASSOCIATION OF SURETY BOND PRODUCERS",
+        "NATIONAL TRUCK EQUIPMENT ASSOCIATION",
+        "PROFILE PRODUCTS, LLC",
+        "ASSOCIATION OF METROPOLITAN WATER AGENCIES",
+        "AMERICAN MOTORCYCLIST ASSOCIATION",
+        "AMERICAN SOYBEAN ASSOCIATION",
+        "CHARGEPOINT, INC.",
+        "NATIONAL WASTE & RECYCLING ASSOCIATION",
+        "CITY OF NEW BRAUNFELS, TEXAS",
+        "CITY OF MIDLAND, TEXAS",
+        "AMERICAN CONCRETE PIPE ASSOCIATION",
+        "ARTBA",
+        "TITAN AMERICA LLC",
+        "LYFT",
+        "BRIDGESTONE AMERICAS INC"
+      ],
+      "clientCount": 1064
+    },
+    {
+      "bill": "H.R.5376",
+      "count": 5904,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "RAPE ABUSE & INCEST NATIONAL NETWORK",
+        "MOLINA HEALTHCARE, INC.",
+        "AMERICAN INDUSTRIAL HYGIENE ASSOCIATION",
+        "AMERICAN AIRLINES, INC.",
+        "CHARTER COMMUNICATIONS, INC.",
+        "LOCKHEED MARTIN CORPORATION",
+        "HOSPICE ACTION NETWORK",
+        "NEXTERA ENERGY, INC.",
+        "PL+US: PAID LEAVE FOR THE UNITED STATES",
+        "PREMIUM CIGAR ASSOCIATION",
+        "CHRISTOPHER & DANA REEVE FOUNDATION",
+        "STANFORD UNIVERSITY",
+        "AMERICAN NETWORK OF COMMUNITY OPTIONS AND RESOURCES (ANCOR)",
+        "CENTERSTONE",
+        "NATIONAL COUNCIL FOR MENTAL WELLBEING FKA NATIONAL COUNCIL FOR BEHAVIORAL HEALTH",
+        "AMERICAN TOWER CORPORATION",
+        "TRADE CENTER MANAGEMENT ASSOCIATES, A DREW COMPANY",
+        "JFY NETWORKS",
+        "NEW ENGLAND CENTER FOR CHILDREN",
+        "COMMONWEALTH ZOOLOGICAL CORPORATION"
+      ],
+      "clientCount": 1057
+    },
+    {
+      "bill": "H.R. 1319",
+      "count": 5582,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "NATIONAL RIGHT TO WORK COMMITTEE",
+        "NATIONAL TAXPAYERS UNION",
+        "MID-TIER ADVOCACY",
+        "ASSOCIATION OF FLIGHT ATTENDANTS-CWA",
+        "NATIONAL RETIREMENT FUND",
+        "THE MARINE RETAILERS ASSOCIATION OF THE AMERICAS",
+        "CALIFORNIA AND NEVADA CREDIT UNION LEAGUES",
+        "REVVITY, INC.",
+        "INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS LOCAL #98",
+        "FINISHING TRADES INSTITUTE OF THE MID ATLANTIC REGION",
+        "STEAMFITTERS LOCAL 420",
+        "NATIONAL ELECTRICAL CONTRACTORS ASSOCIATION - PENN-DEL-JERSEY CHAPTER",
+        "M&SCA OF EASTERN PENNSYLVANIA",
+        "THE AMERICAN COUNCIL OF INDEPENDENT LABORATORIES",
+        "AMERICAN SUBCONTRACTORS ASSOCIATION",
+        "WORKERS INJURY LAW & ADVOCACY GROUP",
+        "WRITERS GUILD OF AMERICA, WEST",
+        "AMERICAN ASSOCIATION FOR JUSTICE",
+        "THE COOPER UNION FOR THE ADVANCEMENT OF SCIENCE AND ART",
+        "ANTIMICROBIALS WORKING GROUPS"
+      ],
+      "clientCount": 1062
+    },
+    {
+      "bill": "H.R. 6800",
+      "count": 4710,
+      "years": [
+        2018,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "RURAL ADVANCEMENT FOUND INTL-USA ON BEHALF OF CAMPAIGN FOR CONTRACT AG REFORM",
+        "FARMERS EDUCATIONAL COOPERATIVE UNION OF AMERICA",
+        "AMERICAN SOCIETY FROM RADIATION ONCOLOGY (ASTRO)",
+        "CARRIER GLOBAL CORPORATION",
+        "T-MOBILE USA, INC.",
+        "CHILDREN'S HOSPITAL ASSOCIATION F/K/A NAT'L ASSOCIATION OF CHILDREN'S HOSPITALS",
+        "GE HEALTHCARE",
+        "PHARMACEUTICAL CARE MANAGEMENT ASSOCIATION (PCMA)",
+        "PEW CHARITABLE TRUSTS",
+        "BLUE CROSS BLUE SHIELD OF MASSACHUSETTS",
+        "CAREFIRST BLUECROSS BLUESHIELD",
+        "COHERUS BIOSCIENCES",
+        "BOSTON MEDICAL CENTER",
+        "THE GUARDIAN LIFE INSURANCE COMPANY OF AMERICA",
+        "QUEST DIAGNOSTICS INCORPORATED",
+        "BAYCARE HEALTH SYSTEM",
+        "NATIONAL ASSOCIATION OF POSTAL SUPERVISORS",
+        "AMERICAN WATER",
+        "KASICH COMPANY, LLC ON BEHALF OF SCHOTTENSTEIN STORES CORPORATION",
+        "BAKERY, CONFECTIONERY, TOBACCO WORKERS AND GRAIN MILLERS INTERNATIONAL UNION"
+      ],
+      "clientCount": 1222
+    },
+    {
+      "bill": "H.R. 2",
+      "count": 4009,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "HILL-ROM HOLDINGS",
+        "NATIONAL ASSOCIATION FOR BIOMEDICAL RESEARCH",
+        "ZEBRA TECHNOLOGIES CORPORATION",
+        "INTERNATIONAL ASSOCIATION OF MACHINISTS AND AEROSPACE WORKERS",
+        "NATIONAL COUNCIL OF FARMER COOPERATIVES",
+        "NEBRASKA HOSPITAL ASSOCIATION",
+        "AMERICAN COLLEGE OF PHYSICIANS",
+        "AMERICAN COLLEGE OF PHYSICIAN SERVICES, INC.",
+        "NATIONAL ASPHALT PAVEMENT ASSOCIATION",
+        "NETWORK",
+        "AMERICAN PROPERTY CASUALTY INSURANCE ASSOCIATION",
+        "AMERICAN SOCIETY FOR RADIATION ONCOLOGY",
+        "NATIONAL COOPERATIVE BUSINESS ASSOCIATION",
+        "EARTHJUSTICE",
+        "HUMANE WORLD ACTION FUND",
+        "COALITION TO PROMOTE U S AGRICULTURAL EXPORTS",
+        "NESTLE USA",
+        "AMERICAN MEDICAL REHABILITATION PROVIDERS ASSOCIATION",
+        "HILL-ROM",
+        "ABBOTT LABORATORIES"
+      ],
+      "clientCount": 921
+    },
+    {
+      "bill": "H.R. 133",
+      "count": 3973,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "INTERNATIONAL FLIGHT SERVICES ASSOCIATION",
+        "CUNA MUTUAL GROUP",
+        "CHILDREN'S HOSPITAL ASSOCIATION F/K/A NAT'L ASSOCIATION OF CHILDREN'S HOSPITALS",
+        "KAMEHAMEHA SCHOOLS",
+        "CINCINNATI BELL INC (DBA ALTAFIBER) AND ITS SUBSIDIARIES",
+        "GE HEALTHCARE",
+        "PHARMACEUTICAL CARE MANAGEMENT ASSOCIATION (PCMA)",
+        "PEW CHARITABLE TRUSTS",
+        "KASICH COMPANY, LLC ON BEHALF OF SCHOTTENSTEIN STORES CORPORATION",
+        "BAKERY, CONFECTIONERY, TOBACCO WORKERS AND GRAIN MILLERS INTERNATIONAL UNION",
+        "ASSOCIATION OF METROPOLITAN WATER AGENCIES",
+        "HUMANITY FORWARD",
+        "AMERICAN CAR RENTAL ASSOCIATION",
+        "COMMERCIAL SPACEFLIGHT FEDERATION",
+        "MOLINA HEALTHCARE, INC.",
+        "ASSINIBOINE AND SIOUX TRIBES OF THE FORT PECK RESERVATION",
+        "CONSERVATIVES FOR PROPERTY RIGHTS",
+        "US INVENTOR",
+        "FAMA/FEMSA GOVERNMENTAL AFFAIRS COMMITTEE",
+        "OSCEOLA COUNTY, FL"
+      ],
+      "clientCount": 1522
+    },
+    {
+      "bill": "H.R.1",
+      "count": 3961,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "FARMERS EDUCATIONAL COOPERATIVE UNION OF AMERICA",
+        "INTEL CORPORATION",
+        "DUN AND BRADSTREET",
+        "AIR LINE PILOTS ASSOCIATION",
+        "CAPITAL POWER CORPORATION",
+        "SWEDISH MATCH NORTH AMERICA",
+        "BJC HEALTHCARE",
+        "NORTH AMERICAN EQUIPMENT DEALERS ASSOCIATION (FORMERLY KNOWN AS EQUIPMENT DEALER",
+        "ORMAT NEVADA, INC.",
+        "LOEWS GOVERNMENT AFFAIRS SERVICES INC",
+        "ASSOCIATION OF EQUIPMENT MANUFACTURERS",
+        "GENERAL DYNAMICS CORPORATION",
+        "LINDE INC., LINDE, PLC AND OTHER ENTITIES RELATED TO LINDE, PLC",
+        "EATON CORPORATION",
+        "AIRCRAFT OWNERS & PILOTS ASSOCIATION",
+        "AMERICAN RENTAL ASSOCIATION",
+        "AMERICAN VETERINARY MEDICAL ASSOCIATION",
+        "DIRECT MARKETING ASSOCIATION, INC.",
+        "AMERICAN NURSES ASSOCIATION",
+        "UPS (UNITED PARCEL SERVICE)"
+      ],
+      "clientCount": 1145
+    },
+    {
+      "bill": "S. 1260",
+      "count": 3366,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "SOCIETY OF HOSPITAL MEDICINE",
+        "EBAY",
+        "OAKLAND UNIVERSITY",
+        "BUILDING AND CONSTRUCTION TRADES DEPT AFL-CIO",
+        "MAYBELL QUANTUM INDUSTRIES",
+        "THE AMERICAN INSTITUTE OF AERONAUTICS AND ASTRONAUTICS",
+        "TECHNETICS GROUP DAYTONA, INC.",
+        "AMERICAN INNOVATION - THE AI PROJECT",
+        "SIGNATORY WALL AND CEILING CONTRACTORS ALLIANCE",
+        "UNIVERSITY OF MARYLAND",
+        "JE DUNN CONSTRUCTION",
+        "ASME",
+        "SMALL UAV COALITION",
+        "NATIONAL ASSOCIATION OF CHAIN DRUG STORES",
+        "NATURAL RESOURCES DEFENSE COUNCIL",
+        "BOSTON UNIVERSITY",
+        "ACTIVATE GLOBAL, INC.",
+        "AMERICAN SOCIETY OF PLANT BIOLOGISTS",
+        "TITAN AMERICA LLC",
+        "STANFORD UNIVERSITY"
+      ],
+      "clientCount": 557
+    },
+    {
+      "bill": "H.R.3684",
+      "count": 3128,
+      "years": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "EVGO",
+        "COUNTY OF PLACER",
+        "POLK COUNTY",
+        "SACRAMENTO COUNTY",
+        "OSCEOLA COUNTY, FL",
+        "NATIONAL RAILROAD CONSTRUCTION AND MAINTENANCE ASSOCIATION",
+        "RAILWAY ENGINEERING MAINTENANCE SUPPLIERS ASSOCIATION",
+        "NATIONAL ONSITE WASTEWATER RECYCLING ASSOCIATION",
+        "FOUNDATION FOR ADVANCING ALCOHOL RESPONSIBILITY (FKA THE CENTURY COUNCIL)",
+        "ARMY ALLIANCE, INC.",
+        "METROPOLITAN TRANSIT AUTHORITY OF HARRIS COUNTY",
+        "PORSCHE CARS NORTH AMERICA, INC.",
+        "SOUTH FLORIDA REGIONAL TRANSPORTATION AUTHORITY",
+        "RIDE GROUP LLC",
+        "COMMUTER RAIL COALITION",
+        "CROSSROADS STRATEGIES, LLC ON BEHALF OF PORT OF EVERETT",
+        "CROSSROADS STRATEGIES LLC OBO WASHINGTON STATE DEPARTMENT OF TRANSPORTATION",
+        "WHATCOM TRANSPORTATION AUTHORITY",
+        "CITY OF SAN JOSE, CA",
+        "CAPITAL SOUTHEAST CONNECTOR JOINT POWERS AUTHORITY"
+      ],
+      "clientCount": 642
+    },
+    {
+      "bill": "S. 14",
+      "count": 3105,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "GIFFORDS",
+        "AMERICAN CANCER SOCIETY CANCER ACTION NETWORK INC",
+        "TRANSAMERICA COMPANIES",
+        "AMERICAN AIRLINES INC",
+        "AMERICAN COUNCIL OF LIFE INSURERS",
+        "TRANSPARENCY INTERNATIONAL E. V.",
+        "ENVIRONMENTAL DEFENSE ACTION FUND",
+        "SIEMENS ENERGY, INC",
+        "HONEYWELL INTERNATIONAL, INC.",
+        "SHELL USA, INC. (FKA SHELL OIL COMPANY)",
+        "THE CENTER ON BUDGET AND POLICY PRIORITIES",
+        "NATIONAL ASSOCIATION OF POSTAL SUPERVISORS",
+        "U.S. HIGH SPEED RAIL ASSOCIATION",
+        "NATIONAL ASSOCIATION OF CHAIN DRUG STORES",
+        "NATIONAL ASSOCIATION OF SMALL TRUCKING COMPANIES",
+        "CONSERVATIVES FOR PROPERTY RIGHTS",
+        "AMERICAN AIRLINES, INC.",
+        "CHARTER COMMUNICATIONS, INC.",
+        "LOCKHEED MARTIN CORPORATION",
+        "HOSPICE ACTION NETWORK"
+      ],
+      "clientCount": 705
+    },
+    {
+      "bill": "H.R.748",
+      "count": 2758,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "COMMUNICATIONS WORKERS OF AMERICA",
+        "BLUE CROSS AND BLUE SHIELD ASSOCIATION",
+        "PHILLIPS 66",
+        "AMERICAN BENEFITS COUNCIL OBO ALLIANCE TO FIGHT FOR HEALTH CARE",
+        "HORIZON BLUE CROSS BLUE SHIELD OF NEW JERSEY",
+        "BOEING COMPANY",
+        "BLUE CROSS AND BLUE SHIELD OF KANSAS INC",
+        "UNITED STEEL PAPER & FORESTRY RUBBER MANUFACTURING ENERGY",
+        "NATIONAL ELECTRICAL CONTRACTORS ASSOCIATION, INC.",
+        "NETJETS ASSOCIATION OF SHARED AIRCRAFT PILOTS",
+        "THE ASSOCIATION OF UNION CONSTRUCTORS",
+        "AMALGAMATED TRANSIT UNION",
+        "BLUE CROSS BLUE SHIELD OF MICHIGAN",
+        "THE BOEING COMPANY",
+        "HIGHMARK INC",
+        "FAMILIES USA FOUNDATION INC",
+        "PROFESSIONAL AVIATION SAFETY SPECIALISTS",
+        "NATIONAL SHOOTING SPORTS FOUNDATION",
+        "AMERICAN FEDERATION OF TEACHERS",
+        "UNITE HERE!"
+      ],
+      "clientCount": 540
+    },
+    {
+      "bill": "S 2",
+      "count": 2680,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "AMERICAN ACADEMY OF OPHTHALMOLOGY",
+        "BUNGE NORTH AMERICA, INC",
+        "GIFFORDS",
+        "AMERICAN DIABETES ASSOCIATION",
+        "NATIONAL RIFLE ASSOCIATION OF AMERICA",
+        "EVERYTOWN FOR GUN SAFETY ACTION FUND",
+        "WOUNDED WARRIOR PROJECT",
+        "ALLIANCE FOR RETIRED AMERICANS",
+        "RETIRED ENLISTED ASSOCIATION",
+        "AMERICAN APPAREL & FOOTWEAR ASSOCIATION",
+        "TRAVEL GOODS ASSOCIATION",
+        "COALITION TO STOP GUN VIOLENCE",
+        "FAIR GIRLS INC",
+        "AMERICAN LEGION",
+        "BRADY CAMPAIGN TO PREVENT GUN VIOLENCE",
+        "AMERICAN SOCIETY OF ADDICTION MEDICINE",
+        "RSM US LLP (FORMERLY KNOWN AS MCGLADREY LLP)",
+        "CONOCOPHILLIPS",
+        "GUN OWNERS OF AMERICA INC",
+        "CAMPAIGN FOR YOUTH JUSTICE"
+      ],
+      "clientCount": 440
+    },
+    {
+      "bill": "H.R. 6201",
+      "count": 2573,
+      "years": [
+        2018,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "PARALYZED VETERANS OF AMERICA",
+        "STEAMFITTERS LOCAL 420",
+        "NATIONAL ELECTRICAL CONTRACTORS ASSOCIATION - PENN-DEL-JERSEY CHAPTER",
+        "M&SCA OF EASTERN PENNSYLVANIA",
+        "THE AMERICAN COUNCIL OF INDEPENDENT LABORATORIES",
+        "AMERICAN SUBCONTRACTORS ASSOCIATION",
+        "NATIONAL ASSOCIATION OF POSTAL SUPERVISORS",
+        "HEALTHCARE LEADERSHIP COUNCIL",
+        "FEDERAL MANAGERS ASSOCIATION",
+        "CHILDREN'S HOSPITAL ASSOCIATION F/K/A NAT'L ASSOCIATION OF CHILDREN'S HOSPITALS",
+        "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "GE HEALTHCARE",
+        "PHARMACEUTICAL CARE MANAGEMENT ASSOCIATION (PCMA)",
+        "PEW CHARITABLE TRUSTS",
+        "COMMUNITY CATALYST",
+        "DAVITA INC.",
+        "ESOP ASSOCIATION",
+        "COUNTY OF LOS ANGELES",
+        "ATRIUM HEALTH - FORMERLY KNOWN AS CAROLINAS HEALTHCARE SYSTEM",
+        "AMEDISYS, INC."
+      ],
+      "clientCount": 662
+    },
+    {
+      "bill": "H.R. 3",
+      "count": 2459,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "COUNCIL FOR CITIZENS AGAINST GOVERNMENT WASTE",
+        "PHYSICIAN ASSISTANT EDUCATION ASSOCIATION",
+        "AMERICAN ASSOCIATION OF CHILD & ADOLESCENT PSYCHIATRY",
+        "AMERICAN ASSOCIATION OF NURSE PRACTITIONERS",
+        "NATIONAL ASSOCIATION OF SOCIAL WORKERS",
+        "NEW YORK FARM BUREAU INC",
+        "THE CONSERVATION FUND",
+        "CHILDREN'S HOSPITAL AND HEALTH SYSTEM, INC.",
+        "EASTERSEALS, INC.",
+        "FRIENDS COMMITTEE ON NATIONAL LEGISLATION",
+        "FREEDOMWORKS, INC.",
+        "THE CHILDREN'S HOSPITAL OF PHILADELPHIA",
+        "AMERICANS FOR TAX REFORM",
+        "NATIONAL TREASURY EMPLOYEES UNION",
+        "AMERICAN CONSERVATIVE UNION",
+        "CHILDREN'S HEALTHCARE OF ATLANTA",
+        "HOSPITAL & HEALTHSYSTEM ASSOCIATION OF PENNSYLVANIA",
+        "AMERICAN RIVERS",
+        "LEAGUE OF CONSERVATION VOTERS",
+        "AMERICAN NURSES ASSOCIATION"
+      ],
+      "clientCount": 337
+    },
+    {
+      "bill": "S. 3548",
+      "count": 2273,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "HEALTHCARE LEADERSHIP COUNCIL",
+        "WRITERS GUILD OF AMERICA, WEST",
+        "LIVE NATION ENTERTAINMENT, INC.",
+        "EXPERIAN NORTH AMERICA",
+        "SURGERY PARTNERS",
+        "SELF-INSURANCE INSTITUTE OF AMERICA, INC.",
+        "HIGHLAND DAIRY & FARM",
+        "RAJEN DAIRY",
+        "DO-RENE DAIRY",
+        "DAY STAR DAIRY",
+        "FACT COALITION (A PROJECT OF THE FUND FOR CONSTITUTIONAL GOVERNMENT)",
+        "PURPOSE FINANCIAL, INC.",
+        "ABBOTT (FORMERLY KNOWN AS ALERE INC.)",
+        "AMERICAN CANCER SOCIETY CANCER ACTION NETWORK (ACSCAN)",
+        "ALZHEIMER'S ASSOCIATION",
+        "NATIONAL ASSOCIATION OF FEDERALLY-INSURED CREDIT UNIONS",
+        "THE AMPUTEE COALITION",
+        "ELEVANCE HEALTH, INC (F.K.A. ANTHEM, INC. & WELLPOINT, INC.)",
+        "AMERICAN OSTEOPATHIC ASSOCIATION",
+        "ASTRAZENECA"
+      ],
+      "clientCount": 575
+    },
+    {
+      "bill": "H.R.1319",
+      "count": 2187,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "NATIONAL TAXPAYERS UNION",
+        "NATIONAL ASSOCIATION OF INSURANCE AND FINANCIAL ADVISORS",
+        "RIGHT AT HOME",
+        "AMERICAN CONSERVATIVE UNION",
+        "CONSUMER DATA INDUSTRY ASSOCIATION",
+        "NATIONAL WATER RESOURCES ASSOCIATION",
+        "RIDDELL SPORTS, INC.",
+        "TEVA PHARMACEUTICALS USA, INC.",
+        "UV-CONCEPTS",
+        "ANIMAL WELLNESS ACTION",
+        "COREWELL HEALTH",
+        "PREMIUM CIGAR ASSOCIATION",
+        "U.S. GLOBAL LEADERSHIP CAMPAIGN",
+        "MEDICAID HEALTH PLANS OF AMERICA",
+        "AMERICAN ASSOCIATION OF NURSE ANESTHETISTS",
+        "TOWN OF SAUGUS",
+        "AMERICAN NETWORK OF COMMUNITY OPTIONS AND RESOURCES (ANCOR)",
+        "THE AMERICAN OCCUPATIONAL THERAPY ASSOCIATION, INC.",
+        "CENTERSTONE",
+        "FIRST FOCUS CAMPAIGN FOR CHILDREN"
+      ],
+      "clientCount": 511
+    },
+    {
+      "bill": "S.1260",
+      "count": 2076,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "SOCIETY OF HOSPITAL MEDICINE",
+        "GLAXOSMITHKLINE",
+        "UNIVERSITY OF KENTUCKY",
+        "JAMES H. SIMONS",
+        "SYNTHETIC BIOLOGY COALITION",
+        "SWIFT, INC.",
+        "WEST COAST SEAFOOD PROCESSORS ASSN",
+        "SOUTHERN OFFSHORE FISHING ASSOCIATION",
+        "FLORIDA KEYS COMMERCIAL FISHERMAN'S ASSOCIATION",
+        "KEYS FISHERIES MARKET & MARINA",
+        "KEY LARGO FISHERIES",
+        "ELITE SKY INTERNATIONAL, INC.",
+        "ORGANIZED FISHERMEN OF FLORIDA, INC.",
+        "NATIONAL ASSOCIATION OF CHAIN DRUG STORES",
+        "DUKE UNIVERSITY",
+        "REVVITY, INC.",
+        "FORD MOTOR COMPANY",
+        "GENENTECH, INC.",
+        "PFIZER, INC.",
+        "PHARMACEUTICAL RESEARCH AND MANUFACTURERS OF AMERICA"
+      ],
+      "clientCount": 401
+    },
+    {
+      "bill": "H.R. 1865",
+      "count": 2007,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2025
+      ],
+      "clients": [
+        "CRAIGSLIST, INC.",
+        "NATIONAL CENTER FOR MISSING AND EXPLOITED CHILDREN",
+        "NATIONAL ASSOCIATION OF CRIMINAL DEFENSE LAWYERS (NACDL)",
+        "FAMILY RESEARCH COUNCIL",
+        "EQUINIX, INC.",
+        "U S CHAMBER INSTITUTE FOR LEGAL REFORM",
+        "COMPTIA MEMBER SERVICES, LLC",
+        "IBM",
+        "AMERICAN ASSOCIATION FOR JUSTICE",
+        "ENTERTAINMENT SOFTWARE ASSOCIATION",
+        "FACEBOOK, INC.",
+        "YAHOO (INCOME DISCLOSED BY OATH INC )",
+        "META PLATFORMS INC (FORMERLY FACEBOOK INC & VARIOUS SUBSIDIARIES)",
+        "THE HOME DEPOT",
+        "GOOGLE CLIENT SERVICES LLC",
+        "COVENANT HOUSE",
+        "ORACLE CORPORATION",
+        "NATIONAL TELECOMMUNICATIONS COOPERATIVE ASSOCIATION",
+        "EVENTBRITE, INC.",
+        "INTERNATIONAL BUSINESS MACHINES CORPORATION (IBM)"
+      ],
+      "clientCount": 715
+    },
+    {
+      "bill": "HR 1",
+      "count": 1985,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "BRIDGEPOINT EDUCATION",
+        "WILLIS NORTH AMERICA INC.",
+        "COUNCIL ON UNDERGRADUATE RESEARCH",
+        "STEPHENS INVESTMENT HOLDINGS, LLC",
+        "BESSEMER SECURITIES CORPORATION",
+        "GROSSMANHEINZ ON BEHALF OF INTERNATIONAL UNION OF OPERATING ENGINEERS",
+        "TEXAS RETAILERS ASSOCIATION",
+        "NATIONAL ASSOCIATION OF WATER COMPANIES",
+        "AMERICAN WATER",
+        "BAYLOR SCOTT AND WHITE HEALTH -- FORMERLY BAYLOR HEALTH CARE SYSTEM",
+        "DUN AND BRADSTREET, INC.",
+        "BUILDING AND CONSTRUCTION TRADES DEPT AFL-CIO",
+        "NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION",
+        "DELTA AIR LINES, INC.",
+        "BANNER HEALTH",
+        "HEALTH CARE SUPPLY CHAIN ASSOCIATION",
+        "UNIVERSITY HOSPITALS HEALTH SYSTEM, INC.",
+        "US WIND, INC.",
+        "LAKE ERIE ENERGY DEVELOPMENT CORPORATION (LEEDCO)",
+        "TOURETTE ASSOCIATION OF AMERICA"
+      ],
+      "clientCount": 582
+    },
+    {
+      "bill": "S. 1895",
+      "count": 1954,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "PUYALLUP TRIBE OF WASHINGTON",
+        "VERTICAL AVIATION INTERNATIONAL",
+        "AMERICAN AMBULANCE ASSOCIATION",
+        "EMERGENCY DEPARTMENT PRACTICE MANAGEMENT ASSOCIATION",
+        "PHYSICIANS FOR FAIR COVERAGE",
+        "PHARMACEUTICAL CARE MANAGEMENT ASSOCIATION (PCMA)",
+        "COUNCIL FOR CITIZENS AGAINST GOVERNMENT WASTE",
+        "CAMBIA HEALTH SOLUTIONS (FORMERLY KNOWN AS THE REGENCE GROUP)",
+        "BLUE CROSS BLUE SHIELD OF MASSACHUSETTS",
+        "CAREFIRST BLUECROSS BLUESHIELD",
+        "COHERUS BIOSCIENCES",
+        "BOSTON MEDICAL CENTER",
+        "AMERICAN DENTAL ASSOCIATION",
+        "AMERICAN ASSOCIATION OF NURSE ANESTHETISTS",
+        "BANNER HEALTH",
+        "HEALTH CARE SUPPLY CHAIN ASSOCIATION",
+        "UNIVERSITY HOSPITALS HEALTH SYSTEM, INC.",
+        "THE DOCTORS HOSPITAL AT RENAISSANCE",
+        "WAKE FOREST UNIVERSITY HEALTH SCIENCES",
+        "NORTH CAROLINA BAPTIST HOSPITAL"
+      ],
+      "clientCount": 306
+    },
+    {
+      "bill": "HR 5376",
+      "count": 1952,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "THE INTERNET ASSOCIATION",
+        "SIGNIFY LIGHTING NORTH AMERICA CORPORATION",
+        "GENERAL DYNAMICS CORPORATION",
+        "AMERICAN CHIROPRACTIC ASSOCIATION",
+        "CROP INSURANCE PROFESSIONAL ASSOCIATION LLC (NEW NAME)",
+        "MINNESOTA CORN GROWERS",
+        "BLACKROCK FUNDS SERVICES GROUP LLC",
+        "SOUTHWEST COUNCIL OF AGRIBUSINESS",
+        "BUILDING AND CONSTRUCTION TRADES DEPT AFL-CIO",
+        "COTTON WAREHOUSE ASSOCIATION OF AMERICA",
+        "NATIONAL RURAL ELECTRIC COOPERATIVE ASSOCIATION",
+        "NATIONAL SORGHUM PRODUCERS",
+        "SELECT MILK PRODUCERS, INC./CONTINENTAL DAIRY PRODUCTS, INC.",
+        "WESTERN PEANUT GROWERS ASSOCIATION",
+        "SOUTH CAROLINA PEACH COUNCIL",
+        "NATIONWIDE MUTUAL INSURANCE COMPANY",
+        "OREGON STATE UNIVERSITY",
+        "THE LIVINGSTON GROUP (ON BEHALF OF THE INVESTMENT COMPANY INSTITUTE)",
+        "TNC (US) HOLDINGS INC",
+        "SUN LIFE FINANCIAL (U.S.) SERVICES COMPANY INC."
+      ],
+      "clientCount": 441
+    },
+    {
+      "bill": "H.R. 2617",
+      "count": 1905,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "PRISON FELLOWSHIP MINISTRIES",
+        "AMERICAN CONSERVATIVE UNION",
+        "SEA SERVICE FAMILY, CONSULTING",
+        "NATIONAL TREASURY EMPLOYEES UNION",
+        "MAUI ECONOMIC OPPORTUNITY",
+        "KAMEHAMEHA SCHOOLS",
+        "THE COMMITTEE FOR JUSTICE",
+        "CONSERVATIVES FOR PROPERTY RIGHTS",
+        "PET INDUSTRY JOINT ADVISORY COUNCIL",
+        "EAST BAY REGIONAL PARK DISTRICT",
+        "NATIONAL AUDUBON SOCIETY",
+        "HITACHI, LTD",
+        "AMERICAN COUNCILS FOR INTERNATIONAL EDUCATION",
+        "MONTEREY BAY AQUARIUM",
+        "BLUE GREEN ALLIANCE",
+        "SAN DIEGO ZOO GLOBAL",
+        "ATLANTIC SHORES OFFSHORE WIND, LLC",
+        "NOKIA OF AMERICA CORPORATION (FORMERLY KNOWN AS ALCATEL-LUCENT USA INC.)",
+        "ASSOCIATION OF ORGAN PROCUREMENT ORGANIZATIONS",
+        "CALAVERAS COUNTY WATER DISTRICT"
+      ],
+      "clientCount": 899
+    },
+    {
+      "bill": "H.R. 2740",
+      "count": 1895,
+      "years": [
+        2019,
+        2020
+      ],
+      "clients": [
+        "CRAY INC",
+        "UNIVERSITY OF MARYLAND",
+        "COUNCIL FOR CITIZENS AGAINST GOVERNMENT WASTE",
+        "NATIONAL ASSOCIATION OF SOCIAL WORKERS",
+        "PHYSICIAN ASSISTANT EDUCATION ASSOCIATION",
+        "UNIVERSITY OF KANSAS HOSPITAL AUTHORITY",
+        "FOUNDATION FOR ADVANCING ALCOHOL RESPONSIBILITY (FKA THE CENTURY COUNCIL)",
+        "AMERICAN ASSOCIATION OF NURSE PRACTITIONERS",
+        "THE IMMIGRATION HUB LLC",
+        "TULANE UNIVERSITY",
+        "UNIVERSITY OF NEW HAMPSHIRE",
+        "LEAGUE OF CONSERVATION VOTERS",
+        "AMERICAN PRINCIPLES PROJECT",
+        "NORTHEASTERN UNIVERSITY",
+        "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+        "FRED HUTCHINSON CANCER CENTER FORMER \"FRED HUTCHISON CANCER RESEARCH CENTER\"",
+        "SOCIETY FOR INDUSTRIAL AND APPLIED MATHEMATICS",
+        "SIGNATORY WALL AND CEILING CONTRACTORS ALLIANCE",
+        "GENERAL DYNAMICS CORPORATION",
+        "NATIONAL ASSOCIATION OF SECONDARY SCHOOL PRINCIPALS"
+      ],
+      "clientCount": 406
+    },
+    {
+      "bill": "H.R. 6",
+      "count": 1872,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "AMERICAN ASSOCIATION FOR HOMECARE",
+        "OTSUKA PHARMACEUTICAL DEVELOPMENT & COMMERCIALIZATION, INC.",
+        "ABBOTT LABORATORIES",
+        "NCCR",
+        "PEDIATRIC HOME SERVICE",
+        "INTERNATIONAL BUSINESS MACHINES CORPORATION (IBM)",
+        "HEALTHCARE LEADERSHIP COUNCIL",
+        "PHYSICIAN ASSISTANT EDUCATION ASSOCIATION",
+        "EXPRESS SCRIPTS INC.",
+        "AMERIHEALTH CARITAS",
+        "CHILDREN'S HOSPITAL ASSOCIATION F/K/A NAT'L ASSOCIATION OF CHILDREN'S HOSPITALS",
+        "PHARMACEUTICAL CARE MANAGEMENT ASSOCIATION (PCMA)",
+        "PEW CHARITABLE TRUSTS",
+        "COMMUNITY CATALYST",
+        "AMERICAN ASSOCIATION OF CHILD & ADOLESCENT PSYCHIATRY",
+        "BLUE CROSS BLUE SHIELD OF MASSACHUSETTS",
+        "CAREFIRST BLUECROSS BLUESHIELD",
+        "BOSTON MEDICAL CENTER",
+        "THE GUARDIAN LIFE INSURANCE COMPANY OF AMERICA",
+        "AMERICAN PHYSICAL THERAPY ASSOCIATION"
+      ],
+      "clientCount": 367
+    },
+    {
+      "bill": "H.R. 4521",
+      "count": 1815,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "TREA SENIOR CITIZENS LEAGUE",
+        "AMERICAN SUGAR ALLIANCE",
+        "AMERICAN SUGARBEET GROWERS ASSOCIATION",
+        "U.S. BEET SUGAR ASSOCIATION",
+        "INTEL CORPORATION",
+        "ORSTED NORTH AMERICA INC.",
+        "APPLIED MATERIALS, INC.",
+        "BROADCOM CORPORATION",
+        "EDWARDS VACCUM",
+        "EUV TECH",
+        "GEORGE MASON UNIVERSITY",
+        "INTEGRA TECHNOLOGIES",
+        "STRATACACHE, INC",
+        "TECTUS CORPORATION DBA MOJO VISION",
+        "THE CHEMOURS COMPANY",
+        "UNIVERSITY OF MARYLAND BALTIMORE COUNTY (UMBC)",
+        "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "CONSERVATIVES FOR PROPERTY RIGHTS",
+        "PET INDUSTRY JOINT ADVISORY COUNCIL",
+        "PREMIER, INC."
+      ],
+      "clientCount": 450
+    },
+    {
+      "bill": "H.R. 6395",
+      "count": 1752,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "KATMAI GOVERNMENT SERVICES LLC",
+        "ML STRATEGIES, LLC (ON BEHALF OF DAIKIN U.S. CORPORATION)",
+        "PRINCETON UNIVERSITY",
+        "DEFENDERS OF WILDLIFE",
+        "HONU SERVICES",
+        "EMERGENT BIOSOLUTIONS",
+        "THERMO FISHER SCIENTIFIC INC",
+        "AMERICAN BUREAU OF SHIPPING",
+        "UNITED LAUNCH ALLIANCE",
+        "AMERICAN MARITIME PARTNERSHIP",
+        "NORTHROP GRUMMAN CORPORATION",
+        "AMERICAN ROLL-ON ROLL-OFF CARRIER GROUP, INC.",
+        "GAMBIT H&K AS ON BEHALF OF AKER BIOMARINE AS",
+        "NATIONAL RIFLE ASSOCIATION OF AMERICA",
+        "THE AMERICAN WATERWAYS OPERATORS",
+        "BOOZ ALLEN HAMILTON INC.",
+        "THE HOME DEPOT",
+        "OLIN CORPORATION",
+        "SPACE EXPLORATION TECHNOLOGIES CORP.",
+        "AEROJET ROCKETDYNE, INC"
+      ],
+      "clientCount": 542
+    },
+    {
+      "bill": "H.R. 1625",
+      "count": 1751,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "TOBACCO-FREE KIDS ACTION FUND",
+        "THE BIOSIMILARS FORUM",
+        "STONY BROOK UNIVERSITY SUNY STONY BROOK",
+        "ADVANCED BIOFUELS ASSOCIATION",
+        "EATING DISORDERS COALITION",
+        "EXPRESS SCRIPTS INC.",
+        "COMMUNITY CATALYST",
+        "JOHNSON MATTHEY INC.",
+        "NATIONAL CLUB ASSOCIATION",
+        "AGRI-MARK INC",
+        "DAIRY FARMERS OF AMERICA INC",
+        "ST ALBANS COOPERATIVE CREAMERY INC",
+        "UPSTATE NIAGARA COOPERATIVE INC",
+        "NATIONAL CENTER FOR APPROPRIATE TECHNOLOGY",
+        "ROCK & ASSOCIATES",
+        "CALIFORNIA ASSOCIATION OF SANITATION AGENCIES",
+        "EAST BAY MUNICIPAL UTILITY DISTRICT",
+        "COUNTY SANITATION DISTRICTS OF ORANGE COUNTY",
+        "SOUTH TAHOE PUBLIC UTILITY DISTRICT",
+        "SMOKE-FREE ALTERNATIVES TRADE ASSOCIATION (SFATA)"
+      ],
+      "clientCount": 680
+    },
+    {
+      "bill": "H.R. 3055",
+      "count": 1733,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "CRAY INC",
+        "ASSOCIATION OF METROPOLITAN WATER AGENCIES",
+        "AMERICAN SUGARBEET GROWERS ASSOCIATION",
+        "UNIVERSITY OF MARYLAND",
+        "FLORIDA FARM BUREAU FEDERATION",
+        "COUNCIL FOR CITIZENS AGAINST GOVERNMENT WASTE",
+        "FOUNDATION FOR ADVANCING ALCOHOL RESPONSIBILITY (FKA THE CENTURY COUNCIL)",
+        "THE IMMIGRATION HUB LLC",
+        "QUANTUM RESEARCH INTERNATIONAL, INC.",
+        "BLUE ORIGIN",
+        "TULANE UNIVERSITY",
+        "UNIVERSITY OF NEW HAMPSHIRE",
+        "NATIONAL MILK PRODUCERS FEDERATION",
+        "FLORIDA CRYSTALS CORPORATION",
+        "AMERICAN SMALL MANUFACTURERS COALITION",
+        "LEAGUE OF CONSERVATION VOTERS",
+        "FAMILY RESEARCH COUNCIL",
+        "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+        "SOCIETY FOR INDUSTRIAL AND APPLIED MATHEMATICS",
+        "SERGEANTS BENEVOLENT ASSOCIATION OF NEW YORK CITY"
+      ],
+      "clientCount": 367
+    },
+    {
+      "bill": "H.R.133",
+      "count": 1731,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "ASSOCIATION FOR COMMUNITY AFFILIATED PLANS",
+        "INTERNATIONAL FLIGHT SERVICES ASSOCIATION",
+        "AMERICAN INDUSTRIAL HYGIENE ASSOCIATION",
+        "CINCINNATI BELL INC (DBA ALTAFIBER) AND ITS SUBSIDIARIES",
+        "CITY OF WEST PALM BEACH",
+        "AMERICAN AIRLINES, INC.",
+        "CITY OF MCALLEN, TEXAS",
+        "GENERAL DYNAMICS CORPORATION",
+        "NEXTERA ENERGY, INC.",
+        "PEACHTREE HEALTH GROUP, LLC",
+        "UNITED STATES TELECOMMUNICATIONS TRAINING INSTITUTE",
+        "USA EB5 IMMIGRATION, LLC",
+        "RAI SERVICES COMPANY",
+        "NATIONAL ASSOCIATION OF AGRICULTURE AND FOOD POLICY",
+        "NATIONAL ASSOCIATION FOR THE ADVANCEMENT OF ANIMAL SCIENCE",
+        "ARMTECH INSURANCE SERVICES, INC.",
+        "INTERNATIONAL ASSOCIATION OF REFRIGERATED WAREHOUSES",
+        "LEONARDO US CYBER AND SECURITY SOLUTIONS LLC. (FORMERLY SELEX ES INC.)",
+        "RESCARE INC (DBA BRIGHTSPRING HEALTH SERVICES)",
+        "KANSAS FARM BUREAU"
+      ],
+      "clientCount": 521
+    },
+    {
+      "bill": "H.R. 2500",
+      "count": 1726,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "ATLAS AIR WORLDWIDE",
+        "THORN RUN PARTNERS O/B/O FEDEX CORPORATION",
+        "JETBLUE AIRWAYS",
+        "AMERICAN COUNCILS FOR INTERNATIONAL EDUCATION",
+        "CRAY INC",
+        "UNIVERSITY OF MARYLAND",
+        "RADIANCE TECHNOLOGIES, INC.",
+        "QUANTUM RESEARCH INTERNATIONAL, INC.",
+        "BLUE ORIGIN",
+        "UNIVERSITY OF NEW HAMPSHIRE",
+        "NATIONAL MILK PRODUCERS FEDERATION",
+        "TORCH TECHNOLOGIES, INC.",
+        "ALTAVIAN, INC.",
+        "AMERICAN SMALL MANUFACTURERS COALITION",
+        "GENERAL ATOMICS ELECTROMAGNETIC SYSTEMS",
+        "PEOPLE-TEC",
+        "DAVIDSON TECHNOLOGIES, INC",
+        "KATMAI GOVERNMENT SERVICES LLC",
+        "NORTHEASTERN UNIVERSITY",
+        "CALIFORNIA INSTITUTE OF TECHNOLOGY"
+      ],
+      "clientCount": 442
+    },
+    {
+      "bill": "S. 4049",
+      "count": 1630,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "MARINETTE MARINE CORPORATION",
+        "TELECOM INFRA PROJECT",
+        "INDIAN WELLS VALLEY GROUNDWATER AUTHORITY",
+        "FINISHING CONTRACTORS ASSOCIATION",
+        "INTERNATIONAL BROTHERHOOD OF ELECTRICAL WORKERS LOCAL #98",
+        "STEAMFITTERS LOCAL 420",
+        "NATIONAL ELECTRICAL CONTRACTORS ASSOCIATION - PENN-DEL-JERSEY CHAPTER",
+        "M&SCA OF EASTERN PENNSYLVANIA",
+        "AMERICAN SUBCONTRACTORS ASSOCIATION",
+        "THE AMERICAN COUNCIL OF INDEPENDENT LABORATORIES",
+        "QTC",
+        "BRIGGS & STRATTON LLC",
+        "EDISON ELECTRIC INSTITUTE",
+        "TEIJIN ARAMID USA INC",
+        "TRANSDIGM GROUP INCORPORATED",
+        "TIMET - TITANIUM METALS CORPORATION",
+        "SPECIALTY STEEL INDUSTRY OF NORTH AMERICA",
+        "OSHKOSH CORPORATION",
+        "UCORE RARE METALS",
+        "HONU SERVICES"
+      ],
+      "clientCount": 499
+    },
+    {
+      "bill": "HR 3684",
+      "count": 1526,
+      "years": [
+        2018,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "COMMON CAUSE",
+        "COALITION OF IGNITION INTERLOCK MANUFACTURERS",
+        "ALLIANCE FOR AUTOMOTIVE INNOVATION",
+        "CARPI & CLAY, INC ON BEHALF OF LOS ANGELES COUNTY",
+        "NATIONAL RIGHT TO WORK COMMITTEE",
+        "AMERICAN PROPERTY CASUALTY INSURERS ASSOCIATION",
+        "RIVERSIDE COUNTY TRANSPORTATION COMMISSION",
+        "AMERICAN ASSOCIATION OF STATE HIGHWAY AND TRANSPORTATION OFFICIALS",
+        "ENSCO, INC",
+        "INTERNATIONAL BRIDGE, TUNNEL AND TURNPIKE ASSOCIATION",
+        "GULF COAST WATER AUTHORITY",
+        "HDR INC",
+        "SOUTHERN ENVIRONMENTAL LAW CENTER",
+        "INDEPENDENT INSURANCE AGENTS & BROKERS OF AMERICA",
+        "GREYHOUND LINES, INC.",
+        "3M",
+        "THE BUS COALITION",
+        "NATIONAL TRUST FOR HISTORIC PRESERVATION",
+        "ALLIANCE FOR WATER EFFICIENCY",
+        "CALIFORNIA HIGH-SPEED RAIL AUTHORITY"
+      ],
+      "clientCount": 339
+    },
+    {
+      "bill": "H.R. 7900",
+      "count": 1516,
+      "years": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "FERRING PHARMACEUTICALS, INC.",
+        "ROBOTIC RESEARCH OPCO, LLC",
+        "GENERAL DYNAMICS CORPORATION",
+        "ALLISON TRANSMISSION INCORPORATED",
+        "SAAB, INCORPORATED FKA SAAB TRAINING AND SIMULATION",
+        "MACK DEFENSE LLC",
+        "AM GENERAL, LLC",
+        "SHIELD AI",
+        "MARITIME TACTICAL SYSTEMS, INC",
+        "PRINCETON UNIVERSITY",
+        "MILITARY OFFICERS ASSOCIATION OF AMERICA",
+        "VOTEVETS ACTION FUND, INC.",
+        "PICERNE MILITARY HOUSING A/K/A CORVIAS GROUP",
+        "UNITED LAUNCH ALLIANCE",
+        "PALANTIR TECHNOLOGIES INC.",
+        "GIFFORDS",
+        "EVOQUA WATER TECHNOLOGIES",
+        "UNIVERSITY OF CENTRAL FLORIDA",
+        "BWX TECHNOLOGIES INC",
+        "BABYCAKES AND BRUNCH DBA \"SHADES OF BLUE PROJECT\""
+      ],
+      "clientCount": 475
+    },
+    {
+      "bill": "HR 748",
+      "count": 1489,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "COLLEGE AND UNIVERSITY PROFESSIONAL ASSOCIATION FOR HUMAN RESOURCES",
+        "BLUE CROSS AND BLUE SHIELD OF FLORIDA INC",
+        "AMERICAN FAMILY MUTUAL INSURANCE COMPANY, S.I.",
+        "CENTENE CORPORATION",
+        "NATIONAL RETAIL FEDERATION",
+        "KAISER FOUNDATION HEALTH PLAN INC",
+        "BLUE CROSS BLUE SHIELD OF MICHIGAN",
+        "AMERICAN FEDERATION OF STATE COUNTY AND MUNICIPAL EMPLOYEES",
+        "LABORERS' INTERNATIONAL UNION OF NORTH AMERICA",
+        "LOCKHEED MARTIN CORPORATION",
+        "NATIONAL TAXPAYERS UNION",
+        "AMERICAN RENTAL ASSOCIATION",
+        "AUTO CARE ASSOCIATION",
+        "INTERNATIONAL FRANCHISE ASSOCIATION",
+        "SERVICE EMPLOYEES INTERNATIONAL UNION CTW-CLC",
+        "INTERNATIONAL BROTHERHOOD OF TEAMSTERS",
+        "NATIONAL EDUCATION ASSOCIATION",
+        "COUNTY OF SAN JOAQUIN",
+        "COUNTY OF FRESNO",
+        "NATIONAL ASSOCIATION OF BENEFITS AND INSURANCE PROFESSIONALS"
+      ],
+      "clientCount": 426
+    },
+    {
+      "bill": "H.R. 6074",
+      "count": 1481,
+      "years": [
+        2020,
+        2021,
+        2022
+      ],
+      "clients": [
+        "HEALTHCARE LEADERSHIP COUNCIL",
+        "CHILDREN'S HOSPITAL ASSOCIATION F/K/A NAT'L ASSOCIATION OF CHILDREN'S HOSPITALS",
+        "GE HEALTHCARE",
+        "PHARMACEUTICAL CARE MANAGEMENT ASSOCIATION (PCMA)",
+        "PEW CHARITABLE TRUSTS",
+        "COMMUNITY CATALYST",
+        "DAVITA INC.",
+        "ESOP ASSOCIATION",
+        "COUNTY OF LOS ANGELES",
+        "ATRIUM HEALTH - FORMERLY KNOWN AS CAROLINAS HEALTHCARE SYSTEM",
+        "CAMBIA HEALTH SOLUTIONS (FORMERLY KNOWN AS THE REGENCE GROUP)",
+        "BLUE CROSS BLUE SHIELD OF MASSACHUSETTS",
+        "CAREFIRST BLUECROSS BLUESHIELD",
+        "AMERICAN BENEFITS COUNCIL",
+        "COHERUS BIOSCIENCES",
+        "SUMMIT SCHOOL SERVICES LLC (FKA NATIONAL EXPRESS, LLC)",
+        "AMERICAN SOCIETY FROM RADIATION ONCOLOGY (ASTRO)",
+        "CHRISTOPHER AND DANA REEVE FOUNDATION",
+        "GIRL SCOUTS OF THE U.S.A.",
+        "AMERICAN BUS ASSOCIATION"
+      ],
+      "clientCount": 361
+    },
+    {
+      "bill": "H.R. 4350",
+      "count": 1472,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "clients": [
+        "AMBULATORY SURGERY CENTER ASSOCIATION",
+        "AMERICAN COLLEGE OF SURGEONS",
+        "AMERICAN COLLEGE OF SURGEONS PROFESSIONAL ASSOCIATION",
+        "MILITARY PRODUCE GROUP, LLC",
+        "HARVARD UNIVERSITY T. H. CHAN SCHOOL OF PUBLIC HEALTHS STRIPED",
+        "RESIDENTIAL EATING DISORDERS CONSORTIUM",
+        "EATING DISORDERS COALITION",
+        "UI LABS D/B/A MXD",
+        "UNIVERSITY OF ROCHESTER",
+        "UNITED LAUNCH ALLIANCE",
+        "NATIONAL ASSOCIATION OF CRIMINAL DEFENSE LAWYERS (NACDL)",
+        "UNIVERSITY OF ARIZONA",
+        "SOCIETY FOR INDUSTRIAL AND APPLIED MATHEMATICS",
+        "RUTGERS - THE STATE UNIVERSITY OF NEW JERSEY",
+        "CORNING INCORPORATED",
+        "VIAPHOTON",
+        "CUBIC CORPORATION",
+        "ELBIT SYSTEMS OF AMERICA, LLC",
+        "UNIVERSITY OF ILLINOIS",
+        "UNIVERSITY OF CINCINNATI"
+      ],
+      "clientCount": 474
+    },
+    {
+      "bill": "S. 1790",
+      "count": 1438,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "clients": [
+        "COLLEGE SAVINGS FOUNDATION",
+        "NATIONAL ASSN OF STATE TREASURERS (NAST)",
+        "CRAY INC",
+        "JOHNSON STORAGE & MOVING COMPANY",
+        "THE IMMIGRATION HUB LLC",
+        "RADIANCE TECHNOLOGIES, INC.",
+        "QUANTUM RESEARCH INTERNATIONAL, INC.",
+        "BLUE ORIGIN",
+        "UNIVERSITY OF NEW HAMPSHIRE",
+        "NATIONAL MILK PRODUCERS FEDERATION",
+        "TORCH TECHNOLOGIES, INC.",
+        "ALTAVIAN, INC.",
+        "LEAGUE OF CONSERVATION VOTERS",
+        "GENERAL ATOMICS ELECTROMAGNETIC SYSTEMS",
+        "PEOPLE-TEC",
+        "DAVIDSON TECHNOLOGIES, INC",
+        "KATMAI GOVERNMENT SERVICES LLC",
+        "NORTHEASTERN UNIVERSITY",
+        "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+        "SOCIETY FOR INDUSTRIAL AND APPLIED MATHEMATICS"
+      ],
+      "clientCount": 404
+    },
+    {
+      "bill": "H.R. 2471",
+      "count": 1403,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "SIERRA CLUB",
+        "AMERICAN ACADEMY OF NEUROLOGY",
+        "ANIMAL WELFARE INSTITUTE FKA SOCIETY FOR ANIMAL PROTECTIVE LEGISLATION",
+        "CORMAC GROUP ON BEHALF OF PEOPLE OVER PROFITS INC",
+        "THE INSTITUTE FOR COLLEGE ACCESS AND SUCCESS",
+        "THE LIVINGSTON GROUP ON BEHALF OF INNOVATIVE VACCINE TECHNOLOGIES",
+        "KANSAS HOSPITAL ASSOCIATION",
+        "HEALTHCARE LEADERSHIP COUNCIL",
+        "BAYADA HEARTS FOR HOMECARE",
+        "NATIONAL ASSOCIATION OF GOVERNMENT GUARANTEED LENDERS INC",
+        "CONSORTIUM OF SOCIAL SCIENCE ASSOCIATIONS",
+        "AMERICAN CULTURAL RESOURCES ASSN",
+        "DECOMMISSIONING PLANT COALITION",
+        "WASTE CONTROL SPECIALISTS LLC",
+        "ORANO USA LLC",
+        "NATIONAL ORGANIZATION OF SOCIAL SECURITY CLAIMANTS' REPRESENTATIVES",
+        "L3 HARRIS TECHNOLOGIES",
+        "FAMILY RESEARCH COUNCIL",
+        "BUILDING AND CONSTRUCTION TRADES DEPT AFL-CIO",
+        "10X GENOMICS"
+      ],
+      "clientCount": 543
+    },
+    {
+      "bill": "H.R.2617",
+      "count": 1371,
+      "years": [
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "PHLOW CORPORATION",
+        "AMETRINE INC.",
+        "SECURE COMMUNICATION SYSTEMS DBA BENCHMARK SECURE TECHNOLOGY",
+        "PARRY LABS, LLC",
+        "RAI SERVICES COMPANY",
+        "INVITAE INC.",
+        "SOUTHWEST AIRLINES PILOTS' ASSOCIATION",
+        "ALKERMES, INC.",
+        "CARNIVAL CORPORATION",
+        "CITY OF MCALLEN, TEXAS",
+        "AMERICAN AIRLINES, INC.",
+        "AMERICAN INDUSTRIAL HYGIENE ASSOCIATION",
+        "GENERAL DYNAMICS CORPORATION",
+        "JUSTICE ACTION NETWORK",
+        "ANSCHUTZ CORPORATION",
+        "NEXTERA ENERGY, INC.",
+        "BOSTON COLLEGE",
+        "BRADLEY UNIVERSITY",
+        "INTERNATIONAL ALLIANCE OF THEATRICAL STAGE EMPLOYEES",
+        "CHENIERE ENERGY"
+      ],
+      "clientCount": 647
+    },
+    {
+      "bill": "S. 2543",
+      "count": 1325,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "AMERICAN PSYCHOLOGICAL ASSOCIATION SERVICES INC.(FKA AMERICAN PSYCHOLOGICAL ASSN",
+        "AMERICAN PSYCHOLOGICAL ASSOCIATION",
+        "MAXOR NATIONAL PHARMACY SERVICES, LLC",
+        "NATIONAL COMMITTEE TO PRESERVE SOCIAL SECURITY AND MEDICARE",
+        "CVS HEALTH",
+        "NEW JERSEY HOSPITAL ASSOCIATION",
+        "NATIONAL MULTIPLE SCLEROSIS SOCIETY",
+        "NATIONAL COMMUNITY PHARMACISTS ASSOCIATION",
+        "BLUE SHIELD OF CALIFORNIA",
+        "AMERICAN MEDICAL ASSOCIATION",
+        "SANOFI, U.S.",
+        "VERTEX PHARMACEUTICALS INCORPORATED",
+        "GENENTECH INC",
+        "INDIVIOR, INC.",
+        "MERCK & CO INC",
+        "MT PHARMA AMERICA, INC.",
+        "PLASMA PROTEIN THERAPEUTICS ASSOCIATION",
+        "TAKEDA PHARMACEUTICALS AMERICA, INC.",
+        "PARTNERSHIP FOR EMPLOYER-SPONSORED COVERAGE",
+        "BRISTOL-MYERS SQUIBB COMPANY"
+      ],
+      "clientCount": 189
+    },
+    {
+      "bill": "S. 2155",
+      "count": 1310,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "LUSE GORMAN, P.C.",
+        "COUNCIL OF INSTITUTIONAL INVESTORS",
+        "AMERICAN FINANCIAL SERVICES ASSOCIATION",
+        "CREDIT SUISSE SECURITIES (USA) LLC",
+        "NEW YORK COMMUNITY BANK, INC.",
+        "BLACKROCK FUNDS SERVICES GROUP LLC (FORMERLY BLACKROCK CAPITAL MANAGEMENT INC.)",
+        "YODLEE INC.",
+        "ACHIEVE",
+        "AMERICAN PROPERTY CASUALTY INSURERS ASSOCIATION",
+        "NATIONAL VENTURE CAPITAL ASSOCIATION",
+        "YGRENE ENERGY FUND",
+        "INDEPENDENT COMMUNITY BANKERS OF AMERICA",
+        "RENEW FINANCIAL GROUP, LLC",
+        "AMERICAN COUNCIL OF LIFE INSURERS",
+        "REGIONS FINANCIAL CORPORATION",
+        "CONSUMER DATA INDUSTRY ASSOCIATION",
+        "CALIFORNIA ASSOCIATION OF REALTORS",
+        "AMERICAN SOCIETY OF FARM MANAGERS AND RURAL APPRAISERS",
+        "TRANS UNION LLC",
+        "AMERICAN BANKERS ASSOCIATION"
+      ],
+      "clientCount": 228
+    },
+    {
+      "bill": "H.R.6800",
+      "count": 1288,
+      "years": [
+        2020,
+        2021
+      ],
+      "clients": [
+        "NORTHWESTERN MEMORIAL HOSPITAL",
+        "T3 EXPO",
+        "PHYSICIAN ASSISTANT EDUCATION ASSOCIATION",
+        "CINCINNATI BELL INC (DBA ALTAFIBER) AND ITS SUBSIDIARIES",
+        "COALITION ON HUMAN NEEDS",
+        "NATIONAL ASSOCIATION OF SOCIAL WORKERS",
+        "GIRL SCOUTS OF THE U.S.A.",
+        "AMERICAN SOCIETY FOR HISTOCOMPATIBILITY & IMMUNOGENETICS",
+        "AMERICAN SOCIETY OF HAND THERAPISTS",
+        "ASSOCIATION FOR COMMUNITY AFFILIATED PLANS",
+        "FOOTHILL TRANSIT",
+        "REPRODUCTIVE FREEDOM FOR ALL",
+        "CENTRAL INDIANA REGIONAL TRANSPORTATION AUTHORITY",
+        "NATIONAL ASSOCIATION OF WHOLESALER-DISTRIBUTORS",
+        "WALKER & DUNLOP INC.",
+        "INTERNATIONAL DAIRY FOODS ASSOCIATION",
+        "NATIONAL FUNERAL DIRECTORS ASSN",
+        "AMERICAN ASSOCIATION OF NURSE PRACTITIONERS",
+        "AMERICAN NURSES ASSOCIATION",
+        "CITY OF NORFOLK VIRGINIA"
+      ],
+      "clientCount": 399
+    },
+    {
+      "bill": "H.R. 4502",
+      "count": 1237,
+      "years": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "CALIFORNIA STATE UNIVERSITY",
+        "NEXTERA ENERGY INC",
+        "ASSOCIATION OF AMERICAN UNIVERSITIES",
+        "COUNCIL FOR ADVANCEMENT AND SUPPORT OF EDUCATION",
+        "EPILEPSY FOUNDATION",
+        "ACXIOM LLC",
+        "MELWOOD INC., (FORMERLY KNOWN AS MELWOOD HTC)",
+        "ST. GEORGES UNIVERSITY",
+        "COUNCIL OF THE GREAT CITY SCHOOLS",
+        "NATIONAL ASSOCIATION OF AGRICULTURE AND FOOD POLICY",
+        "NATIONAL ASSOCIATION FOR THE ADVANCEMENT OF ANIMAL SCIENCE",
+        "ARMTECH INSURANCE SERVICES, INC.",
+        "AGRICULTURAL & APPLIED ECONOMICS ASSOCIATION",
+        "RAI SERVICES COMPANY (FORMERLY KNOWN AS REYNOLDS AMERICAN INC.)",
+        "PET INDUSTRY JOINT ADVISORY COUNCIL",
+        "UNIVERSITY OF MAINE",
+        "CONCERNED WOMEN FOR AMERICA LEGISLATIVE ACTION COMMITTEE",
+        "BONE HEALTH AND OSTEOPOROSIS FOUNDATION (FKA) NATIONAL OSTEOPOROSIS FOUNDATION",
+        "CAMPAIGN FOR TOBACCO FREE KIDS",
+        "COMMUNITY ANTI-DRUG COALITIONS OF AMERICA"
+      ],
+      "clientCount": 318
+    },
+    {
+      "bill": "H.R. 8774",
+      "count": 1221,
+      "years": [
+        2020,
+        2024,
+        2025
+      ],
+      "clients": [
+        "NATIONAL ASSOCIATION OF CRIMINAL DEFENSE LAWYERS (NACDL)",
+        "GLOBAL TECHNICAL SYSTEMS",
+        "RELATIVITY SPACE",
+        "QUANTUM INDUSTRY COALITION",
+        "BLUE ORIGIN LLC",
+        "ASTRANIS SPACE TECHNOLOGIES CORP.",
+        "HERMEUS CORPORATION",
+        "PACIFIC DEFENSE STRATEGIES, INC.",
+        "WHITE CANE, INC. DBA TELEIDOSCOPE",
+        "GENERAL DYNAMICS CORPORATION",
+        "HUMAN RIGHTS CAMPAIGN",
+        "OLIN CORPORATION",
+        "CLARK STREET ASSOCIATES LLC ON BEHALF OF QORVO",
+        "ANTENNA RESEARCH ASSOCIATES",
+        "QORVO",
+        "LATTICE SEMICONDUCTOR",
+        "RAMBUS",
+        "IONQ INC.",
+        "CELESTIAL.AI",
+        "COLDQUANTA, INC. DBA INFLEQTION"
+      ],
+      "clientCount": 334
+    },
+    {
+      "bill": "H.R. 8070",
+      "count": 1194,
+      "years": [
+        2024,
+        2025
+      ],
+      "clients": [
+        "SL STRATEGIES OBO AANA",
+        "TOWN OF NANTUCKET, MA",
+        "DRONEDEPLOY",
+        "PRIDE INDUSTRIES",
+        "GLOBAL TECHNICAL SYSTEMS",
+        "QUANTUM INDUSTRY COALITION",
+        "BLUE ORIGIN LLC",
+        "ASTRANIS SPACE TECHNOLOGIES CORP.",
+        "CTIA-THE WIRELESS ASSOCIATION",
+        "HUMAN RIGHTS CAMPAIGN",
+        "OLIN CORPORATION",
+        "MEGAFIRE ACTION",
+        "VISION PRODUCTS, LLC",
+        "VISA U.S.A. INC.",
+        "ADVANCED MICRO DEVICES (AMD)",
+        "ANTENNA RESEARCH ASSOCIATES",
+        "RAMBUS",
+        "IONQ INC.",
+        "AIRBUS AMERICAS, INC.",
+        "JMA WIRELESS"
+      ],
+      "clientCount": 411
+    },
+    {
+      "bill": "S.3548",
+      "count": 1183,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "INTERNATIONAL FLIGHT SERVICES ASSOCIATION",
+        "HOUGHTON MIFFLIN HARCOURT",
+        "NATIONAL ELECTRICAL CONTRACTORS ASSOCIATION, INC.",
+        "ANSCHUTZ ENTERTAINMENT GROUP INC.",
+        "UNION HOME MORTGAGE CORP",
+        "TRIBAL COUNCIL POARCH CREEK INDIANS",
+        "DALLAS/FORT WORTH INTERNATIONAL AIRPORT",
+        "SCREEN ACTORS GUILD-AMERICA FEDERATION OF TELEVISION AND RADIO ARTISTS",
+        "ONTARIO INTERNATIONAL AIRPORT AUTHORITY",
+        "ENERGIZER HOLDINGS, INC.",
+        "CAPITAL DISTRICT PHYSICIAN'S HEALTH PLAN INC",
+        "CONTINENTAL TIRE THE AMERICAS, LLC FKA CONTINENTAL AUTOMOTIVE SYSTEMS US, INC.",
+        "AMERICAN ASSOCIATION FOR JUSTICE",
+        "ALKERMES, INC.",
+        "CARNIVAL CORPORATION",
+        "CITY OF MCALLEN, TEXAS",
+        "DARDEN RESTAURANTS, INC.",
+        "FEDERAL EXPRESS CORPORATION",
+        "JUSTICE ACTION NETWORK",
+        "NEXTERA ENERGY, INC."
+      ],
+      "clientCount": 269
+    },
+    {
+      "bill": "S.14",
+      "count": 1182,
+      "years": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "AMERICAN CHEMISTRY COUNCIL",
+        "AMERICANS FOR PROSPERITY",
+        "CLEAN ENERGY BUYERS ASSOCIATION (FORMERLY RENEWABLE ENERGY BUYERS ALLIANCE)",
+        "MOLINA HEALTHCARE, INC.",
+        "KAMEHAMEHA SCHOOLS",
+        "NATIONAL ASSOCIATION OF CHAIN DRUG STORES",
+        "STANFORD UNIVERSITY",
+        "FOOD RESEARCH AND ACTION CENTER",
+        "UNIVERSITY OF MARYLAND",
+        "CNX RESOURCES CORPORATION",
+        "NATIONAL ASSOCIATION OF WHOLESALER-DISTRIBUTORS",
+        "EASTMAN CHEMICAL COMPANY",
+        "BLUECROSS BLUESHIELD OF TENNESSEE, INC.",
+        "SOUTHERN COMPANY",
+        "ODAWI LAW PLLC ON BEHALF OF PRAIRIE BAND POTAWATOMI NATION",
+        "ODAWI LAW PLLC ON BEHALF OF COUSHATTA TRIBE OF LOUISIANA",
+        "ACADEMY OF MODEL AERONAUTICS",
+        "CALISTA CORPORATION",
+        "KOOTENAI TRIBE OF IDAHO",
+        "GROUNDFISH FORUM"
+      ],
+      "clientCount": 392
+    },
+    {
+      "bill": "H.R. 1512",
+      "count": 1148,
+      "years": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "THE AMERICAN COUNCIL OF INDEPENDENT LABORATORIES",
+        "DENBURY INC",
+        "NATIONAL SOCIETY OF PROFESSIONAL SURVEYORS",
+        "WHIRLPOOL CORPORATION",
+        "CLIMATE INNOVATION ACTION",
+        "SYENSQO USA LLC",
+        "RENOVA ENERGY (FORMERLY RENOVA SOLAR)",
+        "BLUE GREEN ALLIANCE",
+        "SUNRUN, INC.",
+        "AMERICAN COUNCIL OF INDEPENDENT LABORATORIES",
+        "ASSOCIATION OF METROPOLITAN WATER AGENCIES",
+        "BRIDGESTONE AMERICAS INC",
+        "EVGO",
+        "TECO HOLDINGS INC., FORMERLY KNOWN AS ENERGY, INC.",
+        "HYUNDAI MOTOR COMPANY, LTD.",
+        "NISOURCE INC",
+        "ACUITY BRANDS LIGHTING",
+        "BLACK HILLS CORPORATION",
+        "WASHINGTON GAS LIGHT COMPANY",
+        "AMEREN SERVICES"
+      ],
+      "clientCount": 199
+    },
+    {
+      "bill": "H.R.2",
+      "count": 1130,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "EMERGENCY DEPARTMENT PRACTICE MANAGEMENT ASSOCIATION",
+        "SHARE OUR STRENGTH",
+        "AMERICAN MARITIME OFFICERS SERVICE (AMOS)",
+        "AMERICAN ACADEMY OF FAMILY PHYSICIANS",
+        "SOCIETY OF HOSPITAL MEDICINE",
+        "CF INDUSTRIES INC",
+        "PARTNERSHIP TO FIGHT CHRONIC DISEASE",
+        "AMERICAN HEART ASSOCIATION",
+        "CHARTER COMMUNICATIONS INC",
+        "ARCHER DANIELS MIDLAND COMPANY",
+        "PEPSICO INC",
+        "FEEDING AMERICA",
+        "U.S. SUGAR CORPORATION",
+        "FIRST FOCUS CAMPAIGN FOR CHILDREN",
+        "BIPARTISAN COMMISSION ON BIODEFENSE",
+        "AMERICAN SUGAR ALLIANCE",
+        "NATURAL PRODUCTS ASSOCIATION",
+        "AMERICAN PISTACHIO GROWERS (FORMERLY KNOWN AS WESTERN PISTACHIO ASSOCIATION)",
+        "AMERICAN INSURANCE ASSN",
+        "JEWISH FEDERATION OF METROPOLITAN CHICAGO (JFMC)"
+      ],
+      "clientCount": 337
+    },
+    {
+      "bill": "H.R. 7024",
+      "count": 1120,
+      "years": [
+        2020,
+        2024,
+        2025
+      ],
+      "clients": [
+        "BLUE GREEN ALLIANCE",
+        "CERES, INC.",
+        "AMERICAN ASSOCIATION OF PORT AUTHORITIES",
+        "AMERICAN LUNG ASSOCIATION",
+        "NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION (NEMA)",
+        "EARTHJUSTICE",
+        "SIERRA CLUB",
+        "CORNERSTONE GOVERNMENT AFFAIRS OBO GARMIN INTERNATIONAL, INC.",
+        "APPLIED MATERIALS, INC.",
+        "GE HEALTHCARE",
+        "SIGNATORY WALL AND CEILING CONTRACTORS ALLIANCE",
+        "SYENSQO USA LLC",
+        "SMALL BUSINESS LEGISLATIVE COUNCIL",
+        "NATIONAL COUNCIL OF FARMER COOPERATIVES",
+        "LENOVO (UNITED STATES) INC.",
+        "GENERAL DYNAMICS CORPORATION",
+        "BLUE CROSS BLUE SHIELD OF MASSACHUSETTS",
+        "CAREFIRST BLUECROSS BLUESHIELD",
+        "IOWA FARM BUREAU FEDERATION",
+        "NATIONAL THOROUGHBRED RACING ASSOCIATION"
+      ],
+      "clientCount": 316
+    },
+    {
+      "bill": "H.R.4016",
+      "count": 1119,
+      "years": [
+        2020,
+        2025
+      ],
+      "clients": [
+        "TECHNOLOGY NETWORK AKA TECHNET",
+        "PHLOW CORPORATION",
+        "AMETRINE INC.",
+        "TECHNICAL MICRONICS CONTROL, INC.",
+        "ELECTRA AERO, INC.",
+        "GENERAL ATOMICS ELECTROMAGNETIC SYSTEMS, INC.",
+        "CLARK STREET ASSOCIATES ON BEHALF OF LATTICE SEMICONDUCTOR",
+        "RHODE ISLAND AIRPORT CORPORATION",
+        "INSTITUTE OF INTERNATIONAL EDUCATION (IIE)",
+        "OSCEOLA COUNTY, FL",
+        "NORTHWESTERN MEMORIAL HOSPITAL",
+        "SMITHS GROUP SERVICES CORPORATION",
+        "EXOANALYTIC SOLUTIONS, INC.",
+        "HAWKEYE 360 INC.",
+        "SOFTWARFARE, LLC",
+        "STARFISH SPACE",
+        "APEX SPACE",
+        "INVERSION SPACE",
+        "SHIFT5",
+        "AXIOM SPACE, INC."
+      ],
+      "clientCount": 331
+    },
+    {
+      "bill": "HR 2",
+      "count": 1110,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "CENTER FOR LAW AND SOCIAL POLICY (CLASP)",
+        "INTERNATIONAL FRESH PRODUCE ASSOCIATION (FKA UNITED FRESH PRODUCE ASSOCIATION)",
+        "PHYSICIANS COMMITTEE FOR RESPONSIBLE MEDICINE",
+        "ORGANIC FARMERS ASSOCIATION",
+        "NATIONAL CATTLEMEN'S BEEF ASSOCIATION",
+        "NATIONAL CONFECTIONERS ASSOCIATION",
+        "OREGON STATE UNIVERSITY",
+        "SOUTHEASTERN LUMBER MANUFACTURERS ASSOCIATION",
+        "FLORIDA TOMATO EXCHANGE",
+        "SUPERMERCADOS ECONO, INC.",
+        "AMERICAN SUGARBEET GROWERS ASSOCIATION",
+        "WALKER RIVER IRRIGATION DISTRICT",
+        "THE MACON EDWARDS COMPANY ON BEHALF OF FLORIDA SUGAR CANE LEAGUE",
+        "NATIONAL TRUST FOR HISTORIC PRESERVATION",
+        "SDC STATES RATIFICATION COMMITTEE",
+        "VISTA OUTDOOR, INC.",
+        "AMERICAN ASSOCIATION OF VETERINARY MEDICAL COLLEGES (FKA ASSOCIATION OF AMERICAN",
+        "GEVO",
+        "DISTRIBUTED WIND ENERGY ASSOCIATION",
+        "AGRICULTURE ENERGY COALITION"
+      ],
+      "clientCount": 308
+    },
+    {
+      "bill": "H.R. 848",
+      "count": 1085,
+      "years": [
+        2018,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "AGRI-MARK INC",
+        "DAIRY FARMERS OF AMERICA INC",
+        "ST ALBANS COOPERATIVE CREAMERY INC",
+        "UPSTATE NIAGARA COOPERATIVE INC",
+        "EARTHJUSTICE",
+        "NATIONAL MILK PRODUCERS FEDERATION",
+        "AMERICAN RIVERS",
+        "NATIONAL PORK PRODUCERS COUNCIL",
+        "CLEAN FUELS ALLIANCE AMERICA (FORMERLY REPORTED AS NATIONAL BIODIESEL BOARD)",
+        "NATIONAL WATER RESOURCES ASSOCIATION",
+        "NATEL ENERGY, INC.",
+        "SWITCH",
+        "PRATT INDUSTRIES (USA), INC.",
+        "CLIMATE INNOVATION ACTION",
+        "BLUE GREEN ALLIANCE",
+        "SUNRUN, INC.",
+        "RENEWABLE ENERGY GROUP, INC.",
+        "EVGO",
+        "TECO HOLDINGS INC., FORMERLY KNOWN AS ENERGY, INC.",
+        "BLACK HILLS CORPORATION"
+      ],
+      "clientCount": 172
+    },
+    {
+      "bill": "HR 1319",
+      "count": 1085,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "NATIONAL RIGHT TO WORK COMMITTEE",
+        "JOHN CARROLL UNIVERSITY",
+        "ANTIMICROBIALS WORKING GROUPS",
+        "INDIAN GAMING ASSOCIATION (FKA NATIONAL INDIAN GAMING ASSOCIATION)",
+        "NATIONAL ALLIANCE FOR PUBLIC CHARTER SCHOOLS",
+        "RESEARCH!AMERICA",
+        "DELTA AIRLINES",
+        "VERIZON COMMUNICATIONS",
+        "INVESTMENT COMPANY INSTITUTE",
+        "JE DUNN CONSTRUCTION",
+        "PARAMOUNT SKYDANCE CORPORATION (FKA PARAMOUNT GLOBAL)",
+        "AMERICAN CULTURAL RESOURCES ASSN",
+        "NATIONAL ASSOCIATION OF COUNCILS ON DEVELOPMENTAL DISABILITIES",
+        "IOWA FARM BUREAU FEDERATION",
+        "CENCORA, INC. (FORMERLY AMERISOURCEBERGEN CORPORATION)",
+        "DELOITTE LLP",
+        "NATURAL RESOURCES DEFENSE COUNCIL",
+        "SOUTH COAST AIR QUALITY MANAGEMENT DISTRICT",
+        "CITY OF MONROE",
+        "EMERGENCY CARE PARTNERS, LLC"
+      ],
+      "clientCount": 292
+    },
+    {
+      "bill": "H.R. 925",
+      "count": 1044,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "THEODORE ROOSEVELT CONSERVATION PARTNERSHIP",
+        "BACKCOUNTRY HUNTERS & ANGLERS",
+        "NATURE CONSERVANCY",
+        "AMERICAN SPORTFISHING ASSOCIATION",
+        "DEFENDERS OF WILDLIFE",
+        "CHESAPEAKE BAY FOUNDATION INC",
+        "AMERICAN ASSOCIATION FOR JUSTICE",
+        "WORKERS INJURY LAW & ADVOCACY GROUP",
+        "OAKLAND UNIVERSITY",
+        "INTERNATIONAL ASSOCIATION OF FIRE CHIEFS",
+        "COMMUNITY ASSOCIATIONS INSTITUTE",
+        "KASICH COMPANY, LLC ON BEHALF OF SCHOTTENSTEIN STORES CORPORATION",
+        "MARKQUEST",
+        "KASICH COMPANY",
+        "CUNA MUTUAL GROUP",
+        "NATIONAL ORGANIZATION OF SOCIAL SECURITY CLAIMANTS' REPRESENTATIVES",
+        "U.S. GLOBAL LEADERSHIP CAMPAIGN",
+        "340B HEALTH",
+        "AMERICA'S ESSENTIAL HOSPITALS",
+        "ASSOCIATION FOR COMMUNITY AFFILIATED PLANS"
+      ],
+      "clientCount": 375
+    },
+    {
+      "bill": "H.R.8774",
+      "count": 1026,
+      "years": [
+        2024,
+        2025
+      ],
+      "clients": [
+        "LOCKHEED MARTIN CORPORATION",
+        "DUN & BRADSTREET",
+        "MMS PRODUCTS, INC",
+        "NORTHWESTERN MEMORIAL HOSPITAL",
+        "VISION PRODUCTS, LLC",
+        "KEPLER COMPUTING INC.",
+        "ESCAMBIA COUNTY FL",
+        "APPLIED PHYSICS LABORATORY (APL) - UNIVERSITY OF WASHINGTON (UW)",
+        "CALIFORNIA FOREVER, INC",
+        "LEONARDO DRS, INC. (FKA RADA TECHNOLOGIES LLC)",
+        "STEADMAN PHILIPPON RESEARCH INSTITUTE",
+        "VIRGINIA POLYTECHNIC INSTITUTE AND STATE UNIVERSITY (VIRGINIA TECH)",
+        "ARIZONA STATE UNIVERSITY",
+        "THE BOEING COMPANY",
+        "SMITHS GROUP SERVICES CORPORATION",
+        "SOFTWARFARE, LLC",
+        "CAT LABS, INC",
+        "GENERAL ATOMICS",
+        "EL PASO WATER UTILITIES -- PUBLIC SERVICE BOARD DBA EL PASO WATER",
+        "CUMMINS, INC."
+      ],
+      "clientCount": 277
+    },
+    {
+      "bill": "HR 6800",
+      "count": 1021,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "T3 EXPO",
+        "AMERICAN ASSOCIATION FOR JUSTICE",
+        "WRITERS GUILD OF AMERICA, WEST",
+        "WORKERS INJURY LAW & ADVOCACY GROUP",
+        "AMERICAN CHIROPRACTIC ASSOCIATION",
+        "HOPEWELL FUND",
+        "NORTHERN CALIFORNIA POWER AGENCY",
+        "PUBLIC POWER COUNCIL",
+        "MISSOURI RIVER ENERGY SERVICES",
+        "PRIDE INDUSTRIES",
+        "MESSER",
+        "ALIANZA AMERICAS",
+        "ALZHEIMER'S FOUNDATION OF AMERICA",
+        "AMERICAN MUNICIPAL POWER INC (FORMERLY OHIO MUNICIPAL ELECTRIC ASSOCIATION)",
+        "CITY OF CHARLESTON SC",
+        "ORGANIC FARMERS ASSOCIATION",
+        "CAMPAIGN FOR FAMILY FARMS AND THE ENVIRONMENT",
+        "UFW FOUNDATION",
+        "CHILDREN'S CAUSE FOR CANCER",
+        "SOCIETY OF TEACHERS OF FAMILY MEDICINE"
+      ],
+      "clientCount": 356
+    },
+    {
+      "bill": "H.R. 6157",
+      "count": 983,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "clients": [
+        "TORCH TECHNOLOGIES, INC.",
+        "GENERAL ATOMICS ELECTROMAGNETIC SYSTEMS",
+        "PEOPLE-TEC",
+        "ORACLE CORPORATION",
+        "GENERAL DYNAMICS CORPORATION",
+        "ALLISON TRANSMISSION INCORPORATED",
+        "RTX CORPORATION AND AFFILIATES (FKA RAYTHEON TECHNOLOGIES CORP. AND AFFILIATES)",
+        "ENDOSEC LIMITED LIABILITY COMPANY",
+        "QUANTUM RESEARCH INTERNATIONAL, INC.",
+        "RADIANCE TECHNOLOGIES, INC.",
+        "CRAY INC",
+        "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+        "ROCKWELL COLLINS, INC",
+        "WINE AND SPIRITS WHOLESALERS OF AMERICA INC",
+        "GULF ISLAND FABRICATION, INC.",
+        "ASSOCIATED UNIVERSITIES INC",
+        "BISMARCK STATE COLLEGE",
+        "ABILENE CHAMBER OF COMMERCE",
+        "CITY OF ABILENE, TEXAS",
+        "UNIVERSITY OF NEW HAMPSHIRE"
+      ],
+      "clientCount": 399
+    },
+    {
+      "bill": "HR 133",
+      "count": 982,
+      "years": [
+        2018,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "COMMON CAUSE",
+        "LESSING'S HOSPITALITY GROUP",
+        "CARPI & CLAY, INC ON BEHALF OF LOS ANGELES COUNTY",
+        "MEDICAL GROUP MANAGEMENT ASSN",
+        "AMERICAN CHIROPRACTIC ASSOCIATION",
+        "COVERMYMEDS",
+        "COMMUNICATING FOR AMERICA",
+        "HEALTH INNOVATION ALLIANCE",
+        "EHR DATA",
+        "CITY OF CHARLESTON SC",
+        "AT&T SERVICES, INC.",
+        "AMERICAN FEDERATION OF SCHOOL ADMINISTRATORS",
+        "PALMETTO RAILWAYS, A DIVISION OF THE SC DEPARTMENT OF COMMERCE",
+        "FARM CREDIT MID-AMERICA",
+        "SELF-INSURANCE INSTITUTE OF AMERICA, INC.",
+        "CENCORA, INC. (FORMERLY AMERISOURCEBERGEN CORPORATION)",
+        "M&T BANK CORPORATION",
+        "CELANESE CORPORATION",
+        "BAYADA HEARTS FOR HOMECARE",
+        "OAKLAND UNIVERSITY"
+      ],
+      "clientCount": 377
+    },
+    {
+      "bill": "H.R. 8294",
+      "count": 982,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "SIGNATORY WALL AND CEILING CONTRACTORS ALLIANCE",
+        "SOCIETY FOR INDUSTRIAL AND ORGANIZATIONAL PSYCHOLOGY",
+        "UNIVERSITY OF CINCINNATI",
+        "INTERNATIONAL UNION OF PAINTERS AND ALLIED TRADES",
+        "ACTE",
+        "INTERNATIONAL UNION OF OPERATING ENGINEERS",
+        "NATIONAL RURAL WATER ASSOCIATION",
+        "ASSOCIATED BUILDERS AND CONTRACTORS INC",
+        "ASSOCIATED GENERAL CONTRACTORS OF AMERICA",
+        "YWCA USA",
+        "BUSINESS ROUNDTABLE INC",
+        "NATIONAL ASSOCIATION OF HOME BUILDERS",
+        "ASSOCIATED BUILDERS AND CONTRACTORS",
+        "ASSOCIATION OF COMMUNITY COLLEGE TRUSTEES",
+        "NATIONAL ROOFING CONTRACTORS ASSOCIATION",
+        "BUILDING AND CONSTRUCTION TRADES DEPT AFL-CIO",
+        "PRINCETON UNIVERSITY",
+        "SHEET METAL & AIR CONDITIONING CONTRACTORS NAT'L ASSN",
+        "ASSOCIATION OF EQUIPMENT MANUFACTURERS",
+        "WIRELESS INFRASTRUCTURE ASSOCIATION"
+      ],
+      "clientCount": 312
+    },
+    {
+      "bill": "H.R. 842",
+      "count": 981,
+      "years": [
+        2018,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "DATA COALITION",
+        "THE MARINE RETAILERS ASSOCIATION OF THE AMERICAS",
+        "BAKERY, CONFECTIONERY, TOBACCO WORKERS AND GRAIN MILLERS INTERNATIONAL UNION",
+        "DIRECT SELLING ASSOCIATION",
+        "COUNCIL FOR CITIZENS AGAINST GOVERNMENT WASTE",
+        "INDIANA CHAMBER OF COMMERCE INC",
+        "SYENSQO USA LLC",
+        "BLUE GREEN ALLIANCE",
+        "NATIONAL CLUB ASSOCIATION",
+        "WRITERS GUILD OF AMERICA WEST INC",
+        "NATIONAL ROOFING CONTRACTORS ASSOCIATION",
+        "BRIDGESTONE AMERICAS INC",
+        "LEADERSHIP CONFERENCE ON CIVIL AND HUMAN RIGHTS",
+        "CENTER FOR INDIVIDUAL FREEDOM",
+        "INDEPENDENT INSURANCE AGENTS & BROKERS OF AMERICA",
+        "AMERICAN HOSPITAL ASSOCIATION",
+        "MARY KAY, INC",
+        "RETAIL INDUSTRY LEADERS ASSOCIATION (RILA)",
+        "THE NORTHWESTERN MUTUAL LIFE INSURANCE COMPANY",
+        "INTERNATIONAL FRANCHISE ASSOCIATION"
+      ],
+      "clientCount": 164
+    },
+    {
+      "bill": "H.R. 3838",
+      "count": 963,
+      "years": [
+        2019,
+        2020,
+        2024,
+        2025
+      ],
+      "clients": [
+        "NATIONAL TREASURY EMPLOYEES UNION",
+        "CITIZENS FOR RESPONSIBLE ENERGY SOLUTIONS, INC.",
+        "AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS",
+        "MARCH OF DIMES",
+        "NEMOURS FOUNDATION - A FLORIDA NOT-FOR-PROFIT CORPORATION",
+        "CATHOLIC HEALTH ASSOCIATION OF THE UNITED STATES",
+        "AMERICAN PSYCHIATRIC ASSOCIATION",
+        "AMERICAN HEART ASSOCIATION",
+        "STANDARD INDUSTRIES",
+        "HEALTH CARE SERVICE CORPORATION, A MUTUAL LEGAL RESERVE COMPANY (HCSC)",
+        "FERRING PHARMACEUTICALS, INC.",
+        "NEMOURS CHILDREN'S HEALTH",
+        "NATIONAL ALLIANCE ON MENTAL ILLNESS",
+        "AMERICAN PUBLIC HEALTH ASSOCIATION",
+        "AMERICAN MEDICAL ASSOCIATION",
+        "PLANNED PARENTHOOD FEDERATION OF AMERICA INC",
+        "NATIONAL ASSOCIATION OF PEDIATRIC NURSE PRACTITIONERS",
+        "NATIONAL LEAGUE FOR NURSING",
+        "ASSN. OF STATE AND TERRITORIAL HEALTH OFFICIALS",
+        "PHLOW CORPORATION"
+      ],
+      "clientCount": 385
+    },
+    {
+      "bill": "H.R. 4016",
+      "count": 962,
+      "years": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "AMERICAN CHEMISTRY COUNCIL",
+        "PARALYZED VETERANS OF AMERICA",
+        "ASTRANIS SPACE TECHNOLOGIES CORP.",
+        "VANNEVAR LABS",
+        "BLUE ORIGIN LLC",
+        "CLARK STREET ASSOCIATES ON BEHALF OF CELESTIAL AI",
+        "QUANTUM INDUSTRY COALITION",
+        "AETHERFLUX, INC.",
+        "AMERICAN SUPERCONDUCTOR CORPORATION",
+        "FAIRWINDS TECHNOLOGIES",
+        "TULANE UNIVERSITY",
+        "BEAVERFIT NORTH AMERICA, LLC",
+        "ROBOTIC RESEARCH OPCO, LLC (DBA FORTERRA)",
+        "UNIVERSITY OF UTAH",
+        "NIRON MAGNETICS",
+        "TEAM HALLAHAN ON BEHALF OF LEIDOS, INC.",
+        "XONA SPACE SYSTEMS",
+        "DIGITAL FORCE TECHNOLOGIES (FORMERLY KNOWN AS ADELOS)",
+        "S & K TECHNOLOGIES, INC.",
+        "BOSTON COLLEGE"
+      ],
+      "clientCount": 279
+    },
+    {
+      "bill": "H.R.4521",
+      "count": 955,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "FOOD RESEARCH AND ACTION CENTER",
+        "HERSHEY COMPANY",
+        "AMERICAN SUGAR ALLIANCE",
+        "AMERICAN SOCIETY FOR MICROBIOLOGY",
+        "TWIST BIOSCIENCE CORPORATION",
+        "AIRSPAN NETWORKS INC.",
+        "TST INC",
+        "TST, INC.",
+        "TSMC ARIZONA",
+        "AMERICAN ASSOCIATION FOR JUSTICE",
+        "ACTIVISION BLIZZARD, INC.",
+        "FULBRIGHT UNIVERSITY VIETNAM USA",
+        "PUBLIC SERVICE ENTERPRISE GROUP",
+        "NEXGEN POWER SYSTEMS",
+        "XR ASSOCIATION",
+        "A.O. SMITH CORPORATION",
+        "ADVANCED MICRO DEVICES (AMD)",
+        "ANIMAL WELLNESS ACTION",
+        "SPACE EXPLORATION TECHNOLOGIES CORPORATION",
+        "WALGREENS CO."
+      ],
+      "clientCount": 285
+    },
+    {
+      "bill": "H.R. 1892",
+      "count": 931,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "clients": [
+        "AMERICAN AMBULANCE ASSOCIATION",
+        "ADVANCED BIOFUELS ASSOCIATION",
+        "JOHNSON MATTHEY INC.",
+        "SERGEANTS BENEVOLENT ASSOCIATION OF NEW YORK CITY",
+        "AMERICAN PISTACHIO GROWERS (FORMERLY KNOWN AS WESTERN PISTACHIO ASSOCIATION)",
+        "NATIONAL ASSOCIATION OF COMMUNITY HEALTH CENTERS",
+        "HOSPICE ACTION NETWORK",
+        "MONTEFIORE MEDICAL CENTER",
+        "PARTNERSHIP FOR QUALITY HOME HEALTH",
+        "AMERICAN MEDICAL ASSOCIATION",
+        "NATIONAL WASTE & RECYCLING ASSOCIATION",
+        "GENESEE & WYOMING INC",
+        "HOOPER LUNDY & BOOKMAN P C (OBO ROCHE DIAGNOSTICS)",
+        "ASSOCIATION OF AMERICAN MEDICAL COLLEGES",
+        "KINDRED HEALTHCARE D/B/A SCIONHEALTH (FKA KINDRED HEALTHCARE OPERATING, INC)",
+        "NATIONAL QUALITY FORUM",
+        "AMERICAN HEART ASSOCIATION",
+        "BALL CORPORATION",
+        "PHYSICIAN ASSISTANT EDUCATION ASSOCIATION",
+        "BREAKTHROUGH T1D (FORMERLY KNOWN AS JDRF INTL.)"
+      ],
+      "clientCount": 309
+    },
+    {
+      "bill": "S.1895",
+      "count": 927,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "NATIONAL AMERICAN INDIAN HOUSING COUNCIL",
+        "BLUECROSS BLUESHIELD OF TENNESSEE, INC.",
+        "EMERGENCY DEPARTMENT PRACTICE MANAGEMENT ASSOCIATION",
+        "AMERICAN COLLEGE OF EMERGENCY PHYSICIANS",
+        "TEVA PHARMACEUTICALS USA, INC.",
+        "AMERICAN SOCIETY OF HEMATOLOGY",
+        "TAUZIN CONSULTANTS (ON BEHALF OF SORRENTO THERAPEUTICS, INC)",
+        "TAUZIN CONSULTANTS (ON BEHALF OF SCILEX HOLDING COMPANY)",
+        "SORRENTO THERAPEUTICS, INC.",
+        "SUN RIVER HEALTH",
+        "SCILEX HOLDING COMPANY",
+        "BLUE SHIELD OF CALIFORNIA",
+        "TAKEDA PHARMACEUTICALS AMERICA, INC.",
+        "COREWELL HEALTH",
+        "ASSOCIATED GENERAL CONTRACTORS OF AMERICA",
+        "SANFORD HEALTH",
+        "AMERICAN SOCIETY FOR RADIATION ONCOLOGY",
+        "WELLCARE HEALTH PLANS, INC.",
+        "BIODESIX",
+        "BLUE CROSS AND BLUE SHIELD ASSOCIATION"
+      ],
+      "clientCount": 162
+    },
+    {
+      "bill": "H.R. 5515",
+      "count": 916,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2025
+      ],
+      "clients": [
+        "AMERICAN MARITIME OFFICERS SERVICE (AMOS)",
+        "BORSIGHT",
+        "AMERICAN MARITIME OFFICERS",
+        "LEIDOS INC",
+        "FEDERAL MANAGERS ASSOCIATION",
+        "DEFENDER PHARMACEUTICALS, INC.",
+        "LEIDOS INNOVATIONS CORPORATION",
+        "BACKCOUNTRY HUNTERS & ANGLERS",
+        "ORACLE CORPORATION",
+        "ENLISTED ASSOCIATION OF THE NATIONAL GUARD OF THE UNITED STATES",
+        "AERONAUTICAL REPAIR STATION ASSOCIATION",
+        "COUNCIL FOR CITIZENS AGAINST GOVERNMENT WASTE",
+        "GENERAL DYNAMICS CORPORATION",
+        "ALLISON TRANSMISSION INCORPORATED",
+        "RTX CORPORATION AND AFFILIATES (FKA RAYTHEON TECHNOLOGIES CORP. AND AFFILIATES)",
+        "UNITED BROTHERHOOD OF CARPENTERS AND JOINERS OF AMERICA",
+        "CRAY INC",
+        "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+        "GEORGETOWN UNIVERSITY",
+        "SERGEANTS BENEVOLENT ASSOCIATION OF NEW YORK CITY"
+      ],
+      "clientCount": 322
+    },
+    {
+      "bill": "S. 3042",
+      "count": 915,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "RENEW BIOMASS",
+        "CROP INSURANCE PROFESSIONAL ASSOCIATION LLC (NEW NAME)",
+        "NATIONAL AUDUBON SOCIETY",
+        "NATIONAL MILK PRODUCERS FEDERATION",
+        "OREGON STATE UNIVERSITY",
+        "AMERICAN SOCIETY OF PLANT BIOLOGISTS",
+        "REINSURANCE ASSN OF AMERICA",
+        "AMERICAN PHYSIOLOGICAL SOCIETY",
+        "OPEN SPACE INSTITUTE, INC.",
+        "NATIONAL COUNCIL OF FARMER COOPERATIVES",
+        "FMC CORPORATION",
+        "AMERICAN INDIAN HIGHER EDUCATION CONSORTIUM",
+        "THE MACON EDWARDS COMPANY ON BEHALF OF FLORIDA SUGAR CANE LEAGUE",
+        "BISMARCK STATE COLLEGE",
+        "PLACER COUNTY WATER AGENCY",
+        "AMERICAN SOCIETY FOR HORTICULTURAL SCIENCE",
+        "NATIONAL TURFGRASS FEDERATION",
+        "GLANBIA INC",
+        "CALIFORNIA CITRUS MUTUAL",
+        "AMERICAN OLIVE OIL PRODUCERS ASSOCIATION"
+      ],
+      "clientCount": 290
+    },
+    {
+      "bill": "H.R. 2954",
+      "count": 914,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "CREDIT UNION NATIONAL ASSOCIATION, INC. DBA AMERICA'S CREDIT UNIONS",
+        "PRUDENTIAL FINANCIAL INC",
+        "MORTGAGE BANKERS ASSOCIATION",
+        "INDEPENDENT COMMUNITY BANKERS OF AMERICA",
+        "AMERICAN BANKERS ASSOCIATION",
+        "NATIONAL ASSOCIATION OF FEDERALLY-INSURED CREDIT UNIONS",
+        "CENTER FOR RESPONSIBLE LENDING A SUPPORTING CORP OF CTR FOR COMMUNITY SELF-HELP",
+        "CONSUMER MORTGAGE COALITION",
+        "MR. COOPER INC.",
+        "LEADERSHIP CONFERENCE ON CIVIL AND HUMAN RIGHTS",
+        "NATIONAL COMMUNITY REINVESTMENT COALITION",
+        "NATIONAL TREASURY EMPLOYEES UNION",
+        "MISSIONSQUARE RETIREMENT",
+        "ASSOCIATION OF THE UNITED STATES ARMY, (INC.)",
+        "SEA SERVICE FAMILY, CONSULTING",
+        "AZOA SERVICES CORP(ALLIANZ OF AMERICA) AND AFFILIATES",
+        "SMART USA CO",
+        "INVESTMENT COMPANY INSTITUTE",
+        "LINCOLN NATIONAL CORPORATION",
+        "NATIONAL ASSN OF PROFESSIONAL EMPLOYER ORGANIZATIONS"
+      ],
+      "clientCount": 136
+    },
+    {
+      "bill": "H.R. 1968",
+      "count": 910,
+      "years": [
+        2018,
+        2019,
+        2025
+      ],
+      "clients": [
+        "CATERPILLAR INC",
+        "NATIONAL ASSOCIATION FOR THE ADVANCEMENT OF COLORED PEOPLE",
+        "NASSAU SUFFOLK HOSPITAL COUNCIL",
+        "AMERICAN PRESIDENT LINES, LLC",
+        "CALIFORNIA ASSOCIATION OF SANITATION AGENCIES",
+        "EAST BAY MUNICIPAL UTILITY DISTRICT",
+        "COUNTY SANITATION DISTRICTS OF ORANGE COUNTY",
+        "SOUTH TAHOE PUBLIC UTILITY DISTRICT",
+        "ORANGE COUNTY WATER DISTRICT",
+        "XYLEM INC",
+        "YOLO COUNTY",
+        "RANCHO CALIFORNIA WATER DISTRICT",
+        "PLACER COUNTY WATER AGENCY",
+        "CITY OF SACRAMENTO",
+        "CITY OF SAN BUENAVENTURA",
+        "CHEVRON, USA, INC.",
+        "NORTH TAHOE PUBLIC UTILITY DISTRICT",
+        "TAHOE CITY PUBLIC UTILITY DISTRICT",
+        "UTICA WATER AND POWER AUTHORITY",
+        "SANTA MARGARITA WATER DISTRICT"
+      ],
+      "clientCount": 374
+    },
+    {
+      "bill": "H.R. 4",
+      "count": 909,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "BOSTON SCIENTIFIC CORPORATION",
+        "AMERICAN CAR RENTAL ASSOCIATION",
+        "CINTRA US",
+        "CENTER FOR TRANSPORTATION AND THE ENVIRONMENT",
+        "MERIDIAM INFRASTRUCTURE NORTH AMERICA CORPORATION (FKA MERIDIAM INFRASTRUCTURE)",
+        "US TRAVEL ASSOCIATION",
+        "TRANSPORTATION COMMUNICATIONS NATIONAL UNION/IAM (FKA TRANSPORTATION COMMUNICATI",
+        "AARP",
+        "AMERICAN SOCIETY OF TRAVEL ADVISORS INC",
+        "RTX CORPORATION AND AFFILIATES",
+        "MUSCULAR DYSTROPHY ASSOCIATION, INC.",
+        "CENTER FOR RESPONSIBLE LENDING A SUPPORTING CORP OF CTR FOR COMMUNITY SELF-HELP",
+        "JETBLUE AIRWAYS",
+        "THORN RUN PARTNERS O/B/O ALLIANCE FOR DRONE INNOVATION",
+        "CTIA",
+        "EXELON",
+        "PRECISIONHAWK USA, INC.",
+        "LEIDOS INNOVATIONS CORPORATION",
+        "ASSOCIATION OF CRITICAL CARE TRANSPORT",
+        "AMERICAN ASSOCIATION OF AIRPORT EXECUTIVES"
+      ],
+      "clientCount": 251
+    },
+    {
+      "bill": "H.R.3",
+      "count": 906,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "clients": [
+        "OREGON HEALTH & SCIENCE UNIVERSITY",
+        "NATIONAL FAIR HOUSING ALLIANCE",
+        "NATIONAL AFFORDABLE HOUSING MANAGEMENT ASSOCIATION (NAHMA)",
+        "BJC HEALTHCARE",
+        "OREGON HEALTH AND SCIENCE UNIVERSITY",
+        "TENET HEALTHCARE CORPORATION",
+        "FAMILIES USA FOUNDATION INC",
+        "FLH COMPANY",
+        "FOOD RESEARCH AND ACTION CENTER",
+        "EASTERN MICHIGAN UNIVERSITY",
+        "UNITED AUTOMOBILE, AEROSPACE & AGRICULTURAL IMPLEMENT WORKERS",
+        "CENTER ON BUDGET AND POLICY PRIORITIES",
+        "NATIONAL ASSOCIATION OF BENEFITS AND INSURANCE PROFESSIONALS",
+        "UNIVERSITY OF ALABAMA SYSTEM",
+        "MEDICAL UNIVERSITY HOSPITAL AUTHORITY",
+        "OCHSNER CLINIC FOUNDATION",
+        "UAB HEALTH SYSTEM",
+        "THE WILDERNESS SOCIETY",
+        "UNIVERSITY OF TOLEDO",
+        "PHARMACEUTICAL RESEARCH AND MANUFACTURERS OF AMERICA"
+      ],
+      "clientCount": 141
+    },
+    {
+      "bill": "S. 2296",
+      "count": 899,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2024,
+        2025
+      ],
+      "clients": [
+        "FREEDOMWORKS, INC.",
+        "NATIONAL TAXPAYERS UNION",
+        "BUSINESS ROUNDTABLE",
+        "UNION OF CONCERNED SCIENTISTS",
+        "NATURAL RESOURCES DEFENSE COUNCIL",
+        "AMERICAN FOREST & PAPER ASSOCIATION",
+        "AMERICAN ASSOCIATION FOR JUSTICE",
+        "THE CAMPAIGN FOR SUSTAINABLE RX PRICING",
+        "POWER TO DECIDE",
+        "MORTGAGE BANKERS ASSOCIATION",
+        "MEDIATEK USA INC.",
+        "LOCKHEED MARTIN CORPORATION",
+        "AMERICAN SOCIETY FOR REPRODUCTIVE MEDICINE",
+        "GLOBAL ARM",
+        "ML STRATEGIES, LLC (ON BEHALF OF DAIKIN U.S. CORPORATION)",
+        "STEPHENSON STELLAR CORPORATION",
+        "UNITED LAUNCH ALLIANCE",
+        "LEONARDO DRS, INC. (FKA RADA TECHNOLOGIES LLC)",
+        "OUSTER, INC.",
+        "SKYDIO, INC."
+      ],
+      "clientCount": 386
+    },
+    {
+      "bill": "S.2296",
+      "count": 898,
+      "years": [
+        2019,
+        2025
+      ],
+      "clients": [
+        "UNITED STEEL PAPER & FORESTRY RUBBER MANUFACTURING ENERGY",
+        "GECKO ROBOTICS, INC.",
+        "GPS INNOVATION ALLIANCE",
+        "ICEBREAKER STRATEGIES LLC ON BEHALF OF VORBECK MATERIALS CORP.",
+        "ACURX PHARMACEUTICALS, INC.",
+        "ARIANESPACE, INC.",
+        "BATTELLE MEMORIAL INSTITUTE",
+        "BOOZ ALLEN HAMILTON INC.",
+        "CERUS CORPORATION",
+        "CLAROTY, INC.",
+        "DAY & ZIMMERMANN",
+        "DEEP RESEARCH INC.",
+        "DEEPNIGHT INC.",
+        "EMAGIN",
+        "EMPOWER EQUITY, INC. (DBA EMPEQ)",
+        "ESRI",
+        "ETHEREAL SPACE INC.",
+        "EXAIL, INC.",
+        "FEDTECH",
+        "FLORIDA INSTITUTE FOR HUMAN AND MACHINE COGNITION"
+      ],
+      "clientCount": 368
+    },
+    {
+      "bill": "S.4921",
+      "count": 881,
+      "years": [
+        2024,
+        2025
+      ],
+      "clients": [
+        "WINDBORNE SYSTEMS",
+        "SOFAR OCEAN TECHNOLOGIES",
+        "EAGLEPICHER TECHNOLOGIES LLC",
+        "STEADMAN PHILIPPON RESEARCH INSTITUTE",
+        "MULLEN",
+        "UNIVERSITY OF CINCINNATI",
+        "ACTIVATE GLOBAL, INC.",
+        "WAYNE STATE UNIVERSITY",
+        "VISION PRODUCTS, LLC",
+        "UNIVERSITY OF OREGON",
+        "AIRBUS AMERICAS, INC.",
+        "JMA WIRELESS",
+        "NORTHWESTERN MEMORIAL HOSPITAL",
+        "ROBOTIC RESEARCH OPCO, LLC (DBA FORTERRA)",
+        "UNIVERSITY OF MINNESOTA",
+        "UNIVERSITY OF OKLAHOMA",
+        "US IGNITE, INC.",
+        "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+        "NORTH DAKOTA STATE UNIVERSITY",
+        "AIR TRANSPORT ASSOCIATION OF AMERICA, INC. (D/B/A AIRLINES FOR AMERICA)"
+      ],
+      "clientCount": 294
+    },
+    {
+      "bill": "H.R.4502",
+      "count": 875,
+      "years": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "CHARTERCARE HEALTH PARTNERS",
+        "CONGRESSIONAL FIRE SERVICES INSTITUTE",
+        "AVANGRID INC",
+        "HUMAN RIGHTS FIRST",
+        "ACADEMY OF GENERAL DENTISTRY",
+        "AMERICAN COLLEGE OF OCCUPATIONAL AND ENVIRONMENTAL MEDICINE",
+        "AMERICAN INDUSTRIAL HYGIENE ASSOCIATION",
+        "DAYTON DEVELOPMENT COALITION",
+        "THE AMERICAN OCCUPATIONAL THERAPY ASSOCIATION, INC.",
+        "MYRIAD GENETICS, INC.",
+        "CENTERSTONE",
+        "RI INTERNATIONAL",
+        "FIRST FOCUS CAMPAIGN FOR CHILDREN",
+        "TRILOGY INTEGRATED RESOURCES, LLC",
+        "TREATMENT ADVOCACY CENTER",
+        "SCHIZOPHRENIA & PSYCHOSIS ACTION ALLIANCE FKA SCHIZOPHRENIA AND RELATED DISORDER",
+        "NATIONAL COUNCIL FOR MENTAL WELLBEING FKA NATIONAL COUNCIL FOR BEHAVIORAL HEALTH",
+        "FOOD RESEARCH AND ACTION CENTER",
+        "WHITE COAT WASTE PROJECT INC",
+        "LAKE CARRIERS ASSOCIATION"
+      ],
+      "clientCount": 219
+    },
+    {
+      "bill": "H.R. 8152",
+      "count": 873,
+      "years": [
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "AUTODESK INC",
+        "CUNA MUTUAL GROUP",
+        "AMERICAN FAMILY MUTUAL INSURANCE COMPANY",
+        "COUNCIL FOR CITIZENS AGAINST GOVERNMENT WASTE",
+        "HEALTHCARE LEADERSHIP COUNCIL",
+        "CMFG LIFE INSURANCE COMPANY",
+        "AMERICAN TRANSACTION PROCESSORS COALITION",
+        "PANASONIC CORPORATION OF NORTH AMERICA",
+        "THE NONPROFIT ALLIANCE",
+        "SECURITY INDUSTRY ASSOCIATION",
+        "AMERICAN HONDA MOTOR CO., INC.",
+        "DIRECTV, LLC",
+        "LIVERAMP, INC.",
+        "ADVAMED:ADVANCED MEDICAL TECHNOLOGY ASSOCIATION",
+        "MAPLEBEAR INC. D/B/A INSTACART",
+        "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "AMERICAN CAR RENTAL ASSOCIATION",
+        "ELECTRONIC TRANSACTIONS ASSOCIATION",
+        "SAP AMERICA INC.",
+        "INDUSTRY COUNCIL FOR EMERGENCY RESPONSE TECHNOLOGIES, INC."
+      ],
+      "clientCount": 240
+    },
+    {
+      "bill": "H.R. 2741",
+      "count": 861,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "MISSIONSQUARE RETIREMENT",
+        "AMERICAN ASSOCIATION OF COLLEGES OF PHARMACY",
+        "AMERICAN ELECTRIC POWER COMPANY, INC. AND AFFILIATED CORPORATIONS",
+        "AMERICAN CLEAN POWER ASSOCIATION",
+        "NATIONAL TELECOMMUNICATIONS COOPERATIVE ASSOCIATION",
+        "ENVIRONMENT AMERICA INC",
+        "INTERNATIONAL UNION OF OPERATING ENGINEERS",
+        "PORTLAND GENERAL ELECTRIC",
+        "BERKSHIRE HATHAWAY ENERGY",
+        "ENEL NORTH AMERICA INC AND ITS AFFILIATES",
+        "PPL CORPORATION",
+        "AMERICAN PUBLIC HEALTH ASSOCIATION",
+        "CMS ENERGY CORP",
+        "AMERICAN CHEMISTRY COUNCIL",
+        "DUPONT DE NEMOURS, INC.",
+        "AMERICAN MUNICIPAL POWER INC (FORMERLY OHIO MUNICIPAL ELECTRIC ASSOCIATION)",
+        "MISSOURI RIVER ENERGY SERVICES",
+        "NORTHERN CALIFORNIA POWER AGENCY",
+        "FIRSTENERGY CORP",
+        "VESTAS-AMERICAN WIND TECHNOLOGY INC"
+      ],
+      "clientCount": 112
+    },
+    {
+      "bill": "H.R. 7617",
+      "count": 858,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "UNITED LAUNCH ALLIANCE",
+        "NATIONAL TREASURY EMPLOYEES UNION",
+        "BLUE ORIGIN, LLC",
+        "APPLIED MATERIALS, INC.",
+        "CLEMSON UNIVERSITY",
+        "CONNECTICUT CENTER FOR ADVANCED TECHNOLOGY (CCAT)",
+        "ACCIPITER",
+        "INTEGRA TECHNOLOGIES",
+        "KENNEDY KRIEGER INSTITUTE (KKI)",
+        "UNIVERSITY OF MARYLAND, BALTIMORE (UMB)",
+        "EMBRAER AIRCRAFT HOLDING INC",
+        "MASSIF",
+        "MAYO CLINIC",
+        "TENABLE",
+        "DUKE ENERGY CORPORATION",
+        "SKYDWELLER AERO, INC.",
+        "CITY OF TUCSON",
+        "SOCIETY OF GYNECOLOGIC ONCOLOGISTS",
+        "L3 HARRIS TECHNOLOGIES",
+        "NATIONAL CENTER FOR MANUFACTURING SCIENCES"
+      ],
+      "clientCount": 333
+    },
+    {
+      "bill": "S.4049",
+      "count": 856,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "HIGH EFFICIENCY DEHUMIDIFICATION SYSTEMS, INC. DBA CONSERVANT SYSTEMS, INC.",
+        "AMERICAN POLITICAL SCIENCE ASSOCIATION",
+        "TENCATE PROTECTIVE FABRICS NORTH AMERICA",
+        "COALITION ON HUMAN NEEDS",
+        "AMERICAN MARITIME OFFICERS SERVICE (AMOS)",
+        "AMERICAN MARITIME OFFICERS",
+        "AMERICAN WATER",
+        "FLEET RESERVE ASSOCIATION",
+        "GLOBAL TUNGSTEN & POWDERS",
+        "CONSUMER HEALTHCARE PRODUCTS ASSOCIATION",
+        "AMERICAN PACIFIC",
+        "AMERICAN RHEINMETALL SYSTEMS, LLC",
+        "BWX TECHNOLOGIES, INC.",
+        "WORLD FUEL (FKA WORLD FUEL SERVICES)",
+        "AMERICAN NURSES ASSOCIATION",
+        "AMERICAN CHEMISTRY COUNCIL",
+        "ASSOCIATION FOR ACCESSIBLE MEDICINES (FORMERLY - GENERIC PHARMACEUTICAL ASSN)",
+        "AMERICAN SUPERCONDUCTOR CORPORATION",
+        "SMITHS DETECTION INC.",
+        "SKYDWELLER AERO INC."
+      ],
+      "clientCount": 290
+    },
+    {
+      "bill": "H.R. 8236",
+      "count": 853,
+      "years": [
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "AERONAUTICAL REPAIR STATION ASSOCIATION",
+        "GENERAL DYNAMICS CORPORATION",
+        "ALLISON TRANSMISSION INCORPORATED",
+        "RTX CORPORATION AND AFFILIATES (FKA RAYTHEON TECHNOLOGIES CORP. AND AFFILIATES)",
+        "ENDOSEC LIMITED LIABILITY COMPANY",
+        "SAAB, INCORPORATED FKA SAAB TRAINING AND SIMULATION",
+        "MACK DEFENSE LLC",
+        "AM GENERAL, LLC",
+        "SHIELD AI",
+        "HARDWIRE, LLC",
+        "PRINCETON UNIVERSITY",
+        "WOLFSPEED (FKA CREE FAYETTEVILLE, INC.)",
+        "MONTANA STATE UNIVERSITY",
+        "UNIVERSITY OF ARKANSAS AT LITTLE ROCK",
+        "UNIVERSITY OF MAINE",
+        "UNIVERSITY OF MONTANA",
+        "USACA",
+        "EVOQUA WATER TECHNOLOGIES",
+        "UNIVERSITY OF CENTRAL FLORIDA",
+        "BWX TECHNOLOGIES INC"
+      ],
+      "clientCount": 265
+    },
+    {
+      "bill": "S.4638",
+      "count": 852,
+      "years": [
+        2020,
+        2024,
+        2025
+      ],
+      "clients": [
+        "AMERICAN SOCIETY OF CIVIL ENGINEERS",
+        "ROCKET LIMITED PARTNERSHIP F/K/A RKT HOLDINGS, LLC",
+        "VISION PRODUCTS, LLC",
+        "THE CONSERVATION FUND",
+        "J STREET",
+        "PICERNE MILITARY HOUSING A/K/A CORVIAS GROUP",
+        "KELLOGG, BROWN AND ROOT (KBR)",
+        "EDUCATION REFORM NOW ADVOCACY",
+        "THE REGENTS OF THE UNIVERSITY OF COLORADO",
+        "ASTROSCALE U.S., INC.",
+        "LEIDOS INC",
+        "SOFTWARFARE, LLC",
+        "PURDUE UNIVERSITY",
+        "FRIENDS COMMITTEE ON NATIONAL LEGISLATION",
+        "NANA REGIONAL CORPORATION",
+        "CLEAN ENERGY BUYERS ASSOCIATION (FORMERLY RENEWABLE ENERGY BUYERS ALLIANCE)",
+        "BAE SYSTEMS INC",
+        "GTS",
+        "L3HARRIS TECHNOLOGIES INC",
+        "CONCURRENT TECHNOLOGIES CORPORATION"
+      ],
+      "clientCount": 326
+    },
+    {
+      "bill": "H.R. 5",
+      "count": 849,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "AMERICAN PUBLIC HEALTH ASSOCIATION",
+        "AMERICAN INTELLECTUAL PROPERTY LAW ASSOCIATION (AIPLA)",
+        "NORTHEASTERN RETIAL LUMBER ASSOCIATION",
+        "ASME",
+        "ESSENTIAL MINERALS ASSOCIATION (FKA INDUSTRIAL MINERALS ASSOCIATION-NORTH AMERI)",
+        "NATIONAL MULTIFAMILY HOUSING COUNCIL INC",
+        "EARTHJUSTICE",
+        "ASSOCIATED BUILDERS AND CONTRACTORS INC",
+        "TEXAS FARM BUREAU",
+        "CHAMBER OF COMMERCE OF THE U.S.A.",
+        "AMERICAN PUBLIC POWER ASSOCIATION",
+        "ELEVANTA LLC",
+        "BUSINESS ROUNDTABLE INC",
+        "CROPLIFE AMERICA",
+        "AMERICAN ASSOCIATION FOR JUSTICE",
+        "NATIONAL READY MIXED CONCRETE ASSOCIATION",
+        "MOTOR & EQUIPMENT MANUFACTURERS ASSOCIATION",
+        "NATIONAL AUTOMATIC MERCHANDISING ASSOCIATION",
+        "TRUST FOR AMERICA'S HEALTH",
+        "OHIO FARM BUREAU FEDERATION"
+      ],
+      "clientCount": 142
+    },
+    {
+      "bill": "H.R. 5378",
+      "count": 844,
+      "years": [
+        2018,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "COMPETITIVE CARRIERS ASSOCIATION",
+        "AMERICAN TOWER CORPORATION",
+        "CTIA",
+        "AT&T SERVICES INC.",
+        "AT&T SERVICES INC AND ITS AFFILIATES",
+        "VERIZON COMMUNICATIONS INC AND VARIOUS SUBSIDIARIES",
+        "CTIA-THE WIRELESS ASSOCIATION",
+        "COX ENTERPRISES INC.",
+        "NATIONAL TELECOMMUNICATIONS COOPERATIVE ASSOCIATION",
+        "T-MOBILE USA, INC.",
+        "ARRL, THE NATIONAL TRADE ASSOCIATION FOR AMATEUR RADIO",
+        "DISH NETWORK LLC",
+        "AMERICAN LIBRARY ASSOCIATION",
+        "FEDERATED WIRELESS, INC.",
+        "H LEE MOFFITT CANCER CENTER & RESEARCH INSTITUTE",
+        "CHILDREN'S HOSPITAL ASSOCIATION F/K/A NAT'L ASSOCIATION OF CHILDREN'S HOSPITALS",
+        "WAKEFERN FOOD CORP.",
+        "ARTHRITIS FOUNDATION",
+        "PHARMACEUTICAL RESEARCH AND MANUFACTURERS OF AMERICA",
+        "AMERICA'S HEALTH INSURANCE PLANS (AHIP)"
+      ],
+      "clientCount": 185
+    },
+    {
+      "bill": "H.R. 3630",
+      "count": 838,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "clients": [
+        "AMERICAN VETERINARY MEDICAL ASSOCIATION",
+        "AMERICAN ASSOCIATION OF NURSE ANESTHETISTS",
+        "WAKE FOREST UNIVERSITY HEALTH SCIENCES",
+        "NORTH CAROLINA BAPTIST HOSPITAL",
+        "ASSOCIATION OF AMERICAN MEDICAL COLLEGES",
+        "AMERICAN HEART ASSOCIATION",
+        "AMERICA'S HEALTH INSURANCE PLANS OBO COALITION AGAINST SURPRISE MEDICAL BILLING",
+        "PEDIATRIX MEDICAL GROUP (MEDNAX NATIONAL MEDICAL GROUP)",
+        "BIODESIX",
+        "BLUE SHIELD OF CALIFORNIA",
+        "CALIFORNIA MEDICAL ASSOCIATION INC",
+        "TEXAS HOSPITAL ASSOCIATION",
+        "AMERICAN BENEFITS COUNCIL",
+        "AMERICAN COLLEGE OF SURGEONS",
+        "AMERICAN COLLEGE OF SURGEONS PROFESSIONAL ASSOCIATION",
+        "MASSACHUSETTS MEDICAL SOCIETY",
+        "VIZIENT INC",
+        "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+        "GREATER NEW YORK HOSPITAL ASSOCIATION",
+        "NATIONAL MULTIPLE SCLEROSIS SOCIETY"
+      ],
+      "clientCount": 145
+    },
+    {
+      "bill": "H.R.8070",
+      "count": 837,
+      "years": [
+        2024,
+        2025
+      ],
+      "clients": [
+        "HYGIEIA INDOORS, LLC",
+        "BETTER HOMES FOR HEROES",
+        "MMS PRODUCTS, INC",
+        "RWE OFFSHORE WIND HOLDINGS, LLC",
+        "BUSINESS COUNCIL FOR SUSTAINABLE ENERGY",
+        "TSS SOLUTIONS",
+        "EXOANALYTIC SOLUTIONS, INC.",
+        "MISSISSIPPI COUNTY, ARKANSAS",
+        "CHILDREN'S HOSPITAL COLORADO",
+        "THE CONSERVATION FUND",
+        "CALIFORNIA FOREVER, INC",
+        "NATIONAL SHOOTING SPORTS FOUNDATION",
+        "EQUIFAX, INC",
+        "THE REGENTS OF THE UNIVERSITY OF COLORADO",
+        "ASTROSCALE U.S., INC.",
+        "LEIDOS INC",
+        "SMITHS GROUP SERVICES CORPORATION",
+        "SOFTWARFARE, LLC",
+        "CAT LABS, INC",
+        "AMERICAN ASSOCIATION OF COLLEGES OF NURSING"
+      ],
+      "clientCount": 298
+    },
+    {
+      "bill": "H.R.7900",
+      "count": 832,
+      "years": [
+        2022,
+        2025
+      ],
+      "clients": [
+        "RTX CORPORATION AND AFFILIATES (FKA RAYTHEON TECHNOLOGIES CORP. AND AFFILIATES)",
+        "NATIONAL ASSOCIATION OF CRIMINAL DEFENSE LAWYERS (NACDL)",
+        "PICERNE MILITARY HOUSING A/K/A CORVIAS GROUP",
+        "FULBRIGHT UNIVERSITY VIETNAM USA",
+        "INSTITUTE OF INTERNATIONAL EDUCATION (IIE)",
+        "USA RARE EARTH",
+        "NATIONAL ELECTRICAL MANUFACTURERS ASSOCIATION",
+        "LIBERTY MUTUAL GROUP",
+        "CHURCHILL COUNTY, NEVADA",
+        "CTIA - THE WIRELESS ASSOCIATION",
+        "EMERGENT BIOSOLUTIONS",
+        "LOCKHEED MARTIN CORPORATION",
+        "APPLIED INTUITION",
+        "EMERGENT BIOSOLUTIONS INC",
+        "GENERAL ATOMICS AERONAUTICAL SYSTEMS",
+        "OLIN WINCHESTER",
+        "SHIELD AI, INC.",
+        "CITIZENS FOR RESPONSIBLE ENERGY SOLUTIONS (CRES)",
+        "CROSSROADS STRATEGIES, LLC ON BEHALF OF KNOWBE4, INC.",
+        "EL PASO WATER UTILITIES -- PUBLIC SERVICE BOARD DBA EL PASO WATER"
+      ],
+      "clientCount": 284
+    },
+    {
+      "bill": "H.R.6201",
+      "count": 813,
+      "years": [
+        2020,
+        2021,
+        2024,
+        2025
+      ],
+      "clients": [
+        "H LEE MOFFITT CANCER CENTER & RESEARCH INSTITUTE",
+        "MEDICAID HEALTH PLANS OF AMERICA",
+        "NATIONAL ASSOCIATION OF WHOLESALER-DISTRIBUTORS",
+        "GENENTECH, INC.",
+        "PERSONAL CARE PRODUCTS COUNCIL",
+        "COUNCIL OF THE GREAT CITY SCHOOLS",
+        "ASSOCIATION FOR COMMUNITY AFFILIATED PLANS",
+        "UNIVERSITY OF LOUISVILLE",
+        "SAINT LUKES HEALTH SYSTEM (FKA ST LUKES REGIONAL MEDICAL CENTER LTD)",
+        "ENTERGY SERVICES LLC",
+        "BECHTEL NATIONAL, INC.",
+        "AMERICAN VETERINARY MEDICAL ASSOCIATION",
+        "UNIVERSITY OF KANSAS HOSPITAL AUTHORITY",
+        "HF SINCLAIR CORPORATION",
+        "NATIONAL ASSOCIATION OF MUTUAL INSURANCE COMPANIES",
+        "ADVOCATE AURORA HEALTH INC",
+        "AMERICAN SOCIETY FOR RADIATION ONCOLOGY",
+        "NATIONAL NURSES UNITED",
+        "PADGETT BUSINESS SERVICES",
+        "PAYCHEX"
+      ],
+      "clientCount": 236
+    },
+    {
+      "bill": "H.R.6157",
+      "count": 806,
+      "years": [
+        2018,
+        2019,
+        2020
+      ],
+      "clients": [
+        "DUDE SOLUTIONS INC.",
+        "NATIONAL TRAUMA INSTITUTE",
+        "ART CONCRETE SOLUTIONS",
+        "ARKEMA R&D",
+        "HUNTSMAN CORPORATION",
+        "UNIVERSITY OF MAINE",
+        "WOLFSPEED (FKA CREE FAYETTEVILLE, INC.)",
+        "ENERSYS",
+        "PACIFIC SCIENTIFIC ENERGETIC MATERIALS COMPANY",
+        "UNIVERSITY OF MONTANA",
+        "USACA",
+        "ORBIA FLUOR & ENERGY MATERIALS USA (FKA SILATRONIX)",
+        "UNIVERSITY OF ARKANSAS AT LITTLE ROCK",
+        "MONTANA STATE UNIVERSITY",
+        "GENERAL ATOMICS AERONAUTICAL SYSTEMS",
+        "MOTOROLA SOLUTIONS, INC.",
+        "UNIVERSITY OF PITTSBURGH MEDICAL CENTER HEALTH SYSTEM",
+        "ACXIOM LLC",
+        "UNIVERSITY OF PITTSBURGH, SCHOOL OF HEALTH AND REHABILITATION SCIENCES",
+        "BABEL STREET"
+      ],
+      "clientCount": 272
+    },
+    {
+      "bill": "H.R. 8337",
+      "count": 799,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "GOVERNMENT OF U.S. VIRGIN ISLANDS",
+        "AMERICAN AMBULANCE ASSOCIATION",
+        "THE LIVINGSTON GROUP, LLC (RUSH UNIVERSITY MEDICAL CENTER)",
+        "MOSES WEITZMAN HEALTH SYSTEM, INC.",
+        "PIH HEALTH FOUNDATION",
+        "CALIFORNIA MEDICAL ASSOCIATION INC",
+        "340B HEALTH",
+        "AMERICA'S ESSENTIAL HOSPITALS",
+        "ASSOCIATION FOR COMMUNITY AFFILIATED PLANS",
+        "TAKEDA PHARMACEUTICALS AMERICA, INC.",
+        "GILEAD SCIENCES, INC.",
+        "GENENTECH, INC.",
+        "ASTRAZENECA",
+        "BIOTECHNOLOGY INDUSTRY ORGANIZATION",
+        "BLUE CROSS BLUE SHIELD ASSOCIATION",
+        "ELEVANCE HEALTH, INC (F.K.A. ANTHEM, INC. & WELLPOINT, INC.)",
+        "BLACK HILLS CORPORATION",
+        "HEMATOLOGY/ONCOLOGY PHARMACY ASSOCIATION",
+        "LYMPHEDEMA ADVOCACY GROUP",
+        "AMERICAN SMALL MANUFACTURERS COALITION"
+      ],
+      "clientCount": 298
+    },
+    {
+      "bill": "S.1790",
+      "count": 785,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2024
+      ],
+      "clients": [
+        "THE AMERICAN COUNCIL OF INDEPENDENT LABORATORIES",
+        "FLEET RESERVE ASSOCIATION",
+        "PRIDE INDUSTRIES",
+        "BAE SYSTEMS INC",
+        "SAP AMERICA INC",
+        "MANTECH INTERNATIONAL INC",
+        "RTX CORPORATION AND AFFILIATES (FKARAYTHEON TECHNOLOGIES CORPORATION)",
+        "LEIDOS INC",
+        "LOCKHEED MARTIN CORPORATION",
+        "UNITED TECHNOLOGIES CORPORATION",
+        "CMG (FORMALLY KNOWN AS CONSORTIUM FOR ENERGY ENVIRONMENT AND DEMILITARIZATION)",
+        "NORTHROP GRUMMAN CORPORATION",
+        "SCIENCE APPLICATION INTERNATIONAL CORPORATION",
+        "AMERICAN ASSOCIATION OF NURSE ANESTHETISTS",
+        "AMERICAN NURSES ASSOCIATION",
+        "NATIONAL ASSOCIATION OF WATERFRONT EMPLOYERS",
+        "UNITED STATES MARITIME ALLIANCE",
+        "CLEVELAND-CUYAHOGA COUNTY PORT AUTHORITY",
+        "SEAFARERS INTERNATIONAL UNION OF N.A. - AGLIW",
+        "ASSOCIATED GENERAL CONTRACTORS OF AMERICA"
+      ],
+      "clientCount": 247
+    },
+    {
+      "bill": "H.R.6395",
+      "count": 785,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "NATIONAL ASSOCIATION OF WHOLESALER-DISTRIBUTORS",
+        "U.S. MERCHANT MARINE ACADEMY ALUMNI ASSOCIATION & FOUNDATION, INC.",
+        "AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE",
+        "HUNTINGTON INGALLS INCORPORATED",
+        "NATIONAL ATHLETIC TRAINERS' ASSOCIATION",
+        "B.E. MEYERS & CO, INC.",
+        "NORTHROP GRUMMAN CORPORATION",
+        "ZEPHER FLIGHT LABS",
+        "SAFE BOATS INTERNATIONAL, LLC",
+        "MARINE JET POWER, INC. (MJP)",
+        "DUDE SOLUTIONS INC.",
+        "CHESAPEAKE BAY COMMISSION",
+        "PODS ENTERPRISES, LLC",
+        "NLIGHT CORPORATION",
+        "OXE MARINE INC.",
+        "BALL CORPORATION",
+        "AMAZON CORPORATE",
+        "BAE SYSTEMS, INC.",
+        "BROWNSTEIN HYATT FARBER SCHRECK, LLP (ON BEHALF OF KGL LOGISTICS)",
+        "LOCKHEED MARTIN CORPORATION"
+      ],
+      "clientCount": 270
+    },
+    {
+      "bill": "H.R.2471",
+      "count": 769,
+      "years": [
+        2021,
+        2022,
+        2024
+      ],
+      "clients": [
+        "PEOPLE OVER PROFITS, INC.",
+        "FULBRIGHT UNIVERSITY VIETNAM USA",
+        "INSTITUTE OF INTERNATIONAL EDUCATION (IIE)",
+        "BOSTON COLLEGE",
+        "MICROSOFT CORPORATION",
+        "MOTOROLA SOLUTIONS, INC.",
+        "SMARTCYTE INC.",
+        "TEXTRON INC.",
+        "CROSSROADS STRATEGIES, LLC ON BEHALF OF PORT OF EVERETT",
+        "CROSSROADS STRATEGIES LLC OBO WASHINGTON STATE DEPARTMENT OF TRANSPORTATION",
+        "LOS ANGELES COUNTY",
+        "CITY OF SPOKANE",
+        "HDR, INC.",
+        "KALISPEL TRIBE OF INDIANS",
+        "PHENOME HEALTH",
+        "WASHINGTON STATE UNIVERSITY",
+        "GENERAL ATOMICS AERONAUTICAL SYSTEMS",
+        "SHIELD AI, INC.",
+        "CROSSFIT, LLC",
+        "GILEAD SCIENCES, INC."
+      ],
+      "clientCount": 322
+    },
+    {
+      "bill": "H.R.8236",
+      "count": 766,
+      "years": [
+        2022
+      ],
+      "clients": [
+        "NORTHWESTERN MEMORIAL HOSPITAL",
+        "AMERICAN BURN ASSOCIATION",
+        "ASSOCIATION OF SURGICAL TECHNOLOGISTS",
+        "CEDARS-SINAI MEDICAL CENTER",
+        "ENERGETICS TECHNOLOGY CENTER",
+        "VOTEVETS ACTION FUND, INC.",
+        "FULBRIGHT UNIVERSITY VIETNAM USA",
+        "INSTITUTE OF INTERNATIONAL EDUCATION (IIE)",
+        "LEWIS UNIVERSITY",
+        "PROGENY SYSTEMS",
+        "AMERICAN CLEAN POWER ASSOCIATION",
+        "APPLIED INTUITION",
+        "WHITE COAT WASTE PROJECT INC",
+        "AMERICAN COLLEGE OF OBSTETRICIANS AND GYNECOLOGISTS",
+        "EL PASO WATER UTILITIES -- PUBLIC SERVICE BOARD DBA EL PASO WATER",
+        "ECLIPSE ENERGY SYSTEMS, INC.",
+        "GLOBAL TECHNICAL SYSTEMS",
+        "LOCKHEED MARTIN CORPORATION",
+        "UNIVERSITY OF NORTH DAKOTA",
+        "AUSTAL USA"
+      ],
+      "clientCount": 197
+    },
+    {
+      "bill": "H.R. 6147",
+      "count": 764,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2025
+      ],
+      "clients": [
+        "BACKCOUNTRY HUNTERS & ANGLERS",
+        "ROCKY BOY CHIPPEWA CREE HEALTH BOARD",
+        "SHOSHONE-BANNOCK TRIBES OF THE FORT HALL RESERVATION",
+        "LITTLE RIVER BAND OF OTTAWA INDIANS",
+        "SPIRIT LAKE TRIBE",
+        "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+        "FOREST COUNTY POTAWATOMI",
+        "TLINGIT & HAIDA CENTRAL COUNCIL",
+        "YUKON KUSKOKWIM HEALTH CORPORATION",
+        "ASSINIBOINE AND SIOUX TRIBES OF THE FORT PECK RESERVATION",
+        "SKOKOMISH TRIBE",
+        "VAN SCOYOC ASSOCIATES ON BEHALF OF THE UNIVERSITY OF NORTH DAKOTA",
+        "CALIFORNIA ASSOCIATION OF SANITATION AGENCIES",
+        "EAST BAY MUNICIPAL UTILITY DISTRICT",
+        "COUNTY SANITATION DISTRICTS OF ORANGE COUNTY",
+        "SOUTH TAHOE PUBLIC UTILITY DISTRICT",
+        "ORANGE COUNTY WATER DISTRICT",
+        "XYLEM INC",
+        "RANCHO CALIFORNIA WATER DISTRICT",
+        "PLACER COUNTY WATER AGENCY"
+      ],
+      "clientCount": 258
+    },
+    {
+      "bill": "H.R. 8295",
+      "count": 762,
+      "years": [
+        2020,
+        2022,
+        2024
+      ],
+      "clients": [
+        "GIRL SCOUTS OF THE U.S.A.",
+        "NATIONAL ENERGY & FUELS INSTITUTE",
+        "PHYSICIAN ASSISTANT EDUCATION ASSOCIATION",
+        "INTERNATIONAL INFORMATION SYSTEM SECURITY CERTIFICATION CONSORTIUM",
+        "MAUI ECONOMIC OPPORTUNITY",
+        "KAMEHAMEHA SCHOOLS",
+        "PALANTIR TECHNOLOGIES INC.",
+        "LIEBER INSTITUTE FOR BRAIN DEVELOPMENT",
+        "GIFFORDS",
+        "COMPLETE COLLEGE AMERICA",
+        "LEARNING CARE GROUP",
+        "NORC AT THE UNIVERSITY OF CHICAGO",
+        "WILLIAM & MARY FOUNDATION",
+        "COMMUNITY COLLEGE OF ALLEGHENY COUNTY (CCAC)",
+        "UNIVERSITY OF CENTRAL FLORIDA",
+        "UNIVERSITY OF NORTH FLORIDA",
+        "ASSOCIATION OF COMMUNITY COLLEGE TRUSTEES",
+        "CONSORTIUM OF SOCIAL SCIENCE ASSOCIATIONS",
+        "MODIVCARE SOLUTIONS, LLC",
+        "ORGANON, LLC"
+      ],
+      "clientCount": 249
+    },
+    {
+      "bill": "H.R.2740",
+      "count": 756,
+      "years": [
+        2019,
+        2020
+      ],
+      "clients": [
+        "FREQUENCY ELECTRONICS, INC.",
+        "ASSOCIATION FOR DIAGNOSTICS & LABORATORY MEDICINE (FORMERLY AACC)",
+        "RIDDELL SPORTS, INC.",
+        "NATIONAL ASSOCIATION OF RURAL HEALTH CLINICS",
+        "NEW VENTURE FUND",
+        "SA PHOTONICS",
+        "STEADMAN PHILIPPON RESEARCH INSTITUTE",
+        "PAPERWORKS INDUSTRIES, INC.",
+        "PRATT INDUSTRIES (USA), INC.",
+        "SMURFIT WESTROCK(FKA WESTROCK)",
+        "WHITE PIGEON PAPER COMPANY",
+        "CASCADES CONTAINERBOARD PACKAGING (FKA) NORAMPAC A DIVISION OF CASCADES CANADA",
+        "GRAPHIC PACKAGING INTERNATIONAL",
+        "NEWMAN & COMPANY",
+        "FUELS AMERICA",
+        "U.S. GLOBAL LEADERSHIP CAMPAIGN",
+        "HF SINCLAIR CORPORATION",
+        "TIFFANY & CO",
+        "KERN COUNTY WATER AGENCY",
+        "AMERICAN SOCIETY FOR RADIATION ONCOLOGY"
+      ],
+      "clientCount": 192
+    }
+  ],
+  "latestYear": 2025
+}

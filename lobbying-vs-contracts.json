@@ -1,0 +1,324 @@
+{
+  "matches": [
+    {
+      "name": "TRIWEST HEALTHCARE ALLIANCE CORP",
+      "category": "Other",
+      "lobbyingSpend": 270000,
+      "federalContracts": 13374744670,
+      "roi": 49536,
+      "lobbyingFilings": 24,
+      "yearsActive": 8,
+      "topIssues": [
+        "HCR",
+        "VET"
+      ]
+    },
+    {
+      "name": "AMENTUM SERVICES, INC.",
+      "category": "Other",
+      "lobbyingSpend": 580000,
+      "federalContracts": 3583167409,
+      "roi": 6178,
+      "lobbyingFilings": 14,
+      "yearsActive": 3,
+      "topIssues": [
+        "ENG",
+        "BUD",
+        "WAS"
+      ]
+    },
+    {
+      "name": "NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC",
+      "category": "Other",
+      "lobbyingSpend": 1019000,
+      "federalContracts": 5673408174,
+      "roi": 5568,
+      "lobbyingFilings": 28,
+      "yearsActive": 8,
+      "topIssues": [
+        "MMM"
+      ]
+    },
+    {
+      "name": "MCKESSON CORPORATION",
+      "category": "Healthcare",
+      "lobbyingSpend": 3630000,
+      "federalContracts": 11870431649,
+      "roi": 3270,
+      "lobbyingFilings": 88,
+      "yearsActive": 8,
+      "topIssues": [
+        "MMM",
+        "HCR",
+        "PHA"
+      ]
+    },
+    {
+      "name": "ATLANTIC DIVING SUPPLY, INC.",
+      "category": "Other",
+      "lobbyingSpend": 1942000,
+      "federalContracts": 5993126834,
+      "roi": 3086,
+      "lobbyingFilings": 30,
+      "yearsActive": 8,
+      "topIssues": [
+        "HOM",
+        "DEF",
+        "GOV",
+        "SMB"
+      ]
+    },
+    {
+      "name": "RTX CORPORATION",
+      "category": "Other",
+      "lobbyingSpend": 2775000,
+      "federalContracts": 7280700848,
+      "roi": 2624,
+      "lobbyingFilings": 46,
+      "yearsActive": 8,
+      "topIssues": [
+        "AER",
+        "AVI",
+        "ENG",
+        "LBR",
+        "HOU"
+      ]
+    },
+    {
+      "name": "QTC MEDICAL SERVICES INC",
+      "category": "Other",
+      "lobbyingSpend": 1160000,
+      "federalContracts": 2886404916,
+      "roi": 2488,
+      "lobbyingFilings": 27,
+      "yearsActive": 7,
+      "topIssues": [
+        "TRA",
+        "HCR",
+        "PHA",
+        "AVI"
+      ]
+    },
+    {
+      "name": "HUNTINGTON INGALLS INCORPORATED",
+      "category": "Other",
+      "lobbyingSpend": 4436000,
+      "federalContracts": 8565929513,
+      "roi": 1931,
+      "lobbyingFilings": 88,
+      "yearsActive": 8,
+      "topIssues": [
+        "DEF",
+        "HOM",
+        "BUD",
+        "GOV",
+        "LBR"
+      ]
+    },
+    {
+      "name": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
+      "category": "Defense",
+      "lobbyingSpend": 1370000,
+      "federalContracts": 2164547913,
+      "roi": 1580,
+      "lobbyingFilings": 28,
+      "yearsActive": 8,
+      "topIssues": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "RAYTHEON COMPANY",
+      "category": "Defense",
+      "lobbyingSpend": 10433000,
+      "federalContracts": 16472942438,
+      "roi": 1579,
+      "lobbyingFilings": 75,
+      "yearsActive": 4,
+      "topIssues": [
+        "TAX",
+        "DEF",
+        "RET",
+        "AER",
+        "BUD"
+      ]
+    },
+    {
+      "name": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "category": "Other",
+      "lobbyingSpend": 1984000,
+      "federalContracts": 2359804109,
+      "roi": 1189,
+      "lobbyingFilings": 29,
+      "yearsActive": 8,
+      "topIssues": [
+        "AER",
+        "BUD",
+        "SCI",
+        "DEF"
+      ]
+    },
+    {
+      "name": "THE BOEING COMPANY",
+      "category": "Defense",
+      "lobbyingSpend": 14852500,
+      "federalContracts": 15444072108,
+      "roi": 1040,
+      "lobbyingFilings": 276,
+      "yearsActive": 8,
+      "topIssues": [
+        "DEF",
+        "BUD",
+        "TRD",
+        "FOR",
+        "AER"
+      ]
+    },
+    {
+      "name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+      "category": "Other",
+      "lobbyingSpend": 2795000,
+      "federalContracts": 2297053488,
+      "roi": 822,
+      "lobbyingFilings": 51,
+      "yearsActive": 8,
+      "topIssues": [
+        "EDU",
+        "SCI",
+        "TAX",
+        "DEF",
+        "BUD"
+      ]
+    },
+    {
+      "name": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "category": "Other",
+      "lobbyingSpend": 5253000,
+      "federalContracts": 2999808160,
+      "roi": 571,
+      "lobbyingFilings": 112,
+      "yearsActive": 8,
+      "topIssues": [
+        "TRA",
+        "DEF",
+        "AER",
+        "FIN",
+        "TEC"
+      ]
+    },
+    {
+      "name": "BOOZ ALLEN HAMILTON INC",
+      "category": "IT/Consulting",
+      "lobbyingSpend": 12130000,
+      "federalContracts": 6563770954,
+      "roi": 541,
+      "lobbyingFilings": 125,
+      "yearsActive": 8,
+      "topIssues": [
+        "BUD",
+        "DEF",
+        "INT",
+        "VET",
+        "HOM"
+      ]
+    },
+    {
+      "name": "LOCKHEED MARTIN CORPORATION",
+      "category": "Defense",
+      "lobbyingSpend": 141599000,
+      "federalContracts": 58775947590,
+      "roi": 415,
+      "lobbyingFilings": 396,
+      "yearsActive": 8,
+      "topIssues": [
+        "DEF",
+        "AER",
+        "BUD",
+        "TAX",
+        "AVI"
+      ]
+    },
+    {
+      "name": "ACCENTURE FEDERAL SERVICES LLC",
+      "category": "IT/Consulting",
+      "lobbyingSpend": 10455000,
+      "federalContracts": 3235465824,
+      "roi": 309,
+      "lobbyingFilings": 172,
+      "yearsActive": 8,
+      "topIssues": [
+        "DEF",
+        "BUD",
+        "TRA",
+        "FIR",
+        "TAX"
+      ]
+    },
+    {
+      "name": "SIERRA NEVADA COMPANY, LLC",
+      "category": "Other",
+      "lobbyingSpend": 8000000,
+      "federalContracts": 2243556112,
+      "roi": 280,
+      "lobbyingFilings": 33,
+      "yearsActive": 8,
+      "topIssues": [
+        "DEF",
+        "AER",
+        "HOM"
+      ]
+    },
+    {
+      "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+      "category": "Defense",
+      "lobbyingSpend": 16697500,
+      "federalContracts": 4635820603,
+      "roi": 278,
+      "lobbyingFilings": 379,
+      "yearsActive": 8,
+      "topIssues": [
+        "DEF",
+        "BUD",
+        "EDU",
+        "GOV",
+        "MAR"
+      ]
+    },
+    {
+      "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+      "category": "Other",
+      "lobbyingSpend": 17237500,
+      "federalContracts": 4360395756,
+      "roi": 253,
+      "lobbyingFilings": 103,
+      "yearsActive": 8,
+      "topIssues": [
+        "BUD",
+        "HOM",
+        "DEF",
+        "AER",
+        "INT"
+      ]
+    },
+    {
+      "name": "LEIDOS, INC.",
+      "category": "IT/Consulting",
+      "lobbyingSpend": 22810000,
+      "federalContracts": 3037225603,
+      "roi": 133,
+      "lobbyingFilings": 149,
+      "yearsActive": 8,
+      "topIssues": [
+        "DEF",
+        "HCR",
+        "INT",
+        "HOM",
+        "BUD"
+      ]
+    }
+  ],
+  "totalMatched": 21,
+  "totalLobbyingByMatched": 281428500,
+  "totalContractsByMatched": 183818324671,
+  "avgROI": 3984
+}
