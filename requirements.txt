@@ -1,0 +1,11 @@
+pandas
+numpy
+umap-learn
+scikit-learn
+scipy
+python-louvain
+rapidfuzz
+networkx
+pyarrow
+duckdb
+pyreadstat

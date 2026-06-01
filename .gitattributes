@@ -1,0 +1,10 @@
+# Keep generated data and vendored runtime files out of language statistics.
+"Raw Data/**" linguist-generated=true
+V3_Epistemic/data/** linguist-generated=true
+V3_Epistemic/output/vendor/** linguist-vendored=true
+
+# Avoid noisy diffs for generated payloads.
+*.json text eol=lf
+*.csv text eol=lf
+*.html text eol=lf
+*.md text eol=lf

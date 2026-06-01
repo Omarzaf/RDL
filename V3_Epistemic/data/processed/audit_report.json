@@ -1,104 +1,228 @@
 {
-  "files": {
-    "stats": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "trends": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "industries": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "top_firms": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "top_clients": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "top_lobbyists": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "revolving_door": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "network_analysis": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "firm_concentration": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "gov_entities": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "filing_activity": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "lobbying_vs_contracts": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
-    },
-    "text_analysis": {
-      "records": 0,
-      "fields": [],
-      "null_rates": {},
-      "year_coverage": []
+  "stats": {
+    "file": "stats.json",
+    "record_count": 1,
+    "fields": [
+      "totalFilings",
+      "totalIncome",
+      "latestYearIncome",
+      "latestYear",
+      "yearRange",
+      "totalClients",
+      "totalFirms",
+      "totalLobbyists",
+      "totalRevolvingDoor",
+      "totalForeignEntities",
+      "totalIndustries",
+      "totalIssues",
+      "totalGovEntities",
+      "yearlyTrends",
+      "lastUpdated"
+    ],
+    "null_rates": {},
+    "latestYear_correction": {
+      "raw_latestYear": 2024,
+      "corrected_latestYear": 2025
     }
   },
-  "missing_fields": [
-    {
-      "file": "top_firms",
-      "field": "name"
+  "trends": {
+    "file": "trends.json",
+    "record_count": 8,
+    "fields": [
+      "year",
+      "totalIncome",
+      "totalExpenses",
+      "filings",
+      "registrations"
+    ],
+    "null_rates": {
+      "year": 0.0,
+      "totalIncome": 0.0,
+      "totalExpenses": 0.0,
+      "filings": 0.0,
+      "registrations": 0.0
     },
-    {
-      "file": "top_firms",
-      "field": "totalIncome"
-    },
-    {
-      "file": "top_clients",
-      "field": "name"
-    },
-    {
-      "file": "top_clients",
-      "field": "totalSpending"
-    },
-    {
-      "file": "gov_entities",
-      "field": "name"
+    "placeholder_fields": [
+      "totalExpenses",
+      "registrations"
+    ]
+  },
+  "industries": {
+    "file": "industries.json",
+    "record_count": 10,
+    "fields": [
+      "name",
+      "codes",
+      "totalSpending",
+      "totalFilings",
+      "yearlySpending"
+    ],
+    "null_rates": {
+      "name": 0.0,
+      "codes": 0.0,
+      "totalSpending": 0.0,
+      "totalFilings": 0.0,
+      "yearlySpending": 0.0
     }
-  ]
+  },
+  "top_firms": {
+    "file": "top-firms.json",
+    "record_count": 2000,
+    "fields": [
+      "id",
+      "name",
+      "totalIncome",
+      "filings",
+      "clients",
+      "years"
+    ],
+    "null_rates": {
+      "id": 0.0,
+      "name": 0.0,
+      "totalIncome": 0.0,
+      "filings": 0.0,
+      "clients": 0.0,
+      "years": 0.0
+    }
+  },
+  "top_clients": {
+    "file": "top-clients.json",
+    "record_count": 5000,
+    "fields": [
+      "name",
+      "slug",
+      "state",
+      "totalSpending",
+      "filings",
+      "description",
+      "issues",
+      "years"
+    ],
+    "null_rates": {
+      "name": 0.0,
+      "slug": 0.0,
+      "state": 0.045,
+      "totalSpending": 0.0,
+      "filings": 0.0,
+      "description": 0.0,
+      "issues": 0.0,
+      "years": 0.0
+    }
+  },
+  "top_lobbyists": {
+    "file": "top-lobbyists.json",
+    "record_count": 5000,
+    "fields": [
+      "id",
+      "name",
+      "positions",
+      "firms",
+      "clients",
+      "filings"
+    ],
+    "null_rates": {
+      "id": 0.0,
+      "name": 0.0,
+      "positions": 0.0,
+      "firms": 0.0,
+      "clients": 0.0,
+      "filings": 0.0
+    }
+  },
+  "revolving_door": {
+    "file": "revolving-door.json",
+    "record_count": 5000,
+    "fields": [
+      "id",
+      "name",
+      "positions",
+      "firms",
+      "clients",
+      "filings"
+    ],
+    "null_rates": {
+      "id": 0.0,
+      "name": 0.0,
+      "positions": 0.0,
+      "firms": 0.0,
+      "clients": 0.0,
+      "filings": 0.0
+    }
+  },
+  "network": {
+    "file": "network-analysis.json",
+    "record_count": 1,
+    "fields": [
+      "multiFirmLobbyists",
+      "firmPairOverlap",
+      "topFirmsByNetwork",
+      "totalUniqueLobbyists",
+      "totalUniqueFirms",
+      "avgLobbyistsPerFirm"
+    ],
+    "null_rates": {}
+  },
+  "firm_conc": {
+    "file": "firm-concentration.json",
+    "record_count": 1,
+    "fields": [
+      "firms",
+      "concentrationDistribution",
+      "avgHHI"
+    ],
+    "null_rates": {}
+  },
+  "gov_entities": {
+    "file": "gov-entities.json",
+    "record_count": 240,
+    "fields": [
+      "name",
+      "filings",
+      "spending",
+      "topIssues",
+      "topClients"
+    ],
+    "null_rates": {
+      "name": 0.0,
+      "filings": 0.0,
+      "spending": 0.0,
+      "topIssues": 0.0,
+      "topClients": 0.0
+    }
+  },
+  "filing_activity": {
+    "file": "filing-activity.json",
+    "record_count": 1,
+    "fields": [
+      "monthly",
+      "byType",
+      "totalFilings"
+    ],
+    "null_rates": {}
+  },
+  "lvc": {
+    "file": "lobbying-vs-contracts.json",
+    "record_count": 1,
+    "fields": [
+      "matches",
+      "totalMatched",
+      "totalLobbyingByMatched",
+      "totalContractsByMatched",
+      "avgROI"
+    ],
+    "null_rates": {}
+  },
+  "text_analysis": {
+    "file": "text-analysis.json",
+    "record_count": 1,
+    "fields": [
+      "totalDescriptions",
+      "topWords",
+      "yearlyTopWords",
+      "trendingWords",
+      "topBills",
+      "latestYear"
+    ],
+    "null_rates": {}
+  }
 }

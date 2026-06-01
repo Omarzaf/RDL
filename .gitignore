@@ -1,0 +1,56 @@
+# Local runtimes and dependency installs
+.venv/
+**/.venv/
+node_modules/
+**/node_modules/
+
+# Python/tooling caches
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+
+# Local editor/app state
+.DS_Store
+.codex/
+.claude/
+
+# Local secrets and machine config
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Private or copyright-sensitive source documents.
+# Keep public docs in Markdown under docs/ instead.
+*.pdf
+*.docx
+*.rtf
+
+# Internal prompt/context notes from development sessions.
+CODEX_FIX_PROMPT.md
+CONTEXT.md
+V3_AGENT_PROMPT.md
+V3_FRONTEND_MULTIAGENT_PROMPT.md
+deep-research-report.md
+
+# Demo captures are generated artifacts and can be regenerated.
+demo_artifacts/
+
+# Historical local repos are reference-only and not part of the public package.
+_archive/
+
+# Legacy generated outputs; current outputs live under V3_Epistemic/data/.
+V3_Epistemic/processed/*
+!V3_Epistemic/processed/README.md
+V3_Epistemic/output/dc_epistemic_map_mvp.html
+V3_Epistemic/output/lobbying_influence_preview.html
+V3_Epistemic/data/frontend/entities_3d.json
+V3_Epistemic/data/frontend/clusters.json
+V3_Epistemic/data/frontend/gap_grid.json
+V3_Epistemic/data/frontend/revolving_vectors.json
+V3_Epistemic/data/frontend/trends.json

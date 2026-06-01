@@ -1,0 +1,2426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reliable DC Evidence Map</title>
+<style>
+:root {
+  --bg: #ece9df;
+  --bg-2: #ddd7ca;
+  --panel: rgba(250, 248, 241, 0.84);
+  --panel-strong: rgba(255, 253, 247, 0.94);
+  --panel-soft: rgba(44, 40, 35, 0.055);
+  --line: rgba(61, 53, 43, 0.28);
+  --line-strong: rgba(0, 95, 125, 0.46);
+  --text: #24221e;
+  --muted: #62594d;
+  --subtle: #8b8174;
+  --cyan: #006c8d;
+  --cyan-soft: rgba(0, 108, 141, 0.17);
+  --copper: #a85f1c;
+  --copper-soft: rgba(199, 121, 55, 0.2);
+  --amber: #b9802d;
+  --danger: #b94d40;
+}
+body.theme-dark {
+  --bg: #090c11;
+  --bg-2: #111722;
+  --panel: rgba(12, 17, 24, 0.82);
+  --panel-strong: rgba(15, 22, 32, 0.94);
+  --panel-soft: rgba(255, 255, 255, 0.055);
+  --line: rgba(151, 175, 196, 0.24);
+  --line-strong: rgba(71, 215, 255, 0.5);
+  --text: #edf5f8;
+  --muted: #a9b7c4;
+  --subtle: #7f8d9b;
+  --cyan: #47d7ff;
+  --cyan-soft: rgba(71, 215, 255, 0.18);
+  --copper: #d58a45;
+  --copper-soft: rgba(213, 138, 69, 0.2);
+  --amber: #e5b858;
+  --danger: #ff776c;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 22% 18%, rgba(255, 255, 255, 0.56), transparent 30%),
+    radial-gradient(circle at 82% 72%, rgba(168, 95, 28, 0.10), transparent 28%),
+    linear-gradient(135deg, #f1eee5 0%, #e5dfd3 54%, #cec5b5 100%);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow: hidden;
+  letter-spacing: 0;
+}
+body.theme-dark {
+  background:
+    radial-gradient(circle at 22% 18%, rgba(71, 215, 255, 0.16), transparent 30%),
+    radial-gradient(circle at 78% 72%, rgba(213, 138, 69, 0.12), transparent 30%),
+    linear-gradient(135deg, #07090d 0%, #0d1420 54%, #141d29 100%);
+}
+button, input, select { font: inherit; }
+#stage {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.28), transparent 58%);
+}
+body.theme-dark #stage {
+  background: radial-gradient(circle at center, rgba(71, 215, 255, 0.09), transparent 58%);
+}
+#stage canvas {
+  display: block;
+  cursor: grab;
+  touch-action: none;
+}
+body.scene-dragging #stage canvas {
+  cursor: grabbing;
+}
+#stage::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(66,57,45,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(66,57,45,0.07) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(circle at center, black 0%, transparent 72%);
+}
+body.theme-dark #stage::after {
+  background:
+    linear-gradient(rgba(155,183,205,0.10) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(155,183,205,0.08) 1px, transparent 1px);
+}
+.panel, .glass {
+  position: fixed;
+  z-index: 5;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow: 0 22px 70px rgba(56, 48, 38, 0.18);
+  backdrop-filter: blur(18px) saturate(1.1);
+}
+body.theme-dark .panel,
+body.theme-dark .glass {
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.38);
+}
+#topbar {
+  z-index: 8;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  min-height: 58px;
+  display: grid;
+  grid-template-columns: minmax(230px, 0.95fr) minmax(330px, 0.84fr) minmax(480px, 1fr);
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px 8px 12px;
+  border-radius: 6px;
+}
+.brand-block {
+  min-width: 0;
+}
+.eyebrow {
+  color: var(--cyan);
+  font-size: 9px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+h1, h2 {
+  margin: 2px 0 0;
+  font-weight: 760;
+  letter-spacing: 0;
+}
+h1 { font-size: 16px; }
+h2 { font-size: 13px; }
+.subtitle {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.25;
+}
+.last-updated {
+  display: inline-flex;
+  margin-top: 5px;
+  padding: 3px 6px;
+  color: #4b3829;
+  background: rgba(199, 121, 55, 0.12);
+  border: 1px solid rgba(199, 121, 55, 0.24);
+  font-size: 9px;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+body.theme-dark .last-updated {
+  color: #f4c68e;
+  background: rgba(213, 138, 69, 0.14);
+  border-color: rgba(213, 138, 69, 0.36);
+}
+#stats {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(62px, 1fr));
+  gap: 5px;
+  min-width: 330px;
+}
+.stat {
+  min-height: 38px;
+  padding: 5px 7px;
+  border: 1px solid rgba(83, 74, 62, 0.14);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(240, 236, 226, 0.46));
+}
+body.theme-dark .stat {
+  background: linear-gradient(180deg, rgba(21, 30, 43, 0.78), rgba(12, 17, 24, 0.52));
+  border-color: rgba(151, 175, 196, 0.18);
+}
+.stat strong {
+  display: block;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1;
+}
+.stat span {
+  color: var(--muted);
+  font-size: 8px;
+  text-transform: uppercase;
+}
+.stat.warning {
+  border-color: rgba(199, 121, 55, 0.38);
+  background: linear-gradient(180deg, rgba(199, 121, 55, 0.16), rgba(199, 121, 55, 0.045));
+}
+body.theme-dark .stat.warning {
+  background: linear-gradient(180deg, rgba(213, 138, 69, 0.16), rgba(213, 138, 69, 0.05));
+}
+.command-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+  min-width: 0;
+}
+.utility-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  flex-wrap: nowrap;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.utility-row::-webkit-scrollbar { display: none; }
+.utility-row button { flex: 0 0 auto; }
+.search-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) 126px;
+  gap: 6px;
+}
+#controls {
+  left: 10px;
+  top: 88px;
+  width: 286px;
+  padding: 10px;
+  height: calc(100vh - 156px);
+  overflow: auto;
+  border-radius: 6px;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+body.controls-closed #controls {
+  transform: translateX(calc(-100% - 22px));
+  opacity: 0;
+  pointer-events: none;
+}
+#details {
+  right: 10px;
+  top: 88px;
+  width: 318px;
+  padding: 12px;
+  max-height: calc(100vh - 156px);
+  overflow: auto;
+  border-radius: 6px;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+body.details-closed #details {
+  transform: translateX(calc(100% + 22px));
+  opacity: 0;
+  pointer-events: none;
+}
+.drawer-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.section {
+  margin-bottom: 10px;
+  padding: 9px;
+  border: 1px solid rgba(83, 74, 62, 0.12);
+  background: rgba(255, 253, 247, 0.5);
+}
+body.theme-dark .section {
+  border-color: rgba(151, 175, 196, 0.14);
+  background: rgba(15, 22, 32, 0.48);
+}
+.section:last-child { margin-bottom: 0; }
+.label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--text);
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+input[type="range"], select, input[type="search"] { width: 100%; }
+select, input[type="search"] {
+  height: 32px;
+  padding: 0 9px;
+  color: var(--text);
+  background: rgba(255, 253, 247, 0.88);
+  border: 1px solid rgba(83, 74, 62, 0.22);
+  border-radius: 4px;
+  outline: none;
+}
+body.theme-dark select,
+body.theme-dark input[type="search"] {
+  background: rgba(15, 22, 32, 0.88);
+  border-color: rgba(151, 175, 196, 0.24);
+}
+select:focus, input[type="search"]:focus {
+  border-color: var(--cyan);
+  box-shadow: 0 0 0 3px var(--cyan-soft);
+}
+input[type="range"] { accent-color: var(--cyan); }
+input[type="checkbox"] { accent-color: var(--copper); }
+.segmented {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+.segmented.compact {
+  grid-template-columns: 1fr 1fr;
+}
+button {
+  min-height: 30px;
+  padding: 0 9px;
+  color: var(--text);
+  background: rgba(255, 253, 247, 0.68);
+  border: 1px solid rgba(83, 74, 62, 0.18);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
+}
+body.theme-dark button {
+  background: rgba(15, 22, 32, 0.72);
+  border-color: rgba(151, 175, 196, 0.2);
+}
+button:hover {
+  border-color: rgba(71, 215, 255, 0.45);
+  background: rgba(71, 215, 255, 0.08);
+}
+button.active {
+  color: #031317;
+  background: var(--cyan);
+  border-color: var(--cyan);
+}
+button.ghost.active {
+  color: #130b05;
+  background: var(--copper);
+  border-color: var(--copper);
+}
+.icon-button {
+  min-width: 30px;
+  padding: 0 8px;
+}
+.theme-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 72px;
+  padding: 0 8px 0 6px;
+}
+.theme-knob {
+  position: relative;
+  width: 24px;
+  height: 14px;
+  border-radius: 999px;
+  background: rgba(83, 74, 62, 0.22);
+  transition: background 160ms ease;
+}
+.theme-knob::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--panel-strong);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
+  transition: transform 160ms ease;
+}
+.theme-switch.active .theme-knob {
+  background: var(--copper);
+}
+.theme-switch.active .theme-knob::after {
+  transform: translateX(10px);
+}
+.checkrow {
+  display: grid;
+  grid-template-columns: 18px 1fr auto;
+  align-items: center;
+  gap: 7px;
+  margin: 6px 0;
+  color: var(--text);
+  font-size: 11px;
+}
+.swatch, .legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 12px currentColor;
+}
+.small {
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.45;
+}
+.metric-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+.metric {
+  padding: 8px;
+  background: rgba(255, 253, 247, 0.64);
+  border: 1px solid rgba(83, 74, 62, 0.14);
+}
+body.theme-dark .metric {
+  background: rgba(15, 22, 32, 0.62);
+  border-color: rgba(151, 175, 196, 0.17);
+}
+.metric strong { display: block; font-size: 13px; color: var(--text); }
+.metric span { color: var(--muted); font-size: 9px; text-transform: uppercase; }
+.provenance-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin: 8px 0 3px;
+}
+.provenance-pill {
+  padding: 5px 5px;
+  border: 1px solid rgba(227, 190, 143, 0.14);
+  color: var(--text);
+  background: rgba(255, 253, 247, 0.6);
+  font-size: 9px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body.theme-dark .provenance-pill {
+  background: rgba(15, 22, 32, 0.62);
+}
+.provenance-pill.observed { border-color: rgba(71, 215, 255, 0.42); }
+.provenance-pill.derived { border-color: rgba(227, 181, 106, 0.42); }
+.provenance-pill.model { border-color: rgba(199, 121, 55, 0.5); }
+.meaning-card {
+  margin-top: 8px;
+  padding: 8px;
+  color: #4b3829;
+  background: rgba(199, 121, 55, 0.12);
+  border: 1px solid rgba(199, 121, 55, 0.22);
+  font-size: 10px;
+  line-height: 1.45;
+}
+body.theme-dark .meaning-card {
+  color: #f2c995;
+  background: rgba(213, 138, 69, 0.12);
+  border-color: rgba(213, 138, 69, 0.28);
+}
+#legend {
+  left: 10px;
+  bottom: 72px;
+  width: 286px;
+  padding: 10px;
+  border-radius: 6px;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+body.legend-closed #legend {
+  transform: translateY(10px);
+  opacity: 0;
+  pointer-events: none;
+}
+body:not(.controls-closed) #legend {
+  left: 306px;
+}
+.legend-grid {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}
+.legend-row {
+  display: grid;
+  grid-template-columns: 17px 1fr;
+  gap: 7px;
+  align-items: center;
+  color: var(--text);
+  font-size: 10px;
+}
+.legend-shape {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: var(--cyan);
+}
+.legend-shape.circle { border-radius: 50%; }
+.legend-shape.square { border-radius: 2px; background: #56e0a9; }
+.legend-shape.triangle {
+  width: 0;
+  height: 0;
+  background: transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #e3b56a;
+}
+.legend-shape.diamond {
+  transform: rotate(45deg);
+  background: #ef6f5e;
+}
+.identifier-key {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  color: #ffffff;
+  background: #1b5c73;
+  font-size: 10px;
+  font-weight: 900;
+  border: 1px solid rgba(255,255,255,0.72);
+  box-shadow: 0 4px 12px rgba(44, 38, 30, 0.28);
+}
+body.theme-dark .identifier-key {
+  background: #1c7592;
+  box-shadow: 0 4px 16px rgba(71, 215, 255, 0.22);
+}
+#year-rail {
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  width: min(640px, calc(100vw - 32px));
+  padding: 7px 9px;
+  border-radius: 6px;
+}
+.rail-track {
+  display: grid;
+  grid-template-columns: 58px repeat(8, 1fr);
+  gap: 5px;
+  align-items: center;
+}
+.year-tick {
+  position: relative;
+  min-height: 30px;
+  color: var(--text);
+  background: rgba(255, 253, 247, 0.68);
+  border-color: rgba(83, 74, 62, 0.16);
+  font-size: 12px;
+}
+body.theme-dark .year-tick {
+  background: rgba(15, 22, 32, 0.72);
+  border-color: rgba(151, 175, 196, 0.2);
+}
+.year-tick::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -8px;
+  width: 1px;
+  height: 8px;
+  background: rgba(71, 215, 255, 0.35);
+}
+.year-tick.partial {
+  border-color: rgba(199, 121, 55, 0.45);
+  color: #6f3d18;
+}
+.year-tick.partial::after {
+  content: "partial";
+  display: block;
+  color: var(--copper);
+  font-size: 8px;
+  text-transform: uppercase;
+}
+.year-tick.active {
+  color: #031317;
+  background: var(--cyan);
+  border-color: var(--cyan);
+}
+.year-tick.all-active {
+  color: #130b05;
+  background: var(--amber);
+  border-color: var(--amber);
+}
+#tooltip {
+  position: fixed;
+  display: none;
+  z-index: 10;
+  max-width: 280px;
+  padding: 10px 12px;
+  background: rgba(255, 253, 247, 0.96);
+  border: 1px solid rgba(71, 215, 255, 0.42);
+  color: var(--text);
+  font-size: 12px;
+  pointer-events: none;
+  box-shadow: 0 18px 50px rgba(56,48,38,0.22);
+}
+body.theme-dark #tooltip {
+  background: rgba(12, 17, 24, 0.96);
+  box-shadow: 0 18px 50px rgba(0,0,0,0.42);
+}
+#interaction-hint {
+  left: 50%;
+  bottom: 58px;
+  transform: translateX(-50%);
+  width: min(460px, calc(100vw - 40px));
+  padding: 6px 9px;
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 10px;
+  text-align: center;
+  pointer-events: none;
+  opacity: 0.78;
+}
+#data-notes {
+  right: 10px;
+  bottom: 72px;
+  width: 306px;
+  padding: 10px;
+  border-radius: 6px;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+#data-notes.collapsed .notes-body {
+  display: none;
+}
+.notes-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.notes-list {
+  margin: 8px 0 0;
+  padding-left: 15px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.45;
+}
+.notes-list li { margin: 4px 0; }
+#loading {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  color: var(--text);
+  font-weight: 800;
+}
+@media (max-width: 1100px) {
+  #topbar { grid-template-columns: 1fr; align-items: stretch; }
+  #stats { grid-template-columns: repeat(5, 1fr); }
+  .command-actions { min-width: 0; }
+  #controls { top: 190px; height: calc(100vh - 264px); }
+  #details { top: 190px; max-height: calc(100vh - 264px); }
+}
+@media (max-width: 1360px) and (min-width: 1101px) {
+  #topbar {
+    grid-template-columns: minmax(190px, 0.44fr) minmax(520px, 1fr);
+  }
+  #stats,
+  .subtitle,
+  .last-updated {
+    display: none;
+  }
+  #controls,
+  #details {
+    top: 84px;
+    max-height: calc(100vh - 150px);
+  }
+  #controls {
+    height: calc(100vh - 150px);
+  }
+}
+@media (max-width: 760px) {
+  #topbar { left: 8px; right: 8px; top: 8px; padding: 9px; }
+  #stats { display: none; }
+  .search-row { grid-template-columns: 1fr; }
+  .utility-row { justify-content: stretch; flex-wrap: wrap; }
+  .utility-row button { flex: 1; }
+  #controls, #details, #legend, #data-notes {
+    left: 10px;
+    right: 10px;
+    width: auto;
+  }
+  #details { top: auto; bottom: 92px; max-height: 48vh; }
+  #controls { top: 188px; height: calc(100vh - 284px); }
+  #legend { bottom: 78px; }
+  #data-notes { bottom: 78px; max-height: 34vh; overflow: auto; }
+  .rail-track {
+    display: flex;
+    min-width: max-content;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .year-tick { flex: 0 0 72px; }
+}
+@media (max-width: 480px) {
+  #year-rail { overflow-x: auto; }
+  #interaction-hint { display: none; }
+  #controls { top: 174px; }
+}
+</style>
+</head>
+<body class="mode-briefing controls-closed details-closed legend-closed">
+<div id="stage"></div>
+<div id="loading">Loading reliable evidence map...</div>
+
+<header id="topbar" class="glass">
+  <div class="brand-block">
+    <div class="eyebrow">Reliable payload | observed and model-derived fields separated</div>
+    <h1>DC Lobbying Evidence Map</h1>
+    <p class="subtitle">Policy relationship graph with confidence, provenance, and model-derived gap leads made visible.</p>
+    <span id="last-updated" class="last-updated">Last updated: --</span>
+  </div>
+  <div id="stats">
+    <div class="stat"><strong id="stat-entities">--</strong><span>Visible / Full</span></div>
+    <div class="stat"><strong id="stat-edges">--</strong><span>Visible Edges</span></div>
+    <div class="stat"><strong id="stat-year">All</strong><span>Time View</span></div>
+    <div class="stat"><strong id="stat-quality">--</strong><span>Quality Issues</span></div>
+    <div class="stat warning"><strong id="stat-partial">2025</strong><span>Partial Year</span></div>
+  </div>
+  <div class="command-actions">
+    <div class="search-row">
+      <input id="search" type="search" placeholder="Search firm, client, lobbyist, agency">
+      <select id="color-mode" aria-label="Color mode">
+        <option value="type">Lens: Entity type</option>
+        <option value="confidence">Lens: Confidence</option>
+        <option value="gap">Lens: Gap score</option>
+        <option value="category">Lens: Policy category</option>
+      </select>
+    </div>
+    <div class="utility-row">
+      <button id="ui-briefing" class="active" type="button">Briefing</button>
+      <button id="ui-analyst" type="button">Analyst</button>
+      <button id="view-3d" type="button">3D</button>
+      <button id="view-2d" class="active" type="button">2D</button>
+      <button id="toggle-controls" class="ghost" type="button">Controls</button>
+      <button id="toggle-details" class="ghost" type="button">Insight</button>
+      <button id="toggle-legend" class="ghost" type="button">Legend</button>
+      <button id="theme-toggle" class="ghost theme-switch" type="button" aria-label="Switch to dark mode" aria-pressed="false"><span class="theme-knob" aria-hidden="true"></span><span class="theme-label">Dark</span></button>
+      <button id="reset-view" class="ghost" type="button">Reset View</button>
+    </div>
+  </div>
+</header>
+
+<aside id="controls" class="panel">
+  <div class="drawer-head">
+    <div>
+      <div class="eyebrow">Analyst Controls</div>
+      <h2>Filter the evidence space</h2>
+    </div>
+    <button id="close-controls" class="icon-button" type="button" aria-label="Close controls">×</button>
+  </div>
+
+  <div class="section">
+    <span class="label">Time</span>
+    <div class="segmented">
+      <button id="mode-all" class="active" type="button">All Years</button>
+      <button id="mode-year" type="button">Single Year</button>
+    </div>
+    <div style="height:10px"></div>
+    <span class="label">Year: <span id="year-label">2024</span></span>
+    <input id="year" type="range" min="2018" max="2025" value="2024" step="1">
+    <div class="small">Vertical scene slices represent time. Copper marks partial-year evidence.</div>
+  </div>
+
+  <div class="section">
+    <span class="label">Filters | Minimum Prominence: <span id="influence-label">0.00</span></span>
+    <input id="influence" type="range" min="0" max="1" value="0" step="0.01">
+  </div>
+
+  <div class="section">
+    <span class="label">Entity Types</span>
+    <label class="checkrow"><input type="checkbox" data-type="firm" checked><span><span class="swatch" style="background:#009bd6"></span> Firm</span><span id="count-firm">--</span></label>
+    <label class="checkrow"><input type="checkbox" data-type="client" checked><span><span class="swatch" style="background:#00b978"></span> Client</span><span id="count-client">--</span></label>
+    <label class="checkrow"><input type="checkbox" data-type="lobbyist" checked><span><span class="swatch" style="background:#f08a00"></span> Lobbyist</span><span id="count-lobbyist">--</span></label>
+    <label class="checkrow"><input type="checkbox" data-type="gov_agency" checked><span><span class="swatch" style="background:#e7352c"></span> Government</span><span id="count-gov_agency">--</span></label>
+    <label class="checkrow"><input type="checkbox" data-type="reference_node"><span><span class="swatch" style="background:#8b5cf6"></span> Reference node</span><span id="count-reference_node">--</span></label>
+  </div>
+
+  <div class="section">
+    <span class="label">Layers</span>
+    <label class="checkrow"><input id="show-gaps" type="checkbox" checked><span>Model-derived gap plane</span><span></span></label>
+    <label class="checkrow"><input id="show-edges" type="checkbox" checked><span>Top relationships</span><span></span></label>
+    <label class="checkrow"><input id="show-arcs" type="checkbox" checked><span>Revolving-door flow arcs</span><span></span></label>
+    <label class="checkrow"><input id="show-identifiers" type="checkbox"><span>Type identifiers</span><span></span></label>
+    <label class="checkrow"><input id="show-labels" type="checkbox"><span>Anchor labels</span><span></span></label>
+    <div class="small">Revolving-door arcs connect career-origin coordinates to lobbying firm/client targets. Arc height is visual lift only; color follows target sector.</div>
+    <div class="small">Node size uses observed spend or filings; government exposure is separate.</div>
+  </div>
+</aside>
+
+<aside id="details" class="panel">
+  <div class="drawer-head">
+    <div>
+      <div class="eyebrow">Selected Entity</div>
+      <h1 id="detail-name">Click a node</h1>
+      <p class="small" id="detail-sub">Hover or click in the 3D scene to inspect source-backed metrics.</p>
+    </div>
+    <button id="close-details" class="icon-button" type="button" aria-label="Close insight panel">×</button>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><strong id="m-influence">--</strong><span id="m-influence-label">Prominence</span></div>
+    <div class="metric"><strong id="m-confidence">--</strong><span id="m-confidence-label">Confidence</span></div>
+    <div class="metric"><strong id="m-gap">--</strong><span id="m-gap-label">Gap</span></div>
+    <div class="metric"><strong id="m-revolving">--</strong><span id="m-revolving-label">Revolving</span></div>
+  </div>
+  <div class="provenance-row">
+    <div class="provenance-pill observed">Observed</div>
+    <div class="provenance-pill derived">Derived</div>
+    <div class="provenance-pill model">Model-derived</div>
+  </div>
+  <div class="meaning-card" id="detail-meaning">
+    Size is driven by observed spend or filings. Violet-magenta gap signals are model-derived leads and should be treated as analytical leads, not direct facts.
+  </div>
+  <div class="section" style="margin-top:14px">
+    <span class="label">Provenance</span>
+    <div class="small" id="detail-source">--</div>
+  </div>
+  <div class="section">
+    <span class="label">Flags</span>
+    <div class="small" id="detail-flags">--</div>
+  </div>
+</aside>
+
+<aside id="legend" class="glass">
+  <div class="eyebrow">Visual Contract</div>
+  <h2>What the scene is encoding</h2>
+  <div class="legend-grid">
+    <div class="legend-row"><span class="identifier-key">F</span><span>Round markers for every type; identifiers: F firm, C client, L lobbyist, G government, R reference</span></div>
+    <div class="legend-row"><span class="legend-dot" style="color:#009bd6;background:#009bd6"></span><span id="legend-lens">Color lens: entity type</span></div>
+    <div class="legend-row"><span class="legend-dot" style="color:#d946ef;background:#d946ef"></span><span>Violet-magenta glow: model-derived gap lead intensity</span></div>
+    <div class="legend-row"><span class="legend-dot" style="color:#47d7ff;background:#47d7ff"></span><span id="legend-revolving">Revolving arcs: resolved career-transition records, sector-colored by target; curve center is not a data point</span></div>
+    <div class="legend-row"><span class="legend-dot" style="color:#4f4639;background:#4f4639"></span><span>Muted nodes: lower confidence or weak provenance</span></div>
+    <div class="legend-row"><span class="legend-dot" style="color:#b06d00;background:#b06d00"></span><span>2025 is treated as partial unless proven complete</span></div>
+  </div>
+</aside>
+
+<nav id="year-rail" class="glass" aria-label="Year rail">
+  <div id="year-track" class="rail-track"></div>
+</nav>
+
+<aside id="data-notes" class="glass collapsed">
+  <div class="notes-head">
+    <div>
+      <div class="eyebrow">Data Notes</div>
+      <h2>Publication caveats</h2>
+    </div>
+    <button id="toggle-notes" class="icon-button" type="button" aria-label="Expand data notes">+</button>
+  </div>
+  <div class="notes-body">
+    <ul class="notes-list">
+      <li>Temporal data: firm sizes reflect aggregate spend repeated across years, not observed year-specific values.</li>
+      <li id="coverage-disclosure">Coverage: the initial scene shows a capped high-signal subset for browser performance.</li>
+      <li>Confidence: medium and low confidence entities have incomplete evidence or inferred placement.</li>
+      <li>2025 data is partial. 2026 is not included in the visual payload.</li>
+      <li>Revolving-door counts represent resolved career-transition records; duplicate-person controls are applied upstream where person identifiers are available.</li>
+      <li>Revolving-door arc peaks and center points are visual curve controls only. They do not indicate a physical agency, office, or hidden hub.</li>
+      <li>Unknown revolving-door transition years are kept unknown and are shown only in the selected context, not echoed across every year.</li>
+      <li id="edge-disclosure">Relationships may be capped for performance.</li>
+      <li>Government nodes use lobbying exposure directed at the agency, not agency spending.</li>
+    </ul>
+  </div>
+</aside>
+
+<div id="interaction-hint" class="glass">3D: drag to rotate, Shift/right-drag to pan | 2D: drag to pan | Scroll to zoom | Double-click to reset</div>
+
+<div id="tooltip"></div>
+
+<script src="./vendor/three.min.js"></script>
+<script>
+const DATA_URL = "../data/frontend/scene_payload.json";
+const SEARCH_URL = "../data/frontend/search_index.json";
+const LOCALHOST_URL = "http://127.0.0.1:8765/V3_Epistemic/output/reliable_influence_map.html";
+const TYPE_COLORS = {
+  firm: 0x009bd6,
+  client: 0x00b978,
+  lobbyist: 0xf08a00,
+  gov_agency: 0xe7352c,
+  reference_node: 0x8b5cf6
+};
+const CONFIDENCE_COLORS = { high: 0x00b978, medium: 0xf08a00, low: 0xe7352c };
+const CATEGORY_COLORS = [
+  0x009bd6, 0xa85f1c, 0x00b978, 0xf08a00, 0xe7352c,
+  0x8b5cf6, 0x00a394, 0xd96d1b, 0xc04bcf, 0x5f5548
+];
+const POLICY_CATEGORY_COLORS = {
+  "Finance": 0x0077d9,
+  "Healthcare": 0x00b978,
+  "Energy & Environment": 0x5a9f2f,
+  "Defense & Security": 0xe7352c,
+  "Technology": 0x8b5cf6,
+  "Transportation": 0x00a394,
+  "Trade & Tariffs": 0xd96d1b,
+  "Labor & Education": 0xc04bcf,
+  "Agriculture & Food": 0x9d7c16,
+  "Real Estate & Housing": 0xa85f1c,
+  "Law & Lobbying": 0xf08a00,
+  "Other / Multi-sector": 0x64748b,
+  "Unknown": 0x475569
+};
+let YEARS = [2018,2019,2020,2021,2022,2023,2024,2025];
+let YEAR_BASE = 2018;
+const XZ_SCALE = 360;
+const Y_SPACING = 92;
+const Y_OFFSET = -322;
+let payload;
+let searchIndex = [];
+let entityById = new Map();
+let entityByName = new Map();
+let searchById = new Map();
+let searchByName = new Map();
+let yearRowsByEntity = new Map();
+let scene, camera, renderer, raycaster, pointer;
+let meshes = [];
+let meshRecords = new WeakMap();
+let axisGroup, edgeGroup, arcGroup, gapMesh, labelGroup, identifierGroup, selectionGroup, relationshipHoverGroup, relationshipSelectionGroup;
+let renderedEdges = [];
+let revolvingParticles = [];
+let revolvingFlows = [];
+let revolvingFlowSummary = { totalVectors: 0, uniqueFlows: 0, estimated: 0 };
+let selectedRelationshipKey = null;
+let hoveredRelationshipKey = null;
+let rebuildTimer = null;
+let selectedYear = 2024;
+let viewMode = "all";
+let projectionMode = "2d";
+let colorMode = "type";
+let themeMode = localStorage.getItem("rdl-theme") === "dark" ? "dark" : "light";
+let minInfluence = 0;
+let enabledTypes = new Set(["firm", "client", "lobbyist", "gov_agency"]);
+let categoryColor = new Map();
+let selectedEntityId = null;
+const runtimeMeta = { skipped_edges: 0 };
+const cameraControl = {
+  target: null,
+  radius: 1040,
+  theta: 0,
+  phi: 1.15,
+  minRadius: 260,
+  maxRadius: 1900,
+  minPhi: 0.22,
+  maxPhi: Math.PI - 0.18,
+  dragging: false,
+  dragMode: "rotate",
+  lastX: 0,
+  lastY: 0,
+  dragDistance: 0,
+  suppressClick: false
+};
+const touchControl = {
+  mode: "",
+  lastX: 0,
+  lastY: 0,
+  lastDistance: 0
+};
+const uiState = {
+  uiMode: "briefing",
+  panelState: { controlsOpen: false, detailsOpen: false, legendOpen: false },
+  activeLens: "type"
+};
+
+function fmt(n) {
+  if (n >= 1e9) return "$" + (n / 1e9).toFixed(1) + "B";
+  if (n >= 1e6) return "$" + (n / 1e6).toFixed(1) + "M";
+  if (n >= 1e3) return "$" + (n / 1e3).toFixed(0) + "K";
+  return String(Math.round(n || 0));
+}
+
+function safeNumber(value, fallback = 0) {
+  const n = Number(value);
+  return Number.isFinite(n) ? n : fallback;
+}
+
+function normalizeName(value) {
+  return String(value || "").trim().toUpperCase().replace(/\s+/g, " ");
+}
+
+function colorForPolicyCategory(category) {
+  const key = category || "Unknown";
+  if (POLICY_CATEGORY_COLORS[key]) return POLICY_CATEGORY_COLORS[key];
+  if (!categoryColor.has(key)) categoryColor.set(key, CATEGORY_COLORS[categoryColor.size % CATEGORY_COLORS.length]);
+  return categoryColor.get(key);
+}
+
+function metricForEntity(entity) {
+  if (entity.entity_type === "gov_agency") {
+    return {
+      label: "Lobbying exposure",
+      value: safeNumber(entity.metrics?.lobbying_exposure ?? entity.metrics?.target_attention_exposure)
+    };
+  }
+  if (entity.entity_type === "reference_node") {
+    return { label: "Reference value", value: null };
+  }
+  return { label: "Observed spend", value: safeNumber(entity.metrics?.observed_spend) };
+}
+
+function relationshipKey(edge) {
+  return [edge.source_id, edge.target_id, edge.edge_type].join("|");
+}
+
+function relationshipLabel(edge) {
+  const labels = {
+    firm_represents_client: "Firm represents client",
+    lobbyist_at_firm: "Lobbyist at firm",
+    lobbyist_serves_client: "Lobbyist serves client",
+    client_targets_gov: "Client targets government entity",
+    firm_has_revolving_door_access: "Firm has revolving-door access",
+    client_has_contract_match: "Client has contract match"
+  };
+  return labels[edge.edge_type] || String(edge.edge_type || "Relationship").replaceAll("_", " ");
+}
+
+function measureLabel(edge) {
+  const labels = {
+    target_attention_exposure: "Target-side lobbying exposure",
+    observed_spend: "Observed spend",
+    filings: "Filing volume",
+    count: "Relationship count",
+    relationship_count: "Relationship count",
+    revolving_door_events: "Revolving-door transitions",
+    contract_match: "Contract match"
+  };
+  return labels[edge.measure_type] || String(edge.measure_type || "Weighted evidence").replaceAll("_", " ");
+}
+
+function formatRelationshipValue(edge) {
+  const raw = safeNumber(edge.raw_value, NaN);
+  if (!Number.isFinite(raw) || raw <= 0) return `Weight ${safeNumber(edge.weight).toFixed(2)}`;
+  if (String(edge.measure_type || "").includes("spend") || String(edge.measure_type || "").includes("exposure")) return fmt(raw);
+  return raw.toLocaleString();
+}
+
+function edgeYear() {
+  return viewMode === "year" ? selectedYear : (YEARS.includes(2024) ? 2024 : YEARS[YEARS.length - 1]);
+}
+
+function partialYears() {
+  return (payload?.meta?.partial_years || []).map(Number).filter(Number.isFinite);
+}
+
+function isPartialYear(year) {
+  return partialYears().includes(Number(year));
+}
+
+function yearToY(year) {
+  return (year - YEAR_BASE) * Y_SPACING + Y_OFFSET;
+}
+
+function confidenceTone(entity, color) {
+  const level = entity.confidence?.level || "low";
+  if (colorMode === "confidence") return color;
+  if (level === "low") return color.offsetHSL(0, -0.02, 0.02);
+  if (level === "medium") return color.offsetHSL(0, 0.04, 0.04);
+  return color.offsetHSL(0, 0.08, 0.08);
+}
+
+function representativeYearRow(entity) {
+  const rows = yearRowsByEntity.get(entity.id) || [];
+  return rows.find((row) => Number(row.year) === selectedYear) || rows[rows.length - 1] || {};
+}
+
+function setViewMode(nextMode) {
+  viewMode = nextMode;
+  syncUI();
+  rebuildNodes();
+}
+
+function setSelectedYear(year, forceSingleYear = false) {
+  selectedYear = Number(year);
+  if (forceSingleYear) viewMode = "year";
+  syncUI();
+  rebuildNodes();
+}
+
+function setUiMode(nextMode) {
+  uiState.uiMode = nextMode;
+  uiState.panelState.controlsOpen = nextMode === "analyst";
+  syncUI();
+}
+
+function setProjectionMode(nextMode) {
+  projectionMode = nextMode;
+  resetCameraView();
+  buildAxes();
+  rebuildNodes();
+  syncUI();
+}
+
+function setPanelState(key, value) {
+  uiState.panelState[key] = value;
+  syncUI();
+}
+
+function themeBackgroundColor() {
+  return themeMode === "dark" ? 0x090c11 : 0xece9df;
+}
+
+function applyTheme() {
+  document.body.classList.toggle("theme-dark", themeMode === "dark");
+  const themeButton = document.getElementById("theme-toggle");
+  if (themeButton) {
+    themeButton.classList.toggle("active", themeMode === "dark");
+    themeButton.setAttribute("aria-pressed", themeMode === "dark" ? "true" : "false");
+    const themeLabel = themeButton.querySelector(".theme-label");
+    if (themeLabel) themeLabel.textContent = themeMode === "dark" ? "Light" : "Dark";
+    themeButton.setAttribute("aria-label", themeMode === "dark" ? "Switch to light mode" : "Switch to dark mode");
+  }
+  if (scene) {
+    const bg = new THREE.Color(themeBackgroundColor());
+    scene.background = bg;
+    scene.fog = new THREE.FogExp2(themeBackgroundColor(), themeMode === "dark" ? 0.00042 : 0.00048);
+  }
+}
+
+function setThemeMode(nextMode) {
+  themeMode = nextMode === "dark" ? "dark" : "light";
+  localStorage.setItem("rdl-theme", themeMode);
+  applyTheme();
+}
+
+function syncUI() {
+  document.body.classList.toggle("mode-briefing", uiState.uiMode === "briefing");
+  document.body.classList.toggle("mode-analyst", uiState.uiMode === "analyst");
+  document.body.classList.toggle("controls-closed", !uiState.panelState.controlsOpen);
+  document.body.classList.toggle("details-closed", !uiState.panelState.detailsOpen);
+  document.body.classList.toggle("legend-closed", !uiState.panelState.legendOpen);
+  document.getElementById("ui-briefing").classList.toggle("active", uiState.uiMode === "briefing");
+  document.getElementById("ui-analyst").classList.toggle("active", uiState.uiMode === "analyst");
+  document.getElementById("view-3d").classList.toggle("active", projectionMode === "3d");
+  document.getElementById("view-2d").classList.toggle("active", projectionMode === "2d");
+  document.getElementById("toggle-controls").classList.toggle("active", uiState.panelState.controlsOpen);
+  document.getElementById("toggle-details").classList.toggle("active", uiState.panelState.detailsOpen);
+  document.getElementById("toggle-legend").classList.toggle("active", uiState.panelState.legendOpen);
+  applyTheme();
+  document.getElementById("mode-all").classList.toggle("active", viewMode === "all");
+  document.getElementById("mode-year").classList.toggle("active", viewMode === "year");
+  document.getElementById("year").value = String(selectedYear);
+  document.getElementById("year-label").textContent = String(selectedYear);
+  document.getElementById("color-mode").value = colorMode;
+  updateLegend();
+  updateYearRail();
+}
+
+function updateLegend() {
+  const lensLabels = {
+    type: "Color lens: entity type",
+    confidence: "Color lens: confidence level",
+    gap: "Color lens: model-derived gap lead score",
+    category: "Color lens: policy category"
+  };
+  const lens = document.getElementById("legend-lens");
+  if (lens) lens.textContent = lensLabels[colorMode] || lensLabels.type;
+  const revolving = document.getElementById("legend-revolving");
+  if (revolving) {
+    const estimatedShare = revolvingFlowSummary.totalVectors
+      ? Math.round((revolvingFlowSummary.estimated / revolvingFlowSummary.totalVectors) * 100)
+      : 0;
+    revolving.textContent = `Revolving arcs: ${revolvingFlowSummary.uniqueFlows.toLocaleString()} aggregate flow paths from ${revolvingFlowSummary.totalVectors.toLocaleString()} transitions; color = target sector; curve center is visual only; ${estimatedShare}% estimated-year`;
+  }
+}
+
+function clamp(value, min, max) {
+  return Math.max(min, Math.min(max, value));
+}
+
+function initCameraControl() {
+  cameraControl.target = new THREE.Vector3(0, 0, 0);
+  cameraControl.radius = camera.position.distanceTo(cameraControl.target);
+  cameraControl.theta = Math.atan2(camera.position.x - cameraControl.target.x, camera.position.z - cameraControl.target.z);
+  cameraControl.phi = Math.acos(clamp((camera.position.y - cameraControl.target.y) / cameraControl.radius, -1, 1));
+  updateCameraFromControl();
+}
+
+function resetCameraView() {
+  cameraControl.target.set(0, 0, 0);
+  if (projectionMode === "2d") {
+    cameraControl.radius = 820;
+    cameraControl.theta = 0;
+    cameraControl.phi = 0.08;
+  } else {
+    cameraControl.radius = 1040;
+    cameraControl.theta = 0.72;
+    cameraControl.phi = 1.16;
+  }
+  updateCameraFromControl();
+}
+
+function updateCameraFromControl() {
+  const sinPhi = Math.sin(cameraControl.phi);
+  camera.position.set(
+    cameraControl.target.x + cameraControl.radius * sinPhi * Math.sin(cameraControl.theta),
+    cameraControl.target.y + cameraControl.radius * Math.cos(cameraControl.phi),
+    cameraControl.target.z + cameraControl.radius * sinPhi * Math.cos(cameraControl.theta)
+  );
+  camera.lookAt(cameraControl.target);
+}
+
+function panCamera(dx, dy) {
+  const scale = cameraControl.radius * 0.00115;
+  camera.updateMatrixWorld();
+  const right = new THREE.Vector3().setFromMatrixColumn(camera.matrix, 0);
+  const up = new THREE.Vector3().setFromMatrixColumn(camera.matrix, 1);
+  cameraControl.target.addScaledVector(right, -dx * scale);
+  cameraControl.target.addScaledVector(up, dy * scale);
+  updateCameraFromControl();
+}
+
+function worldPos(entity, year) {
+  if (projectionMode === "2d") {
+    return new THREE.Vector3(
+      entity.x * XZ_SCALE,
+      0,
+      entity.y * XZ_SCALE
+    );
+  }
+  return new THREE.Vector3(
+    entity.x * XZ_SCALE,
+    yearToY(year),
+    entity.y * XZ_SCALE
+  );
+}
+
+function colorFor(entity) {
+  const confidenceLevel = entity.confidence?.level || "unknown";
+  if (colorMode === "confidence") return CONFIDENCE_COLORS[confidenceLevel] || 0x94a3b8;
+  if (colorMode === "gap") {
+    const g = parseFloat(entity.metrics?.gap_score ?? 0);
+    if (g > 0.65) return 0xc026d3;
+    if (g > 0.35) return 0xd946ef;
+    if (g > 0.12) return 0x8b5cf6;
+    return 0x475569;
+  }
+  if (colorMode === "category") {
+    const key = entity.primary_policy_category || "Unknown";
+    return colorForPolicyCategory(key);
+  }
+  return TYPE_COLORS[entity.entity_type] || 0x94a3b8;
+}
+
+function finalColorFor(entity) {
+  const color = new THREE.Color(colorFor(entity));
+  confidenceTone(entity, color);
+  return color.getHex();
+}
+
+function radiusFor(entity, yearRow) {
+  let base = safeNumber(yearRow.display_size_value || entity.metrics?.node_size_value || 0);
+  if (entity.entity_type === "gov_agency" && !base) {
+    base = Math.log1p(safeNumber(entity.metrics?.lobbying_exposure ?? entity.metrics?.target_attention_exposure));
+  }
+  const influenceBoost = 1 + safeNumber(entity.metrics?.influence_score) * 0.7;
+  const modeBoost = projectionMode === "2d" ? 0.86 : 0.72;
+  return Math.max(1.7, Math.min(10.5, 1.7 + base * 0.31)) * influenceBoost * modeBoost;
+}
+
+function searchTextFor(entity) {
+  return [
+    entity.name,
+    entity.entity_type,
+    entity.entity_subtype,
+    entity.primary_policy_category,
+    entity.top_issue_label
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
+function isVisibleEntity(entity) {
+  if (!entity.default_visible) return false;
+  if (!enabledTypes.has(entity.entity_type)) return false;
+  if (safeNumber(entity.metrics?.influence_score) < minInfluence) return false;
+  const query = document.getElementById("search").value.trim().toLowerCase();
+  if (query) {
+    if (!searchTextFor(entity).includes(query)) return false;
+  }
+  return true;
+}
+
+function setSearchOnlyDetails(result) {
+  selectedEntityId = null;
+  selectedRelationshipKey = null;
+  uiState.panelState.detailsOpen = true;
+  document.getElementById("detail-name").textContent = result.name || result.id || "Search result";
+  document.getElementById("detail-sub").textContent =
+    `${result.entity_type || "unknown"} | ${result.entity_subtype || "unknown"} | ${result.primary_policy_category || "Unknown"}`;
+  document.getElementById("m-influence-label").textContent = "Scene";
+  document.getElementById("m-confidence-label").textContent = "Confidence";
+  document.getElementById("m-gap-label").textContent = "Coords";
+  document.getElementById("m-revolving-label").textContent = "Visible";
+  document.getElementById("m-influence").textContent = "Indexed";
+  document.getElementById("m-confidence").textContent = result.confidence?.level || "--";
+  document.getElementById("m-gap").textContent = result.coordinate_source || "--";
+  document.getElementById("m-revolving").textContent = result.default_visible ? "yes" : "no";
+  document.getElementById("detail-source").textContent = result.source_files || "--";
+  document.getElementById("detail-flags").textContent = result.default_visible
+    ? "Entity is eligible for the initial scene."
+    : "Entity is in the full search index but outside the initial high-signal scene subset.";
+  document.getElementById("detail-meaning").textContent =
+    "This search result comes from the full entity index. Load the full payload or lower caps in the pipeline if this entity needs to be rendered in the initial scene.";
+  syncUI();
+}
+
+function handleSearchInput() {
+  const query = document.getElementById("search").value.trim();
+  scheduleRebuild();
+  if (query.length < 3 || !searchIndex.length) return;
+  const normalized = normalizeName(query);
+  const exact = searchByName.get(normalized);
+  const match = exact || searchIndex.find((entity) => searchTextFor(entity).includes(query.toLowerCase()));
+  if (!match) return;
+  const visibleMatch = entityById.get(match.id);
+  if (exact && visibleMatch) setDetails(visibleMatch);
+  if (!visibleMatch) setSearchOnlyDetails(match);
+}
+
+function scheduleRebuild(delay = 60) {
+  window.clearTimeout(rebuildTimer);
+  rebuildTimer = window.setTimeout(() => {
+    rebuildTimer = null;
+    rebuildNodes();
+  }, delay);
+}
+
+function visibleRecords() {
+  const records = [];
+  for (const entity of payload.entities) {
+    if (!isVisibleEntity(entity)) continue;
+    const rows = yearRowsByEntity.get(entity.id) || [];
+    if (projectionMode === "2d") {
+      const activeRows = rows.filter((row) => row.active === "true");
+      const row = viewMode === "year"
+        ? activeRows.find((candidate) => Number(candidate.year) === selectedYear)
+        : (activeRows.find((candidate) => Number(candidate.year) === selectedYear) || activeRows[activeRows.length - 1]);
+      if (row && row.active !== "false") records.push({ entity, row });
+      continue;
+    }
+    for (const row of rows) {
+      if (row.active !== "true") continue;
+      if (viewMode === "year" && Number(row.year) !== selectedYear) continue;
+      records.push({ entity, row });
+    }
+  }
+  return records;
+}
+
+function initScene() {
+  scene = new THREE.Scene();
+  scene.background = new THREE.Color(themeBackgroundColor());
+  scene.fog = new THREE.FogExp2(themeBackgroundColor(), themeMode === "dark" ? 0.00042 : 0.00048);
+  camera = new THREE.PerspectiveCamera(58, window.innerWidth / window.innerHeight, 1, 2800);
+  camera.position.set(620, 420, 720);
+  camera.lookAt(0, 0, 0);
+  renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.35));
+  renderer.outputEncoding = THREE.sRGBEncoding;
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.24;
+  renderer.domElement.setAttribute("role", "img");
+  renderer.domElement.setAttribute("aria-label", "DC lobbying influence network visualization");
+  document.getElementById("stage").appendChild(renderer.domElement);
+  raycaster = new THREE.Raycaster();
+  raycaster.params.Line = { threshold: 9 };
+  pointer = new THREE.Vector2();
+  initCameraControl();
+  resetCameraView();
+
+  const ambient = new THREE.AmbientLight(0xfff8ef, 0.72);
+  const key = new THREE.DirectionalLight(0xffffff, 1.55);
+  key.position.set(260, 520, 360);
+  const rim = new THREE.DirectionalLight(0x007c9b, 0.58);
+  rim.position.set(-620, 260, -340);
+  const copper = new THREE.PointLight(0xc77937, 1.25, 900);
+  copper.position.set(260, -140, 260);
+  scene.add(ambient, key, rim, copper);
+  buildAxes();
+  window.addEventListener("resize", onResize);
+  renderer.domElement.addEventListener("pointerdown", onScenePointerDown);
+  renderer.domElement.addEventListener("pointermove", onPointerMove);
+  renderer.domElement.addEventListener("pointerup", onScenePointerUp);
+  renderer.domElement.addEventListener("pointerleave", onScenePointerUp);
+  renderer.domElement.addEventListener("click", onClick);
+  renderer.domElement.addEventListener("dblclick", resetCameraView);
+  renderer.domElement.addEventListener("wheel", onSceneWheel, { passive: false });
+  renderer.domElement.addEventListener("touchstart", onSceneTouchStart, { passive: false });
+  renderer.domElement.addEventListener("touchmove", onSceneTouchMove, { passive: false });
+  renderer.domElement.addEventListener("touchend", onSceneTouchEnd, { passive: false });
+  renderer.domElement.addEventListener("contextmenu", (event) => event.preventDefault());
+}
+
+function buildAxes() {
+  if (axisGroup) removeAndDispose(axisGroup);
+  axisGroup = new THREE.Group();
+  const material = new THREE.LineBasicMaterial({ color: 0x006c8d, transparent: true, opacity: 0.42 });
+  if (projectionMode === "2d") {
+    const gridMaterial = new THREE.LineBasicMaterial({ color: 0x4f4538, transparent: true, opacity: 0.18 });
+    for (let i = -400; i <= 400; i += 80) {
+      const xLine = new THREE.BufferGeometry().setFromPoints([
+        new THREE.Vector3(-410, 0, i),
+        new THREE.Vector3(410, 0, i)
+      ]);
+      const zLine = new THREE.BufferGeometry().setFromPoints([
+        new THREE.Vector3(i, 0, -410),
+        new THREE.Vector3(i, 0, 410)
+      ]);
+      axisGroup.add(new THREE.Line(xLine, gridMaterial));
+      axisGroup.add(new THREE.Line(zLine, gridMaterial));
+    }
+    const axes = [
+      new THREE.Vector3(-430, 0, 0), new THREE.Vector3(430, 0, 0),
+      new THREE.Vector3(0, 0, -430), new THREE.Vector3(0, 0, 430)
+    ];
+    for (let i = 0; i < axes.length; i += 2) {
+      const geom = new THREE.BufferGeometry().setFromPoints([axes[i], axes[i + 1]]);
+      axisGroup.add(new THREE.Line(geom, material));
+    }
+    scene.add(axisGroup);
+    return;
+  }
+  const points = [
+    new THREE.Vector3(-390, Y_OFFSET, 0), new THREE.Vector3(390, Y_OFFSET, 0),
+    new THREE.Vector3(0, Y_OFFSET, -390), new THREE.Vector3(0, Y_OFFSET, 390),
+    new THREE.Vector3(-410, Y_OFFSET, -410), new THREE.Vector3(-410, Y_OFFSET + Math.max(0, YEARS.length - 1) * Y_SPACING, -410)
+  ];
+  for (let i = 0; i < points.length; i += 2) {
+    const geom = new THREE.BufferGeometry().setFromPoints([points[i], points[i + 1]]);
+    axisGroup.add(new THREE.Line(geom, material));
+  }
+  YEARS.forEach((year) => {
+    const y = yearToY(year);
+    const gridPoints = [
+      new THREE.Vector3(-410, y, -410), new THREE.Vector3(410, y, -410),
+      new THREE.Vector3(410, y, -410), new THREE.Vector3(410, y, 410),
+      new THREE.Vector3(410, y, 410), new THREE.Vector3(-410, y, 410),
+      new THREE.Vector3(-410, y, 410), new THREE.Vector3(-410, y, -410),
+      new THREE.Vector3(-410, y, 0), new THREE.Vector3(410, y, 0),
+      new THREE.Vector3(0, y, -410), new THREE.Vector3(0, y, 410)
+    ];
+    const geom = new THREE.BufferGeometry().setFromPoints(gridPoints);
+    const line = new THREE.LineSegments(geom, new THREE.LineBasicMaterial({
+      color: isPartialYear(year) ? 0xc77937 : 0x6b5d49,
+      transparent: true,
+      opacity: isPartialYear(year) ? 0.58 : 0.32
+    }));
+    axisGroup.add(line);
+  });
+  scene.add(axisGroup);
+}
+
+function geometryForType(type) {
+  return new THREE.SphereGeometry(1, 16, 12);
+}
+
+function disposeMaterial(material) {
+  if (!material) return;
+  const materials = Array.isArray(material) ? material : [material];
+  materials.forEach((item) => {
+    if (item.map) item.map.dispose();
+    item.dispose();
+  });
+}
+
+function disposeObject3D(object) {
+  if (!object) return;
+  object.traverse((child) => {
+    if (child.geometry) child.geometry.dispose();
+    if (child.material) disposeMaterial(child.material);
+  });
+}
+
+function removeAndDispose(object) {
+  if (!object) return;
+  scene.remove(object);
+  disposeObject3D(object);
+}
+
+function clearGroup(group) {
+  if (!group) return;
+  group.children.forEach((child) => disposeObject3D(child));
+  group.clear();
+}
+
+function rebuildNodes() {
+  meshes.forEach((mesh) => removeAndDispose(mesh));
+  meshes = [];
+  const recordsByStyle = new Map();
+  visibleRecords().forEach((record) => {
+    const type = record.entity.entity_type;
+    const colorHex = finalColorFor(record.entity);
+    const key = `${type}:${colorHex}`;
+    if (!recordsByStyle.has(key)) recordsByStyle.set(key, { type, colorHex, records: [] });
+    recordsByStyle.get(key).records.push(record);
+  });
+
+  const dummy = new THREE.Object3D();
+  for (const style of recordsByStyle.values()) {
+    const { type, colorHex, records } = style;
+    const material = new THREE.MeshBasicMaterial({
+      color: colorHex,
+      transparent: true,
+      opacity: viewMode === "all" && projectionMode === "3d" ? 0.92 : 0.98
+    });
+    const mesh = new THREE.InstancedMesh(geometryForType(type), material, records.length);
+    records.forEach((record, index) => {
+      const pos = worldPos(record.entity, Number(record.row.year));
+      const scale = radiusFor(record.entity, record.row);
+      dummy.position.copy(pos);
+      dummy.scale.set(scale, scale, scale);
+      dummy.updateMatrix();
+      mesh.setMatrixAt(index, dummy.matrix);
+    });
+    mesh.instanceMatrix.needsUpdate = true;
+    meshRecords.set(mesh, records);
+    mesh.userData.records = records;
+    scene.add(mesh);
+    meshes.push(mesh);
+  }
+  rebuildEdges();
+  rebuildArcs();
+  rebuildGapPlane();
+  rebuildIdentifiers();
+  rebuildLabels();
+  rebuildSelection();
+  updateStats();
+}
+
+function rebuildEdges() {
+  if (edgeGroup) removeAndDispose(edgeGroup);
+  if (relationshipHoverGroup) removeAndDispose(relationshipHoverGroup);
+  if (relationshipSelectionGroup) removeAndDispose(relationshipSelectionGroup);
+  edgeGroup = new THREE.Group();
+  relationshipHoverGroup = new THREE.Group();
+  relationshipSelectionGroup = new THREE.Group();
+  renderedEdges = [];
+  hoveredRelationshipKey = null;
+  runtimeMeta.skipped_edges = 0;
+  if (!document.getElementById("show-edges").checked) {
+    scene.add(edgeGroup);
+    scene.add(relationshipHoverGroup);
+    scene.add(relationshipSelectionGroup);
+    return;
+  }
+  const visible = new Set(visibleRecords().map((record) => record.entity.id));
+  const color = 0x493e31;
+  const edgeSubset = payload.edges
+    .filter((edge) => visible.has(edge.source_id) && visible.has(edge.target_id))
+    .slice(0, uiState.uiMode === "analyst" ? 1000 : 420);
+  edgeSubset.forEach((edge) => {
+    const source = entityById.get(edge.source_id);
+    const target = entityById.get(edge.target_id);
+    if (!source || !target) {
+      runtimeMeta.skipped_edges += 1;
+      return;
+    }
+    const ps = worldPos(source, edgeYear());
+    const pt = worldPos(target, edgeYear());
+    const geom = new THREE.BufferGeometry().setFromPoints([ps, pt]);
+    const line = new THREE.Line(geom, new THREE.LineBasicMaterial({
+      color,
+      transparent: true,
+      opacity: uiState.uiMode === "analyst" ? 0.25 : 0.18,
+      depthWrite: false
+    }));
+    line.userData.edge = edge;
+    line.userData.relationshipKey = relationshipKey(edge);
+    edgeGroup.add(line);
+    renderedEdges.push(line);
+  });
+  scene.add(edgeGroup);
+  scene.add(relationshipHoverGroup);
+  scene.add(relationshipSelectionGroup);
+  if (selectedRelationshipKey) {
+    const selectedLine = renderedEdges.find((line) => line.userData.relationshipKey === selectedRelationshipKey);
+    if (selectedLine) drawRelationshipHighlight(selectedLine.userData.edge, "selected");
+  }
+  payload.meta.skipped_edges = runtimeMeta.skipped_edges;
+}
+
+function relationshipEndpoints(edge) {
+  const source = entityById.get(edge.source_id);
+  const target = entityById.get(edge.target_id);
+  if (!source || !target) return null;
+  return [worldPos(source, edgeYear()), worldPos(target, edgeYear())];
+}
+
+function drawRelationshipHighlight(edge, mode = "hover") {
+  const endpoints = relationshipEndpoints(edge);
+  if (!endpoints) return;
+  const group = mode === "selected" ? relationshipSelectionGroup : relationshipHoverGroup;
+  if (!group) return;
+  clearGroup(group);
+  const [ps, pt] = endpoints;
+  const accent = mode === "selected" ? 0x0f172a : 0xd946ef;
+  const glow = mode === "selected" ? 0x47d7ff : 0xf0abfc;
+  const geom = new THREE.BufferGeometry().setFromPoints([ps, pt]);
+  group.add(new THREE.Line(geom, new THREE.LineBasicMaterial({
+    color: accent,
+    transparent: true,
+    opacity: mode === "selected" ? 0.92 : 0.78,
+    depthWrite: false
+  })));
+  const mid = ps.clone().lerp(pt, 0.5);
+  const marker = new THREE.Mesh(
+    new THREE.SphereGeometry(mode === "selected" ? 7 : 5, 14, 10),
+    new THREE.MeshBasicMaterial({ color: glow, transparent: true, opacity: 0.92, depthWrite: false })
+  );
+  marker.position.copy(mid);
+  group.add(marker);
+}
+
+function vectorTransitionYear(vector) {
+  const year = Number(vector.transition_year);
+  return Number.isFinite(year) && YEARS.includes(year) ? year : null;
+}
+
+function isEstimatedTransition(vector) {
+  return vector.transition_year_estimated === true ||
+    vector.transition_year_estimated === "true" ||
+    vector.temporal_scope === "estimated_transition_year";
+}
+
+function targetEntityForVector(vector) {
+  if (vector.target_id && entityById.has(vector.target_id)) return entityById.get(vector.target_id);
+  if (vector.target_id && searchById.has(vector.target_id)) return searchById.get(vector.target_id);
+  return entityByName.get(normalizeName(vector.target_name)) || searchByName.get(normalizeName(vector.target_name));
+}
+
+function sourceEntityForVector(vector) {
+  if (vector.source_id && entityById.has(vector.source_id)) return entityById.get(vector.source_id);
+  if (vector.source_id && searchById.has(vector.source_id)) return searchById.get(vector.source_id);
+  return entityByName.get(normalizeName(vector.source_name)) || searchByName.get(normalizeName(vector.source_name));
+}
+
+function buildRevolvingFlows() {
+  const vectors = payload.revolving_vectors || [];
+  const flows = new Map();
+  let estimated = 0;
+  vectors.forEach((vector) => {
+    const targetEntity = targetEntityForVector(vector);
+    const sourceEntity = sourceEntityForVector(vector);
+    const category = targetEntity?.primary_policy_category || sourceEntity?.primary_policy_category || "Unknown";
+    const transitionYear = vectorTransitionYear(vector);
+    const transitionEstimated = isEstimatedTransition(vector);
+    if (transitionEstimated) estimated += 1;
+    const key = [
+      safeNumber(vector.src_x).toFixed(4),
+      safeNumber(vector.src_y).toFixed(4),
+      safeNumber(vector.tgt_x).toFixed(4),
+      safeNumber(vector.tgt_y).toFixed(4),
+      transitionYear ?? "unknown",
+      normalizeName(vector.target_name),
+      category,
+      transitionYear === null ? "unknown" : (transitionEstimated ? "estimated" : "observed")
+    ].join("|");
+    if (!flows.has(key)) {
+      flows.set(key, {
+        srcX: safeNumber(vector.src_x),
+        srcY: safeNumber(vector.src_y),
+        tgtX: safeNumber(vector.tgt_x),
+        tgtY: safeNumber(vector.tgt_y),
+        sourceName: vector.source_name || "Career origin",
+        targetName: vector.target_name || "Lobbying target",
+        category,
+        transitionYear,
+        transitionEstimated,
+        transitionUnknown: transitionYear === null,
+        magnitude: safeNumber(vector.magnitude),
+        count: 0,
+        people: []
+      });
+    }
+    const flow = flows.get(key);
+    flow.count += 1;
+    if (flow.people.length < 4 && vector.person) flow.people.push(vector.person);
+    flow.magnitude = Math.max(flow.magnitude, safeNumber(vector.magnitude));
+  });
+  revolvingFlowSummary = {
+    totalVectors: vectors.length,
+    uniqueFlows: flows.size,
+    estimated
+  };
+  return Array.from(flows.values()).sort((a, b) => {
+    if (b.count !== a.count) return b.count - a.count;
+    return b.magnitude - a.magnitude;
+  });
+}
+
+function flowYears(flow) {
+  if (projectionMode === "2d") return [selectedYear];
+  if (viewMode === "year") return [selectedYear];
+  if (flow.transitionEstimated || flow.transitionUnknown || flow.transitionYear === null) return [selectedYear];
+  return [flow.transitionYear];
+}
+
+function sectorBandOffset(category) {
+  const keys = Object.keys(POLICY_CATEGORY_COLORS);
+  const index = Math.max(0, keys.indexOf(category || "Unknown"));
+  return ((index % 9) - 4) * 2.6;
+}
+
+function arcCurveForFlow(flow, year, echoIndex = 0) {
+  const baseY = projectionMode === "2d"
+    ? 42 + sectorBandOffset(flow.category)
+    : yearToY(year) + 18 + sectorBandOffset(flow.category);
+  const lateral = projectionMode === "2d" ? 0 : (echoIndex % 2 ? 5 : -5);
+  const start = new THREE.Vector3(flow.srcX * XZ_SCALE + lateral, baseY, flow.srcY * XZ_SCALE - lateral);
+  const end = new THREE.Vector3(flow.tgtX * XZ_SCALE - lateral, baseY, flow.tgtY * XZ_SCALE + lateral);
+  const mid = start.clone().lerp(end, 0.5);
+  mid.y += 42 + Math.log1p(flow.count) * 13 + flow.magnitude * 32;
+  return new THREE.QuadraticBezierCurve3(start, mid, end);
+}
+
+function arcOpacityForFlow(flow, year) {
+  const countBoost = Math.min(0.22, Math.log1p(flow.count) * 0.045);
+  if (projectionMode === "2d") return 0.46 + countBoost;
+  if (viewMode === "year") return 0.42 + countBoost;
+  if (!flow.transitionEstimated && !flow.transitionUnknown && year === flow.transitionYear) return 0.56 + countBoost;
+  return 0.10 + Math.min(0.1, countBoost);
+}
+
+function makeParticle(colorHex, size) {
+  return new THREE.Mesh(
+    new THREE.SphereGeometry(size, 10, 8),
+    new THREE.MeshBasicMaterial({
+      color: colorHex,
+      transparent: true,
+      opacity: 0.92,
+      depthWrite: false,
+      blending: THREE.AdditiveBlending
+    })
+  );
+}
+
+function rebuildArcs() {
+  if (arcGroup) removeAndDispose(arcGroup);
+  arcGroup = new THREE.Group();
+  revolvingParticles = [];
+  if (!document.getElementById("show-arcs").checked) {
+    scene.add(arcGroup);
+    return;
+  }
+  const flowLimit = uiState.uiMode === "analyst" ? Math.min(revolvingFlows.length, 320) : Math.min(revolvingFlows.length, 140);
+  const particleLimit = uiState.uiMode === "analyst" ? 96 : 56;
+  const flows = revolvingFlows.slice(0, flowLimit);
+  let particleCount = 0;
+  flows.forEach((flow, flowIndex) => {
+    const colorHex = colorForPolicyCategory(flow.category);
+    const years = flowYears(flow);
+    years.forEach((year, yearIndex) => {
+      const curve = arcCurveForFlow(flow, year, yearIndex);
+      const opacity = arcOpacityForFlow(flow, year);
+      const points = curve.getPoints(projectionMode === "2d" ? 24 : 20);
+      const geom = new THREE.BufferGeometry().setFromPoints(points);
+      const line = new THREE.Line(geom, new THREE.LineBasicMaterial({
+        color: colorHex,
+        transparent: true,
+        opacity,
+        depthWrite: false,
+        blending: THREE.AdditiveBlending
+      }));
+      line.userData = {
+        source: flow.sourceName,
+        target: flow.targetName,
+        category: flow.category,
+        transitions: flow.count,
+        transitionYear: flow.transitionYear,
+        transitionEstimated: flow.transitionEstimated
+      };
+      arcGroup.add(line);
+
+      const shouldThicken = flowIndex < 18 && (projectionMode === "2d" || viewMode === "year" || yearIndex % 2 === 0);
+      if (shouldThicken) {
+        const tube = new THREE.Mesh(
+          new THREE.TubeGeometry(curve, 18, Math.min(2.9, 0.7 + Math.log1p(flow.count) * 0.34), 5, false),
+          new THREE.MeshBasicMaterial({
+            color: colorHex,
+            transparent: true,
+            opacity: Math.min(0.32, opacity * 0.72),
+            depthWrite: false,
+            blending: THREE.AdditiveBlending
+          })
+        );
+        arcGroup.add(tube);
+      }
+
+      if (particleCount < particleLimit && (viewMode === "year" || projectionMode === "2d" || flowIndex < 18)) {
+        const particle = makeParticle(colorHex, Math.min(4.8, 2.2 + Math.log1p(flow.count) * 0.45));
+        particle.userData = {
+          curve,
+          speed: 0.000055 + Math.min(0.00012, flow.count * 0.000006),
+          offset: ((flowIndex * 0.173) + (yearIndex * 0.097)) % 1
+        };
+        revolvingParticles.push(particle);
+        arcGroup.add(particle);
+        particleCount += 1;
+      }
+    });
+  });
+  scene.add(arcGroup);
+}
+
+function rebuildGapPlane() {
+  if (gapMesh) removeAndDispose(gapMesh);
+  if (!document.getElementById("show-gaps").checked) return;
+  const grid = payload.gap_grid;
+  if (!grid || !grid.gap_score) return;
+  const size = grid.grid_size || 80;
+  const canvas = document.createElement("canvas");
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext("2d");
+  const img = ctx.createImageData(size, size);
+  for (let y = 0; y < size; y++) {
+    for (let x = 0; x < size; x++) {
+      const score = safeNumber(grid.gap_score?.[y]?.[x]);
+      const i = (y * size + x) * 4;
+      img.data[i] = Math.min(255, 92 + score * 170);
+      img.data[i + 1] = Math.max(36, 42 + score * 44);
+      img.data[i + 2] = Math.min(255, 126 + score * 122);
+      img.data[i + 3] = Math.floor(score * 190);
+    }
+  }
+  ctx.putImageData(img, 0, 0);
+  const texture = new THREE.CanvasTexture(canvas);
+  texture.magFilter = THREE.NearestFilter;
+  const material = new THREE.MeshBasicMaterial({ map: texture, transparent: true, opacity: 0.64, depthWrite: false, side: THREE.DoubleSide, blending: THREE.AdditiveBlending });
+  gapMesh = new THREE.Mesh(new THREE.PlaneGeometry(2 * XZ_SCALE, 2 * XZ_SCALE), material);
+  gapMesh.rotation.x = -Math.PI / 2;
+  gapMesh.position.y = projectionMode === "2d" ? -12 : (viewMode === "year" ? yearToY(selectedYear) - 9 : Y_OFFSET - 18);
+  scene.add(gapMesh);
+}
+
+function makeLabelSprite(text, accentHex) {
+  const canvas = document.createElement("canvas");
+  canvas.width = 360;
+  canvas.height = 80;
+  const ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "rgba(10, 9, 7, 0.82)";
+  ctx.strokeStyle = "#" + accentHex.toString(16).padStart(6, "0");
+  ctx.lineWidth = 2;
+  ctx.fillRect(0, 10, canvas.width, 46);
+  ctx.strokeRect(0, 10, canvas.width, 46);
+  ctx.fillStyle = "#fff4df";
+  ctx.font = "700 22px Inter, Arial, sans-serif";
+  ctx.fillText(text.length > 28 ? text.slice(0, 27) + "..." : text, 16, 41);
+  const texture = new THREE.CanvasTexture(canvas);
+  const material = new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false });
+  const sprite = new THREE.Sprite(material);
+  sprite.scale.set(86, 19, 1);
+  return sprite;
+}
+
+function typeIdentifier(entity) {
+  const map = { firm: "F", client: "C", lobbyist: "L", gov_agency: "G", reference_node: "R" };
+  return map[entity.entity_type] || "?";
+}
+
+function makeIdentifierSprite(letter, accentHex) {
+  const canvas = document.createElement("canvas");
+  canvas.width = 96;
+  canvas.height = 96;
+  const ctx = canvas.getContext("2d");
+  const accent = "#" + accentHex.toString(16).padStart(6, "0");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.beginPath();
+  ctx.arc(48, 48, 34, 0, Math.PI * 2);
+  ctx.fillStyle = accent;
+  ctx.fill();
+  ctx.lineWidth = 7;
+  ctx.strokeStyle = "rgba(255,255,255,0.92)";
+  ctx.stroke();
+  ctx.lineWidth = 3;
+  ctx.strokeStyle = "rgba(24,20,16,0.55)";
+  ctx.stroke();
+  ctx.fillStyle = "#ffffff";
+  ctx.font = "900 44px Inter, Arial, sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillText(letter, 48, 51);
+  const texture = new THREE.CanvasTexture(canvas);
+  const material = new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false });
+  const sprite = new THREE.Sprite(material);
+  sprite.scale.set(14, 14, 1);
+  return sprite;
+}
+
+function identifierRecords() {
+  const byEntity = new Map();
+  for (const record of visibleRecords()) {
+    if (!byEntity.has(record.entity.id)) byEntity.set(record.entity.id, record);
+  }
+  return Array.from(byEntity.values())
+    .sort((a, b) => safeNumber(b.entity.metrics?.influence_score) - safeNumber(a.entity.metrics?.influence_score))
+    .slice(0, projectionMode === "2d" ? 900 : 360);
+}
+
+function rebuildIdentifiers() {
+  if (identifierGroup) removeAndDispose(identifierGroup);
+  identifierGroup = new THREE.Group();
+  if (!document.getElementById("show-identifiers").checked) {
+    scene.add(identifierGroup);
+    return;
+  }
+  identifierRecords().forEach((record) => {
+    const sprite = makeIdentifierSprite(typeIdentifier(record.entity), finalColorFor(record.entity));
+    const year = projectionMode === "2d" ? Number(record.row.year || selectedYear) : Number(record.row.year || edgeYear());
+    const pos = worldPos(record.entity, year);
+    const lift = projectionMode === "2d" ? 16 : radiusFor(record.entity, record.row) + 10;
+    sprite.position.set(pos.x, pos.y + lift, pos.z);
+    identifierGroup.add(sprite);
+  });
+  scene.add(identifierGroup);
+}
+
+function rebuildLabels() {
+  if (labelGroup) removeAndDispose(labelGroup);
+  labelGroup = new THREE.Group();
+  if (!document.getElementById("show-labels").checked) {
+    scene.add(labelGroup);
+    return;
+  }
+  const records = visibleRecords()
+    .filter((record) => record.entity.entity_type === "gov_agency" || Number(record.entity.metrics.influence_score || 0) > 0.36)
+    .sort((a, b) => Number(b.entity.metrics.influence_score || 0) - Number(a.entity.metrics.influence_score || 0))
+    .slice(0, uiState.uiMode === "analyst" ? 54 : 30);
+  records.forEach((record) => {
+    const sprite = makeLabelSprite(record.entity.name, finalColorFor(record.entity));
+    const pos = worldPos(record.entity, Number(record.row.year));
+    sprite.position.set(pos.x, pos.y + radiusFor(record.entity, record.row) + 15, pos.z);
+    labelGroup.add(sprite);
+  });
+  scene.add(labelGroup);
+}
+
+function rebuildSelection() {
+  if (selectionGroup) removeAndDispose(selectionGroup);
+  selectionGroup = new THREE.Group();
+  if (!selectedEntityId) {
+    scene.add(selectionGroup);
+    return;
+  }
+  const entity = entityById.get(selectedEntityId);
+  if (!entity) {
+    scene.add(selectionGroup);
+    return;
+  }
+  const row = representativeYearRow(entity);
+  const year = viewMode === "year" ? selectedYear : Number(row.year || selectedYear);
+  const pos = worldPos(entity, year);
+  const radius = radiusFor(entity, row) * 2.1;
+  const halo = new THREE.Mesh(
+    new THREE.SphereGeometry(Math.max(9, radius), 24, 12),
+    new THREE.MeshBasicMaterial({ color: 0x47d7ff, wireframe: true, transparent: true, opacity: 0.86 })
+  );
+  halo.position.copy(pos);
+  selectionGroup.add(halo);
+
+  const related = payload.edges
+    .filter((edge) => edge.source_id === selectedEntityId || edge.target_id === selectedEntityId)
+    .slice(0, 90);
+  const positions = [];
+  related.forEach((edge) => {
+    const source = entityById.get(edge.source_id);
+    const target = entityById.get(edge.target_id);
+    if (!source || !target) return;
+    const ps = worldPos(source, year);
+    const pt = worldPos(target, year);
+    positions.push(ps.x, ps.y, ps.z, pt.x, pt.y, pt.z);
+  });
+  if (positions.length) {
+    const geom = new THREE.BufferGeometry();
+    geom.setAttribute("position", new THREE.Float32BufferAttribute(positions, 3));
+    selectionGroup.add(new THREE.LineSegments(geom, new THREE.LineBasicMaterial({
+      color: 0x47d7ff,
+      transparent: true,
+      opacity: 0.52
+    })));
+  }
+  scene.add(selectionGroup);
+}
+
+function updateStats() {
+  const records = visibleRecords();
+  const visibleEntityCount = new Set(records.map((r) => r.entity.id)).size;
+  const fullEntityCount = safeNumber(payload.meta?.entity_count_full || searchIndex.length || payload.entities.length);
+  document.getElementById("stat-entities").textContent =
+    `${visibleEntityCount.toLocaleString()} / ${fullEntityCount.toLocaleString()}`;
+  const visible = new Set(records.map((record) => record.entity.id));
+  const visibleEdgeCount = payload.edges.filter((edge) => visible.has(edge.source_id) && visible.has(edge.target_id)).length;
+  document.getElementById("stat-edges").textContent = visibleEdgeCount.toLocaleString();
+  document.getElementById("stat-year").textContent = viewMode === "year" ? String(selectedYear) : "All";
+  document.getElementById("stat-quality").textContent = String(payload.meta?.data_quality_summary?.issue_count ?? 0);
+  document.getElementById("stat-partial").textContent = partialYears().join(", ") || "--";
+  const updated = document.getElementById("last-updated");
+  if (updated) updated.textContent = `Last updated: ${payload.meta?.generated_at || payload.meta?.source_snapshot || "--"}`;
+  const counts = { firm: 0, client: 0, lobbyist: 0, gov_agency: 0, reference_node: 0 };
+  payload.entities.forEach((entity) => { if (counts[entity.entity_type] !== undefined) counts[entity.entity_type]++; });
+  Object.entries(counts).forEach(([type, count]) => {
+    const el = document.getElementById("count-" + type);
+    if (el) el.textContent = count.toLocaleString();
+  });
+  const disclosure = document.getElementById("edge-disclosure");
+  if (disclosure) {
+    const total = safeNumber(payload.meta?.total_edges_in_data || payload.edges.length);
+    disclosure.textContent = payload.meta?.edges_truncated
+      ? `Relationships: showing top ${payload.edges.length.toLocaleString()} of ${total.toLocaleString()} by weight.`
+      : `Relationships: ${payload.edges.length.toLocaleString()} included in the payload.`;
+  }
+  const coverage = document.getElementById("coverage-disclosure");
+  if (coverage) {
+    const lowConfidence = payload.meta?.data_quality_summary?.confidence_distribution?.low ?? 0;
+    const coordinateSources = payload.meta?.data_quality_summary?.coordinate_source_distribution || {};
+    const inferredCoordinates =
+      Number(coordinateSources.neighbor_inferred || 0) +
+      Number(coordinateSources.deterministic_unplaced_ring || 0) +
+      Number(coordinateSources.inferred_sector_cluster || 0);
+    coverage.textContent =
+      `Coverage: initial scene ${payload.entities.length.toLocaleString()} entities; full searchable graph ${fullEntityCount.toLocaleString()} entities; low-confidence ${Number(lowConfidence).toLocaleString()}; inferred coordinates ${Number(inferredCoordinates).toLocaleString()}.`;
+  }
+}
+
+function selectDefaultEntity() {
+  if (selectedEntityId) return;
+  const record = visibleRecords()
+    .sort((a, b) => Number(b.entity.metrics.influence_score || 0) - Number(a.entity.metrics.influence_score || 0))[0];
+  if (record) setDetails(record.entity);
+}
+
+function setDetails(entity) {
+  selectedEntityId = entity.id;
+  selectedRelationshipKey = null;
+  uiState.panelState.detailsOpen = true;
+  const confidenceLevel = entity.confidence?.level || "unknown";
+  const confidenceScore = safeNumber(entity.confidence?.score);
+  const metric = metricForEntity(entity);
+  document.getElementById("detail-name").textContent = entity.name;
+  document.getElementById("detail-sub").textContent = `${entity.entity_type || "unknown"} | ${entity.entity_subtype || "unknown"} | ${entity.primary_policy_category || "Unknown"}`;
+  document.getElementById("m-influence-label").textContent = "Prominence";
+  document.getElementById("m-confidence-label").textContent = "Confidence";
+  document.getElementById("m-gap-label").textContent = "Gap";
+  document.getElementById("m-revolving-label").textContent = "Revolving";
+  document.getElementById("m-influence").textContent = safeNumber(entity.metrics?.influence_score).toFixed(3);
+  document.getElementById("m-confidence").textContent = `${confidenceLevel} ${confidenceScore.toFixed(2)}`;
+  document.getElementById("m-gap").textContent = safeNumber(entity.metrics?.gap_score).toFixed(3);
+  document.getElementById("m-revolving").textContent = safeNumber(entity.metrics?.revolving_door_score).toFixed(3);
+  document.getElementById("detail-source").textContent = entity.source_files || "--";
+  document.getElementById("detail-flags").textContent = (entity.confidence?.flags || []).join(", ") || "No major flags";
+  if (entity.entity_type === "gov_agency") {
+    document.getElementById("detail-meaning").textContent =
+      `Size uses lobbying exposure directed at this government entity (${fmt(metric.value)}), not government spending. Confidence is derived; gap lead score is model-derived.`;
+  } else if (entity.entity_type === "reference_node") {
+    document.getElementById("detail-meaning").textContent =
+      "Reference node, not a lobbying actor. It is shown only for comparison and is excluded from raw actor spending claims.";
+  } else {
+    document.getElementById("detail-meaning").textContent =
+      `Size uses observed spend or filing volume. ${entity.primary_policy_category || "Unknown"} and confidence are derived from source evidence; gap lead score is model-derived.`;
+  }
+  syncUI();
+  if (relationshipSelectionGroup) relationshipSelectionGroup.clear();
+  rebuildSelection();
+}
+
+function setRelationshipDetails(edge) {
+  selectedEntityId = null;
+  selectedRelationshipKey = relationshipKey(edge);
+  uiState.panelState.detailsOpen = true;
+  document.getElementById("detail-name").textContent = `${edge.source_name || edge.source_id} → ${edge.target_name || edge.target_id}`;
+  document.getElementById("detail-sub").textContent = relationshipLabel(edge);
+  document.getElementById("m-influence-label").textContent = "Weight";
+  document.getElementById("m-confidence-label").textContent = "Confidence";
+  document.getElementById("m-gap-label").textContent = "Value";
+  document.getElementById("m-revolving-label").textContent = "Duplicates";
+  document.getElementById("m-influence").textContent = safeNumber(edge.weight).toFixed(2);
+  document.getElementById("m-confidence").textContent = safeNumber(edge.confidence).toFixed(2);
+  document.getElementById("m-gap").textContent = formatRelationshipValue(edge);
+  document.getElementById("m-revolving").textContent = String(edge.duplicate_count || 1);
+  document.getElementById("detail-source").textContent = edge.source_files || "--";
+  const flags = [];
+  if (edge.is_self_edge === "true" || edge.is_self_edge === true) flags.push("self-edge");
+  if (edge.resolution) flags.push(`resolution: ${edge.resolution}`);
+  if (edge.measure_type) flags.push(`measure: ${measureLabel(edge)}`);
+  document.getElementById("detail-flags").textContent = flags.join(", ") || "No major flags";
+  document.getElementById("detail-meaning").textContent =
+    `This link is based on ${measureLabel(edge).toLowerCase()} from ${edge.source_files || "source data"}. Raw value: ${formatRelationshipValue(edge)}. Weight is a normalized visual strength, not a new dollar amount.`;
+  syncUI();
+  rebuildSelection();
+  if (relationshipSelectionGroup) drawRelationshipHighlight(edge, "selected");
+}
+
+function pickEntity(event, showTooltip) {
+  const rect = renderer.domElement.getBoundingClientRect();
+  pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+  raycaster.setFromCamera(pointer, camera);
+  const hits = raycaster.intersectObjects(meshes, false);
+  const tooltip = document.getElementById("tooltip");
+  if (!hits.length) {
+    if (showTooltip) tooltip.style.display = "none";
+    return null;
+  }
+  const hit = hits[0];
+  const records = meshRecords.get(hit.object) || hit.object.userData?.records || [];
+  const record = records[hit.instanceId];
+  if (!record) {
+    if (showTooltip) tooltip.style.display = "none";
+    return null;
+  }
+  if (showTooltip) {
+    const confidenceLevel = record.entity.confidence?.level || "unknown";
+    const gapScore = safeNumber(record.entity.metrics?.gap_score);
+    const metric = metricForEntity(record.entity);
+    const metricLine = metric.value === null ? "Reference node" : `${fmt(metric.value)} ${metric.label.toLowerCase()}`;
+    tooltip.style.left = event.clientX + 14 + "px";
+    tooltip.style.top = event.clientY + 14 + "px";
+    tooltip.style.display = "block";
+    tooltip.innerHTML = `<strong>${record.entity.name}</strong><br>${record.entity.entity_type} | ${confidenceLevel} confidence<br>${record.row.year} | ${metricLine}<br>Gap ${gapScore.toFixed(3)} | source-backed details on click`;
+  }
+  return record.entity;
+}
+
+function pickRelationship(event, showTooltip) {
+  if (!renderedEdges.length) return null;
+  const rect = renderer.domElement.getBoundingClientRect();
+  pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+  pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+  raycaster.setFromCamera(pointer, camera);
+  const hits = raycaster.intersectObjects(renderedEdges, false);
+  const tooltip = document.getElementById("tooltip");
+  if (!hits.length) {
+    if (showTooltip && relationshipHoverGroup) relationshipHoverGroup.clear();
+    return null;
+  }
+  const edge = hits[0].object.userData.edge;
+  if (!edge) return null;
+  const key = relationshipKey(edge);
+  if (showTooltip) {
+    if (hoveredRelationshipKey !== key) {
+      hoveredRelationshipKey = key;
+      drawRelationshipHighlight(edge, "hover");
+    }
+    tooltip.style.left = event.clientX + 14 + "px";
+    tooltip.style.top = event.clientY + 14 + "px";
+    tooltip.style.display = "block";
+    tooltip.innerHTML = `<strong>${relationshipLabel(edge)}</strong><br>${edge.source_name || edge.source_id}<br>→ ${edge.target_name || edge.target_id}<br>${measureLabel(edge)} | ${formatRelationshipValue(edge)}<br>Click to inspect source and weighting`;
+  }
+  return edge;
+}
+
+function onScenePointerDown(event) {
+  if (event.pointerType === "touch") return;
+  cameraControl.dragging = true;
+  cameraControl.dragMode = projectionMode === "2d" || event.button === 2 || event.shiftKey ? "pan" : "rotate";
+  cameraControl.lastX = event.clientX;
+  cameraControl.lastY = event.clientY;
+  cameraControl.dragDistance = 0;
+  document.body.classList.add("scene-dragging");
+  renderer.domElement.setPointerCapture?.(event.pointerId);
+  event.preventDefault();
+}
+
+function onPointerMove(event) {
+  if (event.pointerType === "touch") return;
+  if (!cameraControl.dragging) {
+    const entity = pickEntity(event, true);
+    if (entity) {
+      if (relationshipHoverGroup) relationshipHoverGroup.clear();
+      hoveredRelationshipKey = null;
+      return;
+    }
+    const edge = pickRelationship(event, true);
+    if (!edge) {
+      document.getElementById("tooltip").style.display = "none";
+      if (relationshipHoverGroup) relationshipHoverGroup.clear();
+      hoveredRelationshipKey = null;
+    }
+    return;
+  }
+  const dx = event.clientX - cameraControl.lastX;
+  const dy = event.clientY - cameraControl.lastY;
+  cameraControl.lastX = event.clientX;
+  cameraControl.lastY = event.clientY;
+  cameraControl.dragDistance += Math.abs(dx) + Math.abs(dy);
+  document.getElementById("tooltip").style.display = "none";
+
+  if (cameraControl.dragMode === "pan") {
+    panCamera(dx, dy);
+  } else {
+    cameraControl.theta -= dx * 0.006;
+    cameraControl.phi = clamp(cameraControl.phi - dy * 0.0052, cameraControl.minPhi, cameraControl.maxPhi);
+    updateCameraFromControl();
+  }
+  event.preventDefault();
+}
+
+function onScenePointerUp(event) {
+  if (event.pointerType === "touch") return;
+  if (!cameraControl.dragging) return;
+  cameraControl.dragging = false;
+  cameraControl.suppressClick = cameraControl.dragDistance > 5;
+  document.body.classList.remove("scene-dragging");
+  renderer.domElement.releasePointerCapture?.(event.pointerId);
+}
+
+function onSceneWheel(event) {
+  event.preventDefault();
+  const zoomFactor = Math.exp(event.deltaY * 0.0012);
+  cameraControl.radius = clamp(cameraControl.radius * zoomFactor, cameraControl.minRadius, cameraControl.maxRadius);
+  updateCameraFromControl();
+}
+
+function touchDistance(touches) {
+  const dx = touches[0].clientX - touches[1].clientX;
+  const dy = touches[0].clientY - touches[1].clientY;
+  return Math.hypot(dx, dy);
+}
+
+function touchMidpoint(touches) {
+  return {
+    x: (touches[0].clientX + touches[1].clientX) / 2,
+    y: (touches[0].clientY + touches[1].clientY) / 2
+  };
+}
+
+function onSceneTouchStart(event) {
+  event.preventDefault();
+  if (event.touches.length === 1) {
+    touchControl.mode = "pan";
+    touchControl.lastX = event.touches[0].clientX;
+    touchControl.lastY = event.touches[0].clientY;
+  } else if (event.touches.length >= 2) {
+    touchControl.mode = "pinch";
+    const mid = touchMidpoint(event.touches);
+    touchControl.lastX = mid.x;
+    touchControl.lastY = mid.y;
+    touchControl.lastDistance = touchDistance(event.touches);
+  }
+  document.getElementById("tooltip").style.display = "none";
+}
+
+function onSceneTouchMove(event) {
+  event.preventDefault();
+  if (touchControl.mode === "pan" && event.touches.length === 1) {
+    const touch = event.touches[0];
+    const dx = touch.clientX - touchControl.lastX;
+    const dy = touch.clientY - touchControl.lastY;
+    touchControl.lastX = touch.clientX;
+    touchControl.lastY = touch.clientY;
+    panCamera(dx, dy);
+    return;
+  }
+  if (event.touches.length >= 2) {
+    const distance = touchDistance(event.touches);
+    const mid = touchMidpoint(event.touches);
+    if (touchControl.lastDistance > 0) {
+      const zoomFactor = touchControl.lastDistance / distance;
+      cameraControl.radius = clamp(cameraControl.radius * zoomFactor, cameraControl.minRadius, cameraControl.maxRadius);
+      panCamera(mid.x - touchControl.lastX, mid.y - touchControl.lastY);
+      updateCameraFromControl();
+    }
+    touchControl.mode = "pinch";
+    touchControl.lastDistance = distance;
+    touchControl.lastX = mid.x;
+    touchControl.lastY = mid.y;
+  }
+}
+
+function onSceneTouchEnd(event) {
+  event.preventDefault();
+  if (!event.touches.length) {
+    touchControl.mode = "";
+    touchControl.lastDistance = 0;
+  }
+}
+
+function onClick(event) {
+  if (cameraControl.suppressClick) {
+    cameraControl.suppressClick = false;
+    return;
+  }
+  const entity = pickEntity(event, false);
+  if (entity) {
+    setDetails(entity);
+    return;
+  }
+  const edge = pickRelationship(event, false);
+  if (edge) setRelationshipDetails(edge);
+}
+
+function onResize() {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+}
+
+function animate() {
+  requestAnimationFrame(animate);
+  if (revolvingParticles.length) {
+    const now = performance.now();
+    revolvingParticles.forEach((particle) => {
+      const { curve, speed, offset } = particle.userData;
+      const t = (offset + now * speed) % 1;
+      particle.position.copy(curve.getPoint(t));
+      const pulse = 0.86 + Math.sin((t + offset) * Math.PI * 2) * 0.18;
+      particle.scale.setScalar(pulse);
+    });
+  }
+  renderer.render(scene, camera);
+}
+
+function buildYearRail() {
+  const track = document.getElementById("year-track");
+  track.innerHTML = "";
+  const allButton = document.createElement("button");
+  allButton.className = "year-tick";
+  allButton.type = "button";
+  allButton.textContent = "All";
+  allButton.setAttribute("aria-label", "Show all years");
+  allButton.onclick = () => setViewMode("all");
+  track.appendChild(allButton);
+  YEARS.forEach((year) => {
+    const button = document.createElement("button");
+    button.className = "year-tick";
+    button.type = "button";
+    button.dataset.year = String(year);
+    button.textContent = String(year);
+    button.setAttribute("aria-label", `Filter to year ${year}`);
+    if (isPartialYear(year)) button.classList.add("partial");
+    button.onclick = () => setSelectedYear(year, true);
+    track.appendChild(button);
+  });
+  updateYearRail();
+}
+
+function updateYearRail() {
+  const track = document.getElementById("year-track");
+  if (!track) return;
+  const buttons = Array.from(track.querySelectorAll("button"));
+  buttons.forEach((button, index) => {
+    const isAll = index === 0;
+    button.classList.toggle("all-active", isAll && viewMode === "all");
+    button.classList.toggle("active", !isAll && viewMode === "year" && Number(button.dataset.year) === selectedYear);
+  });
+}
+
+function bindControls() {
+  document.getElementById("ui-briefing").onclick = () => setUiMode("briefing");
+  document.getElementById("ui-analyst").onclick = () => setUiMode("analyst");
+  document.getElementById("view-3d").onclick = () => setProjectionMode("3d");
+  document.getElementById("view-2d").onclick = () => setProjectionMode("2d");
+  document.getElementById("toggle-controls").onclick = () => setPanelState("controlsOpen", !uiState.panelState.controlsOpen);
+  document.getElementById("toggle-details").onclick = () => setPanelState("detailsOpen", !uiState.panelState.detailsOpen);
+  document.getElementById("toggle-legend").onclick = () => setPanelState("legendOpen", !uiState.panelState.legendOpen);
+  document.getElementById("theme-toggle").onclick = () => setThemeMode(themeMode === "dark" ? "light" : "dark");
+  document.getElementById("reset-view").onclick = resetCameraView;
+  document.getElementById("close-controls").onclick = () => setPanelState("controlsOpen", false);
+  document.getElementById("close-details").onclick = () => setPanelState("detailsOpen", false);
+  document.getElementById("toggle-notes").onclick = () => {
+    const notes = document.getElementById("data-notes");
+    const collapsed = notes.classList.toggle("collapsed");
+    document.getElementById("toggle-notes").textContent = collapsed ? "+" : "−";
+    document.getElementById("toggle-notes").setAttribute("aria-label", collapsed ? "Expand data notes" : "Collapse data notes");
+  };
+  document.getElementById("mode-all").onclick = () => setViewMode("all");
+  document.getElementById("mode-year").onclick = () => setViewMode("year");
+  document.getElementById("year").oninput = (event) => {
+    setSelectedYear(Number(event.target.value), viewMode === "year");
+  };
+  document.getElementById("color-mode").onchange = (event) => {
+    colorMode = event.target.value;
+    uiState.activeLens = colorMode;
+    syncUI();
+    rebuildNodes();
+  };
+  document.getElementById("search").oninput = handleSearchInput;
+  document.getElementById("influence").oninput = (event) => {
+    minInfluence = Number(event.target.value);
+    document.getElementById("influence-label").textContent = minInfluence.toFixed(2);
+    scheduleRebuild();
+  };
+  document.querySelectorAll("[data-type]").forEach((input) => {
+    input.onchange = () => {
+      enabledTypes = new Set(Array.from(document.querySelectorAll("[data-type]:checked")).map((el) => el.dataset.type));
+      scheduleRebuild();
+    };
+  });
+  ["show-gaps", "show-edges", "show-arcs", "show-identifiers", "show-labels"].forEach((id) => {
+    document.getElementById(id).onchange = () => scheduleRebuild();
+  });
+}
+
+async function boot() {
+  if (window.location.protocol === "file:") {
+    const loading = document.getElementById("loading");
+    loading.innerHTML = `This map fetches JSON payload chunks, so it must be opened through the local server from the repository root.<br><br>Redirecting to <a href="${LOCALHOST_URL}">${LOCALHOST_URL}</a>...`;
+    window.setTimeout(() => { window.location.href = LOCALHOST_URL; }, 900);
+    return;
+  }
+  const response = await fetch(DATA_URL);
+  if (!response.ok) throw new Error(`Could not load ${DATA_URL}`);
+  payload = await response.json();
+  const searchResponse = await fetch(SEARCH_URL).catch(() => null);
+  if (searchResponse?.ok) {
+    const searchPayload = await searchResponse.json();
+    searchIndex = searchPayload.entities || [];
+  } else {
+    searchIndex = payload.entities || [];
+  }
+  if (Array.isArray(payload.meta?.years) && payload.meta.years.length) {
+    YEARS = payload.meta.years.map(Number).filter(Number.isFinite).sort((a, b) => a - b);
+    YEAR_BASE = YEARS[0];
+    selectedYear = YEARS.includes(2024) ? 2024 : YEARS[YEARS.length - 1];
+    const yearInput = document.getElementById("year");
+    yearInput.min = String(YEARS[0]);
+    yearInput.max = String(YEARS[YEARS.length - 1]);
+    yearInput.value = String(selectedYear);
+    document.getElementById("year-label").textContent = String(selectedYear);
+  }
+  payload.edges.sort((a, b) => safeNumber(b.weight) - safeNumber(a.weight));
+  entityById = new Map(payload.entities.map((entity) => [entity.id, entity]));
+  entityByName = new Map(payload.entities.map((entity) => [normalizeName(entity.name), entity]));
+  searchById = new Map(searchIndex.map((entity) => [entity.id, entity]));
+  searchByName = new Map(searchIndex.map((entity) => [normalizeName(entity.name), entity]));
+  yearRowsByEntity = new Map();
+  payload.entity_years.forEach((row) => {
+    if (!yearRowsByEntity.has(row.entity_id)) yearRowsByEntity.set(row.entity_id, []);
+    yearRowsByEntity.get(row.entity_id).push(row);
+  });
+  revolvingFlows = buildRevolvingFlows();
+  initScene();
+  bindControls();
+  buildYearRail();
+  syncUI();
+  rebuildNodes();
+  document.getElementById("loading").style.display = "none";
+  animate();
+}
+
+boot().catch((error) => {
+  const loading = document.getElementById("loading");
+  const message = window.location.protocol === "file:"
+    ? `This map cannot fetch its JSON payload from a file:// URL. Open ${LOCALHOST_URL} instead.`
+    : error.message;
+  loading.textContent = message;
+  console.error(error);
+});
+</script>
+</body>
+</html>

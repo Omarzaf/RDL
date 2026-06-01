@@ -1,2 +1,0 @@
-export const YEAR_TO_Z=(year)=>(2025-year)*100-350; export const COORD_SCALE=400; export const MIN_SPHERE_RADIUS=1.5; export const MAX_SPHERE_RADIUS=18; export const YEARS=[2018,2019,2020,2021,2022,2023,2024,2025];
-export const sizeToRadius=(size)=>{const logSize=Math.log1p(size||0),logMin=Math.log1p(0),logMax=Math.log1p(5e8);return MIN_SPHERE_RADIUS+(MAX_SPHERE_RADIUS-MIN_SPHERE_RADIUS)*Math.min(1,(logSize-logMin)/(logMax-logMin));};

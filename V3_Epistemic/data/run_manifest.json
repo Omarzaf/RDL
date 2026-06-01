@@ -1,0 +1,111 @@
+{
+  "command": "/Users/omar/Downloads/Claude/Think Tank/V3_Epistemic/pipeline/cli.py run --raw-dir Raw Data --out-dir V3_Epistemic/data --strict",
+  "finished_at": "2026-06-01T21:40:23.104744+00:00",
+  "inputs": {
+    "filing-activity.json": {
+      "bytes": 8449,
+      "present": true,
+      "required": true,
+      "sha256": "bfe00c7a4f763e4d2170a7da420704a867c5b7dce88f0abaa56220ec20cd9672"
+    },
+    "firm-concentration.json": {
+      "bytes": 169337,
+      "present": true,
+      "required": true,
+      "sha256": "37d25bcf308767dc5a7e54fb3bf0d83bde72d49605e4623861b6139c2fde28a2"
+    },
+    "gov-entities.json": {
+      "bytes": 310115,
+      "present": true,
+      "required": true,
+      "sha256": "54198573bc39f32e6a4f77884c021c5e46b891058162469e86e9c7017d2596a9"
+    },
+    "industries.json": {
+      "bytes": 5413,
+      "present": true,
+      "required": true,
+      "sha256": "71a62692c6b31473555a857f0884f082926346d71ecbfc6c22e9f7facd0eb3ba"
+    },
+    "lobbying-vs-contracts.json": {
+      "bytes": 6892,
+      "present": true,
+      "required": true,
+      "sha256": "a254b21f9f7ccdf48cf756c5ed7133301f284ffc144f0a99b8cba68454b6fcf2"
+    },
+    "network-analysis.json": {
+      "bytes": 42463,
+      "present": true,
+      "required": true,
+      "sha256": "b372665d056f667538133bc1960c38ecf9057b47f3fec643962ea053877d28ce"
+    },
+    "revolving-door-premium.json": {
+      "bytes": 105637,
+      "present": true,
+      "required": false,
+      "sha256": "d9f90c69a87cb913f08e4939433b52b7db5c87d5dd28a871036ce9ec6ca2854f"
+    },
+    "revolving-door.json": {
+      "bytes": 5495470,
+      "present": true,
+      "required": true,
+      "sha256": "f3f236cb63ff0cbd0609b8414a45b12b1e4735345e32b73123b70f70f455babc"
+    },
+    "stats.json": {
+      "bytes": 1142,
+      "present": true,
+      "required": true,
+      "sha256": "dbe5c93a4f66b7f59ac6b5f3d041a35bfc010a679a285c426a289228a5694e52"
+    },
+    "text-analysis.json": {
+      "bytes": 171255,
+      "present": true,
+      "required": true,
+      "sha256": "d541fdcd40e4a508462e81bfbb264b9cbb2dd3f4147a52b47c67e3525be2d445"
+    },
+    "top-clients.json": {
+      "bytes": 1290332,
+      "present": true,
+      "required": true,
+      "sha256": "46bdde1812ebcc56fd667579e2d47c63ebb8ea2b5cb3824b6ad8d72dc0f1eec1"
+    },
+    "top-firms.json": {
+      "bytes": 1479968,
+      "present": true,
+      "required": true,
+      "sha256": "2a4d7240bacb196f936968273c973c48bd18a6ca111427ed8cd22b3838922e80"
+    },
+    "top-lobbyists.json": {
+      "bytes": 5385846,
+      "present": true,
+      "required": true,
+      "sha256": "33b8967032811576ba6287b0aae1d694a703bc90ab7a46f6caa406676bf175d9"
+    },
+    "trends.json": {
+      "bytes": 1060,
+      "present": true,
+      "required": true,
+      "sha256": "f46d8c3f9d9f6f77dd2b78df9b3662604916f13646ee5bb2d49e6ec80a57ee4f"
+    }
+  },
+  "out_dir": "/Users/omar/Downloads/Claude/Think Tank/V3_Epistemic/data",
+  "outputs": {
+    "frontend": "/Users/omar/Downloads/Claude/Think Tank/V3_Epistemic/data/frontend",
+    "processed": "/Users/omar/Downloads/Claude/Think Tank/V3_Epistemic/data/processed",
+    "reliable": "/Users/omar/Downloads/Claude/Think Tank/V3_Epistemic/data/reliable"
+  },
+  "python": "3.9.6 (default, Jan  9 2026, 11:03:41) \n[Clang 17.0.0 (clang-1700.6.4.2)]",
+  "raw_dir": "/Users/omar/Downloads/Claude/Think Tank/Raw Data",
+  "stages": [
+    "01_load_and_audit.py",
+    "02_build_entity_table.py",
+    "03_build_issue_matrix.py",
+    "04_umap_layout.py",
+    "05_community_detection.py",
+    "06_gap_analysis.py",
+    "07_revolving_door_vectors.py",
+    "08_temporal_series.py",
+    "09_build_reliable_payload.py"
+  ],
+  "started_at": "2026-06-01T21:37:53.927014+00:00",
+  "validation_passed": true
+}

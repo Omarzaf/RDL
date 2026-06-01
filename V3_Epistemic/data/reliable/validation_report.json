@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "audit_counts_blank_and_empty_values",
+      "passed": true,
+      "detail": [
+        "blank_string",
+        "empty_array",
+        "empty_object",
+        "null",
+        "placeholder",
+        "whitespace"
+      ]
+    },
+    {
+      "name": "no_truncated_fallback_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "legacy_fuzzy_merges_quarantined",
+      "passed": true,
+      "detail": {
+        "count": 637
+      }
+    },
+    {
+      "name": "duplicate_edge_triples_aggregated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_edge_endpoints_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "stats_latest_year_mismatch_checked",
+      "passed": true,
+      "detail": {
+        "reported": true
+      }
+    },
+    {
+      "name": "government_exposure_separate_from_spend",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_random_yearly_size_generation",
+      "passed": true,
+      "detail": [
+        "aggregate_repeated",
+        "unknown_repeated"
+      ]
+    },
+    {
+      "name": "active_years_reflect_raw_year_arrays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue_labels_and_rollups_present",
+      "passed": true,
+      "detail": {
+        "issue_profile_rows": 81707
+      }
+    },
+    {
+      "name": "visual_payload_schema_valid",
+      "passed": true,
+      "detail": [
+        "clusters",
+        "edges",
+        "entities",
+        "entity_years",
+        "gap_grid",
+        "meta",
+        "revolving_vectors",
+        "topics"
+      ]
+    },
+    {
+      "name": "node_size_is_log_scaled",
+      "passed": true,
+      "detail": {
+        "max_node_size_value": 26.051984
+      }
+    },
+    {
+      "name": "confidence_and_source_provenance_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "edge_truncation_disclosed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "revolving_vector_year_semantics_valid",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "counts": {
+    "entities": 42084,
+    "edges": 155077,
+    "entity_year_rows": 336672,
+    "issue_profile_rows": 81707,
+    "payload_entities": 42084,
+    "payload_entity_years": 24000,
+    "payload_edges": 3828
+  }
+}
