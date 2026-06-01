@@ -1,0 +1,19 @@
+name: Data or methodology issue
+description: Question or correction for data lineage, methodology, or interpretation.
+title: "[Data]: "
+labels: ["data", "methodology"]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: Describe the data, methodology, or interpretation concern.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source or file
+      description: Link or path supporting the concern.
+    validations:
+      required: false

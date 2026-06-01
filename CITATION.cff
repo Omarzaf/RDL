@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: RDL Evidence Map
+message: "If you use this repository or generated figures, cite the repository and the source snapshot listed in the payload metadata."
+type: software
+authors:
+  - family-names: Zafar
+    given-names: Omar
+repository-code: "https://github.com/Omarzaf/RDL"
+abstract: "A static DC lobbying evidence map with a reproducible Python pipeline, public-record-derived relationship data, confidence metadata, and model-derived exploratory signals."
+keywords:
+  - lobbying
+  - public records
+  - data visualization
+  - network analysis
+  - political science
+license: LicenseRef-Proprietary

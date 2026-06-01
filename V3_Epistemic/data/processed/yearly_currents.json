@@ -1,50 +1,848 @@
-[
-  {
+{
+  "2018": {
     "year": 2018,
-    "dx": 0,
-    "dy": 0,
-    "count": 0
+    "gov_to_lobby_count": 25,
+    "avg_dx": 0.0589,
+    "avg_dy": 0.0874,
+    "magnitude": 0.1054,
+    "sample_vectors": [
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.1194,
+        "tgt_y": 0.0205,
+        "magnitude": 0.1698,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0546,
+        "tgt_y": -0.0699,
+        "magnitude": 0.0588,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0002,
+        "src_y": -0.1225,
+        "tgt_x": 0.0493,
+        "tgt_y": -0.0433,
+        "magnitude": 0.0932,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0516,
+        "tgt_y": -0.0142,
+        "magnitude": 0.1061,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0417,
+        "tgt_y": -0.0241,
+        "magnitude": 0.0936,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0514,
+        "tgt_y": -0.0765,
+        "magnitude": 0.0518,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.0975,
+        "src_y": 0.0889,
+        "tgt_x": -0.0552,
+        "tgt_y": 0.0583,
+        "magnitude": 0.0522,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.3829,
+        "src_y": -0.6191,
+        "tgt_x": 0.059,
+        "tgt_y": -0.049,
+        "magnitude": 0.7213,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.2178,
+        "src_y": -0.384,
+        "tgt_x": 0.0417,
+        "tgt_y": -0.0241,
+        "magnitude": 0.4437,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0417,
+        "tgt_y": -0.0241,
+        "magnitude": 0.0936,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.059,
+        "tgt_y": -0.049,
+        "magnitude": 0.0781,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0516,
+        "tgt_y": -0.0142,
+        "magnitude": 0.1061,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0514,
+        "tgt_y": -0.0765,
+        "magnitude": 0.0518,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0516,
+        "tgt_y": -0.0142,
+        "magnitude": 0.1061,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1381,
+        "src_y": 0.593,
+        "tgt_x": -0.2271,
+        "tgt_y": -0.2086,
+        "magnitude": 0.8809,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.3322,
+        "tgt_y": 0.0196,
+        "magnitude": 0.3435,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.043,
+        "tgt_y": -0.0389,
+        "magnitude": 0.0799,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1662,
+        "src_y": -0.4824,
+        "tgt_x": -0.1349,
+        "tgt_y": -0.6305,
+        "magnitude": 0.3356,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.1164,
+        "tgt_y": 0.0197,
+        "magnitude": 0.1674,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0002,
+        "src_y": -0.1225,
+        "tgt_x": 0.032,
+        "tgt_y": 0.027,
+        "magnitude": 0.1528,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.3425,
+        "tgt_y": 0.0259,
+        "magnitude": 0.3555,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": -0.1022,
+        "tgt_y": -0.1259,
+        "magnitude": 0.1185,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.28,
+        "tgt_y": 0.063,
+        "magnitude": 0.3181,
+        "transition_year_estimated": false,
+        "confidence": 0.835
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.1164,
+        "tgt_y": 0.0197,
+        "magnitude": 0.1674,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0002,
+        "src_y": -0.1225,
+        "tgt_x": -0.1202,
+        "tgt_y": 0.3042,
+        "magnitude": 0.4434,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      }
+    ]
   },
-  {
+  "2019": {
     "year": 2019,
-    "dx": 0,
-    "dy": 0,
-    "count": 0
+    "gov_to_lobby_count": 29,
+    "avg_dx": 0.0538,
+    "avg_dy": 0.0587,
+    "magnitude": 0.0797,
+    "sample_vectors": [
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0504,
+        "tgt_y": 0.0084,
+        "magnitude": 0.1272,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.114,
+        "src_y": -0.0397,
+        "tgt_x": 0.0504,
+        "tgt_y": 0.0084,
+        "magnitude": 0.1713,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0006,
+        "tgt_y": 0.01,
+        "magnitude": 0.1249,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0006,
+        "tgt_y": 0.01,
+        "magnitude": 0.1249,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.73,
+        "src_y": 0.2974,
+        "tgt_x": 0.07,
+        "tgt_y": -0.1048,
+        "magnitude": 0.7729,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1381,
+        "src_y": 0.593,
+        "tgt_x": 0.0514,
+        "tgt_y": -0.0765,
+        "magnitude": 0.6751,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0504,
+        "tgt_y": 0.0084,
+        "magnitude": 0.1272,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.2578,
+        "tgt_y": 0.0535,
+        "magnitude": 0.2944,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0002,
+        "src_y": -0.1225,
+        "tgt_x": 0.0417,
+        "tgt_y": -0.0241,
+        "magnitude": 0.1068,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.2178,
+        "src_y": -0.384,
+        "tgt_x": 0.0417,
+        "tgt_y": -0.0241,
+        "magnitude": 0.4437,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.059,
+        "src_y": -0.0565,
+        "tgt_x": 0.043,
+        "tgt_y": -0.0389,
+        "magnitude": 0.0238,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0002,
+        "src_y": -0.1225,
+        "tgt_x": 0.127,
+        "tgt_y": 0.6945,
+        "magnitude": 0.8268,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0514,
+        "tgt_y": -0.0765,
+        "magnitude": 0.0518,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0914,
+        "tgt_y": -0.0647,
+        "magnitude": 0.0903,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.034,
+        "tgt_y": -0.041,
+        "magnitude": 0.0753,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.3829,
+        "src_y": -0.6191,
+        "tgt_x": -0.4491,
+        "tgt_y": -0.0924,
+        "magnitude": 0.5308,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1381,
+        "src_y": 0.593,
+        "tgt_x": 0.2838,
+        "tgt_y": 0.0616,
+        "magnitude": 0.551,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": -0.0229,
+        "tgt_y": -0.073,
+        "magnitude": 0.0563,
+        "transition_year_estimated": false,
+        "confidence": 0.835
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.1952,
+        "tgt_y": -0.1619,
+        "magnitude": 0.1858,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1381,
+        "src_y": 0.593,
+        "tgt_x": 0.2578,
+        "tgt_y": 0.0535,
+        "magnitude": 0.5526,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.2178,
+        "src_y": -0.384,
+        "tgt_x": -0.0064,
+        "tgt_y": -0.1225,
+        "magnitude": 0.3363,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.2983,
+        "tgt_y": 0.0527,
+        "magnitude": 0.3281,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1381,
+        "src_y": 0.593,
+        "tgt_x": 0.2578,
+        "tgt_y": 0.0535,
+        "magnitude": 0.5526,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0514,
+        "tgt_y": -0.0765,
+        "magnitude": 0.0518,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.3829,
+        "src_y": -0.6191,
+        "tgt_x": -0.2766,
+        "tgt_y": 0.3066,
+        "magnitude": 0.9318,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1381,
+        "src_y": 0.593,
+        "tgt_x": 0.0514,
+        "tgt_y": -0.0765,
+        "magnitude": 0.6751,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0772,
+        "src_y": -0.4033,
+        "tgt_x": 0.1907,
+        "tgt_y": -0.1572,
+        "magnitude": 0.271,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0002,
+        "src_y": -0.1225,
+        "tgt_x": 0.3351,
+        "tgt_y": 0.1988,
+        "magnitude": 0.4641,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": -0.1213,
+        "tgt_y": 0.3007,
+        "magnitude": 0.4367,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      }
+    ]
   },
-  {
+  "2020": {
     "year": 2020,
-    "dx": 0,
-    "dy": 0,
-    "count": 0
+    "gov_to_lobby_count": 10,
+    "avg_dx": 0.1545,
+    "avg_dy": 0.2366,
+    "magnitude": 0.2826,
+    "sample_vectors": [
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0201,
+        "tgt_y": -0.1007,
+        "magnitude": 0.014,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.2178,
+        "src_y": -0.384,
+        "tgt_x": 0.1907,
+        "tgt_y": -0.1572,
+        "magnitude": 0.4672,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.3829,
+        "src_y": -0.6191,
+        "tgt_x": 0.0514,
+        "tgt_y": -0.0765,
+        "magnitude": 0.695,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.4736,
+        "src_y": -0.5771,
+        "tgt_x": 0.1661,
+        "tgt_y": -0.4822,
+        "magnitude": 0.3218,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0002,
+        "src_y": -0.1225,
+        "tgt_x": 0.2989,
+        "tgt_y": 0.0536,
+        "magnitude": 0.3467,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0417,
+        "tgt_y": -0.0241,
+        "magnitude": 0.0936,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.3829,
+        "src_y": -0.6191,
+        "tgt_x": 0.2253,
+        "tgt_y": 0.0604,
+        "magnitude": 0.9119,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.059,
+        "src_y": -0.0565,
+        "tgt_x": 0.0179,
+        "tgt_y": -0.0217,
+        "magnitude": 0.0539,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0772,
+        "src_y": -0.4033,
+        "tgt_x": 0.3322,
+        "tgt_y": 0.0196,
+        "magnitude": 0.4938,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": -0.1255,
+        "tgt_y": -0.0287,
+        "magnitude": 0.165,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      }
+    ]
   },
-  {
+  "2021": {
     "year": 2021,
-    "dx": 0,
-    "dy": 0,
-    "count": 0
+    "gov_to_lobby_count": 10,
+    "avg_dx": 0.0685,
+    "avg_dy": 0.1488,
+    "magnitude": 0.1638,
+    "sample_vectors": [
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0006,
+        "tgt_y": 0.01,
+        "magnitude": 0.1249,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0487,
+        "tgt_y": -0.0772,
+        "magnitude": 0.0494,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.4736,
+        "src_y": -0.5771,
+        "tgt_x": 0.2578,
+        "tgt_y": 0.0535,
+        "magnitude": 0.6665,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0196,
+        "tgt_y": -0.0493,
+        "magnitude": 0.0648,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0484,
+        "tgt_y": -0.1801,
+        "magnitude": 0.0737,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0284,
+        "tgt_y": -0.1216,
+        "magnitude": 0.0148,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.4496,
+        "tgt_y": 0.1587,
+        "magnitude": 0.5125,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0487,
+        "tgt_y": -0.0772,
+        "magnitude": 0.0494,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.1164,
+        "tgt_y": 0.0197,
+        "magnitude": 0.1674,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.282,
+        "tgt_y": 0.148,
+        "magnitude": 0.3736,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      }
+    ]
   },
-  {
+  "2022": {
     "year": 2022,
-    "dx": 0,
-    "dy": 0,
-    "count": 0
+    "gov_to_lobby_count": 6,
+    "avg_dx": 0.0915,
+    "avg_dy": -0.1132,
+    "magnitude": 0.1456,
+    "sample_vectors": [
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0564,
+        "tgt_y": -0.1856,
+        "magnitude": 0.0824,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.3351,
+        "tgt_y": 0.1988,
+        "magnitude": 0.4471,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1381,
+        "src_y": 0.593,
+        "tgt_x": 0.0564,
+        "tgt_y": -0.1441,
+        "magnitude": 0.7416,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": -0.2178,
+        "src_y": -0.384,
+        "tgt_x": 0.0417,
+        "tgt_y": -0.0241,
+        "magnitude": 0.4437,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.1137,
+        "tgt_y": 0.0122,
+        "magnitude": 0.1598,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1381,
+        "src_y": 0.593,
+        "tgt_x": 0.0514,
+        "tgt_y": -0.0765,
+        "magnitude": 0.6751,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      }
+    ]
   },
-  {
+  "2023": {
     "year": 2023,
-    "dx": 0,
-    "dy": 0,
-    "count": 0
+    "gov_to_lobby_count": 2,
+    "avg_dx": 0.0287,
+    "avg_dy": 0.0952,
+    "magnitude": 0.0994,
+    "sample_vectors": [
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.047,
+        "tgt_y": -0.0135,
+        "magnitude": 0.1053,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.0417,
+        "tgt_y": -0.0241,
+        "magnitude": 0.0936,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      }
+    ]
   },
-  {
+  "2024": {
     "year": 2024,
-    "dx": 0,
-    "dy": 0,
-    "count": 0
+    "gov_to_lobby_count": 3,
+    "avg_dx": 0.037,
+    "avg_dy": -0.116,
+    "magnitude": 0.1218,
+    "sample_vectors": [
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.1194,
+        "tgt_y": 0.0205,
+        "magnitude": 0.1698,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.0157,
+        "src_y": -0.114,
+        "tgt_x": 0.1194,
+        "tgt_y": 0.0205,
+        "magnitude": 0.1698,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      },
+      {
+        "src_x": 0.1381,
+        "src_y": 0.593,
+        "tgt_x": 0.0417,
+        "tgt_y": -0.0241,
+        "magnitude": 0.6246,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      }
+    ]
   },
-  {
+  "2025": {
     "year": 2025,
-    "dx": 0,
-    "dy": 0,
-    "count": 0
+    "gov_to_lobby_count": 1,
+    "avg_dx": 0.0468,
+    "avg_dy": 0.109,
+    "magnitude": 0.1186,
+    "sample_vectors": [
+      {
+        "src_x": 0.0002,
+        "src_y": -0.1225,
+        "tgt_x": 0.047,
+        "tgt_y": -0.0135,
+        "magnitude": 0.1186,
+        "transition_year_estimated": false,
+        "confidence": 0.885
+      }
+    ]
   }
-]
+}

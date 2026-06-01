@@ -1,0 +1,1511 @@
+{
+  "generated_by": "09_build_reliable_payload.py",
+  "missing_value_policy": [
+    "null",
+    "blank_string",
+    "whitespace",
+    "empty_array",
+    "empty_object",
+    "placeholder"
+  ],
+  "files": {
+    "stats.json": {
+      "file": "stats.json",
+      "record_count": 1,
+      "fields": [
+        "lastUpdated",
+        "latestYear",
+        "latestYearIncome",
+        "totalClients",
+        "totalFilings",
+        "totalFirms",
+        "totalForeignEntities",
+        "totalGovEntities",
+        "totalIncome",
+        "totalIndustries",
+        "totalIssues",
+        "totalLobbyists",
+        "totalRevolvingDoor",
+        "yearRange",
+        "yearlyTrends"
+      ],
+      "missingness": {
+        "lastUpdated": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "latestYear": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "latestYearIncome": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalClients": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalFilings": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalFirms": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalForeignEntities": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalGovEntities": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalIncome": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalIndustries": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalIssues": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalLobbyists": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalRevolvingDoor": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "yearRange": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "yearlyTrends": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {
+        "yearlyTrends": {
+          "filings": {
+            "missing": 0,
+            "total": 8,
+            "rate": 0.0
+          },
+          "income": {
+            "missing": 0,
+            "total": 8,
+            "rate": 0.0
+          },
+          "year": {
+            "missing": 0,
+            "total": 8,
+            "rate": 0.0
+          }
+        }
+      },
+      "duplicate_names": []
+    },
+    "trends.json": {
+      "file": "trends.json",
+      "record_count": 8,
+      "fields": [
+        "filings",
+        "registrations",
+        "totalExpenses",
+        "totalIncome",
+        "year"
+      ],
+      "missingness": {
+        "filings": {
+          "missing": 0,
+          "total": 8,
+          "rate": 0.0
+        },
+        "registrations": {
+          "missing": 0,
+          "total": 8,
+          "rate": 0.0
+        },
+        "totalExpenses": {
+          "missing": 0,
+          "total": 8,
+          "rate": 0.0
+        },
+        "totalIncome": {
+          "missing": 0,
+          "total": 8,
+          "rate": 0.0
+        },
+        "year": {
+          "missing": 0,
+          "total": 8,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {},
+      "duplicate_names": []
+    },
+    "top-firms.json": {
+      "file": "top-firms.json",
+      "record_count": 2000,
+      "fields": [
+        "clients",
+        "filings",
+        "id",
+        "name",
+        "totalIncome",
+        "years"
+      ],
+      "missingness": {
+        "clients": {
+          "missing": 0,
+          "total": 2000,
+          "rate": 0.0
+        },
+        "filings": {
+          "missing": 0,
+          "total": 2000,
+          "rate": 0.0
+        },
+        "id": {
+          "missing": 0,
+          "total": 2000,
+          "rate": 0.0
+        },
+        "name": {
+          "missing": 0,
+          "total": 2000,
+          "rate": 0.0
+        },
+        "totalIncome": {
+          "missing": 0,
+          "total": 2000,
+          "rate": 0.0
+        },
+        "years": {
+          "missing": 0,
+          "total": 2000,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {},
+      "duplicate_names": []
+    },
+    "top-clients.json": {
+      "file": "top-clients.json",
+      "record_count": 5000,
+      "fields": [
+        "description",
+        "filings",
+        "issues",
+        "name",
+        "slug",
+        "state",
+        "totalSpending",
+        "years"
+      ],
+      "missingness": {
+        "description": {
+          "missing": 1489,
+          "total": 5000,
+          "rate": 0.2978
+        },
+        "filings": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "issues": {
+          "missing": 6,
+          "total": 5000,
+          "rate": 0.0012
+        },
+        "name": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "slug": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "state": {
+          "missing": 225,
+          "total": 5000,
+          "rate": 0.045
+        },
+        "totalSpending": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "years": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {},
+      "duplicate_names": [
+        {
+          "name": "ASCENSION HEALTH ALLIANCE D/B/A ASCENSION",
+          "count": 2
+        },
+        {
+          "name": "GOVERNMENT OF U.S. VIRGIN ISLANDS",
+          "count": 2
+        },
+        {
+          "name": "MAPLEBEAR INC. D/B/A INSTACART",
+          "count": 2
+        },
+        {
+          "name": "CHRYSALIS HOLDINGS, INC. (D.B.A. NEWDAY)",
+          "count": 2
+        },
+        {
+          "name": "CHILDREN'S HEALTHCARE OF ATLANTA",
+          "count": 2
+        },
+        {
+          "name": "CLEAN ENERGY GROUP STRATEGY/MJB&A COALITIONS",
+          "count": 2
+        },
+        {
+          "name": "ACA CONNECTS - AMERICA'S COMMUNICATION ASSOCIATION",
+          "count": 2
+        },
+        {
+          "name": "ALLIED UNIVERSAL (F/K/A ALLIED BARTON SECURITY SERVICES)",
+          "count": 2
+        },
+        {
+          "name": "CERBERUS CAPITAL MANAGEMENT, L.P.",
+          "count": 2
+        },
+        {
+          "name": "PLAINS ALL AMERICAN PIPELINE, L.P.",
+          "count": 2
+        },
+        {
+          "name": "HC HOLDINGS S.A.",
+          "count": 2
+        },
+        {
+          "name": "LETTERONE HOLDINGS S.A.",
+          "count": 2
+        },
+        {
+          "name": "LLOYD'S OF LONDON",
+          "count": 2
+        },
+        {
+          "name": "BLACKSTONE ADMINISTRATIVE SERVICES PARTNERSHIPS L.P.",
+          "count": 2
+        },
+        {
+          "name": "CHILDREN'S HOSPITAL ASSOCIATION F/K/A NAT'L ASSOCIATION OF CHILDREN'S HOSPITALS",
+          "count": 2
+        },
+        {
+          "name": "ELEVANCE HEALTH, INC (F.K.A. ANTHEM, INC. & WELLPOINT, INC.)",
+          "count": 2
+        },
+        {
+          "name": "AT&T SERVICES, INC. (FKA AT&T)",
+          "count": 2
+        },
+        {
+          "name": "S&P GLOBAL INC (FORMERLY MCGRAW HILL FINANCIAL)",
+          "count": 2
+        },
+        {
+          "name": "DUPONT SPECIALTY PRODUCTS(PREVIOUSLY REPORTED AS E.I. DU PONT DE NEMOURS AND CO)",
+          "count": 2
+        },
+        {
+          "name": "TOHONO O'ODHAM NATION",
+          "count": 2
+        },
+        {
+          "name": "GOVERNMENT OF THE U.S. VIRGIN ISLANDS",
+          "count": 2
+        },
+        {
+          "name": "LURIE CHILDREN'S HOSPITAL OF CHICAGO",
+          "count": 2
+        },
+        {
+          "name": "U.S. HEMP ROUNDTABLE",
+          "count": 2
+        },
+        {
+          "name": "LIBERTY PARTNERS GROUP O/B/O APTQI-HSCHEIN-PDS-SANTAFE-SOUND-RCCS-AFHC-WELLVANA",
+          "count": 2
+        },
+        {
+          "name": "CHILDREN'S TUMOR FOUNDATION",
+          "count": 2
+        },
+        {
+          "name": "KINDRED HEALTHCARE D/B/A SCIONHEALTH",
+          "count": 2
+        },
+        {
+          "name": "SIX CONTINENTS HOTELS, INC. D/B/A IHG HOTELS & RESORTS",
+          "count": 2
+        },
+        {
+          "name": "S&P GLOBAL",
+          "count": 2
+        },
+        {
+          "name": "GLOBALFOUNDRIES U.S. INC.",
+          "count": 2
+        },
+        {
+          "name": "REWORLD (F/K/A COVANTA ENERGY CORPORATION)",
+          "count": 2
+        },
+        {
+          "name": "ENBRIDGE (U.S.) INC. (FORMERLY SPECTRA ENERGY)",
+          "count": 2
+        },
+        {
+          "name": "SES S.A. FORMERLY KNOWN AS INTELSAT US LLC",
+          "count": 2
+        },
+        {
+          "name": "AMAZON.COM",
+          "count": 2
+        },
+        {
+          "name": "ARCH CAPITAL GROUP (U.S.) INC.",
+          "count": 2
+        },
+        {
+          "name": "SEATTLE CHILDREN'S HOSPITAL RESEARCH AND FOUNDATION",
+          "count": 2
+        },
+        {
+          "name": "DOMINO'S NATIONAL ADVERTISING FUND INC",
+          "count": 2
+        },
+        {
+          "name": "GOVERNOR'S DEFENSE INITIATIVE, GEORGIA DEPT. OF ECONOMIC DEVELOPMENT",
+          "count": 2
+        },
+        {
+          "name": "MANAGEMENT HEALTH SYSTEMS, LLC (D/B/A MEDPRO)",
+          "count": 2
+        },
+        {
+          "name": "THE VUCCI LAW GROUP, P.A.",
+          "count": 2
+        },
+        {
+          "name": "ENERGY TRANSFER PARTNERS, L.P.",
+          "count": 2
+        },
+        {
+          "name": "PILOT TRAVEL CENTERS LLC (F/K/A PILOT FLYING J)",
+          "count": 2
+        },
+        {
+          "name": "UNIVERSITY OF WISCONSIN MEDICAL FOUNDATION/UW HEALTH",
+          "count": 2
+        },
+        {
+          "name": "SMURFIT WESTROCK(FKA WESTROCK)",
+          "count": 2
+        },
+        {
+          "name": "EMBRAER EMPRESA BRASILEIRA DE AERONAUTICA S.A.",
+          "count": 2
+        },
+        {
+          "name": "AMERICA'S HEALTH INSURANCE PLANS (AHIP)",
+          "count": 2
+        },
+        {
+          "name": "NATIONAL CHILDREN'S ALLIANCE",
+          "count": 2
+        },
+        {
+          "name": "EQUITABLE HOLDINGS (FORMERLY KNOW AS AXA FINANCIAL/EQUITABLE LIFE ASSURANCE",
+          "count": 2
+        },
+        {
+          "name": "FINANCIAL DATA AND TECHNOLOGY ASSOCIATION, FORMERLY FIN'L DATA & TECH'Y ASS'N NA",
+          "count": 2
+        },
+        {
+          "name": "MAXAR TECHNOLOGIES HOLDINGS INC F/K/A SSL MDA HOLDINGS",
+          "count": 2
+        },
+        {
+          "name": "NATIONAL ASSOCIATION OF CHILDREN'S HOSPITALS",
+          "count": 2
+        }
+      ]
+    },
+    "top-lobbyists.json": {
+      "file": "top-lobbyists.json",
+      "record_count": 5000,
+      "fields": [
+        "clients",
+        "filings",
+        "firms",
+        "id",
+        "name",
+        "positions"
+      ],
+      "missingness": {
+        "clients": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "filings": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "firms": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "id": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "name": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "positions": {
+          "missing": 2255,
+          "total": 5000,
+          "rate": 0.451
+        }
+      },
+      "nested_missingness": {},
+      "duplicate_names": [
+        {
+          "name": "SARAH WALTER",
+          "count": 3
+        },
+        {
+          "name": "KEVIN KELLY",
+          "count": 3
+        },
+        {
+          "name": "MICHAEL WILLIAMS",
+          "count": 3
+        },
+        {
+          "name": "LIANNE ENDO",
+          "count": 3
+        },
+        {
+          "name": "JAMES BROWN",
+          "count": 3
+        },
+        {
+          "name": "JOSEPH CORRIGAN",
+          "count": 3
+        },
+        {
+          "name": "ROBERT HARMALA",
+          "count": 3
+        },
+        {
+          "name": "CONSTANTINE HINGSON",
+          "count": 2
+        },
+        {
+          "name": "CYNTHIA BROWN",
+          "count": 2
+        },
+        {
+          "name": "SAMUEL WHITEHORN",
+          "count": 2
+        },
+        {
+          "name": "ROBERT CHAMBERLIN",
+          "count": 2
+        },
+        {
+          "name": "SHAY HANCOCK",
+          "count": 2
+        },
+        {
+          "name": "JOHN O'NEILL",
+          "count": 2
+        },
+        {
+          "name": "LYNNETTE JACQUEZ",
+          "count": 2
+        },
+        {
+          "name": "WILLIAM SIMMONS",
+          "count": 2
+        },
+        {
+          "name": "DAVID RUDD",
+          "count": 2
+        },
+        {
+          "name": "CHRIS ANDRESEN",
+          "count": 2
+        },
+        {
+          "name": "DANA THOMPSON",
+          "count": 2
+        },
+        {
+          "name": "CHERYL JAEGER",
+          "count": 2
+        },
+        {
+          "name": "JOHN ANDERSON",
+          "count": 2
+        },
+        {
+          "name": "KARINA LYNCH",
+          "count": 2
+        },
+        {
+          "name": "BARRETT THORNHILL",
+          "count": 2
+        },
+        {
+          "name": "MALLOY MCDANIEL",
+          "count": 2
+        },
+        {
+          "name": "EMILY TRANTER",
+          "count": 2
+        },
+        {
+          "name": "KRISTI REMINGTON",
+          "count": 2
+        },
+        {
+          "name": "BRYAN CUNNINGHAM",
+          "count": 2
+        },
+        {
+          "name": "JONATHAN JACKSON",
+          "count": 2
+        },
+        {
+          "name": "JEROME MURRAY",
+          "count": 2
+        },
+        {
+          "name": "JULIE HRDLICKA",
+          "count": 2
+        },
+        {
+          "name": "CRAIG KALKUT",
+          "count": 2
+        },
+        {
+          "name": "AARON COHEN",
+          "count": 2
+        },
+        {
+          "name": "ASHLEY DAVIS",
+          "count": 2
+        },
+        {
+          "name": "DOYLE BARTLETT",
+          "count": 2
+        },
+        {
+          "name": "MICHAEL HENRY",
+          "count": 2
+        },
+        {
+          "name": "SEBASTIAN O'KELLY",
+          "count": 2
+        },
+        {
+          "name": "SHIMON STEIN",
+          "count": 2
+        },
+        {
+          "name": "EMILY BACQUE DA SILVA",
+          "count": 2
+        },
+        {
+          "name": "HEATHER MCHUGH",
+          "count": 2
+        },
+        {
+          "name": "LAUREN LIPIN",
+          "count": 2
+        },
+        {
+          "name": "JOHN WILLIAMS",
+          "count": 2
+        },
+        {
+          "name": "BRIAN DIFFELL",
+          "count": 2
+        },
+        {
+          "name": "CHRIS FISH",
+          "count": 2
+        },
+        {
+          "name": "RAY BUCHEGER",
+          "count": 2
+        },
+        {
+          "name": "KATHLEEN HATFIELD",
+          "count": 2
+        },
+        {
+          "name": "MEGAN KNIGHT",
+          "count": 2
+        },
+        {
+          "name": "STEVEN PALMER",
+          "count": 2
+        },
+        {
+          "name": "KELLI BRIGGS",
+          "count": 2
+        },
+        {
+          "name": "CHARLES GARRISON",
+          "count": 2
+        },
+        {
+          "name": "DAVID FRENCH",
+          "count": 2
+        },
+        {
+          "name": "ANDREW BARBOUR",
+          "count": 2
+        }
+      ]
+    },
+    "revolving-door.json": {
+      "file": "revolving-door.json",
+      "record_count": 5000,
+      "fields": [
+        "clients",
+        "filings",
+        "firms",
+        "id",
+        "name",
+        "positions"
+      ],
+      "missingness": {
+        "clients": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "filings": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "firms": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "id": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "name": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        },
+        "positions": {
+          "missing": 0,
+          "total": 5000,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {},
+      "duplicate_names": [
+        {
+          "name": "KEVIN KELLY",
+          "count": 3
+        },
+        {
+          "name": "KATHLEEN HATFIELD",
+          "count": 3
+        },
+        {
+          "name": "JOHN BREAUX",
+          "count": 3
+        },
+        {
+          "name": "ROBERT VAN HEUVELEN",
+          "count": 3
+        },
+        {
+          "name": "MAX ROSEN",
+          "count": 3
+        },
+        {
+          "name": "JOHN CZERWINSKI",
+          "count": 3
+        },
+        {
+          "name": "TRAVIS JOHNSON",
+          "count": 3
+        },
+        {
+          "name": "CHESTER LOTT",
+          "count": 3
+        },
+        {
+          "name": "DANIEL MAUER",
+          "count": 3
+        },
+        {
+          "name": "SONJA NESBIT",
+          "count": 3
+        },
+        {
+          "name": "JEFF MILLER",
+          "count": 3
+        },
+        {
+          "name": "MICHAEL DROBAC",
+          "count": 3
+        },
+        {
+          "name": "BENJAMIN ODENDAHL",
+          "count": 3
+        },
+        {
+          "name": "D STROUD",
+          "count": 3
+        },
+        {
+          "name": "DAVID CRANE",
+          "count": 3
+        },
+        {
+          "name": "ERIC BUNNING",
+          "count": 3
+        },
+        {
+          "name": "MADISON SMITH",
+          "count": 3
+        },
+        {
+          "name": "JAMES MORAN",
+          "count": 3
+        },
+        {
+          "name": "ROBERT SMITH",
+          "count": 3
+        },
+        {
+          "name": "JASON LARRABEE",
+          "count": 3
+        },
+        {
+          "name": "ANKIT DESAI",
+          "count": 3
+        },
+        {
+          "name": "MARK MURRAY",
+          "count": 3
+        },
+        {
+          "name": "ROBERT HARRIS",
+          "count": 3
+        },
+        {
+          "name": "MICHAEL ANDREWS",
+          "count": 3
+        },
+        {
+          "name": "ALLEN JAMERSON",
+          "count": 3
+        },
+        {
+          "name": "HELEN TOLAR",
+          "count": 2
+        },
+        {
+          "name": "CONSTANTINE HINGSON",
+          "count": 2
+        },
+        {
+          "name": "CYNTHIA BROWN",
+          "count": 2
+        },
+        {
+          "name": "SAMUEL WHITEHORN",
+          "count": 2
+        },
+        {
+          "name": "ROBERT CHAMBERLIN",
+          "count": 2
+        },
+        {
+          "name": "SAM GEDULDIG",
+          "count": 2
+        },
+        {
+          "name": "TYLER STEPHENS",
+          "count": 2
+        },
+        {
+          "name": "SHAY HANCOCK",
+          "count": 2
+        },
+        {
+          "name": "WILLIAM SMITH",
+          "count": 2
+        },
+        {
+          "name": "JOHN O'NEILL",
+          "count": 2
+        },
+        {
+          "name": "ALEIX JARVIS",
+          "count": 2
+        },
+        {
+          "name": "SARAH WALTER",
+          "count": 2
+        },
+        {
+          "name": "RUSSELL SULLIVAN",
+          "count": 2
+        },
+        {
+          "name": "DAVID RUDD",
+          "count": 2
+        },
+        {
+          "name": "TIMOTHY HANNEGAN",
+          "count": 2
+        },
+        {
+          "name": "DANA THOMPSON",
+          "count": 2
+        },
+        {
+          "name": "CHERYL JAEGER",
+          "count": 2
+        },
+        {
+          "name": "JOHN ANDERSON",
+          "count": 2
+        },
+        {
+          "name": "BARRETT THORNHILL",
+          "count": 2
+        },
+        {
+          "name": "MALLOY MCDANIEL",
+          "count": 2
+        },
+        {
+          "name": "EMILY TRANTER",
+          "count": 2
+        },
+        {
+          "name": "KATHERINE DAPPER",
+          "count": 2
+        },
+        {
+          "name": "LESLIE POLLNER",
+          "count": 2
+        },
+        {
+          "name": "JULIANE SULLIVAN",
+          "count": 2
+        },
+        {
+          "name": "MICHAEL WILLIAMS",
+          "count": 2
+        }
+      ]
+    },
+    "gov-entities.json": {
+      "file": "gov-entities.json",
+      "record_count": 240,
+      "fields": [
+        "filings",
+        "name",
+        "spending",
+        "topClients",
+        "topIssues"
+      ],
+      "missingness": {
+        "filings": {
+          "missing": 0,
+          "total": 240,
+          "rate": 0.0
+        },
+        "name": {
+          "missing": 0,
+          "total": 240,
+          "rate": 0.0
+        },
+        "spending": {
+          "missing": 0,
+          "total": 240,
+          "rate": 0.0
+        },
+        "topClients": {
+          "missing": 0,
+          "total": 240,
+          "rate": 0.0
+        },
+        "topIssues": {
+          "missing": 0,
+          "total": 240,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {},
+      "duplicate_names": []
+    },
+    "network-analysis.json": {
+      "file": "network-analysis.json",
+      "record_count": 1,
+      "fields": [
+        "avgLobbyistsPerFirm",
+        "firmPairOverlap",
+        "multiFirmLobbyists",
+        "topFirmsByNetwork",
+        "totalUniqueFirms",
+        "totalUniqueLobbyists"
+      ],
+      "missingness": {
+        "avgLobbyistsPerFirm": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "firmPairOverlap": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "multiFirmLobbyists": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "topFirmsByNetwork": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalUniqueFirms": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalUniqueLobbyists": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {
+        "multiFirmLobbyists": {
+          "clientCount": {
+            "missing": 0,
+            "total": 77,
+            "rate": 0.0
+          },
+          "firmCount": {
+            "missing": 0,
+            "total": 77,
+            "rate": 0.0
+          },
+          "firms": {
+            "missing": 0,
+            "total": 77,
+            "rate": 0.0
+          },
+          "id": {
+            "missing": 0,
+            "total": 77,
+            "rate": 0.0
+          },
+          "name": {
+            "missing": 0,
+            "total": 77,
+            "rate": 0.0
+          }
+        },
+        "firmPairOverlap": {
+          "firmA": {
+            "missing": 0,
+            "total": 5,
+            "rate": 0.0
+          },
+          "firmB": {
+            "missing": 0,
+            "total": 5,
+            "rate": 0.0
+          },
+          "sharedLobbyists": {
+            "missing": 0,
+            "total": 5,
+            "rate": 0.0
+          },
+          "sharedNames": {
+            "missing": 0,
+            "total": 5,
+            "rate": 0.0
+          }
+        },
+        "topFirmsByNetwork": {
+          "clientCount": {
+            "missing": 0,
+            "total": 200,
+            "rate": 0.0
+          },
+          "firm": {
+            "missing": 0,
+            "total": 200,
+            "rate": 0.0
+          },
+          "lobbyistCount": {
+            "missing": 0,
+            "total": 200,
+            "rate": 0.0
+          }
+        }
+      },
+      "duplicate_names": []
+    },
+    "firm-concentration.json": {
+      "file": "firm-concentration.json",
+      "record_count": 1,
+      "fields": [
+        "avgHHI",
+        "concentrationDistribution",
+        "firms"
+      ],
+      "missingness": {
+        "avgHHI": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "concentrationDistribution": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "firms": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {
+        "firms": {
+          "clientCount": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          },
+          "concentration": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          },
+          "firm": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          },
+          "hhi": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          },
+          "issueCount": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          },
+          "issueSpecialization": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          },
+          "topClient": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          },
+          "topClientShare": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          },
+          "topIssue": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          },
+          "totalRevenue": {
+            "missing": 0,
+            "total": 500,
+            "rate": 0.0
+          }
+        }
+      },
+      "duplicate_names": []
+    },
+    "filing-activity.json": {
+      "file": "filing-activity.json",
+      "record_count": 1,
+      "fields": [
+        "byType",
+        "monthly",
+        "totalFilings"
+      ],
+      "missingness": {
+        "byType": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "monthly": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalFilings": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {
+        "monthly": {
+          "count": {
+            "missing": 0,
+            "total": 98,
+            "rate": 0.0
+          },
+          "month": {
+            "missing": 0,
+            "total": 98,
+            "rate": 0.0
+          }
+        },
+        "byType": {
+          "count": {
+            "missing": 0,
+            "total": 34,
+            "rate": 0.0
+          },
+          "label": {
+            "missing": 0,
+            "total": 34,
+            "rate": 0.0
+          },
+          "type": {
+            "missing": 0,
+            "total": 34,
+            "rate": 0.0
+          }
+        }
+      },
+      "duplicate_names": []
+    },
+    "text-analysis.json": {
+      "file": "text-analysis.json",
+      "record_count": 1,
+      "fields": [
+        "latestYear",
+        "topBills",
+        "topWords",
+        "totalDescriptions",
+        "trendingWords",
+        "yearlyTopWords"
+      ],
+      "missingness": {
+        "latestYear": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "topBills": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "topWords": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalDescriptions": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "trendingWords": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "yearlyTopWords": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {
+        "topWords": {
+          "count": {
+            "missing": 0,
+            "total": 200,
+            "rate": 0.0
+          },
+          "word": {
+            "missing": 0,
+            "total": 200,
+            "rate": 0.0
+          }
+        },
+        "trendingWords": {
+          "avgPrior": {
+            "missing": 0,
+            "total": 50,
+            "rate": 0.0
+          },
+          "growthPercent": {
+            "missing": 0,
+            "total": 50,
+            "rate": 0.0
+          },
+          "latestCount": {
+            "missing": 0,
+            "total": 50,
+            "rate": 0.0
+          },
+          "word": {
+            "missing": 0,
+            "total": 50,
+            "rate": 0.0
+          }
+        },
+        "topBills": {
+          "bill": {
+            "missing": 0,
+            "total": 100,
+            "rate": 0.0
+          },
+          "clientCount": {
+            "missing": 0,
+            "total": 100,
+            "rate": 0.0
+          },
+          "clients": {
+            "missing": 0,
+            "total": 100,
+            "rate": 0.0
+          },
+          "count": {
+            "missing": 0,
+            "total": 100,
+            "rate": 0.0
+          },
+          "years": {
+            "missing": 0,
+            "total": 100,
+            "rate": 0.0
+          }
+        }
+      },
+      "duplicate_names": []
+    },
+    "lobbying-vs-contracts.json": {
+      "file": "lobbying-vs-contracts.json",
+      "record_count": 1,
+      "fields": [
+        "avgROI",
+        "matches",
+        "totalContractsByMatched",
+        "totalLobbyingByMatched",
+        "totalMatched"
+      ],
+      "missingness": {
+        "avgROI": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "matches": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalContractsByMatched": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalLobbyingByMatched": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        },
+        "totalMatched": {
+          "missing": 0,
+          "total": 1,
+          "rate": 0.0
+        }
+      },
+      "nested_missingness": {
+        "matches": {
+          "category": {
+            "missing": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "federalContracts": {
+            "missing": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "lobbyingFilings": {
+            "missing": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "lobbyingSpend": {
+            "missing": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "name": {
+            "missing": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "roi": {
+            "missing": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "topIssues": {
+            "missing": 0,
+            "total": 21,
+            "rate": 0.0
+          },
+          "yearsActive": {
+            "missing": 0,
+            "total": 21,
+            "rate": 0.0
+          }
+        }
+      },
+      "duplicate_names": []
+    }
+  },
+  "issues": [
+    {
+      "severity": "high",
+      "code": "STALE_LATEST_YEAR",
+      "message": "stats.json latestYear does not match the max year in trends.json.",
+      "evidence": {
+        "stats_latestYear": 2024,
+        "max_trends_year": 2025
+      }
+    },
+    {
+      "severity": "medium",
+      "code": "REGISTRATIONS_PLACEHOLDER",
+      "message": "trends.json registrations is zero for every year and should not be used as an observed visual variable."
+    },
+    {
+      "severity": "medium",
+      "code": "EXPENSES_PLACEHOLDER",
+      "message": "trends.json totalExpenses is zero for every year and should not be used as an observed visual variable."
+    },
+    {
+      "severity": "medium",
+      "code": "FILING_ACTIVITY_EXTENDS_PAST_CORE_TRENDS",
+      "message": "filing-activity.json contains months beyond the core annual trend range.",
+      "evidence": {
+        "max_month": "2026-02",
+        "max_trends_year": 2025
+      }
+    },
+    {
+      "severity": "high",
+      "code": "GOV_TARGET_SPENDING_EXCEEDS_TOTAL_INCOME",
+      "message": "Government-entity spending appears to be repeated target-side exposure, not additive lobbying spend.",
+      "evidence": {
+        "max_gov_spending": 206173478276.82,
+        "stats_totalIncome": 37715512894.09
+      }
+    },
+    {
+      "severity": "high",
+      "code": "REVOLVING_DOOR_COUNT_EXCEEDS_UNIQUE_LOBBYISTS",
+      "message": "revolving-door-premium counts are transition events, not unique people.",
+      "evidence": {
+        "max_revolvingDoorEvents": 36227,
+        "totalUniqueLobbyists": 29754
+      }
+    },
+    {
+      "severity": "high",
+      "code": "LEGACY_FUZZY_MERGES_QUARANTINED",
+      "message": "Legacy fuzzy dedup merges are quarantined and not accepted as silent canonical truth.",
+      "evidence": {
+        "logged_merges": 637,
+        "reported_legacy_dedup_merges": 845,
+        "blocked_unsafe_merges": 29
+      }
+    }
+  ]
+}

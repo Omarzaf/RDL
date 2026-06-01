@@ -1,0 +1,42 @@
+{
+  "node_count": 11603,
+  "edge_count": 149938,
+  "entity_type_dist": {
+    "firm": 1965,
+    "client": 4840,
+    "gov_agency": 240,
+    "lobbyist": 4558
+  },
+  "edge_type_dist": {
+    "firm_represents": 40325,
+    "gov_lobbied_by": 3608,
+    "lobbyist_at_firm": 5118,
+    "lobbyist_serves_client": 100887
+  },
+  "dedup_merges": 637,
+  "dedup_quarantine_candidates": 816,
+  "feature_coverage": {
+    "nodes_with_issue_vec": 9839,
+    "nodes_with_gov_vec": 9290,
+    "pct_nodes_with_issue_vec": 84.8,
+    "pct_nodes_with_gov_vec": 80.07,
+    "issue_vocab_size": 79,
+    "gov_feature_cols": 17
+  },
+  "embedding_matrix": {
+    "rows": 11603,
+    "features": 98,
+    "weights": {
+      "gov": 3.0,
+      "issue": 1.0,
+      "numeric": 0.25
+    }
+  },
+  "source_counts": {
+    "firms": 2000,
+    "clients": 5000,
+    "gov": 240,
+    "lobbyists": 5000
+  },
+  "output_dir": "/Users/omar/Downloads/Claude/Think Tank/V3_Epistemic/data/processed"
+}
