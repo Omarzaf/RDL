@@ -1,0 +1,11 @@
+.venv/
+**/.venv/
+demo_artifacts/
+_archive/
+Raw Data/
+V3_Epistemic/data/frontend/*.json
+V3_Epistemic/data/processed/*.csv
+V3_Epistemic/data/processed/*.json
+V3_Epistemic/data/reliable/*.csv
+V3_Epistemic/data/reliable/*.json
+V3_Epistemic/output/vendor/

@@ -1,0 +1,39 @@
+name: Strict Pipeline Validation
+
+on:
+  workflow_dispatch:
+  release:
+    types:
+      - published
+
+permissions:
+  contents: read
+
+jobs:
+  strict-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: |
+            constraints.txt
+            requirements.txt
+            requirements-dev.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -r requirements-dev.txt
+
+      - name: Run strict pipeline
+        run: python -m V3_Epistemic.pipeline.cli run --raw-dir "Raw Data" --out-dir V3_Epistemic/data --strict
+
+      - name: Run public preflight
+        run: python scripts/public_preflight.py

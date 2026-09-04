@@ -6,8 +6,15 @@ demo.
 ## Required Commands
 
 ```bash
+.venv/bin/python -m pip install -r requirements-dev.txt
 .venv/bin/python scripts/public_preflight.py
 .venv/bin/python -m pytest
+```
+
+Run the strict pipeline separately when generated data is being refreshed and
+the raw-source exports have been verified as complete:
+
+```bash
 .venv/bin/python -m V3_Epistemic.pipeline.cli run --raw-dir "Raw Data" --out-dir V3_Epistemic/data --strict
 ```
 
@@ -36,6 +43,12 @@ Publish the active static map and its active payload chunks:
 Keep `V3_Epistemic/data/reliable/` with the release when auditability matters.
 Do not present `_archive/`, `V3_Epistemic/processed/`, or legacy preview HTML as
 the active product.
+
+The canonical everyday release surface is the frontend package in
+`V3_Epistemic/data/frontend/` plus
+`V3_Epistemic/output/reliable_influence_map.html`. Treat the larger
+`reliable/` and `processed/` payloads as audit and regeneration artifacts
+unless a release explicitly needs them.
 
 ## Public Caveats
 

@@ -8,3 +8,5 @@ the repository owner before public disclosure.
 
 For interpretation questions, include the relevant file, payload field, entity
 ID, or screenshot so the issue can be traced to source evidence.
+
+No response-time guarantee is implied for issues or support requests.
