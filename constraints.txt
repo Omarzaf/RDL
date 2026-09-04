@@ -20,7 +20,7 @@ python-louvain==0.16
 pytz==2026.3.post1
 RapidFuzz==3.13.0
 scikit-learn==1.6.1
-scipy==1.13.1
+scipy==1.18.1
 six==1.17.0
 threadpoolctl==3.6.0
 tomli==2.4.1
